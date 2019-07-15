@@ -1,0 +1,127 @@
+{
+
+
+    "layer": "bottom", // Waybar at top layer
+    // "position": "bottom", // Waybar at the bottom of your screen
+    // "height": 30, // Waybar height
+    // "width": 1280, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/news", "temperature", "custom/root","custom/home", "cpu", "memory", "pulseaudio", "network", "tray"],
+    // Modules configuration
+    "sway/workspaces": {
+        "tooltip": false,
+         "disable-scroll": false,
+         "all-outputs": false
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+     },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>",
+	"max-length": 20
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "temperature": {
+        "tooltip": false,
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "interval": 1,
+        "critical-threshold": 95,
+        "format-critical": "{temperatureC}°C",
+        "format": "{temperatureC}°C"
+    },
+    "clock": {
+        "tooltip": false,
+        "format": "{:%a %H:%M %d-%m}"
+    },
+    "cpu": {
+        "tooltip": false,
+        "format": "CPU {usage}%"
+    }, 
+    "memory": {
+        "tooltip": false,
+        "format": "MEM {}%"
+    },
+    "battery": {
+        "tooltip": false,
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "tooltip": false,
+        "bat": "BAT2"
+    },
+    "network": {
+        "tooltip": false,
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "{essid}",
+        "format-ethernet": "  {ifname}: {ipaddr}/{cidr} ",
+        "format-disconnected": "⚠ Disconnected ",
+        "on-click": "alacritty --class 'connection' -e sh $SCRIPTS/connection.sh"
+    },
+    "pulseaudio": {
+        "tooltip": false,
+        "on-scroll-up": "pulsemixer --change-volume +5",
+        "on-scroll-down": "pulsemixer --change-volume -5",
+        // "scroll-step": 1.0,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "MUTE",
+        "format-icons": {
+            "headphones":" ",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": "VOL"
+        },
+        "on-click": "alacritty -e pulsemixer",
+        "on-click-right": "pulsemixer --toggle-mute"
+    },
+    "custom/home": {
+        "tooltip": false,
+        "format": "HOME {}",
+        "interval": 10,
+        "exec": "$HOME/.config/waybar/scripts/disk_home.sh 2> /dev/null"
+    },
+    "custom/root": {
+        "tooltip": false,
+        "format": "/ {}",
+        "interval": 10,
+        "exec": "$HOME/.config/waybar/scripts/disk.sh 2> /dev/null"
+    },
+    "custom/temp": {
+        "tooltip": false,
+        "format": "{}",
+        "interval": 3,
+        "exec": "$HOME/.config/waybar/scripts/temp.sh 2> /dev/null"
+    },
+    "custom/news": {
+        "tooltip": false,
+        "format": "NEWS",
+        "interval": 100,
+        "on-click": "alacritty --class 'news' -e newsboat"
+    }
+
+}

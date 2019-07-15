@@ -1,0 +1,1719 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/gppk/
+	..
+1547222571
+'b
+	/home/gppk/bin/
+	..
+1547222571
+'h
+	/home/gppk/
+	..
+1550283002
+'m
+	/
+	..
+1550282562
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v1
+ov
+m-1
+l-10,2
+r-10,2
+
+# Left window history (oldest to newest):
+d/home/gppk/.config
+	autostart
+9
+d/home/gppk/.config/autostart
+	..
+0
+d/home/gppk/.config
+	dconf
+12
+d/home/gppk/.config/dconf
+	..
+0
+d/home/gppk/.config
+	dconf
+12
+d/home/gppk/.config/dconf
+	user
+1
+d/home/gppk/.config
+	gconf
+16
+d/home/gppk/.config/gconf
+	apps
+1
+d/home/gppk/.config/gconf/apps
+	..
+0
+d/home/gppk/.config/gconf
+	apps
+1
+d/home/gppk/.config/gconf/apps
+	fluxgui
+1
+d/home/gppk/.config/gconf/apps/fluxgui
+	..
+0
+d/home/gppk/.config/gconf/apps
+	fluxgui
+1
+d/home/gppk/.config/gconf
+	desktop
+2
+d/home/gppk/.config/gconf/desktop
+	gnome
+1
+d/home/gppk/.config/gconf/desktop/gnome
+	..
+0
+d/home/gppk/.config/gconf/desktop
+	%gconf.xml
+2
+d/home/gppk/.config/gconf
+	desktop
+2
+d/home/gppk/.config
+	gconf
+16
+d/home/gppk
+	.config
+8
+d/home/gppk/.config
+	user-dirs.locale
+24
+d/home/gppk
+	calibre_library
+15
+d/home/gppk/.config
+	..
+0
+d/home/gppk
+	scripts
+13
+d/home/gppk/scripts
+	compiler.sh
+5
+d/home/gppk/.config
+	sway
+14
+d/home/gppk/.config/sway
+	config_i3
+2
+d/home/gppk/.config
+	sway
+14
+d/home/gppk
+	dotfiles
+17
+d/home/gppk/dotfiles
+	sway
+7
+d/home/gppk/dotfiles/sway
+	config
+1
+d/home/gppk/dotfiles
+	sway
+7
+d/home/gppk
+	backup
+14
+d/home/gppk/backup
+	dotfiles_03-06-2019
+1
+d/home/gppk/backup/dotfiles_03-06-2019
+	..
+0
+d/home/gppk/backup
+	dotfiles_backup
+2
+d/home/gppk/backup/dotfiles_backup
+	.config
+1
+d/home/gppk/backup
+	mypackages_03-03-2019.txt
+2
+d/home/gppk
+	dotfiles
+17
+d/home/gppk/dotfiles
+	vim
+9
+d/home/gppk/dotfiles/vim
+	.vim
+1
+d/home/gppk/dotfiles/vim/.vim
+	plugin
+3
+d/home/gppk/dotfiles/vim/.vim/plugin
+	vimcolors.vim
+2
+d/home/gppk/dotfiles/vim/.vim
+	spell
+3
+d/home/gppk/dotfiles/vim
+	.vim
+1
+d/home/gppk/dotfiles
+	vim
+9
+d/home/gppk
+	.vim
+8
+d/home/gppk/.vim
+	autoload
+1
+d/home/gppk/.vim/autoload
+	..
+0
+d/home/gppk/.vim
+	colors
+2
+d/home/gppk/.vim/colors
+	..
+0
+d/home/gppk/.vim
+	colors
+2
+d/home/gppk/.vim/colors
+	..
+0
+d/home/gppk/.vim
+	swap
+4
+d/home/gppk/.vim/swap
+	..
+0
+d/home/gppk/.vim
+	spell
+3
+d/home/gppk/.vim/spell
+	..
+0
+d/home/gppk/.vim
+	view
+5
+d/home/gppk/.vim/view
+	..
+0
+d/home/gppk/.vim
+	vimplug
+6
+d/home/gppk/.vim/vimplug
+	diffconflicts
+2
+d/home/gppk/.vim
+	vimplug
+6
+d/home/gppk/pics
+	a_ec185bae.jpg
+8
+d/home/gppk
+	pics
+30
+d/home/gppk/pics
+	..
+0
+d/home/gppk
+	10.7.16.132
+30
+d/home/gppk/10.7.16.132
+	Local
+1
+d/home/gppk/10.7.16.132/Local
+	1 December 2018 at 10_41_48.mp3
+1
+d/home/gppk/Downloads
+	Спиноза Б. - Сочинения в двух томах. Том 1 %28Слово о сущем%29 - 1999.djvu
+58
+d/home/gppk/pics
+	Puerta_de_Brandeburgo,_Berlín,_Alemania,_2016-04-21,_DD_49-51_HDR.jpg
+15
+d/home/gppk/Downloads
+	t1731.html
+36
+d/home/gppk/pics
+	wall
+12
+d/home/gppk/pics/wall
+	ehtpoOx.jpg
+8
+d/home/gppk/Downloads
+	ziqijt0G
+65
+d/home/gppk
+	10.7.16.132
+30
+d/home
+	gppk
+1
+d/
+	var
+17
+d/home/gppk/Downloads
+	pdfs
+11
+d/home/gppk/Downloads/pdfs
+	Degrees-of-Belief.pdf
+46
+d/home/gppk/Downloads
+	pdfs
+1
+d/home/gppk/Downloads/pdfs
+	Горбатов В.В. Логико-онтологические предпосылки двумерной семантики.pdf
+13
+d/home/gppk/Downloads
+	spss_data_selhoz.xlsx
+21
+d/home/gppk
+	Downloads
+1
+d/home/gppk/Downloads
+	djvus
+1
+d/home/gppk/Downloads/djvus
+	(Научные биографии) Георгий Кнабе-Корнелий Тацит. Время.Жизнь.Книги-Наука (1981).djvu
+8
+d/home/gppk/Downloads
+	spss_data_selhoz.xlsx
+21
+d/home/gppk
+	10.7.16.132
+19
+d/home/gppk/10.7.16.132
+	Local
+1
+d/home/gppk/10.7.16.132/Local
+	28 September 2018 at 13_57_15.mp3
+8
+d/home/gppk/Downloads
+	zips
+1
+d/home/gppk/Downloads/zips
+	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+	DeusEx
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	prefix
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	dosdevices
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices
+	c:
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:
+	DeusEx
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	System
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/System
+	DeusExUI.u
+52
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	Sounds
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/Sounds
+	MoverSFX.uax
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	Music
+3
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/Music
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	GOTY_1
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/GOTY_1
+	Textures
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/GOTY_1/Textures
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/GOTY_1
+	Textures
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	Manual
+6
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx/Manual
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/DeusEx
+	Manual
+6
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:
+	users
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users
+	gog
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog
+	Temp
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog/Temp
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog
+	Temp
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users
+	gppk
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk
+	My Documents
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
+	Deus Ex
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
+	System
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex/System
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
+	System
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex/System
+	deusex.log
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
+	System
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
+	Deus Ex
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk
+	My Documents
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users
+	gppk
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:
+	users
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices
+	c:
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	.update-timestamp
+5
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	prefix
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	dosdevices
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices
+	c:
+1
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	drive_c
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
+	DeusEx
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
+	Program Files
+3
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
+	Windows Media Player
+3
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows Media Player
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
+	Windows NT
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows NT
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
+	Windows NT
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows NT
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
+	Windows NT
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
+	DeusEx
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
+	System
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx/System
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
+	System
+4
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx/System
+	..
+0
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
+	Maps
+7
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
+	DeusEx
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	drive_c
+2
+d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	start.sh
+4
+d/home/gppk/pics
+	wall
+1
+d/home/gppk/pics/wall
+	..
+0
+d/home/gppk/pics
+	wall
+1
+d/home/gppk
+	pics
+1
+d/home/gppk/pics
+	wall
+1
+d/home/gppk/pics/wall
+	Ra9JM2n.jpg
+3
+d/home/gppk/Downloads
+	pdfs
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	..
+0
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	..
+0
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Yoga-Makaranda-Part-II.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Кришнамачарья-Йогарахасья.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Yoga-Makaranda-rus.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Krishnamacharya's full primary poster 1.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Ayengar_B_K_S_Joga-Sutry_Patandzhali_Proyasnenie_B_K_S_Ayengar_Per_S_Angl__2-E_Izd__M_Alpina_Non-Fikshn_2008.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads/pdfs/yoga
+	Ayengar_B_K_S_Joga-Sutry_Patandzhali_Proyasnenie_B_K_S_Ayengar_Per_S_Angl__2-E_Izd__M_Alpina_Non-Fikshn_2008.pdf
+1
+d/home/gppk/Downloads/pdfs
+	yoga
+1
+d/home/gppk/Downloads
+	esse soc_fil
+1
+d/home/gppk/Downloads/esse soc_fil
+	XX-век-в-социологических-теориях-общества.rar
+1
+d/home/gppk/Downloads
+	esse soc_fil
+1
+d/home/gppk/Downloads/esse soc_fil
+	polyakova
+1
+d/home/gppk/Downloads/esse soc_fil/polyakova
+	..
+0
+d/home/gppk/Downloads/esse soc_fil
+	polyakova
+1
+d/home/gppk/Downloads/esse soc_fil/polyakova
+	CONTENTS.doc
+13
+d/home/gppk/Downloads/esse soc_fil
+	polyakova
+1
+d/home/gppk/Downloads
+	esse soc_fil
+1
+d/home/gppk/Downloads/esse soc_fil
+	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
+3
+d/home/gppk/Downloads
+	pdfs
+2
+d/home/gppk/Downloads/pdfs
+	dve-antichnye-modeli-vsego-suschego-aristotel-i-platon.pdf
+4
+d/home/gppk/Downloads
+	esse soc_fil
+2
+d/home/gppk/Downloads/esse soc_fil
+	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
+4
+d/home/gppk/Downloads
+	docxs
+1
+d/home/gppk/Downloads/docxs
+	Приказ_регламент.docx
+1
+d/home/gppk/Downloads
+	esse soc_fil
+2
+d/home/gppk/Downloads/esse soc_fil
+	Ролз Дж. Теория справедливости (фрагменты).docx
+2
+d/home/gppk/Downloads
+	pdfs
+1
+d/home/gppk/Downloads/pdfs
+	dve-antichnye-modeli-vsego-suschego-aristotel-i-platon.pdf
+4
+d/home/gppk/Downloads
+	esse soc_fil
+2
+d/home/gppk/Downloads/esse soc_fil
+	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
+7
+d/home/gppk/Downloads
+	esse soc_fil
+3
+d/home/gppk/pics
+	wall
+1
+d/home/gppk/pics/wall
+	shattered ceramic composite microscope.png
+3
+d
+
+# Right window history (oldest to newest):
+D/usr/share/ghostscript
+	9.26
+1
+D/usr/share/ghostscript/9.26
+	iccprofiles
+2
+D/usr/share/ghostscript/9.26/iccprofiles
+	..
+0
+D/usr/share/ghostscript/9.26
+	lib
+3
+D/usr/share/ghostscript/9.26/lib
+	..
+0
+D/usr/share/ghostscript/9.26
+	Resource
+1
+D/usr/share/ghostscript/9.26/Resource
+	CIDFSubst
+1
+D/usr/share/ghostscript/9.26/Resource/CIDFSubst
+	..
+0
+D/usr/share/ghostscript/9.26/Resource
+	CIDFont
+2
+D/usr/share/ghostscript/9.26/Resource/CIDFont
+	..
+0
+D/usr/share/ghostscript/9.26/Resource
+	CMap
+3
+D/usr/share/ghostscript/9.26/Resource/CMap
+	..
+0
+D/usr/share/ghostscript/9.26/Resource
+	ColorSpace
+4
+D/usr/share/ghostscript/9.26/Resource/ColorSpace
+	..
+0
+D/usr/share/ghostscript/9.26/Resource
+	Decoding
+5
+D/usr/share/ghostscript/9.26/Resource/Decoding
+	StandardEncoding
+6
+D/usr/share/ghostscript/9.26/Resource
+	Encoding
+6
+D/usr/share/ghostscript/9.26/Resource/Encoding
+	..
+0
+D/home/gppk
+	..
+0
+D/
+	..
+0
+D/home/gppk/Dropbox
+	..
+0
+D/home/gppk
+	TIPP10
+9
+D/home/gppk/Downloads
+	pdfs
+11
+D/home/gppk/Downloads/pdfs
+	(Philosophy) Пол Фейерабенд-Наука в свободном обществе-АСТ (2010).pdf
+8
+D/home/gppk/Downloads
+	fb2s
+10
+D/home
+	gppk
+1
+D/home/gppk
+	..
+0
+D/home
+	gppk
+1
+D/home/gppk
+	Dropbox
+6
+D/home/gppk/Dropbox
+	..
+0
+D/home
+	gppk
+1
+D/home/gppk
+	Downloads
+5
+D/home/gppk/Downloads
+	pdfs
+11
+D/home/gppk/Downloads/pdfs
+	yoga
+3
+D/home/gppk/Downloads
+	..
+0
+D/home/gppk
+	..
+0
+D/home
+	..
+0
+D/
+	home
+4
+D/home
+	gppk
+1
+D/home/gppk
+	.local
+31
+D/home/gppk/.local
+	share
+1
+D/home/gppk/.local/share
+	Trash
+4
+D/home/gppk/.local/share/Trash
+	files
+1
+D/home/gppk/.local/share/Trash/files
+	..
+0
+D/home/gppk/.local/share/Trash
+	files
+1
+D/home/gppk/.local/share/Trash/files
+	1
+1
+D/home/gppk/.local/share/Trash/files/1
+	..
+0
+D/home/gppk/.local/share/Trash/files
+	..
+0
+D/home/gppk/.local/share/Trash
+	files
+1
+D/home/gppk/.local/share
+	Trash
+4
+D/home/gppk/.local/share/Trash
+	files
+1
+D/home/gppk/.local/share/Trash/files
+	..
+0
+D/home/gppk/.local/share/Trash
+	..
+0
+D/home/gppk/.local/share
+	..
+0
+D/home/gppk/.local
+	share
+1
+D/home/gppk
+	.scripts
+8
+D/home/gppk/.scripts
+	.wallpaper.sh
+8
+D/home/gppk
+	.scripts
+8
+D/home/gppk/.scripts
+	mypackages.sh
+7
+D/home/gppk
+	Docear
+8
+D/home
+	gppk
+1
+D/home/gppk
+	Documents
+9
+D/home/gppk/Documents
+	..
+0
+D/home/gppk
+	DL_homework_6
+8
+D/home
+	gppk
+1
+D/home/gppk
+	.angband
+3
+D/home/gppk/Downloads
+	t
+15
+D/home/gppk/Downloads/t
+	..
+0
+D/home/gppk/Downloads
+	t
+15
+D/home/gppk/Downloads/t
+	Unpack-4982
+1
+D/home/gppk/Downloads/t/Unpack-4982
+	..
+0
+D/home/gppk/Downloads/t
+	CD
+1
+D/home/gppk/Downloads/t/CD
+	17 - Ostfront Hate System - Sinuskurve.mp3
+17
+D/home/gppk/Downloads/t
+	CD
+1
+D/home/gppk/Downloads/t/CD
+	17 - Ostfront Hate System - Sinuskurve.mp3
+17
+D/home/gppk/Downloads/t
+	CD
+1
+D/home/gppk/Downloads/t/CD
+	17 - Ostfront Hate System - Sinuskurve.mp3
+17
+D/home/gppk/Downloads/t
+	CD
+1
+D/home/gppk/Downloads
+	t
+15
+D/home/gppk/pics
+	wall
+8
+D/home/gppk/pics/wall
+	onnzjztzyqqy.png
+1
+D/home/gppk/pics
+	dq2h1oysnZ0.jpg
+13
+D/home/gppk
+	pics
+50
+D/home/gppk/pics
+	-3pKmZsXniU.jpg
+14
+D/home/gppk
+	.gnome
+10
+D/home/gppk/.gnome
+	..
+0
+D/home/gppk
+	.gnome
+10
+D/home/gppk/.gnome
+	apps
+1
+D/home/gppk
+	.gnome
+10
+D/home
+	gppk
+1
+D/home/gppk
+	.gnome
+10
+D/home/gppk/pics
+	wall
+8
+D/home/gppk/pics/wall
+	d9n6ip7-6c37548d-4f21-47c0-b4dd-d71ca9791033.jpg
+11
+D/home/gppk/pics
+	CkEed3KiDPM.jpg
+15
+D/home/gppk
+	pics
+1
+D/home
+	gppk
+1
+D/home/gppk
+	..
+0
+D/home/gppk/Dropbox/screenshots
+	2019-03-08-17-53-59.jpeg
+8
+D/home/gppk/Dropbox
+	screenshots
+1
+D/home/gppk
+	Dropbox
+31
+D/home
+	gppk
+1
+D/
+	var
+17
+D/var
+	cache
+1
+D/
+	bin
+0
+D/bin
+	fzf
+49
+D/
+	etc
+3
+D/etc
+	..
+0
+D/
+	home
+4
+D/home
+	gppk
+1
+D/home/gppk
+	.fzf
+8
+D/home/gppk/.fzf
+	shell
+7
+D/home/gppk/.fzf/shell
+	key-bindings.zsh
+5
+D/home/gppk/.fzf
+	shell
+7
+D/home/gppk
+	.fzf
+8
+D/home
+	gppk
+1
+D/
+	usr
+16
+D/usr
+	share
+8
+D/usr/share
+	groff
+12
+D/usr/share/groff
+	1.22.3
+1
+D/usr/share/groff/1.22.3
+	..
+0
+D/usr/share/groff
+	current
+2
+D/usr/share/groff/current
+	font
+1
+D/usr/share/groff/current/font
+	..
+0
+D/usr/share/groff/current
+	oldfont
+2
+D/usr/share/groff/current/oldfont
+	devps
+1
+D/usr/share/groff/current/oldfont/devps
+	HNB
+7
+D/usr/share/groff/current/oldfont
+	devps
+1
+D/usr/share/groff/current
+	font
+1
+D/usr/share/groff/current/font
+	devutf8
+13
+D/usr/share/groff/current/font/devutf8
+	R
+5
+D/usr/share/groff/current/font
+	devpdf
+11
+D/usr/share/groff/current/font/devpdf
+	TR
+19
+D/usr/share/groff/current/font
+	devpdf
+11
+D/usr/share/groff/current
+	font
+1
+D/usr/share/groff
+	current
+2
+D/usr/share
+	groff
+12
+D/usr
+	share
+8
+D/
+	home
+4
+D/home
+	gppk
+1
+D/home/gppk
+	pics
+16
+D/home/gppk/pics
+	992NB.jpg
+8
+D/home/gppk
+	pics
+16
+D/home
+	gppk
+1
+D/home/gppk
+	notes
+15
+D/home/gppk/notes
+	t
+1
+D/home/gppk/notes/t
+	..
+0
+D/home/gppk/notes
+	stow_notes.md
+6
+D/home/gppk
+	notes
+15
+D/home
+	gppk
+1
+D/home/gppk
+	.adobe
+1
+D/home/gppk/pics
+	992NB.jpg
+8
+D/home/gppk/Downloads
+	zips
+17
+D/home/gppk/Downloads/zips
+	24-244-spring-2015.zip
+2
+D/home/gppk/Downloads
+	zips
+1
+D/home/gppk/Downloads/zips
+	The Simpsons - 1x01 - Simpsons Roasting on an Open Fire.en.sub
+2
+D/home/gppk/Downloads
+	pdfs
+3
+D/home/gppk/Downloads/pdfs
+	Кудинов_173_Философия_Сознания_Перебум.pdf
+47
+D/home/gppk/Downloads
+	docxs
+3
+D/home/gppk
+	.winegames
+2
+D/home/gppk/.winegames
+	heroes
+2
+D/home/gppk/.winegames/heroes
+	drive_c
+2
+D/home/gppk/.winegames/heroes/drive_c
+	GOG Games
+2
+D/home/gppk/pics
+	992NB.jpg
+8
+D/home/gppk/Downloads
+	zips
+1
+D/home/gppk/Downloads/zips
+	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+1
+D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+	Deus_Ex.txz
+2
+D/home/gppk
+	.winegames
+2
+D/home/gppk/.winegames
+	deusex
+1
+D/home/gppk/.winegames/deusex
+	drive_c
+1
+D/home/gppk/.winegames/deusex/drive_c
+	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+	DeusEx
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	prefix
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+	..
+0
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	wine_standalone
+2
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
+	bin
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/bin
+	..
+0
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
+	share
+3
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	support
+3
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/support
+	gog-system-report.sh
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	wine_standalone
+2
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
+	include
+2
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include
+	wine
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include/wine
+	msvcrt
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include
+	wine
+1
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
+	winetricks
+7
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+	start.sh
+4
+D/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
+	DeusEx
+1
+D/home/gppk/.winegames/deusex/drive_c
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:mkdir other
+:goto ~/pics
+:!Terminal
+:goto 
+:goto ~/Downloads
+:colorscheme molokai
+:colorscheme zenburn
+:colorscheme g80
+:colorscheme near-default
+:colorscheme zenburn-1
+:colorscheme solarized-dark
+:colorscheme Default
+:goto ~
+:colorscheme ph
+:pwd
+:filter !
+:filter 
+:filter .*
+:filter! .*
+:sort size
+:open sxiv
+:sxiv
+:jobs
+:lstrash
+:!swayr
+:shell
+:file &<CR>
+:file &<cr>l
+:file &
+:file
+:set sortnumbers
+:mkdir .scripts
+:rename 
+:cd Downloads/
+:cd $HOME/Downloads/
+:rm -r %f
+:!rm -r %F
+:!rm -r %f
+:!sudo rm -r %f
+:! ls -la
+:!rm %f
+:!simple-fb2-reader %f
+:!zathura %f
+:!rename
+:rename
+:sort 
+:help sort
+:set millerview
+:set viewcolumns
+:tree
+:wincmd
+:s
+:mkdir t
+:Help
+:view
+:help
+:sp
+:vsp
+:llpp %f
+:!llpp %file
+:!echo "%f" | xargs -r -d '\n' wallpaper.sh
+:!echo "%f" |  wallpaper.sh
+:!wallpaper.sh $(echo "%f")
+:!wallpaper.sh "%f"
+:!wallpaper.sh %f
+:q
+:reload
+:wq
+:!extract %f
+:!unrar %f
+:!unrar e %f
+:!zathura %f &
+:mpv
+:!mpv
+:!mpv %f
+:sort
+:!unzip %f
+:!chromium %f
+:!Failed to connect to a Wayland server
+:!nv %f
+:!nvim %f
+:!xz -d < %f | tar xvf -hh
+:!xz -d < %f | tar xvf -
+:!zip %d
+:!zip %f
+:vim
+:unrar %f
+
+# Search history (oldest to newest):
+/Pata
+/ghs
+/gh
+/way
+/pi
+/a
+/goto ~
+/tras
+/.init
+/.nvim
+/.config
+/nvim
+/Down
+/Drop
+/config
+/script
+/cache
+/wal
+/down
+/pdf
+/ala
+/sway
+/dotfiles
+/vim
+/cropped
+/t
+/fzf
+/pics
+/note
+/local
+/loca
+/deter
+/al
+/dente
+/hard
+/Hard
+/pereboo
+/Пере
+/мака
+/Ма
+/йог
+/Криш
+/Mak
+/kris
+/Kris
+/yoga
+
+# Prompt history (oldest to newest):
+pdotfiles_03-06-2019
+pdotfiles_backup
+pp
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/gppk/.local/share/vifm/Trash/000_sway.log
+	/home/gppk/sway.log
+t/home/gppk/.local/share/vifm/Trash/000_.fehbg
+	/home/gppk/.fehbg
+t/home/gppk/.local/share/vifm/Trash/000_vim-lion
+	/home/gppk/.vim/vimplug/vim-lion
+t/home/gppk/.local/share/vifm/Trash/000_file1
+	/home/gppk/file1
+t/home/gppk/.local/share/vifm/Trash/000_file2
+	/home/gppk/file2
+t/home/gppk/.local/share/vifm/Trash/000_file3
+	/home/gppk/file3
+t/home/gppk/.local/share/vifm/Trash/000_file4
+	/home/gppk/file4
+t/home/gppk/.local/share/vifm/Trash/000_file5
+	/home/gppk/file5
+t/home/gppk/.local/share/vifm/Trash/000_24-244s15.jpg
+	/home/gppk/pics/24-244s15.jpg
+t/home/gppk/.local/share/vifm/Trash/000_24-244s15-th.jpg
+	/home/gppk/pics/24-244s15-th.jpg
+t/home/gppk/.local/share/Trash/files/000_000_photo_138@17-07-2018_20-28-32_thumb (1).jpg
+	/home/gppk/.local/share/Trash/000_photo_138@17-07-2018_20-28-32_thumb (1).jpg
+t/home/gppk/.local/share/Trash/files/000_.bindsyms
+	/home/gppk/.bindsyms
+t/home/gppk/.local/share/Trash/files/000_.aliases
+	/home/gppk/.aliases
+t/home/gppk/.local/share/Trash/files/000_.bg.sh
+	/home/gppk/.bg.sh
+t/home/gppk/.local/share/Trash/files/000_.collector.sh
+	/home/gppk/.collector.sh
+t/home/gppk/.local/share/Trash/files/000_.exports
+	/home/gppk/.exports
+t/home/gppk/.local/share/Trash/files/000_.mypackages.sh
+	/home/gppk/.mypackages.sh
+t/home/gppk/.local/share/Trash/files/000_.screenlock_sway
+	/home/gppk/.screenlock_sway
+t/home/gppk/.local/share/Trash/files/000_.wallpaper.sh
+	/home/gppk/.wallpaper.sh
+t/home/gppk/.local/share/Trash/files/000_connection
+	/home/gppk/connection
+t/home/gppk/.local/share/Trash/files/000_style_old.css
+	/home/gppk/.config/waybar/style_old.css
+t/home/gppk/.local/share/Trash/files/000_style_old2.css
+	/home/gppk/.config/waybar/style_old2.css
+t/home/gppk/.local/share/Trash/files/000_colors-waybar.css
+	/home/gppk/.config/waybar/colors-waybar.css
+t/home/gppk/.local/share/Trash/files/000_test
+	/home/gppk/.config/waybar/test
+t/home/gppk/.local/share/Trash/files/000_200
+	/home/gppk/200
+t/home/gppk/.local/share/Trash/files/000_TMP.log
+	/home/gppk/TMP.log
+t/home/gppk/.local/share/Trash/files/000_build_sway
+	/home/gppk/build_sway
+t/home/gppk/.local/share/Trash/files/000_chrome
+	/home/gppk/chrome
+t/home/gppk/.local/share/Trash/files/000_chrome_gpu
+	/home/gppk/chrome_gpu
+t/home/gppk/.local/share/Trash/files/000_groff.me
+	/home/gppk/groff.me
+t/home/gppk/.local/share/Trash/files/000_groff.ms
+	/home/gppk/groff.ms
+t/home/gppk/.local/share/Trash/files/000_groff.pdf
+	/home/gppk/groff.pdf
+t/home/gppk/.local/share/Trash/files/000_groff.ps
+	/home/gppk/groff.ps
+t/home/gppk/.local/share/Trash/files/000_groffme.pdf
+	/home/gppk/groffme.pdf
+t/home/gppk/.local/share/Trash/files/000_.wget-hsts
+	/home/gppk/.wget-hsts
+t/home/gppk/.local/share/Trash/files/000_$path$data
+	/home/gppk/$path$data
+t/home/gppk/.local/share/Trash/files/000_$path$data.png
+	/home/gppk/$path$data.png
+t/home/gppk/.local/share/Trash/files/000_.fasd.QhNqjx
+	/home/gppk/.fasd.QhNqjx
+t/home/gppk/.local/share/Trash/files/000_.bro
+	/home/gppk/.bro
+t/home/gppk/.local/share/Trash/files/000_.vim2
+	/home/gppk/.vim2
+t/home/gppk/.local/share/Trash/files/000_.vim_strange_from_orig_vim
+	/home/gppk/.vim_strange_from_orig_vim
+t/home/gppk/.local/share/Trash/files/000_RECOVERED_FILES
+	/home/gppk/RECOVERED_FILES
+t/home/gppk/.local/share/Trash/files/000_.viminfo.tmp
+	/home/gppk/.viminfo.tmp
+t/home/gppk/.local/share/Trash/files/000_.viminfy.tmp
+	/home/gppk/.viminfy.tmp
+t/home/gppk/.local/share/Trash/files/000_.viminfz.tmp
+	/home/gppk/.viminfz.tmp
+t/home/gppk/.local/share/Trash/files/000_.vimrc2
+	/home/gppk/.vimrc2
+t/home/gppk/.local/share/Trash/files/000_.zdirs
+	/home/gppk/.zdirs
+t/home/gppk/.local/share/Trash/files/000_.zhistory
+	/home/gppk/.zhistory
+t/home/gppk/.local/share/Trash/files/000_.zpreztorc
+	/home/gppk/.zpreztorc
+t/home/gppk/.local/share/Trash/files/000_.zprofile
+	/home/gppk/.zprofile
+t/home/gppk/.local/share/Trash/files/000_.zshrc2
+	/home/gppk/.zshrc2
+t/home/gppk/.local/share/Trash/files/000_.zshrc_
+	/home/gppk/.zshrc_
+t/home/gppk/.local/share/Trash/files/000_.zshrc_02_12_19
+	/home/gppk/.zshrc_02_12_19
+t/home/gppk/.local/share/Trash/files/000_.zshrc_copy
+	/home/gppk/.zshrc_copy
+t/home/gppk/.local/share/Trash/files/000_dotfiles_copy_25
+	/home/gppk/dotfiles_copy_25
+t/home/gppk/.local/share/Trash/files/001_cache.db
+	/home/gppk/cache.db
+t/home/gppk/.local/share/Trash/files/000_.mynotes
+	/home/gppk/.mynotes
+t/home/gppk/.local/share/Trash/files/000_.purple
+	/home/gppk/.purple
+t/home/gppk/.local/share/Trash/files/000_.thumbnails
+	/home/gppk/.thumbnails
+t/home/gppk/.local/share/Trash/files/000_.yarn
+	/home/gppk/.yarn
+t/home/gppk/.local/share/Trash/files/000_.fltk
+	/home/gppk/.fltk
+t/home/gppk/.local/share/Trash/files/000_.antigen
+	/home/gppk/.antigen
+t/home/gppk/.local/share/Trash/files/000_.calcurse
+	/home/gppk/.calcurse
+t/home/gppk/.local/share/Trash/files/000_.conky
+	/home/gppk/.conky
+t/home/gppk/.local/share/Trash/files/000_.electron
+	/home/gppk/.electron
+t/home/gppk/.local/share/Trash/files/000_.electron-gyp
+	/home/gppk/.electron-gyp
+t/home/gppk/.local/share/Trash/files/000_.gtkpod
+	/home/gppk/.gtkpod
+t/home/gppk/.local/share/Trash/files/000_.ntorrent
+	/home/gppk/.ntorrent
+t/home/gppk/.local/share/Trash/files/000_Documents
+	/home/gppk/Documents
+t/home/gppk/.local/share/Trash/files/000_Desktop
+	/home/gppk/Desktop
+t/home/gppk/.local/share/Trash/files/000_DL_homework_6
+	/home/gppk/DL_homework_6
+t/home/gppk/.local/share/Trash/files/000_osu-wine
+	/home/gppk/.local/share/osu-wine
+t/home/gppk/.local/share/Trash/files/000_lutris
+	/home/gppk/.local/share/lutris
+t/home/gppk/.local/share/Trash/files/000_rhythmbox
+	/home/gppk/.local/share/rhythmbox
+t/home/gppk/.local/share/Trash/files/000_feedreader
+	/home/gppk/.local/share/feedreader
+t/home/gppk/.local/share/Trash/files/000_.ppub.conf
+	/home/gppk/.ppub.conf
+t/home/gppk/.local/share/Trash/files/000_.jrnl_config
+	/home/gppk/.jrnl_config
+t/home/gppk/.local/share/Trash/files/000_.hnbrc
+	/home/gppk/.hnbrc
+t/home/gppk/.local/share/Trash/files/000_.history
+	/home/gppk/.history
+t/home/gppk/.local/share/Trash/files/000_.chrome-remote-desktop-session
+	/home/gppk/.chrome-remote-desktop-session
+t/home/gppk/.local/share/Trash/files/000_.vimperatorrc
+	/home/gppk/.vimperatorrc
+t/home/gppk/.local/share/Trash/files/000_.zshrc_before_stow
+	/home/gppk/.zshrc_before_stow
+t/home/gppk/.local/share/Trash/files/000_.taskrc
+	/home/gppk/.taskrc
+t/home/gppk/.local/share/Trash/files/000_.ncpamixer.conf
+	/home/gppk/.ncpamixer.conf
+t/home/gppk/.local/share/Trash/files/000_.asoundrc
+	/home/gppk/.asoundrc
+t/home/gppk/.local/share/Trash/files/000_TIPP10
+	/home/gppk/TIPP10
+t/home/gppk/.local/share/Trash/files/000_Public
+	/home/gppk/Public
+t/home/gppk/.local/share/Trash/files/000_i3
+	/home/gppk/i3
+t/home/gppk/.local/share/Trash/files/000_new
+	/home/gppk/new
+t/home/gppk/.local/share/Trash/files/000_zsh-framework-benchmark
+	/home/gppk/zsh-framework-benchmark
+t/home/gppk/.local/share/Trash/files/000_.Protege
+	/home/gppk/.Protege
+t/home/gppk/.local/share/Trash/files/000_.oracle_jre_usage
+	/home/gppk/.oracle_jre_usage
+t/home/gppk/.local/share/Trash/files/000_skypeforlinux
+	/home/gppk/.config/skypeforlinux
+t/home/gppk/.local/share/Trash/files/000_spotify
+	/home/gppk/.config/spotify
+t/home/gppk/.local/share/Trash/files/000_surfraw
+	/home/gppk/.config/surfraw
+t/home/gppk/.local/share/Trash/files/000_tilda
+	/home/gppk/.config/tilda
+t/home/gppk/.local/share/Trash/files/000_vivaldi
+	/home/gppk/.config/vivaldi
+t/home/gppk/.local/share/Trash/files/000_vlc
+	/home/gppk/.config/vlc
+t/home/gppk/.local/share/Trash/files/000_yarn
+	/home/gppk/.config/yarn
+t/home/gppk/.local/share/Trash/files/000_chromoting.service
+	/home/gppk/.config/systemd/user/chromoting.service
+t/home/gppk/.local/share/Trash/files/000_chrome-remote-desktop.service
+	/home/gppk/.config/systemd/user/default.target.wants/chrome-remote-desktop.service
+t/home/gppk/.local/share/Trash/files/000_qalculate
+	/home/gppk/.config/qalculate
+t/home/gppk/.local/share/Trash/files/000_qtile
+	/home/gppk/.config/qtile
+t/home/gppk/.local/share/Trash/files/000_qutebrowser
+	/home/gppk/.config/qutebrowser
+t/home/gppk/.local/share/Trash/files/001_lutris
+	/home/gppk/.config/lutris
+t/home/gppk/.local/share/Trash/files/000_kitty
+	/home/gppk/.config/kitty
+t/home/gppk/.local/share/Trash/files/000_i3lock-fancier
+	/home/gppk/.config/i3lock-fancier
+t/home/gppk/.local/share/Trash/files/000_fish
+	/home/gppk/.config/fish
+t/home/gppk/.local/share/Trash/files/000_configstore
+	/home/gppk/.config/configstore
+t/home/gppk/.local/share/Trash/files/000_chrome-remote-desktop
+	/home/gppk/.config/chrome-remote-desktop
+t/home/gppk/.local/share/Trash/files/000_geany
+	/home/gppk/.config/geany
+t/home/gppk/.local/share/Trash/files/000_goa-1.0
+	/home/gppk/.config/goa-1.0
+t/home/gppk/.local/share/Trash/files/000_fman
+	/home/gppk/.config/fman
+t/home/gppk/.local/share/Trash/files/000_bleachbit
+	/home/gppk/.config/bleachbit
+t/home/gppk/.local/share/Trash/files/000_bookworm
+	/home/gppk/.config/bookworm
+t/home/gppk/.local/share/Trash/files/000_browsh
+	/home/gppk/.config/browsh
+t/home/gppk/.local/share/Trash/files/000_VK
+	/home/gppk/.config/VK
+t/home/gppk/.local/share/Trash/files/000_Tom Thielicke IT Solutions
+	/home/gppk/.config/Tom Thielicke IT Solutions
+t/home/gppk/.local/share/Trash/files/000_Subsurface
+	/home/gppk/.config/Subsurface
+t/home/gppk/.local/share/Trash/files/000_Radeon-tray
+	/home/gppk/.config/Radeon-tray
+t/home/gppk/.local/share/Trash/files/000_OpenBazaar
+	/home/gppk/.config/OpenBazaar
+t/home/gppk/.local/share/Trash/files/000_Hyper
+	/home/gppk/.config/Hyper
+t/home/gppk/.local/share/Trash/files/000_Franz
+	/home/gppk/.config/Franz
+t/home/gppk/.local/share/Trash/files/000_greenclip.cfg
+	/home/gppk/.config/greenclip.cfg
+t/home/gppk/.local/share/Trash/files/000_conky-manager.json
+	/home/gppk/.config/conky-manager.json
+t/home/gppk/.local/share/Trash/files/000_config
+	/home/gppk/.config/config
+t/home/gppk/.local/share/Trash/files/000_alacritty.yml
+	/home/gppk/.config/alacritty.yml
+t/home/gppk/.local/share/Trash/files/000_klavaro
+	/home/gppk/.config/klavaro
+t/home/gppk/.local/share/Trash/files/000_mc
+	/home/gppk/.config/mc
+t/home/gppk/.local/share/Trash/files/000_midori
+	/home/gppk/.config/midori
+t/home/gppk/.local/share/Trash/files/000_netsurf
+	/home/gppk/.config/netsurf
+t/home/gppk/.local/share/Trash/files/000_nitrogen
+	/home/gppk/.config/nitrogen
+t/home/gppk/.local/share/Trash/files/000_openmw
+	/home/gppk/.config/openmw
+t/home/gppk/.local/share/Trash/files/000_nvim_back
+	/home/gppk/.config/nvim_back
+t/home/gppk/.local/share/Trash/files/000_pacaur
+	/home/gppk/.config/pacaur
+t/home/gppk/.local/share/Trash/files/000_pacmixer
+	/home/gppk/.config/pacmixer
+t/home/gppk/.local/share/Trash/files/000_pudb
+	/home/gppk/.config/pudb
+t/home/gppk/.local/share/Trash/files/000_simple-fb2-reader
+	/home/gppk/.config/simple-fb2-reader
+t/home/gppk/.local/share/Trash/files/000_cef_user_data
+	/home/gppk/.config/cef_user_data
+t/home/gppk/.local/share/Trash/files/000_anjuta
+	/home/gppk/.config/anjuta
+t/home/gppk/.local/share/Trash/files/000_gpicview
+	/home/gppk/.config/gpicview
+t/home/gppk/.local/share/Trash/files/000_google-chrome
+	/home/gppk/google-chrome
+t/home/gppk/.local/share/Trash/files/000_.installed_pkgs.sh
+	/home/gppk/.installed_pkgs.sh
+t/home/gppk/.local/share/Trash/files/000_dotfiles_backup
+	/home/gppk/backup/dotfiles_backup
+t/home/gppk/.local/share/Trash/files/000_plugin
+	/home/gppk/dotfiles/vim/.vim/plugin
+t/home/gppk/.local/share/Trash/files/000_init.vim
+	/home/gppk/.vim/init.vim
+t/home/gppk/.local/share/Trash/files/000_less.sh
+	/home/gppk/.vim/less.sh
+t/home/gppk/.local/share/Trash/files/000_Unpack-0348
+	/home/gppk/Downloads/t/Unpack-0348
+t/home/gppk/.local/share/Trash/files/000_Unpack-3636
+	/home/gppk/Downloads/t/Unpack-3636
+t/home/gppk/.local/share/Trash/files/000_Unpack-4982
+	/home/gppk/Downloads/t/Unpack-4982
+t/home/gppk/.local/share/Trash/files/000_hel.aux
+	/home/gppk/hel.aux
+t/home/gppk/.local/share/Trash/files/000_hel.log
+	/home/gppk/hel.log
+t/home/gppk/.local/share/Trash/files/000_hel.tex
+	/home/gppk/hel.tex
+t/home/gppk/.local/share/Trash/files/000_hello.aux
+	/home/gppk/hello.aux
+t/home/gppk/.local/share/Trash/files/000_hello.log
+	/home/gppk/hello.log
+t/home/gppk/.local/share/Trash/files/000_hello.md
+	/home/gppk/hello.md
+t/home/gppk/.local/share/Trash/files/000_hello.pdf
+	/home/gppk/hello.pdf
+t/home/gppk/.local/share/Trash/files/000_html2pdf5464-0.html
+	/home/gppk/html2pdf5464-0.html
+t/home/gppk/.local/share/Trash/files/000_html2pdf5537-0.html
+	/home/gppk/html2pdf5537-0.html
+t/home/gppk/.local/share/Trash/files/001_new.ms
+	/home/gppk/new.ms
+t/home/gppk/.local/share/Trash/files/002_new.pdf
+	/home/gppk/new.pdf
+t/home/gppk/.local/share/Trash/files/000_wow.ms
+	/home/gppk/wow.ms
+t/home/gppk/.local/share/Trash/files/000_wow.pdf
+	/home/gppk/wow.pdf
+t/home/gppk/.local/share/Trash/files/000_t
+	/home/gppk/notes/t
+t/home/gppk/.local/share/Trash/files/000_992NB.jpg
+	/home/gppk/notes/992NB.jpg
+t/home/gppk/.local/share/Trash/files/000_25 February 2019 at 12_31_00.mp3
+	/home/gppk/10.7.16.132/Local/25 February 2019 at 12_31_00.mp3
+t/home/gppk/.local/share/Trash/files/000_02-содержание.doc
+	/home/gppk/Downloads/02-содержание.doc
+t/home/gppk/.local/share/Trash/files/000_03-Предисловие .doc
+	/home/gppk/Downloads/03-Предисловие .doc
+t/home/gppk/.local/share/Trash/files/000_razd1-Таблица 1.doc
+	/home/gppk/Downloads/razd1-Таблица 1.doc
+t/home/gppk/.local/share/Trash/files/000_razd2-Таблица 2.doc
+	/home/gppk/Downloads/razd2-Таблица 2.doc
+t/home/gppk/.local/share/Trash/files/000_razd2-Таблица 4.doc
+	/home/gppk/Downloads/razd2-Таблица 4.doc
+t/home/gppk/.local/share/Trash/files/000_razd2-Таблица 5.doc
+	/home/gppk/Downloads/razd2-Таблица 5.doc
+t/home/gppk/.local/share/Trash/files/000_razd2-Таблица 6 .doc
+	/home/gppk/Downloads/razd2-Таблица 6 .doc
+t/home/gppk/.local/share/Trash/files/000_razd3-Таблица 7.doc
+	/home/gppk/Downloads/razd3-Таблица 7.doc
+t/home/gppk/.local/share/Trash/files/000_razd3-Таблица 8.doc
+	/home/gppk/Downloads/razd3-Таблица 8.doc
+t/home/gppk/.local/share/Trash/files/000_razd3-Таблица 9.doc
+	/home/gppk/Downloads/razd3-Таблица 9.doc
+t/home/gppk/.local/share/Trash/files/000_DeusEx
+	/home/gppk/Downloads/pdfs/yoga/DeusEx
+t/home/gppk/.local/share/Trash/files/000_yoga_makaranda.pdf
+	/home/gppk/Downloads/pdfs/yoga/yoga_makaranda.pdf
+t/home/gppk/.local/share/Trash/files/000_DeusEx
+	/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
+
+# State:
+f.*
+i0
+[.0
+[F
+F.*
+I0
+].0
+]F
+s0
