@@ -43,6 +43,7 @@ alias q='exit'
 alias r='ranger'
 alias c="clear"
 #
+alias gitdots='git add * && git commit -m "regular update" && git push'
 alias scripts='$EDITOR $HOME/scripts'
 alias sc='sc-im'
 alias functions='$EDITOR $HOME/scripts/funcs'
