@@ -1,5 +1,4 @@
 " Begin .vimrc
-" test comment
 
 set nocompatible
 filetype indent plugin on
