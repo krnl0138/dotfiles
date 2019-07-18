@@ -94,6 +94,7 @@ set path+=**
 inoremap jk <ESC>
 inoremap kj <ESC>
 nnoremap ; :
+nnoremap : ;
 cmap w!! w !sudo tee % >/dev/null
 
 " better indentation

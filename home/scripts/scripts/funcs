@@ -1,6 +1,7 @@
 pacurl () { xdg-open "$(expac -S %u "$1")" }
 
 password () {
+    echo 'New generated password is:' 
     tr -dc 'a-zA-Z0-9~!@#$%^&*_()+}{?></";.,[]=-' < /dev/urandom | fold -w 32 | head -n 1
 }
 

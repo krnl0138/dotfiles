@@ -2,13 +2,6 @@
 #
 #
 #
-alias blog-new='cd $HOME/blog/lb/ && ./lb n'
-alias blog-edit='cd $HOME/blog/lb/ && ./lb e'
-alias blog-trash='cd $HOME/blog/lb/ && ./lb t'
-alias blog-publish='cd $HOME/blog/lb/ && ./lb p'
-alias blog-delete='cd $HOME/blog/lb/ && ./lb d'
-alias blog-revise='cd $HOME/blog/lb/ && ./lb r'
-#
 alias cfg-zathura='$EDITOR $HOME/.config/zathura/zathurarc'
 alias cfg-mako='$EDITOR $HOME/.config/mako/config'
 alias cfg-vifm='$EDITOR $HOME/.config/vifm/vifmrc'
@@ -28,6 +21,7 @@ alias cfg-redshift='$EDITOR $HOME/.config/redshift.conf'
 alias cfg-imv='$EDITOR $HOME/.config/imv/config'
 alias cfg-gtk3='$EDITOR $HOME/.config/gtk-3.0/'
 alias cfg-mpv='$EDITOR $HOME/.config/mpv/mpv.conf'
+alias cfg-pacman='$EDITOR /etc/pacman.conf'
 #
 alias rld-zsh='source ~/.zshrc'
 alias rld-sway='sway reload'
@@ -43,8 +37,15 @@ alias play-heroes3='env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegam
 alias play-df='cd Downloads/df_linux/ && ./df'
 alias play-nethack='telnet nethack.alt.org'
 #
+alias n="nnn"
+alias e='exit'
+alias q='exit'
+alias r='ranger'
+alias c="clear"
+#
+alias scripts='$EDITOR $HOME/scripts'
 alias sc='sc-im'
-alias func='$EDITOR $HOME/scripts/funcs'
+alias functions='$EDITOR $HOME/scripts/funcs'
 alias connection='connection.sh'
 alias connect='connection.sh'
 alias reconnection='connection.sh'
@@ -57,8 +58,8 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias rg='rg -S'
 alias executable='chmod +x'
-alias nvim_start='nvim --startuptime /tmp/startup.log +q && $EDITOR /tmp/startup.log'
-alias vim_start='vim --startuptime /tmp/startup.log +q && $EDITOR /tmp/startup.log'
+alias nvim_stime='nvim --startuptime /tmp/startup.log +q && $EDITOR /tmp/startup.log'
+alias vim_stime='vim --startuptime /tmp/startup.log +q && $EDITOR /tmp/startup.log'
 alias nv='nvim'
 alias aliases='$EDITOR $HOME/scripts/aliases'
 alias exports='$EDITOR $HOME/scripts/exports'
@@ -84,11 +85,9 @@ alias grep='grep -n --color=always'
 alias todo='jrnl @todolist -n 1'
 alias todolist='jrnl @todolist -n 1'
 alias todoedit='jrnl @todolist -n 1 --edit'
-alias n="nnn"
 alias paclog="pacolog"
 alias mutt="neomutt"
 alias starwars="telnet towel.blinkenlights.nl"
-alias sdn="sudo shutdown now"
 alias mkdir="mkdir -pv"
 alias calc='wcalc'
 alias calculator='wcalc'
@@ -100,7 +99,7 @@ alias disks='echo "╓───── m o u n t . p o i n t s"; echo "╙──�
 alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
 alias df='df -h'
 alias whoneeds='pactree -r'
-alias c="clear"
+alias wn='pactree -r'
 alias weather-saratov="curl wttr.in/saratov"
 alias weather-odintsovo="curl wttr.in/odintsovo"
 alias myip="ip route && curl ipinfo.io"
@@ -108,9 +107,8 @@ alias killX='killall Xorg'
 alias vless='~/.vim/less.sh'
 alias susp='systemctl suspend'
 alias ping='ping -c 3'
-alias e='exit'
 alias boottime='systemd-analyze'
-alias r='ranger'
+#
 alias mapscii='telnet mapscii.me'
 alias lostfiles_relaxed='sudo /usr/bin/lostfiles relaxed'
 alias lostfiles_stricted='sudo /usr/bin/lostfiles strict'
@@ -124,3 +122,10 @@ alias ..2="cd ../.."
 alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
+#
+alias blog-new='cd $HOME/blog/lb/ && ./lb n'
+alias blog-edit='cd $HOME/blog/lb/ && ./lb e'
+alias blog-trash='cd $HOME/blog/lb/ && ./lb t'
+alias blog-publish='cd $HOME/blog/lb/ && ./lb p'
+alias blog-delete='cd $HOME/blog/lb/ && ./lb d'
+alias blog-revise='cd $HOME/blog/lb/ && ./lb r'

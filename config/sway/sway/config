@@ -24,7 +24,7 @@ input * {
 }
 
 ## AUTOLOAD
-exec sxhkd
+exec transmission-daemon
 exec wal -R 
 exec_always $wal_bg
 exec waybar
@@ -74,9 +74,9 @@ bindsym $mod+e layout toggle split
 
 # Floating options
 # toggle tiling / floating
-bindsym $mod+Shift+s floating toggle
+bindsym $mod+shift+grave floating toggle
 # change focus between tiling / floating windows
-bindsym $mod+s focus mode_toggle
+bindsym $mod+grave focus mode_toggle
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
@@ -98,8 +98,7 @@ bindsym $mod+Print exec grim -g "$(slurp)" ~/Dropbox/screenshots/"$(date +%Y-%m-
 bindsym Control_L+Print exec grim -g "$(slurp)" - | wl-copy
 
 bindsym $mod+Shift+d border toggle
-# bindsym $mod+d exec "rofi -combi-modi drun -show combi -modi combi"
-bindsym $mod+Escape exec "dmenu_run -fn 'D2Coding for Powerline-10' -nb '#0269A4' -sb '#000000'"
+bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="'"bemenu -i -n -w -f --fn 'D2Coding for Powerline' --nb '#0269A4' --tb '#0269A4' --sb '#000000' --fb '#0269A4' --tf '#ffffff' --hf '#ffffff'"'" --term="alacritty"'
 bindsym $mod+Return exec alacritty
 bindsym $mod+q kill
 bindsym $mod+f fullscreen toggle
@@ -125,8 +124,8 @@ bindsym $mod+F12 exec --no-startup-id pulsemixer --change-volume +5
 # bindsym $mod+F12 exec --no-startup-id systemctl suspend
 
 ### SCRATCHPADS
-bindsym $mod+Control+Tab move scratchpad; move position center
-bindsym $mod+Control+grave scratchpad show; move position center
+# bindsym $mod+Control+Tab move scratchpad; move position center
+# bindsym $mod+Control+grave scratchpad show; move position center
 # Luke's dropdown term
     #exec --no-startup-id $TERMINAL -t dropdown
     # bindsym $mod+Tab   [title="^dropdown"] scratchpad show; move position center
@@ -136,7 +135,7 @@ bindsym $mod+Control+grave scratchpad show; move position center
     for_window [title="dropdown"] move scratchpad
 # Grave HTOP scratchpad
     #exec --no-startup-id $TERMINAL -t htopdropdown -e htop
-    bindsym $mod+grave [title="^htopdropdown"] scratchpad show; move position center
+    # bindsym $mod+grave [title="^htopdropdown"] scratchpad show; move position center
     for_window [title="htopdropdown"] floating enable
     for_window [title="htopdropdown"] resize set 1920 1060
     for_window [title="htopdropdown"] move position center
@@ -162,42 +161,44 @@ bindsym $mod+Control+grave scratchpad show; move position center
     for_window [class="zotero"]  floating enable
 
 # Assignment 
-assign [title="chromium"] $ws2
-assign [title="telegram-desktop"] $ws3
-for_window [class="Chromium" window_role="pop-up"] floating enable
+    assign [title="chromium"] $ws2
+    assign [title="telegram-desktop"] $ws3
+    for_window [class="Chromium" window_role="pop-up"] floating enable
 # Task manager 
-for_window [title="Task Manager - Chromium"] floating enable
-for_window [title="Task Manager - Chromium"] move position center
-for_window [title="Task Manager - Chromium"] resize set 800 600
+    for_window [title="Task Manager - Chromium"] floating enable
+    for_window [title="Task Manager - Chromium"] move position center
+    for_window [title="Task Manager - Chromium"] resize set 800 600
 # PavuControl
-for_window [app_id="pavucontrol"] floating enable
-for_window [app_id="pavucontrol"] move position 1280 0
-for_window [app_id="pavucontrol"] resize set 640 480
+    for_window [app_id="pavucontrol"] floating enable
+    for_window [app_id="pavucontrol"] move position 1280 0
+    for_window [app_id="pavucontrol"] resize set 640 480
 # Pulsemixer
-for_window [title="pulsemixer"] floating enable
-for_window [title="pulsemixer"] move position 1235 -25
-for_window [title="pulsemixer"] resize set 800 360
+    for_window [title="pulsemixer"] floating enable
+    for_window [title="pulsemixer"] move position 1235 -25
+    for_window [title="pulsemixer"] resize set 800 360
 # Connection -- bar network change
-for_window [app_id="connection"] floating enable
-for_window [app_id="connection"] move position 1565 -85
-for_window [app_id="connection"] resize set 150 240
+    for_window [app_id="connection"] floating enable
+    for_window [app_id="connection"] move position 1565 -85
+    for_window [app_id="connection"] resize set 150 240
 # News -- bar newsboat
-for_window [app_id="news"] floating enable
-for_window [app_id="news"] move position 1235 -25
-for_window [app_id="news"] resize set 800 360
+    for_window [app_id="news"] floating enable
+    for_window [app_id="news"] move position 1235 -25
+    for_window [app_id="news"] resize set 800 360
 
+bindsym {
 # FUN W/ WINDOWS POSITIONS
-    bindsym $mod+KP_Home    floating enable;    sticky enable;      resize set 625 400;   move position 0 0 
-    bindsym $mod+KP_Begin   floating enable;    sticky enable;      resize set 625 400;   move position center 
-    bindsym $mod+KP_Next    floating enable;    sticky enable;      resize set 625 400;   move position 1295 650 
-    bindsym $mod+KP_Prior   floating enable;    sticky enable;      resize set 625 400;   move position 1295 0 
-    bindsym $mod+KP_End     floating enable;    sticky enable;      resize set 625 400;   move position 0 650 
-    bindsym $mod+KP_Left    floating enable;    sticky enable;      resize set 625 400;   move position 0 340
-    bindsym $mod+KP_Right   floating enable;    sticky enable;      resize set 625 400;   move position 1295 340
-    bindsym $mod+KP_Up      floating enable;    sticky enable;      resize set 625 400;   move position 680 0
-    bindsym $mod+KP_Down    floating enable;    sticky enable;      resize set 625 400;   move position 680 650
-    bindsym $mod+KP_Delete  floating toggle
-    bindsym $mod+KP_Insert  focus mode_toggle
+    $mod+KP_Home    floating enable;    sticky enable;      resize set 625 400;   move position 0 0 
+    $mod+KP_Begin   floating enable;    sticky enable;      resize set 625 400;   move position center 
+    $mod+KP_Next    floating enable;    sticky enable;      resize set 625 400;   move position 1295 650 
+    $mod+KP_Prior   floating enable;    sticky enable;      resize set 625 400;   move position 1295 0 
+    $mod+KP_End     floating enable;    sticky enable;      resize set 625 400;   move position 0 650 
+    $mod+KP_Left    floating enable;    sticky enable;      resize set 625 400;   move position 0 340
+    $mod+KP_Right   floating enable;    sticky enable;      resize set 625 400;   move position 1295 340
+    $mod+KP_Up      floating enable;    sticky enable;      resize set 625 400;   move position 680 0
+    $mod+KP_Down    floating enable;    sticky enable;      resize set 625 400;   move position 680 650
+    $mod+KP_Delete  floating toggle
+    $mod+KP_Insert  focus mode_toggle
+}
 
 # Launcher mode
 set $mode_launcher Launcher
@@ -207,25 +208,28 @@ bindsym $mod+space mode "$mode_launcher" ; exec notify-send -a "launch" -t 5000 
 mode "$mode_launcher" {
 
     #bindsym r exec notify-send -t $n_time "Ranger has been started"       && $TERMINAL -e ranger       ; mode "default"
-    bindsym f exec notify-send -t $n_time "Vifm has been started"          && $TERMINAL -e vifm         ; mode "default"
-    bindsym c exec notify-send -t $n_time "Chromium has been started"      && $BROWSER                  ; mode "default"
-    bindsym n exec notify-send -t $n_time "NNN has been started"           && $TERMINAL -e nnn          ; mode "default"
-    bindsym h exec notify-send -t $n_time "HTop has been started"          && $TERMINAL -e htop         ; mode "default"
-    bindsym p exec notify-send -t $n_time "ncPamixer has been started"     && $TERMINAL -e ncpamixer    ; mode "default"
-    bindsym z exec notify-send -t $n_time "Zathura has been started"       && zathura                   ; mode "default"
-    bindsym b exec notify-send -t $n_time "Newsboat has been started"      && $TERMINAL -e newsboat     ; mode "default"
-    bindsym t exec notify-send -t $n_time "Telegram has been started"      && telegram-desktop          ; mode "default"
-    bindsym v exec notify-send -t $n_time "VMPK has been started"          && qsynth & vmpk             ; mode "default"
-    bindsym m exec notify-send -t $n_time "Mendeley has been started"      && mendeleydesktop           ; mode "default"
-    bindsym g exec notify-send -t $n_time "GIMP has been started"          && gimp                      ; mode "default"
-    bindsym q exec notify-send -t $n_time "Qbittorrent has been started"   && qbittorrent               ; mode "default"
-    bindsym d exec notify-send -t $n_time "Docear has been started"        && docear                    ; mode "default"
-    bindsym u exec notify-send -t $n_time "Reference file has been opened" && $TERMINAL -e $EDITOR $BIB ; mode "default"
-    
-    bindsym Escape     mode "default"
-    bindsym Return     mode "default"
-    bindsym $mod+space mode "default"
-    bindsym space      mode "default"
+    bindsym --to-code {
+        f exec notify-send -t $n_time "Vifm has been started"          && $TERMINAL -e vifm         ; mode "default"
+        c exec notify-send -t $n_time "Chromium has been started"      && $BROWSER                  ; mode "default"
+        n exec notify-send -t $n_time "NNN has been started"           && $TERMINAL -e nnn          ; mode "default"
+        h exec notify-send -t $n_time "HTop has been started"          && $TERMINAL -e htop         ; mode "default"
+        p exec notify-send -t $n_time "ncPamixer has been started"     && $TERMINAL -e ncpamixer    ; mode "default"
+        z exec notify-send -t $n_time "Zathura has been started"       && zathura                   ; mode "default"
+        b exec notify-send -t $n_time "Newsboat has been started"      && $TERMINAL -e newsboat     ; mode "default"
+        t exec notify-send -t $n_time "Telegram has been started"      && telegram-desktop          ; mode "default"
+        v exec notify-send -t $n_time "VMPK has been started"          && qsynth & vmpk             ; mode "default"
+        m exec notify-send -t $n_time "Mendeley has been started"      && mendeleydesktop           ; mode "default"
+        g exec notify-send -t $n_time "GIMP has been started"          && gimp                      ; mode "default"
+        q exec notify-send -t $n_time "Qbittorrent has been started"   && qbittorrent               ; mode "default"
+        d exec notify-send -t $n_time "Docear has been started"        && docear                    ; mode "default"
+        u exec notify-send -t $n_time "Reference file has been opened" && $TERMINAL -e $EDITOR $BIB ; mode "default"
+        
+        Escape     mode "default"
+        Return     mode "default"
+        $mod+space mode "default"
+        space      mode "default"
+        }
+
     }
 
 # Colors stuff
@@ -264,55 +268,62 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+bindsym {
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
+    $mod+1 workspace $ws1
+    $mod+2 workspace $ws2
+    $mod+3 workspace $ws3
+    $mod+4 workspace $ws4
+    $mod+5 workspace $ws5
+    $mod+6 workspace $ws6
+    $mod+7 workspace $ws7
+    $mod+8 workspace $ws8
+    $mod+9 workspace $ws9
+    $mod+0 workspace $ws10
+}
 
 bindsym $mod+n workspace prev
 bindsym $mod+period workspace next
 
+bindsym {
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
-bindsym $mod+m move workspace to output left
+    $mod+Shift+1 move container to workspace $ws1
+    $mod+Shift+2 move container to workspace $ws2
+    $mod+Shift+3 move container to workspace $ws3
+    $mod+Shift+4 move container to workspace $ws4
+    $mod+Shift+5 move container to workspace $ws5
+    $mod+Shift+6 move container to workspace $ws6
+    $mod+Shift+7 move container to workspace $ws7
+    $mod+Shift+8 move container to workspace $ws8
+    $mod+Shift+9 move container to workspace $ws9
+    $mod+Shift+0 move container to workspace $ws10
+    $mod+m move workspace to output left
+}
 
+# added functionality for another layout
+bindsym --to-code {
 # change focus
-bindsym $mod+h     focus left
-bindsym $mod+j     focus down
-bindsym $mod+k     focus up
-bindsym $mod+l     focus right
-# alternatively, the cursor keys:
-bindsym $mod+Left  focus left
-bindsym $mod+Down  focus down
-bindsym $mod+Up    focus up
-bindsym $mod+Right focus right
+    $mod+h     focus left
+    $mod+j     focus down
+    $mod+k     focus up
+    $mod+l     focus right
+    # alternatively, the cursor keys:
+    $mod+Left  focus left
+    $mod+Down  focus down
+    $mod+Up    focus up
+    $mod+Right focus right
 
-# move focused window
-bindsym $mod+Shift+h     move left
-bindsym $mod+Shift+j     move down
-bindsym $mod+Shift+k     move up
-bindsym $mod+Shift+l     move right
-# alternatively, the cursor keys:
-bindsym $mod+Shift+Left  move left
-bindsym $mod+Shift+Down  move down
-bindsym $mod+Shift+Up    move up
-bindsym $mod+Shift+Right move right
+    # move focused window
+    $mod+Shift+h     move left
+    $mod+Shift+j     move down
+    $mod+Shift+k     move up
+    $mod+Shift+l     move right
+    # alternatively, the cursor keys:
+    $mod+Shift+Left  move left
+    $mod+Shift+Down  move down
+    $mod+Shift+Up    move up
+    $mod+Shift+Right move right
+}
 
 # Shrink layouts with the keyboard
 set $shrink_size 10
