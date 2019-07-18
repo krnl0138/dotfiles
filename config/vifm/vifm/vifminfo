@@ -22,7 +22,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -597,6 +597,12 @@ d/home/gppk/.winegames/deusex/drive_c
 d/home/gppk/.winegames/deusex
 	dosdevices
 1
+d/home/gppk/.winegames
+	deusex
+3
+d/home/gppk
+	.winegames
+8
 d
 
 # Right window history (oldest to newest):
@@ -1198,8 +1204,8 @@ D/home/gppk/pics/msk_botan_sad_japan_08_18
 	..
 0
 D/home/gppk
-	pics
-2
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -1290,6 +1296,7 @@ D
 :vim
 :unrar %f
 :view
+:quit
 
 # Search history (oldest to newest):
 /Pata
