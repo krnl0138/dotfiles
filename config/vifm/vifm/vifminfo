@@ -601,7 +601,31 @@ d/home/gppk/.winegames
 	deusex
 3
 d/home/gppk
-	.winegames
+	.local
+32
+d/home/gppk/.local
+	share
+1
+d/home/gppk/.local/share
+	fish
+1
+d/home/gppk/.local/share/fish
+	generated_completions
+1
+d/home/gppk/.local/share/fish/generated_completions
+	logger.fish
+32
+d/home/gppk/.local/share/fish
+	generated_completions
+1
+d/home/gppk/.local/share
+	fish
+1
+d/home/gppk/.local/share/fish
+	generated_completions
+1
+d/home/gppk/.local/share/fish/generated_completions
+	look.fish
 8
 d
 
@@ -1328,7 +1352,6 @@ D
 /fzf
 /pics
 /note
-/local
 /loca
 /deter
 /al
@@ -1345,6 +1368,10 @@ D
 /kris
 /Kris
 /yoga
+/local
+/gen
+/fish
+/howd
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
