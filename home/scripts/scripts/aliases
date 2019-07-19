@@ -43,9 +43,11 @@ alias q='exit'
 alias r='ranger'
 alias c="clear"
 #
+aliases() { $EDITOR $HOME/scripts/aliases ;}
+exports() { $EDITOR $HOME/scripts/exports ;}
 scripts() { $EDITOR $HOME/scripts ;}
 functions() { $EDITOR $HOME/scripts/funcs ;}
-gitdots() { git add * && git commit -m "regular update" && git push ;}
+gitdots() { git add * ; git commit -m "regular update" ; git push ;}
 alias sc='sc-im'
 alias connection='connection.sh'
 alias connect='connection.sh'
@@ -60,10 +62,8 @@ grub-update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
 alias rg='rg -S'
 executable() { chmod +x ;}
 nvim_stime() { nvim --startuptime /tmp/startup.log +q ; $EDITOR /tmp/startup.log ;}
-vim_stime() { vim --startuptime /tmp/startup.log +q && $EDITOR /tmp/startup.log ;}
+vim_stime() { vim --startuptime /tmp/startup.log +q ; $EDITOR /tmp/startup.log ;}
 alias nv='nvim'
-alias aliases='$EDITOR $HOME/scripts/aliases'
-alias exports='$EDITOR $HOME/scripts/exports'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='trash-put'
@@ -71,6 +71,7 @@ alias diff='vimdiff'
 alias dmesg='dmesg -HL'
 alias neofetch='neofetch --disable theme icons --package_managers off --uptime_shorthand on --w3m /home/gppk/pics/top.jpg --loop --crop_mode fit'
 alias ka='killall'
+#
 alias ys='yay -S --sudoloop'
 alias ysyu='yay -Syu --sudoloop'
 alias ysuy='yay -Syu --sudoloop'
@@ -80,12 +81,15 @@ alias yq='yay -Q'
 alias yqi='yay -Qi'
 alias yrns='yay -Rns'
 alias yrsn='yay -Rns'
+#
 alias ls='ls --color=auto'
 alias lsla='ls -la --color=auto'
 alias grep='grep -n --color=always'
+#
 alias todo='jrnl @todolist -n 1'
 alias todolist='jrnl @todolist -n 1'
 alias todoedit='jrnl @todolist -n 1 --edit'
+#
 alias paclog="pacolog"
 alias mutt="neomutt"
 alias starwars="telnet towel.blinkenlights.nl"
@@ -96,11 +100,15 @@ alias wifi-menu='sudo wifi-menu'
 alias vimw='$EDITOR ~/vimwiki/index.wiki'
 alias vw='$EDITOR ~/vimwiki/index.wiki'
 alias du='du -h --max-depth=1 | sort -h -r'
-alias disks='echo "╓───── m o u n t . p o i n t s"; echo "╙────────────────────────────────────── ─ ─ "; lsblk -a; echo ""; echo "╓───── d i s k . u s a g e"; echo "╙────────────────────────────────────── ─ ─ "; df -h;'
+disks() { echo "╓───── m o u n t . p o i n t s"; 
+            echo "╙────────────────────────────────────── ─ ─ "; 
+            lsblk -a; echo ""; 
+            echo "╓───── d i s k . u s a g e"; 
+            echo "╙────────────────────────────────────── ─ ─ "; 
+            df -h; 
+            ;}
 alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
 alias df='df -h'
-alias whoneeds='pactree -r'
-alias wn='pactree -r'
 alias weather-saratov="curl wttr.in/saratov"
 alias weather-odintsovo="curl wttr.in/odintsovo"
 alias myip="ip route && curl ipinfo.io"
@@ -109,15 +117,16 @@ alias vless='~/.vim/less.sh'
 alias susp='systemctl suspend'
 alias ping='ping -c 3'
 alias boottime='systemd-analyze'
-#
 alias mapscii='telnet mapscii.me'
 alias lostfiles_relaxed='sudo /usr/bin/lostfiles relaxed'
 alias lostfiles_stricted='sudo /usr/bin/lostfiles strict'
+alias whoneeds='pactree -r'
+alias wn='pactree -r'
+alias pactree='pactree -c'
 alias tree='tree -hC'
 alias tree1='tree -hCL 1'
 alias tree2='tree -hCL 2'
 alias tree3='tree -hCL 3'
-alias pactree='pactree -c'
 alias ..="cd .."
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
