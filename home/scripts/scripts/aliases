@@ -2,26 +2,26 @@
 #
 #
 #
-cfg-zathura() { $EDITOR $HOME/.config/zathura/zathurarc' }
-cfg-mako() { $EDITOR $HOME/.config/mako/config' }
-cfg-vifm() { $EDITOR $HOME/.config/vifm/vifmrc' }
-cfg-alacritty() { $EDITOR $HOME/.config/alacritty/alacritty.yml' }
-cfg-vim() { $EDITOR $HOME/.vimrc' }
-cfg-sway() { $EDITOR $HOME/.config/sway/config' }
-cfg-zsh() { $EDITOR $HOME/.zshrc' }
-cfg-ranger() { $EDITOR $HOME/.config/ranger' }
-cfg-waybar() { $EDITOR $HOME/.config/waybar' }
-cfg-gtk3() { $EDITOR $HOME/.config/gtk-3.0/settings.ini' }
-cfg-llpp() { $EDITOR $HOME/.config/llpp.conf' }
-cfg-dunst() { $EDITOR $HOME/.config/dunst/dunstrc' }
-cfg-sxiv() { $EDITOR $HOME/.config/sxiv' }
-cfg-yay() { $EDITOR $HOME/.config/yay/config.json' }
-cfg-youtube-viewer() { $EDITOR $HOME/.config/yay/config.json' }
-cfg-redshift() { $EDITOR $HOME/.config/redshift.conf' }
-cfg-imv() { $EDITOR $HOME/.config/imv/config' }
-cfg-gtk3() { $EDITOR $HOME/.config/gtk-3.0/' }
-cfg-mpv() { $EDITOR $HOME/.config/mpv/mpv.conf' }
-cfg-pacman() { $EDITOR /etc/pacman.conf' }
+cfg-zathura() { $EDITOR $HOME/.config/zathura/zathurarc' ;}
+cfg-mako() { $EDITOR $HOME/.config/mako/config' ;}
+cfg-vifm() { $EDITOR $HOME/.config/vifm/vifmrc' ;}
+cfg-alacritty() { $EDITOR $HOME/.config/alacritty/alacritty.yml' ;}
+cfg-vim() { $EDITOR $HOME/.vimrc' ;}
+cfg-sway() { $EDITOR $HOME/.config/sway/config' ;}
+cfg-zsh() { $EDITOR $HOME/.zshrc' ;}
+cfg-ranger() { $EDITOR $HOME/.config/ranger' ;}
+cfg-waybar() { $EDITOR $HOME/.config/waybar' ;}
+cfg-gtk3() { $EDITOR $HOME/.config/gtk-3.0/settings.ini' ;}
+cfg-llpp() { $EDITOR $HOME/.config/llpp.conf' ;}
+cfg-dunst() { $EDITOR $HOME/.config/dunst/dunstrc' ;}
+cfg-sxiv() { $EDITOR $HOME/.config/sxiv' ;}
+cfg-yay() { $EDITOR $HOME/.config/yay/config.json' ;}
+cfg-youtube-viewer() { $EDITOR $HOME/.config/yay/config.json' ;}
+cfg-redshift() { $EDITOR $HOME/.config/redshift.conf' ;}
+cfg-imv() { $EDITOR $HOME/.config/imv/config' ;}
+cfg-gtk3() { $EDITOR $HOME/.config/gtk-3.0/' ;}
+cfg-mpv() { $EDITOR $HOME/.config/mpv/mpv.conf' ;}
+cfg-pacman() { $EDITOR /etc/pacman.conf' ;}
 #
 alias rld-zsh='source ~/.zshrc'
 alias rld-sway='sway reload'
