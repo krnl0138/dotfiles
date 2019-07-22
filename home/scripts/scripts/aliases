@@ -98,29 +98,22 @@ alias mkdir="mkdir -pv"
 alias calc='wcalc'
 alias calculator='wcalc'
 alias wifi-menu='sudo wifi-menu'
-alias vimw='$EDITOR ~/vimwiki/index.wiki'
-alias vw='$EDITOR ~/vimwiki/index.wiki'
-alias du='du -h --max-depth=1 | sort -h -r'
-# disks() { echo "╓───── m o u n t . p o i n t s"; 
-#             echo "╙────────────────────────────────────── ─ ─ "; 
-#             lsblk -a; echo ""; 
-#             echo "╓───── d i s k . u s a g e"; 
-#             echo "╙────────────────────────────────────── ─ ─ "; 
-#             df -h; 
-#             ; }
-alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
+vimw() { $EDITOR ~/vimwiki/index.wiki ;}
+vw() { $EDITOR ~/vimwiki/index.wiki ;}
+du() { du -h --max-depth=1 | sort -h -r ;}
 alias df='df -h'
 alias weather-saratov="curl wttr.in/saratov"
 alias weather-odintsovo="curl wttr.in/odintsovo"
-alias myip="ip route && curl ipinfo.io"
-alias killX='killall Xorg'
 alias vless='~/.vim/less.sh'
 alias susp='systemctl suspend'
 alias ping='ping -c 3'
 alias boottime='systemd-analyze'
 alias mapscii='telnet mapscii.me'
-alias lostfiles_relaxed='sudo /usr/bin/lostfiles relaxed'
-alias lostfiles_stricted='sudo /usr/bin/lostfiles strict'
+lostfiles_relaxed() { sudo /usr/bin/lostfiles relaxed ;}
+lostfiles_stricted() { sudo /usr/bin/lostfiles strict ;}
+orphans() { sudo pacman -Rns $(pacman -Qqdt) ;}
+myip() { ip route ; curl ipinfo.io ;}
+killX() { killall Xorg ;}
 alias whoneeds='pactree -r'
 alias wn='pactree -r'
 alias pactree='pactree -c'
@@ -134,9 +127,9 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 #
-blog-new() { cd $HOME/blog/lb/ && ./lb n ;}
-blog-edit() { cd $HOME/blog/lb/ && ./lb e ;}
-blog-trash() { cd $HOME/blog/lb/ && ./lb t ;}
-blog-publish() { cd $HOME/blog/lb/ && ./lb p ;}
-blog-delete() { cd $HOME/blog/lb/ && ./lb d ;}
-blog-revise() { cd $HOME/blog/lb/ && ./lb r ;}
+blog-new() { cd $HOME/blog/lb/ ; ./lb n ;}
+blog-edit() { cd $HOME/blog/lb/ ; ./lb e ;}
+blog-trash() { cd $HOME/blog/lb/ ; ./lb t ;}
+blog-publish() { cd $HOME/blog/lb/ ; ./lb p ;}
+blog-delete() { cd $HOME/blog/lb/ ; ./lb d ;}
+blog-revise() { cd $HOME/blog/lb/ ; ./lb r ;}
