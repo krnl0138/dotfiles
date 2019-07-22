@@ -35,7 +35,7 @@ alias rsync-synchronize="rsync -avzu --delete --progress -h"
 play-wc3() { env WINEPREFIX="$HOME/.winegames/warcraft3" wine $HOME/.winegames/warcraft3/drive_c/Warcraft\ 3\ Frozen\ Throne/Frozen\ Throne.exe ;}
 play-deusex() { env WINEPREFIX="$HOME/.winegames/deusex" wine $HOME/.winegames/deusex/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe ;}
 play-heroes3() { env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegames/heroes/drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe ;}
-play-df() { cd Downloads/df_linux/ && ./df ;}
+play-df() { cd Downloads/df_linux/ ; ./df ;}
 play-nethack() { telnet nethack.alt.org ;}
 #
 alias n="nnn"
@@ -44,26 +44,26 @@ alias q='exit'
 alias r='ranger'
 alias c="clear"
 #
-aliases() { $EDITOR $HOME/scripts/aliases ;}
-exports() { $EDITOR $HOME/scripts/exports ;}
-scripts() { $EDITOR $HOME/scripts ;}
-functions() { $EDITOR $HOME/scripts/funcs ;}
+aliases() { "$EDITOR" $HOME/scripts/aliases ;}
+exports() { "$EDITOR" $HOME/scripts/exports ;}
+scripts() { "$EDITOR" $HOME/scripts ;}
+funcs() { "$EDITOR" $HOME/scripts/funcs ;}
 gitdots() { git add * ; git commit -m "regular update" ; git push ;}
+mpv() { DRI_PRIME=1 mpv ;}
+chromium() { DRI_PRIME=1 chromium ;}
+gimp() { DRI_PRIME=1 gimp ;}
+executable() { chmod +x ;}
+nvim_stime() { nvim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log ;}
+vim_stime() { vim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log ;}
+telegram-desktop() { DRI_PRIME=1 telegram-desktop ;}
+update-grub() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
+grub-update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
 alias sc='sc-im'
 alias connection='connection.sh'
 alias connect='connection.sh'
 alias reconnection='connection.sh'
 alias reconnect='connection.sh'
-mpv() { DRI_PRIME=1 mpv ;}
-telegram-desktop() { DRI_PRIME=1 telegram-desktop ;}
-chromium() { DRI_PRIME=1 chromium ;}
-gimp() { DRI_PRIME=1 gimp ;}
-update-grub() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
-grub-update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
 alias rg='rg -S'
-executable() { chmod +x ;}
-nvim_stime() { nvim --startuptime /tmp/startup.log +q ; $EDITOR /tmp/startup.log ;}
-vim_stime() { vim --startuptime /tmp/startup.log +q ; $EDITOR /tmp/startup.log ;}
 alias nv='nvim'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -91,8 +91,8 @@ alias todo='jrnl @todolist -n 1'
 alias todolist='jrnl @todolist -n 1'
 alias todoedit='jrnl @todolist -n 1 --edit'
 #
-vimw() { $EDITOR ~/vimwiki/index.wiki ;}
-vw() { $EDITOR ~/vimwiki/index.wiki ;}
+vimw() { "$EDITOR" ~/vimwiki/index.wiki ;}
+vw() { "$EDITOR" ~/vimwiki/index.wiki ;}
 du() { du -h --max-depth=1 | sort -h -r ;}
 lostfiles_relaxed() { sudo /usr/bin/lostfiles relaxed ;}
 lostfiles_stricted() { sudo /usr/bin/lostfiles strict ;}
