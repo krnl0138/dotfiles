@@ -101,13 +101,13 @@ alias wifi-menu='sudo wifi-menu'
 alias vimw='$EDITOR ~/vimwiki/index.wiki'
 alias vw='$EDITOR ~/vimwiki/index.wiki'
 alias du='du -h --max-depth=1 | sort -h -r'
-disks() { echo "╓───── m o u n t . p o i n t s"; 
-            echo "╙────────────────────────────────────── ─ ─ "; 
-            lsblk -a; echo ""; 
-            echo "╓───── d i s k . u s a g e"; 
-            echo "╙────────────────────────────────────── ─ ─ "; 
-            df -h; 
-            ; }
+# disks() { echo "╓───── m o u n t . p o i n t s"; 
+#             echo "╙────────────────────────────────────── ─ ─ "; 
+#             lsblk -a; echo ""; 
+#             echo "╓───── d i s k . u s a g e"; 
+#             echo "╙────────────────────────────────────── ─ ─ "; 
+#             df -h; 
+#             ; }
 alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
 alias df='df -h'
 alias weather-saratov="curl wttr.in/saratov"
