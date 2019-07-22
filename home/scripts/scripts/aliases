@@ -134,9 +134,9 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 #
-alias blog-new='cd $HOME/blog/lb/ && ./lb n'
-alias blog-edit='cd $HOME/blog/lb/ && ./lb e'
-alias blog-trash='cd $HOME/blog/lb/ && ./lb t'
-alias blog-publish='cd $HOME/blog/lb/ && ./lb p'
-alias blog-delete='cd $HOME/blog/lb/ && ./lb d'
-alias blog-revise='cd $HOME/blog/lb/ && ./lb r'
+blog-new() { cd $HOME/blog/lb/ && ./lb n ;}
+blog-edit() { cd $HOME/blog/lb/ && ./lb e ;}
+blog-trash() { cd $HOME/blog/lb/ && ./lb t ;}
+blog-publish() { cd $HOME/blog/lb/ && ./lb p ;}
+blog-delete() { cd $HOME/blog/lb/ && ./lb d ;}
+blog-revise() { cd $HOME/blog/lb/ && ./lb r ;}
