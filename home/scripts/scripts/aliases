@@ -24,7 +24,7 @@ cfg_gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/" ;}
 cfg_mpv() { "$EDITOR" "$HOME/.config/mpv/mpv.conf" ;}
 cfg_pacman() { "$EDITOR" "/etc/pacman.conf" ;}
 #
-rld_zsh() { . $HOME/.zshrc ;}
+rld_zsh() { . /home/gpp/.zshrc ;}
 rld_sway() { sway reload ;}
 # 
 alias rsync-copy="rsync -avz --progress -h"
