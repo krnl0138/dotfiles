@@ -107,7 +107,7 @@ disks() { echo "╓───── m o u n t . p o i n t s";
             echo "╓───── d i s k . u s a g e"; 
             echo "╙────────────────────────────────────── ─ ─ "; 
             df -h; 
-            ;}
+            ; }
 alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
 alias df='df -h'
 alias weather-saratov="curl wttr.in/saratov"
