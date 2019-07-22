@@ -58,6 +58,7 @@ SETUVAR _fish_abbr_vless:/home/gppk/\x2evim/less\x2esh
 SETUVAR _fish_abbr_weather_2D_odintsovo:curl\x20wttr\x2ein/odintsovo
 SETUVAR _fish_abbr_weather_2D_saratov:curl\x20wttr\x2ein/saratov
 SETUVAR _fish_abbr_whoneeds:pactree\x20\x2dr
+SETUVAR _fish_abbr_wifi:nmcli\x20c\x20up
 SETUVAR _fish_abbr_wifi_2D_menu:sudo\x20wifi\x2dmenu
 SETUVAR _fish_abbr_wn:pactree\x20\x2dr
 SETUVAR _fish_abbr_yq:yay\x20\x2dQ
@@ -66,8 +67,13 @@ SETUVAR _fish_abbr_yrns:yay\x20\x2dRns
 SETUVAR _fish_abbr_yrsn:yay\x20\x2dRns
 SETUVAR _fish_abbr_ys:yay\x20\x2dS\x20\x2d\x2dsudoloop
 SETUVAR _fish_abbr_ysi:yay\x20\x2dSi
+SETUVAR _fish_abbr_yss:yay\x20\x2dSs
 SETUVAR _fish_abbr_ysuy:yay\x20\x2dSyu\x20\x2d\x2dsudoloop
 SETUVAR _fish_abbr_ysyu:yay\x20\x2dSyu\x20\x2d\x2dsudoloop
+SETUVAR _fish_abbr_ytallbest:youtube\x2ddl\x20\x2d\x2daudio\x2dformat\x20best\x20\x2d\x2dvideo\x2dformat\x20best
+SETUVAR _fish_abbr_ytaudio:youtube\x2ddl\x20\x2d\x2dextract\x2daudio
+SETUVAR _fish_abbr_ytdl:youtube\x2ddl
+SETUVAR _fish_abbr_ytmp3:youtube\x2ddl\x20\x2d\x2dextract\x2daudio\x20\x2d\x2daudio\x2dformat\x20mp3
 SETUVAR _fish_abbr_zzz:systemctl\x20suspend
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
