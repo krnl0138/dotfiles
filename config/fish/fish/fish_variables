@@ -59,7 +59,7 @@ SETUVAR _fish_abbr_vless:/home/gppk/\x2evim/less\x2esh
 SETUVAR _fish_abbr_weather_2D_odintsovo:curl\x20wttr\x2ein/odintsovo
 SETUVAR _fish_abbr_weather_2D_saratov:curl\x20wttr\x2ein/saratov
 SETUVAR _fish_abbr_whoneeds:pactree\x20\x2dr
-SETUVAR _fish_abbr_wifi:nmcli\x20c\x20up
+SETUVAR _fish_abbr_wifi:nmtui\x2dconnect
 SETUVAR _fish_abbr_wifi_2D_menu:sudo\x20wifi\x2dmenu
 SETUVAR _fish_abbr_wn:pactree\x20\x2dr
 SETUVAR _fish_abbr_yq:yay\x20\x2dQ
