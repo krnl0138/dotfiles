@@ -4,39 +4,39 @@
 #
 #
 cfg_zathura() { "$EDITOR" "$HOME"/.config/zathura/zathurarc ;}
-cfg-mako() { "$EDITOR" "$HOME/.config/mako/config" ;}
-cfg-vifm() { "EDITOR" "$HOME/.config/vifm/vifmrc" ;}
-cfg-alacritty() { "$EDITOR" "$HOME/.config/alacritty/alacritty.yml" ;}
-cfg-vim() { "$EDITOR" "$HOME/.vimrc" ;}
-cfg-sway() { "$EDITOR" "$HOME/.config/sway/config" ;}
-cfg-zsh() { "$EDITOR" "$HOME/.zshrc" ;}
-cfg-ranger() { "$EDITOR" "$HOME/.config/ranger" ;}
-cfg-waybar() { "$EDITOR" "$HOME/.config/waybar" ;}
-cfg-gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/settings.ini" ;}
-cfg-llpp() { "$EDITOR" "$HOME/.config/llpp.conf" ;}
-cfg-dunst() { "$EDITOR" "$HOME/.config/dunst/dunstrc" ;}
-cfg-sxiv() { "$EDITOR" "$HOME/.config/sxiv" ;}
-cfg-yay() { "$EDITOR" "$HOME/.config/yay/config.json" ;}
-cfg-youtube-viewer() { "$EDITOR" "$HOME/.config/yay/config.json" ;}
-cfg-redshift() { "$EDITOR" "$HOME/.config/redshift.conf" ;}
-cfg-imv() { "$EDITOR" "$HOME/.config/imv/config" ;}
-cfg-gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/" ;}
-cfg-mpv() { "$EDITOR" "$HOME/.config/mpv/mpv.conf" ;}
-cfg-pacman() { "$EDITOR" "/etc/pacman.conf" ;}
+cfg_mako() { "$EDITOR" "$HOME/.config/mako/config" ;}
+cfg_vifm() { "EDITOR" "$HOME/.config/vifm/vifmrc" ;}
+cfg_alacritty() { "$EDITOR" "$HOME/.config/alacritty/alacritty.yml" ;}
+cfg_vim() { "$EDITOR" "$HOME/.vimrc" ;}
+cfg_sway() { "$EDITOR" "$HOME/.config/sway/config" ;}
+cfg_zsh() { "$EDITOR" "$HOME/.zshrc" ;}
+cfg_ranger() { "$EDITOR" "$HOME/.config/ranger" ;}
+cfg_waybar() { "$EDITOR" "$HOME/.config/waybar" ;}
+cfg_gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/settings.ini" ;}
+cfg_llpp() { "$EDITOR" "$HOME/.config/llpp.conf" ;}
+cfg_dunst() { "$EDITOR" "$HOME/.config/dunst/dunstrc" ;}
+cfg_sxiv() { "$EDITOR" "$HOME/.config/sxiv" ;}
+cfg_yay() { "$EDITOR" "$HOME/.config/yay/config.json" ;}
+cfg_youtube-viewer() { "$EDITOR" "$HOME/.config/yay/config.json" ;}
+cfg_redshift() { "$EDITOR" "$HOME/.config/redshift.conf" ;}
+cfg_imv() { "$EDITOR" "$HOME/.config/imv/config" ;}
+cfg_gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/" ;}
+cfg_mpv() { "$EDITOR" "$HOME/.config/mpv/mpv.conf" ;}
+cfg_pacman() { "$EDITOR" "/etc/pacman.conf" ;}
 #
-rld-zsh() { source ~/.zshrc ;}
-rld-sway() { sway reload ;}
+rld_zsh() { source ~/.zshrc ;}
+rld_sway() { sway reload ;}
 # 
 alias rsync-copy="rsync -avz --progress -h"
 alias rsync-move="rsync -avz --progress -h --remove-source-files"
 alias rsync-update="rsync -avzu --progress -h"
 alias rsync-synchronize="rsync -avzu --delete --progress -h"
 #
-play-wc3() { env WINEPREFIX="$HOME/.winegames/warcraft3" wine $HOME/.winegames/warcraft3/drive_c/Warcraft\ 3\ Frozen\ Throne/Frozen\ Throne.exe ;}
-play-deusex() { env WINEPREFIX="$HOME/.winegames/deusex" wine $HOME/.winegames/deusex/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe ;}
-play-heroes3() { env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegames/heroes/drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe ;}
-play-df() { cd Downloads/df_linux/ ; ./df ;}
-play-nethack() { telnet nethack.alt.org ;}
+play_wc3() { env WINEPREFIX="$HOME/.winegames/warcraft3" wine $HOME/.winegames/warcraft3/drive_c/Warcraft\ 3\ Frozen\ Throne/Frozen\ Throne.exe ;}
+play_deusex() { env WINEPREFIX="$HOME/.winegames/deusex" wine $HOME/.winegames/deusex/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe ;}
+play_heroes3() { env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegames/heroes/drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe ;}
+play_df() { cd Downloads/df_linux/ ; ./df ;}
+play_nethack() { telnet nethack.alt.org ;}
 #
 alias n="nnn"
 alias e='exit'
@@ -55,9 +55,9 @@ gimp() { DRI_PRIME=1 gimp ;}
 executable() { chmod +x ;}
 nvim_stime() { nvim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log ;}
 vim_stime() { vim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log ;}
-telegram-desktop() { DRI_PRIME=1 telegram-desktop ;}
-update-grub() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
-grub-update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
+telegram_desktop() { DRI_PRIME=1 telegram-desktop ;}
+update_grub() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
+grub_update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
 alias sc='sc-im'
 alias connection='connection.sh'
 alias connect='connection.sh'
@@ -127,9 +127,9 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 #
-blog-new() { cd $HOME/blog/lb/ ; ./lb n ;}
-blog-edit() { cd $HOME/blog/lb/ ; ./lb e ;}
-blog-trash() { cd $HOME/blog/lb/ ; ./lb t ;}
-blog-publish() { cd $HOME/blog/lb/ ; ./lb p ;}
-blog-delete() { cd $HOME/blog/lb/ ; ./lb d ;}
-blog-revise() { cd $HOME/blog/lb/ ; ./lb r ;}
+blog_new() { cd $HOME/blog/lb/ ; ./lb n ;}
+blog_edit() { cd $HOME/blog/lb/ ; ./lb e ;}
+blog_trash() { cd $HOME/blog/lb/ ; ./lb t ;}
+blog_publish() { cd $HOME/blog/lb/ ; ./lb p ;}
+blog_delete() { cd $HOME/blog/lb/ ; ./lb d ;}
+blog_revise() { cd $HOME/blog/lb/ ; ./lb r ;}
