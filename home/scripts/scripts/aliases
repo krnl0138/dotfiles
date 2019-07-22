@@ -24,7 +24,7 @@ cfg_gtk3() { "$EDITOR" "$HOME/.config/gtk-3.0/" ;}
 cfg_mpv() { "$EDITOR" "$HOME/.config/mpv/mpv.conf" ;}
 cfg_pacman() { "$EDITOR" "/etc/pacman.conf" ;}
 #
-rld_zsh() { .  ~/.zshrc ;}
+rld_zsh() { .  "$HOME"/.zshrc ;}
 rld_sway() { sway reload ;}
 # 
 alias rsync-copy="rsync -avz --progress -h"
@@ -127,9 +127,9 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 #
-blog_new() { cd $HOME/blog/lb/ ; ./lb n ;}
-blog_edit() { cd $HOME/blog/lb/ ; ./lb e ;}
-blog_trash() { cd $HOME/blog/lb/ ; ./lb t ;}
-blog_publish() { cd $HOME/blog/lb/ ; ./lb p ;}
-blog_delete() { cd $HOME/blog/lb/ ; ./lb d ;}
-blog_revise() { cd $HOME/blog/lb/ ; ./lb r ;}
+blog_new() { cd $HOME/blog/lb/ || exit ; ./lb n ;}
+blog_edit() { cd $HOME/blog/lb/ || exit ; ./lb e ;}
+blog_trash() { cd $HOME/blog/lb/ || exit ; ./lb t ;}
+blog_publish() { cd $HOME/blog/lb/ || exit ; ./lb p ;}
+blog_delete() { cd $HOME/blog/lb/ || exit ; ./lb d ;}
+blog_revise() { cd $HOME/blog/lb/ || exit ; ./lb r ;}
