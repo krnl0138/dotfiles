@@ -3,7 +3,7 @@
 #
 #
 #
-cfg-zathura() { "$EDITOR" "$HOME"/.config/zathura/zathurarc ;}
+cfg_zathura() { "$EDITOR" "$HOME"/.config/zathura/zathurarc ;}
 cfg-mako() { "$EDITOR" "$HOME/.config/mako/config" ;}
 cfg-vifm() { "EDITOR" "$HOME/.config/vifm/vifmrc" ;}
 cfg-alacritty() { "$EDITOR" "$HOME/.config/alacritty/alacritty.yml" ;}
