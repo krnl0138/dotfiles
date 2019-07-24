@@ -1,0 +1,296 @@
+# It will not be overwritten, so edit it as you like.
+#
+# Should you change your keyboard layout some time, delete
+# this file and re-run i3-config-wizard(1).
+#
+
+# i3 config file (v4)
+#
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+#set $mod Mod4
+set $mod Mod1
+set $terminal alacritty
+set $browser chromium
+set $editor vim
+
+# AUTOLOAD
+exec --no-startup-id nm-applet
+exec --no-startup-id ~/.config/polybar/launch.sh
+#exec_always --no-startup-id setxkbmap -layout "us,ru" -option grp:caps_toggle
+#exec --no-startup-id xset r rate 200 50
+exec --no-startup-id systemctl --user import-environment DISPLAY # DUNST NOTIFICATIONS 
+#exec_always --no-startup-id compton -cC -m 1 --inactive-dim 0.3 --vsync opengl-mswc --backend glx
+exec_always --no-startup-id xcompmgr -cC
+exec --no-startup-id redshift # killall -q redshift && 
+exec --no-startup-id bright 1.0
+
+# FUN W/ WINDOWS POSITIONS
+    bindsym $mod+KP_Home    floating enable;    sticky enable;      resize set 625 400;   move position 0 0 
+    bindsym $mod+KP_Begin   floating enable;    sticky enable;      resize set 625 400;   move position center 
+    bindsym $mod+KP_Next    floating enable;    sticky enable;      resize set 625 400;   move position 1295 680 
+    bindsym $mod+KP_Prior   floating enable;    sticky enable;      resize set 625 400;   move position 1295 0 
+    bindsym $mod+KP_End     floating enable;    sticky enable;      resize set 625 400;   move position 0 680 
+    bindsym $mod+KP_Left    floating enable;    sticky enable;      resize set 625 400;   move position 0 340
+    bindsym $mod+KP_Right   floating enable;    sticky enable;      resize set 625 400;   move position 1295 340
+    bindsym $mod+KP_Up      floating enable;    sticky enable;      resize set 625 400;   move position 680 0
+    bindsym $mod+KP_Down    floating enable;    sticky enable;      resize set 625 400;   move position 680 680
+    bindsym $mod+KP_Delete  floating toggle
+    bindsym $mod+KP_Insert  focus mode_toggle
+
+# Launcher mode
+set $mode_launcher Launcher
+set $n_time 5000
+bindsym $mod+space mode "$mode_launcher" ; exec notify-send -t 5000 "Launcher" "[R]anger [N]nn [H]top nc[P]amixer [C]hromium [Z]athura news[B]oat [T]elegram [V]mpk [M]endeley [A]randr [G]imp [Q]bittorent [D]ocear"
+mode "$mode_launcher" {
+    bindsym r exec notify-send -t $n_time "Ranger has been started" && $terminal -e ranger ; mode "default" 
+    bindsym c exec notify-send -t $n_time "Chromium has been started" && $browser ; mode "default"
+    bindsym n exec notify-send -t $n_time "NNN has been started" && $terminal -n nnn -e "nnn" ; mode "default"
+    bindsym h exec notify-send -t $n_time "HTop has been started" && $terminal -e htop ; mode "default" 
+    bindsym p exec notify-send -t $n_time "ncPamixer has been started" && $terminal -e ncpamixer ; mode "default"
+    bindsym z exec notify-send -t $n_time "Zathura has been started" && zathura ; mode "default"
+    bindsym b exec notify-send -t $n_time "Newsboat has been started" && $terminal -e newsboat ; mode "default"
+    bindsym t exec notify-send -t $n_time "Telegram has been started" && telegram-desktop ; mode "default"
+    bindsym v exec notify-send -t $n_time "VMPK has been started" && qsynth & vmpk ; mode "default"
+    bindsym m exec notify-send -t $n_time "Mendeley has been started" && mendeleydesktop ; mode "default"
+    bindsym a exec notify-send -t $n_time "Arandr has been started" && arandr ; mode "default"
+    bindsym g exec notify-send -t $n_time "GIMP has been started" && gimp ; mode "default"
+    bindsym q exec notify-send -t $n_time "Qbittorrent has been started" && qbittorrent ; mode "default"
+    bindsym d exec notify-send -t $n_time "Docear has been started" && docear; mode "default"
+    
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+    bindsym $mod+space mode "default"
+    bindsym space mode "default"
+    }
+
+### SCRATCHPADS
+bindsym $mod+Control+Tab move scratchpad; move position center
+bindsym $mod+Control+grave scratchpad show; move position center
+# Luke's dropdown term
+    bindsym $mod+Tab [title="^dropdown"] scratchpad show; move position center
+    exec --no-startup-id $terminal -t dropdown
+    for_window [title="dropdown"]       floating enable
+    for_window [title="dropdown"]       resize set 625 400
+    for_window [title="dropdown"]       move position center
+    for_window [title="dropdown"]       move scratchpad
+# Grave HTOP scratchpad
+    bindsym $mod+grave [title="^htopdropdown"] scratchpad show; move position center
+    exec --no-startup-id $terminal -t htopdropdown -e htop
+    for_window [title="htopdropdown"]   floating enable
+    for_window [title="htopdropdown"]   resize set 1920 1060
+    for_window [title="htopdropdown"]   move position center
+    for_window [title="htopdropdown"]   move scratchpad
+# Float window for sxiv
+    for_window [instance="sxiv"]        floating enable
+    for_window [instance="sxiv"]        move position 950 50
+    for_window [instance="sxiv"]        floating_maximum_size -1 x -1
+    for_window [instance="sxiv"]        resize set 959 700
+
+
+### LOCKGRAVE
+#set $lockimg /home/gppk/pics/wallpaper/test/7.png
+#bindsym $mod+grave exec "i3lock -f -e -i $lockimg"
+### AUTOLOCK
+#exec --no-startup-id xautolock -time 15 -locker "betterlockscreen -l dim" -corners ---- -cornersize 80 -bell 0
+
+workspace_auto_back_and_forth yes
+focus_follows_mouse no
+
+### Gaps options
+for_window [class="^.*"] border pixel 2
+smart_gaps on
+smart_borders on
+gaps inner 15
+gaps outer 0
+
+# Gaps' bindsyms
+# inner gaps
+set $gaps_size 5
+bindsym $mod+plus       gaps inner all plus $gaps_size
+bindsym $mod+minus      gaps inner all minus $gaps_size
+bindsym $mod+BackSpace  gaps inner all set 0    
+# outer gaps
+bindsym $mod+Shift+plus         gaps outer all plus $gaps_size
+bindsym $mod+Shift+minus        gaps outer all minus $gaps_size
+bindsym $mod+Shift+BackSpace    gaps outer all set 0
+
+# Font for window titles. Used by the bar unless a different font in bar {} 
+font pango:
+
+# split in horizontal/vertical orientation
+bindsym $mod+v split toggle
+
+# Container layout (stacked, tabbed, toggle split)
+bindsym $mod+w layout toggle tabbed stacking split
+bindsym $mod+e layout toggle split
+
+# Floating options
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+# change focus between tiling / floating windows
+bindsym $mod+s focus mode_toggle
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+# focus the parent/child container
+bindsym $mod+a focus parent
+bindsym $mod+d focus child
+
+# Assignment 
+assign [title="chromium"] $ws2
+
+# Colors stuff
+# Defaults colors
+set $transparent            #00000000
+set $bg-color			    #4286f4
+set $inactive-bg-color		#000000
+set $text-color			    #f3f4f5
+set $inactive-text-color	#676E7D
+#set $urgent-bg-color		#E53935
+set $urgent-bg-color		#ff00ff
+
+# Window colors
+#                           border 			    	background		    	text			        indicator
+client.focused		    	$bg-color               #428aff			        $text-color	          	#ffff00
+client.unfocused	    	$inactive-bg-color		$inactive-bg-color		$inactive-text-color	#00ffff
+client.focused_inactive		$inactive-bg-color		$inactive-bg-color		$inactive-text-color	#00ffff
+client.urgent		    	$urgent-bg-color		$urgent-bg-color		$text-color	           	#00ffff
+
+# sticky mode for floating
+bindsym $mod+Shift+m mode "sticky" 
+mode "sticky" {
+	bindsym $mod+m exec i3-msg sticky enable
+	bindsym $mod+n exec i3-msg sticky disable
+	bindsym $mod+Shift+m mode "default"
+	}
+
+# Screenshots
+bindsym --release Print exec --no-startup-id "scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f /home/gppk/Dropbox/screenshots/'"
+bindsym --release $mod+Print exec --no-startup-id "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f /home/gppk/Dropbox/screenshots/'"
+
+# Rofi settings
+bindsym $mod+Escape exec "rofi -combi-modi drun,run -show combi -modi combi,calc"
+
+bindsym $mod+Return exec alacritty  #st #kitty
+bindsym $mod+q kill
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+## XF86 bindings
+bindsym $mod+F1 exec --no-startup-id ~/.config/polybar/launch.sh
+bindsym XF86Mail exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl move-sink-input 0 alsa_output.pci-0000_00_14.2.analog-stereo || pactl move-sink-input 0 alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71
+# bindsym XF86AudioPlay exec cmus-remote -u
+bindsym $mod+F4 exec feh --randomize --image-bg black --bg-scale $imgfold 
+# bindsym XF86AudioPrev exec cmus-remote -r
+# bindsym XF86AudioNext exec cmus-remote -n
+bindsym $mod+F7 exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl set-sink-volume alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71 -5% || pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo -5%
+bindsym $mod+F8 exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl set-sink-volume alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71 +5% || pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo +5%
+bindsym $mod+F9 exec --no-startup-id pactl set-sink-mute compressor-stereo toggle
+# bindsym XF86AudioMute exec --no-startup-id systemctl suspend
+
+# look at .screnlayout for scripts
+# VGA on
+exec xrandr --output VGA-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output LVDS --off --output HDMI-0 --off
+# LVDS on
+#exec xrandr --output LVDS --primary --mode 1366x768 --pos 0x0 --rotate normal --output HDMI-0 --off
+# VGA on LVDS on
+#exec xrandr --output VGA-0 --mode 1920x1080 --pos 0x0 --rotate normal --output LVDS --primary --mode 1366x768 --pos 1920x0 --rotate normal --output HDMI-0 --off
+
+### WALLPAPER
+set $imgfold /home/gppk/pics/wall/*
+exec --no-startup-id feh --randomize --image-bg black --bg-scale $imgfold
+
+### BAR
+## bar {
+##     status_command i3blocks -c ~/.config/i3/i3blocks.conf
+##     i3bar_command i3bar -t
+##     position top
+##     mode dock
+##     hidden_state hide
+##     modifier none
+## 
+##     height 20
+##     font pango:mono 9
+##     colors {
+##         background  $transparent
+## 		statusline  $text-color
+## 		separator   $transparent
+##         #                   border 			   	background		   	text			       indicator
+##         focused_workspace	$bg-color           $bg-color		    $text-color	          	#ffff00
+##         active_workspace	$inactive-bg-color	$inactive-bg-color	$inactive-text-color	#00ffff
+##         inactive_workspace	$transparent	    $transparent    	$text-color	            #00ffff
+##         urgent_workspace	$urgent-bg-color	$urgent-bg-color	$text-color	           	#00ffff
+##     }
+## }
+
+# Workspaces names
+set $ws1 " 1 "
+set $ws2 " 2 "
+set $ws3 " 3 " 
+set $ws4 " 4 "
+set $ws5 " 5 "
+set $ws6 " 6 "
+set $ws7 " 7 "
+set $ws8 " 8 "
+set $ws9 " 9 "
+set $ws10 " 10 "
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+bindsym $mod+n workspace prev
+bindsym $mod+period workspace next
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+m move workspace to output left
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+# alternatively, the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+# alternatively, the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Shrink layouts with the keyboard
+set $shrink_size 5
+bindsym $mod+y resize shrink width $shrink_size px or $shrink_size ppt
+bindsym $mod+u resize grow height $shrink_size px or $shrink_size ppt
+bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
+bindsym $mod+o resize grow width $shrink_size px or $shrink_size ppt
