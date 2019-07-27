@@ -99,7 +99,7 @@ bindsym Control_L+Print exec grim -g "$(slurp)" - | wl-copy
 
 bindsym $mod+Shift+d border toggle
 bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="'"bemenu -i -n -w -f --fn 'D2Coding for Powerline' --nb '#0269A4' --tb '#0269A4' --sb '#000000' --fb '#0269A4' --tf '#ffffff' --hf '#ffffff'"'" --term="alacritty"'
-bindsym $mod+Return exec st
+bindsym $mod+Return exec alacritty
 bindsym $mod+q kill
 bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+r reload
