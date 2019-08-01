@@ -21,7 +21,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -30,18 +30,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/usr/share/ghostscript/9.26
-	lib
-3
-d/usr/share/ghostscript/9.26/lib
-	..
-0
-d/usr/share/ghostscript/9.26
-	Resource
-1
-d/usr/share/ghostscript/9.26/Resource
-	CIDFSubst
-1
 d/usr/share/ghostscript/9.26/Resource/CIDFSubst
 	..
 0
@@ -629,31 +617,22 @@ d/home/gppk/Dropbox
 1
 d/home/gppk/Dropbox/screenshots
 	2019-07-19-08-56-01.jpeg
+3
+d/home/gppk/Dropbox
+	screenshots
 1
+d/home/gppk
+	Downloads
+1
+d/home/gppk/Downloads
+	Arcanum Multiverse Edition
+2
+d/home/gppk
+	.wine
+19
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/.config/dconf
-	user
-1
-D/home/gppk/.config
-	gconf
-16
-D/home/gppk/.config/gconf
-	apps
-1
-D/home/gppk/.config/gconf/apps
-	..
-0
-D/home/gppk/.config/gconf
-	apps
-1
-D/home/gppk/.config/gconf/apps
-	fluxgui
-1
-D/home/gppk/.config/gconf/apps/fluxgui
-	..
-0
 D/home/gppk/.config/gconf/apps
 	fluxgui
 1
@@ -1233,6 +1212,27 @@ D/home/gppk/pics/msk_botan_sad_japan_08_18
 D/home/gppk
 	..
 0
+D/home
+	gppk
+1
+D/
+	run
+1
+D/run
+	media
+1
+D/run/media
+	gppk
+1
+D/run/media/gppk
+	Kindle
+1
+D/run/media/gppk/Kindle
+	documents
+1
+D/run/media/gppk/Kindle/documents
+	Тургенев_-_Отцы_и_дети.mobi
+20
 D
 
 # Command line history (oldest to newest):
@@ -1300,7 +1300,6 @@ D
 :!wallpaper.sh $(echo "%f")
 :!wallpaper.sh "%f"
 :!wallpaper.sh %f
-:q
 :reload
 :wq
 :!extract %f
@@ -1324,6 +1323,7 @@ D
 :unrar %f
 :view
 :quit
+:q
 
 # Search history (oldest to newest):
 /Pata
