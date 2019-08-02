@@ -10,7 +10,7 @@ set $wal_bg 'swaymsg -s $SWAYSOCK output VGA-1 bg "$(< "${HOME}/.cache/wal/wal")
 
 include "$HOME/.cache/wal/colors-sway"
 
-# output LVDS-1 disable
+output LVDS-1 disable
 # output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg $wallpaper fill
 #output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg "$(find $HOME/pics/wall | shuf -n 1)" fill
 
