@@ -23,6 +23,10 @@ $comm -e epub -x mv {} ~/Downloads/epubs
 $comm -e fb2 -x mv {} ~/Downloads/fb2s  
 $comm -e ppt -x mv {} ~/Downloads/ppts  
 $comm -e zip -x mv {} ~/Downloads/zips  
+$comm -e jpg -x mv {} ~/pics  
+$comm -e jpeg -x mv {} ~/pics
+$comm -e jpg_ -x mv {} ~/pics
+$comm -e png -x mv {} ~/pics
 # $comm -e jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
 #                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
 #                                         -iname \*gif \) -exec mv {} ~/pics \; && \
