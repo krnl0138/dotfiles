@@ -16,13 +16,13 @@
 #                                         -iname \*gif \) -exec mv {} ~/Downloads \; 
 location=". $HOME/Downloads"
 comm="fd -I -d 1 -t f $location"
-$comm -e pdf -x mv ~/Downloads/pdfs/
-$comm -e djvu -x mv ~/Downloads/djvus
-$comm -e docx -x mv ~/Downloads/docxs
-$comm -e epub -x mv ~/Downloads/epubs
-$comm -e fb2 -x mv ~/Downloads/fb2s  
-$comm -e ppt -x mv ~/Downloads/ppts  
-$comm -e zip -x mv ~/Downloads/zips  
+$comm -e pdf -x mv {} ~/Downloads/pdfs
+$comm -e djvu -x mv {} ~/Downloads/djvus
+$comm -e docx -x mv {} ~/Downloads/docxs
+$comm -e epub -x mv {} ~/Downloads/epubs
+$comm -e fb2 -x mv {} ~/Downloads/fb2s  
+$comm -e ppt -x mv {} ~/Downloads/ppts  
+$comm -e zip -x mv {} ~/Downloads/zips  
 # $comm -e jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
 #                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
 #                                         -iname \*gif \) -exec mv {} ~/pics \; && \
