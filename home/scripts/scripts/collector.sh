@@ -1,6 +1,6 @@
-#!/bin/bash
-location="/home/gppk/Downloads"
-comm="find -maxdepth 1 -type f"
+#!/bin/sh
+location="$HOME/Downloads"
+comm=$(find -maxdepth 1 -type f)
 "$comm" "$location" \( -iname \*pdf \) -exec mv {} ~/Downloads/pdfs  \;  && \
 "$comm" "$location" \( -iname \*djvu \) -exec mv {} ~/Downloads/djvus  \; && \
 "$comm" "$location" \( -iname \*docx \) -exec mv {} ~/Downloads/docxs \; && \
