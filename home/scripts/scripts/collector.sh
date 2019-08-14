@@ -1,6 +1,6 @@
 #!/bin/sh
 location="/home/gppk/Downloads"
-style="-maxdepth 1 -type f"
+style='-maxdepth 1 -type f'
 find "$style" "$location" \( -iname \*pdf \) -exec mv {} ~/Downloads/pdfs  \;  && \
 find "$style" "$location" \( -iname \*djvu \) -exec mv {} ~/Downloads/djvus  \; && \
 find "$style" "$location" \( -iname \*docx \) -exec mv {} ~/Downloads/docxs \; && \
