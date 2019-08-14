@@ -7,15 +7,20 @@ set $mod      Mod1
 set $img_lock "~/pics/HURD_Live_CD.png"
 set $img_bg   "~/pics/wall/easy.png"
 set $wal_bg 'swaymsg -s $SWAYSOCK output VGA-1 bg "$(< "${HOME}/.cache/wal/wal")" fill'
+set $wallpaper "$HOME/pics/wall/nivkx2h6z7y21.png"
 
 include "$HOME/.cache/wal/colors-sway"
 
-output LVDS-1 disable
+# output LVDS-1 enable
+# output "*" bg $wallpaper fill 
+# output * {
+#     bg $wallpaper fill 
+# }
 # output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg $wallpaper fill
 #output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg "$(find $HOME/pics/wall | shuf -n 1)" fill
 
 ## KEYBOARD SETTINGS
-input * {
+input "*" {
     repeat_delay 200
     repeat_rate 80
     xkb_layout us,ru
@@ -25,8 +30,8 @@ input * {
 
 ## AUTOLOAD
 exec transmission-daemon
-exec wal -R 
-exec_always $wal_bg
+# exec wal -R 
+# exec_always $wal_bg
 exec waybar
 exec mako
 exec redshift -m wayland
@@ -331,3 +336,5 @@ bindsym $mod+y resize shrink width  $shrink_size px or $shrink_size ppt
 bindsym $mod+u resize grow   height $shrink_size px or $shrink_size ppt
 bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
 bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
+
+exec_always "$HOME/displays.sh"
