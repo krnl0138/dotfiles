@@ -633,18 +633,6 @@ d/home/gppk
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/.config/gconf/apps
-	fluxgui
-1
-D/home/gppk/.config/gconf
-	desktop
-2
-D/home/gppk/.config/gconf/desktop
-	gnome
-1
-D/home/gppk/.config/gconf/desktop/gnome
-	..
-0
 D/home/gppk/.config/gconf/desktop
 	%gconf.xml
 2
@@ -1233,6 +1221,18 @@ D/run/media/gppk/Kindle
 D/run/media/gppk/Kindle/documents
 	Тургенев_-_Отцы_и_дети.mobi
 20
+D/run/media
+	..
+0
+D/run
+	media
+10
+D/
+	run
+5
+D/home/gppk
+	..
+0
 D
 
 # Command line history (oldest to newest):
