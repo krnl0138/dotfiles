@@ -29,6 +29,7 @@ input "*" {
 }
 
 ## AUTOLOAD
+#exec_always "pgrep -x unclutter || (unclutter &)"
 exec transmission-daemon
 # exec wal -R 
 # exec_always $wal_bg
