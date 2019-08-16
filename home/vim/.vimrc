@@ -69,6 +69,7 @@ set smartcase
 " set nowritebackup
 " set noswapfile
 set backup
+set undofile
 set backupdir=/home/gppk/.vimbackup/backup
 set directory=/home/gppk/.vimbackup/swp
 set undodir=/home/gppk/.vimbackup/undo
