@@ -68,9 +68,9 @@ set smartcase
 " set nobackup
 " set nowritebackup
 " set noswapfile
-set backupdir=/home/gppk/.vimbackup
-set directory=/home/gppk/.vimbackup
-set undodir=/home/gppk/.vimbackup
+set backupdir=/home/gppk/.vimbackup/backup/
+set directory=/home/gppk/.vimbackup/
+set undodir=/home/gppk/.vimbackup/
 
 set mouse=a "using mouse
 set bs=2 " Better deleting by backspace
