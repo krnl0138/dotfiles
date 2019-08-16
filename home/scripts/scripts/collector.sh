@@ -1,7 +1,7 @@
 #!/bin/sh
 location=". $HOME/Downloads"
 location1=". $HOME/pics"
-comm="fd -I -d 1 -t f"
+comm="fd -d 1 -t f"
 $comm $location -e pdf -x mv {} ~/Downloads/pdfs
 $comm $location -e txt -x mv {} ~/Downloads/txts
 $comm $location -e djvu -x mv {} ~/Downloads/djvus
