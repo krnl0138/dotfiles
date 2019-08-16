@@ -37,6 +37,8 @@ set -x PRIME 'DRI_PRIME=1'
 
 ## ABBREVIATIONS
 #
+abbr L "| less"
+#
 abbr n nnn
 abbr e exit
 abbr q exit
