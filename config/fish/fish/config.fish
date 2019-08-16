@@ -3,7 +3,7 @@
 set -x PATH /usr/local/bin $PATH
 set -x BIB $HOME/uni.bib
 set -x SCRIPTS $HOME/scripts
-# set -x STOW_DIR $HOME/dotfiles
+set -x STOW_DIR $HOME/dotfiles
 set -x PATH $SCRIPTS:$PATH
 set -x EDITOR nvim
 set -x TERMINAL st
