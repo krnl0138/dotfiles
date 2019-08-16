@@ -21,7 +21,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -30,6 +30,126 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
+d/usr/share/ghostscript/9.26/Resource/CIDFSubst
+	..
+0
+d/usr/share/ghostscript/9.26/Resource
+	CIDFont
+2
+d/usr/share/ghostscript/9.26/Resource/CIDFont
+	..
+0
+d/usr/share/ghostscript/9.26/Resource
+	CMap
+3
+d/usr/share/ghostscript/9.26/Resource/CMap
+	..
+0
+d/usr/share/ghostscript/9.26/Resource
+	ColorSpace
+4
+d/usr/share/ghostscript/9.26/Resource/ColorSpace
+	..
+0
+d/usr/share/ghostscript/9.26/Resource
+	Decoding
+5
+d/usr/share/ghostscript/9.26/Resource/Decoding
+	StandardEncoding
+6
+d/usr/share/ghostscript/9.26/Resource
+	Encoding
+6
+d/usr/share/ghostscript/9.26/Resource/Encoding
+	..
+0
+d/home/gppk
+	..
+0
+d/
+	..
+0
+d/home/gppk/Dropbox
+	..
+0
+d/home/gppk
+	TIPP10
+9
+d/home/gppk/Downloads
+	pdfs
+11
+d/home/gppk/Downloads/pdfs
+	(Philosophy) Пол Фейерабенд-Наука в свободном обществе-АСТ (2010).pdf
+8
+d/home/gppk/Downloads
+	fb2s
+10
+d/home
+	gppk
+1
+d/home/gppk
+	..
+0
+d/home
+	gppk
+1
+d/home/gppk
+	Dropbox
+6
+d/home/gppk/Dropbox
+	..
+0
+d/home
+	gppk
+1
+d/home/gppk
+	Downloads
+5
+d/home/gppk/Downloads
+	pdfs
+11
+d/home/gppk/Downloads/pdfs
+	yoga
+3
+d/home/gppk/Downloads
+	..
+0
+d/home/gppk
+	..
+0
+d/home
+	..
+0
+d/
+	home
+4
+d/home
+	gppk
+1
+d/home/gppk
+	.local
+31
+d/home/gppk/.local
+	share
+1
+d/home/gppk/.local/share
+	Trash
+4
+d/home/gppk/.local/share/Trash
+	files
+1
+d/home/gppk/.local/share/Trash/files
+	..
+0
+d/home/gppk/.local/share/Trash
+	files
+1
+d/home/gppk/.local/share/Trash/files
+	1
+1
+d/home/gppk/.local/share/Trash/files/1
+	..
+0
 d/home/gppk/.local/share/Trash/files
 	..
 0
@@ -510,126 +630,6 @@ d/home/gppk/Downloads
 d/home/gppk
 	.wine
 19
-d/home/gppk/Downloads
-	Atrax Morgue - Sickness Report
-19
-d/home/gppk/Downloads/Atrax Morgue - Sickness Report
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	..
-0
-d/home/gppk/Downloads
-	rars
-2
-d/home/gppk/Downloads/rars
-	..
-0
-d/home/gppk/Downloads
-	txts
-1
-d/home/gppk/Downloads/txts
-	..
-0
-d/home/gppk/Downloads
-	21l-486-spring-2006
-11
-d/home/gppk/Downloads/21l-486-spring-2006
-	..
-0
-d/home/gppk/Downloads
-	xlsxs
-1
-d/home/gppk/Downloads/xlsxs
-	..
-0
-d/home/gppk/Downloads
-	docxs
-2
-d/home/gppk/Downloads/docxs
-	..
-0
-d/home/gppk/Downloads
-	txts
-3
-d/home/gppk/Downloads/txts
-	..
-0
-d/home/gppk/Downloads
-	archives
-4
-d/home/gppk/Downloads/archives
-	..
-0
-d/home/gppk/Downloads
-	archives
-4
-d/home/gppk/Downloads/archives
-	..
-0
-d/home/gppk/Downloads
-	rars
-5
-d/home/gppk/Downloads/rars
-	..
-0
-d/home/gppk/Downloads
-	zips
-9
-d/home/gppk/Downloads/zips
-	..
-0
-d/home/gppk/Downloads
-	archives
-4
-d/home/gppk/Downloads/archives
-	..
-0
-d/home/gppk/Downloads
-	zips
-9
-d/home/gppk/Downloads/zips
-	Diablo II + Median XL Sigma.7z
-8
-d/home/gppk/Downloads
-	rars
-6
-d/home/gppk/Downloads/rars
-	..
-0
-d/home/gppk/Downloads
-	rars
-6
-d/home/gppk/Downloads/rars
-	..
-0
-d/home/gppk/Downloads
-	zips
-2
-d/home/gppk/Downloads/zips
-	Adamhik Komandir.rar
-8
-d/home/gppk/Downloads
-	zips
-2
-d/home/gppk/Downloads/zips
-	Adamhik Komandir.rar
-8
-d/home/gppk/Downloads
-	docxs
-4
-d/home/gppk
-	Downloads
-1
 d
 
 # Right window history (oldest to newest):
@@ -1230,12 +1230,16 @@ D/
 D/home/gppk
 	..
 0
-D/home/gppk/pics
-	01.png
-31
+D/home/gppk/Downloads
+	Arcanum_Of_Steamworks_and_Magick_Obscura_Arcanum_Multiverse_Edition__RePack__MOD__ENG__RUS__rutracker-5213556_torrent.torrent
+19
 D
 
 # Command line history (oldest to newest):
+:mkdir rars
+:mkdir archives
+:mkdir txts
+:mkdir xlsxs
 :mkdir other
 :goto ~/pics
 :!Terminal
@@ -1261,7 +1265,6 @@ D
 :jobs
 :lstrash
 :!swayr
-:shell
 :file &<CR>
 :file &<cr>l
 :file &
@@ -1280,13 +1283,13 @@ D
 :!simple-fb2-reader %f
 :!zathura %f
 :!rename
+:rename
 :sort 
 :help sort
 :set millerview
 :set viewcolumns
 :tree
 :wincmd
-:s
 :mkdir t
 :Help
 :help
@@ -1322,14 +1325,16 @@ D
 :unrar %f
 :view
 :quit
-:mkdir rars
-:mkdir archives
-:mkdir txts
-:mkdir xlsxs
-:rename
 :q
+:xdg-mime query filetype %f
+:!xdg-mime query filetype %f
+:s
+:shell
 
 # Search history (oldest to newest):
+/2W
+/rars
+/txt
 /Pata
 /ghs
 /gh
@@ -1379,9 +1384,7 @@ D
 /gen
 /fish
 /howd
-/2W
-/rars
-/txt
+/torr
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
@@ -1391,7 +1394,6 @@ pp
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/gppk/.local/share/Trash/files/000_archives
 
 # Directory stack (oldest to newest):
 
