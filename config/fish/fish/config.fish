@@ -1,3 +1,11 @@
+## BINDS
+#
+bind \cr fzf_history_search
+bind \cq fzf_kill_process
+bind \ce fzf_cd_category
+bind \cf fzf_finder_home
+bind \ct fzf_finder_all
+
 ## EXPORTS
 ### Do i need -U flag??
 set -x PATH /usr/local/bin $PATH
