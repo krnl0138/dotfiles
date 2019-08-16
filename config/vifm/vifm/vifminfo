@@ -21,7 +21,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -30,15 +30,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/usr/share/ghostscript/9.26/Resource/CIDFSubst
-	..
-0
-d/usr/share/ghostscript/9.26/Resource
-	CIDFont
-2
-d/usr/share/ghostscript/9.26/Resource/CIDFont
-	..
-0
 d/usr/share/ghostscript/9.26/Resource
 	CMap
 3
@@ -628,98 +619,20 @@ d/home/gppk/Downloads
 	Arcanum Multiverse Edition
 2
 d/home/gppk
-	.wine
-18
+	dotfiles
+8
+d/home/gppk/dotfiles
+	config
+2
+d/home/gppk/dotfiles/config
+	llpp
+9
+d/home/gppk/dotfiles/config/llpp
+	llpp.conf
+1
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/pics
-	a_ec185bae.jpg
-8
-D/home/gppk
-	pics
-30
-D/home/gppk/pics
-	..
-0
-D/home/gppk
-	10.7.16.132
-30
-D/home/gppk/10.7.16.132
-	Local
-1
-D/home/gppk/10.7.16.132/Local
-	1 December 2018 at 10_41_48.mp3
-1
-D/home/gppk/Downloads
-	Спиноза Б. - Сочинения в двух томах. Том 1 %28Слово о сущем%29 - 1999.djvu
-58
-D/home/gppk/pics
-	Puerta_de_Brandeburgo,_Berlín,_Alemania,_2016-04-21,_DD_49-51_HDR.jpg
-15
-D/home/gppk/Downloads
-	t1731.html
-36
-D/home/gppk/pics
-	wall
-12
-D/home/gppk/pics/wall
-	ehtpoOx.jpg
-8
-D/home/gppk/Downloads
-	ziqijt0G
-65
-D/home/gppk
-	10.7.16.132
-30
-D/home
-	gppk
-1
-D/
-	var
-17
-D/home/gppk/Downloads
-	pdfs
-11
-D/home/gppk/Downloads/pdfs
-	Degrees-of-Belief.pdf
-46
-D/home/gppk/Downloads
-	pdfs
-1
-D/home/gppk/Downloads/pdfs
-	Горбатов В.В. Логико-онтологические предпосылки двумерной семантики.pdf
-13
-D/home/gppk/Downloads
-	spss_data_selhoz.xlsx
-21
-D/home/gppk
-	Downloads
-1
-D/home/gppk/Downloads
-	djvus
-1
-D/home/gppk/Downloads/djvus
-	(Научные биографии) Георгий Кнабе-Корнелий Тацит. Время.Жизнь.Книги-Наука (1981).djvu
-8
-D/home/gppk/Downloads
-	spss_data_selhoz.xlsx
-21
-D/home/gppk
-	10.7.16.132
-19
-D/home/gppk/10.7.16.132
-	Local
-1
-D/home/gppk/10.7.16.132/Local
-	28 September 2018 at 13_57_15.mp3
-8
-D/home/gppk/Downloads
-	zips
-1
-D/home/gppk/Downloads/zips
-	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-1
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
 	DeusEx
 1
@@ -1231,8 +1144,95 @@ D/home/gppk
 	VirtualBox VMs
 8
 D/home/gppk/pics
-	wallpaper
+	wallp
+11
+D/home/gppk/.config
+	fish
+8
+D/home/gppk/.config/fish
+	functions
+1
+D/home/gppk/.config/fish/functions
+	..
+0
+D/home/gppk/.config/fish
+	functions
+1
+D/home/gppk/.config/fish/functions
+	..
+0
+D/home/gppk/.config/fish
+	functions
+1
+D/home/gppk/.config
+	waybar
+8
+D/home/gppk
+	.config
+3
+D/home/gppk/.config
+	fish
+8
+D/home/gppk/.config/fish
+	functions
+1
+D/home/gppk/.config/fish/functions
+	cfg_ranger.fish
 12
+D/home/gppk/.config/fish
+	config.fish
+3
+D/home/gppk/.config
+	gxkb
+10
+D/home/gppk/.config/gxkb
+	gxkb.cfg
+1
+D/home/gppk/.config
+	VK
+12
+D/home/gppk/.config/VK
+	..
+0
+D/home/gppk/.config
+	enchant
+7
+D/home/gppk/.config/enchant
+	en_US.exc
+2
+D/home/gppk/.config
+	transmission-daemon
+4
+D/home/gppk/.config/transmission-daemon
+	..
+0
+D/home/gppk/.config
+	systemd
+15
+D/home/gppk/.config/systemd
+	user
+1
+D/home/gppk/.config/systemd/user
+	default.target.wants
+1
+D/home/gppk/.config/systemd/user/default.target.wants
+	..
+0
+D/home/gppk/.config/systemd/user
+	default.target.wants
+1
+D/home/gppk/.config/systemd
+	user
+1
+D/home/gppk/.config
+	wal
+12
+D/home/gppk/.config/wal
+	..
+0
+D/home/gppk/.config
+	llpp.conf
+18
 D
 
 # Command line history (oldest to newest):
@@ -1325,7 +1325,6 @@ D
 :unrar %f
 :view
 :quit
-:q
 :xdg-mime query filetype %f
 :!xdg-mime query filetype %f
 :s
@@ -1334,6 +1333,8 @@ D
 :file %
 :file %f
 :!xdg-open %f
+:!diff $HOME/.config/llpp.conf $HOME/dotfiles/config/llpp/llpp.conf
+:q
 
 # Search history (oldest to newest):
 /2W
@@ -1386,7 +1387,6 @@ D
 /yoga
 /local
 /gen
-/fish
 /howd
 /torr
 /Chr
@@ -1395,6 +1395,9 @@ D
 /back
 /g
 /git
+/fish
+/dot
+/ll
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
@@ -1404,7 +1407,7 @@ pp
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/gppk/.local/share/Trash/files/000_.git
+""/home/gppk/.local/share/Trash/files/000_VK
 
 # Directory stack (oldest to newest):
 
@@ -1795,6 +1798,8 @@ t/home/gppk/.local/share/Trash/files/000_ala
 	/home/gppk/ala
 t/home/gppk/.local/share/Trash/files/000_.git
 	/home/gppk/.git
+t/home/gppk/.local/share/Trash/files/000_gxkb
+	/home/gppk/.config/gxkb
 
 # State:
 f.*

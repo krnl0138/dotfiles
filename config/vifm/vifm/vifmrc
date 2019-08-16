@@ -32,7 +32,7 @@ nnoremap gs :cd $HOME/scripts <CR>
 nnoremap gD :cd $HOME/Dropbox <CR>
 nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
 nnoremap gc :cd $HOME/.config <CR>
-nnoremap <tab> :view <CR>
+nnoremap <tab> <C-w>p
 noremap <s-tab> :vsplit <CR>
 nnoremap : ;
 nnoremap ; :
