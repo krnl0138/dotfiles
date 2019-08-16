@@ -11,7 +11,6 @@ let mapleader=","
 " bufwritepost reads up to the end assuming <CR> is a part of a filename
 
 au BufWritePost $HOME/notes/*.md execute "normal ,cdd"
-au BufWritePost *.fish !funcsave <file>
 
 " Disables automatic commenting on newline:
 	" autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
