@@ -629,136 +629,10 @@ d/home/gppk/Downloads
 2
 d/home/gppk
 	.wine
-19
+18
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/.config
-	user-dirs.locale
-24
-D/home/gppk
-	calibre_library
-15
-D/home/gppk/.config
-	..
-0
-D/home/gppk
-	scripts
-13
-D/home/gppk/scripts
-	compiler.sh
-5
-D/home/gppk/.config
-	sway
-14
-D/home/gppk/.config/sway
-	config_i3
-2
-D/home/gppk/.config
-	sway
-14
-D/home/gppk
-	dotfiles
-17
-D/home/gppk/dotfiles
-	sway
-7
-D/home/gppk/dotfiles/sway
-	config
-1
-D/home/gppk/dotfiles
-	sway
-7
-D/home/gppk
-	backup
-14
-D/home/gppk/backup
-	dotfiles_03-06-2019
-1
-D/home/gppk/backup/dotfiles_03-06-2019
-	..
-0
-D/home/gppk/backup
-	dotfiles_backup
-2
-D/home/gppk/backup/dotfiles_backup
-	.config
-1
-D/home/gppk/backup
-	mypackages_03-03-2019.txt
-2
-D/home/gppk
-	dotfiles
-17
-D/home/gppk/dotfiles
-	vim
-9
-D/home/gppk/dotfiles/vim
-	.vim
-1
-D/home/gppk/dotfiles/vim/.vim
-	plugin
-3
-D/home/gppk/dotfiles/vim/.vim/plugin
-	vimcolors.vim
-2
-D/home/gppk/dotfiles/vim/.vim
-	spell
-3
-D/home/gppk/dotfiles/vim
-	.vim
-1
-D/home/gppk/dotfiles
-	vim
-9
-D/home/gppk
-	.vim
-8
-D/home/gppk/.vim
-	autoload
-1
-D/home/gppk/.vim/autoload
-	..
-0
-D/home/gppk/.vim
-	colors
-2
-D/home/gppk/.vim/colors
-	..
-0
-D/home/gppk/.vim
-	colors
-2
-D/home/gppk/.vim/colors
-	..
-0
-D/home/gppk/.vim
-	swap
-4
-D/home/gppk/.vim/swap
-	..
-0
-D/home/gppk/.vim
-	spell
-3
-D/home/gppk/.vim/spell
-	..
-0
-D/home/gppk/.vim
-	view
-5
-D/home/gppk/.vim/view
-	..
-0
-D/home/gppk/.vim
-	vimplug
-6
-D/home/gppk/.vim/vimplug
-	diffconflicts
-2
-D/home/gppk/.vim
-	vimplug
-6
 D/home/gppk/pics
 	a_ec185bae.jpg
 8
@@ -1231,8 +1105,134 @@ D/home/gppk/Downloads
 	xlsxs
 4
 D/home/gppk/Downloads/xlsxs
-	memoirs_without_stopwords.xlsx
+	..
+0
+D/home/gppk/Downloads
+	xlsxs
+1
+D/home/gppk
+	.vimbackup
+1
+D/home/gppk/.vimbackup
+	backup
+1
+D/home/gppk/.vimbackup/backup
+	..
+0
+D/home/gppk/.vimbackup
+	backup
 2
+D/home/gppk
+	.vimbackup
+1
+D/home/gppk/.vimbackup
+	swp
+1
+D/home/gppk/.vimbackup/swp
+	..
+0
+D/home/gppk/.vimbackup
+	swp
+1
+D/home/gppk
+	.vimbackup
+1
+D/home/gppk/.vimbackup
+	swp
+1
+D/home/gppk
+	.vimbackup
+1
+D/home
+	gppk
+1
+D/
+	tmp
+0
+D/tmp
+	.vimrc.swp
+23
+D/
+	tmp
+0
+D/home/gppk
+	.vimbackup
+1
+D/home/gppk/.vimbackup
+	swp
+1
+D/home/gppk/.vimbackup/swp
+	..
+0
+D/home/gppk/.vimbackup
+	backup
+2
+D/home/gppk/.vimbackup/backup
+	..
+0
+D/home/gppk/.vimbackup
+	swp
+1
+D/home/gppk/.vimbackup/swp
+	..
+0
+D/home/gppk/.vimbackup
+	backup
+1
+D/home/gppk/.vimbackup/backup
+	..
+0
+D/home/gppk/.vimbackup
+	backup
+1
+D/home/gppk/.vimbackup/backup
+	again1~
+1
+D/home/gppk/.vimbackup
+	swp
+2
+D/home/gppk/.vimbackup/swp
+	..
+0
+D/home/gppk/.vimbackup
+	backup
+1
+D/home/gppk/.vimbackup/backup
+	again1~
+1
+D/home/gppk/.vimbackup
+	backup
+1
+D/home/gppk/.vimbackup/backup
+	again1~
+2
+D/home/gppk/.vimbackup
+	undo
+2
+D/home/gppk/.vimbackup/undo
+	%home%gppk%again2
+1
+D/home/gppk/.vimbackup
+	undo
+2
+D/home/gppk
+	.git
+8
+D/home/gppk/.git
+	branches
+4
+D/home/gppk/.git/branches
+	..
+0
+D/home/gppk/.git
+	ORIG_HEAD
+9
+D/home/gppk
+	VirtualBox VMs
+8
+D/home/gppk/pics
+	wallpaper
+12
 D
 
 # Command line history (oldest to newest):
@@ -1390,6 +1390,11 @@ D
 /howd
 /torr
 /Chr
+/tmp
+/swp
+/back
+/g
+/git
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
@@ -1399,6 +1404,7 @@ pp
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/gppk/.local/share/Trash/files/000_.git
 
 # Directory stack (oldest to newest):
 
@@ -1763,6 +1769,32 @@ t/home/gppk/.local/share/Trash/files/000_DeusEx
 	/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
 t/home/gppk/.local/share/Trash/files/000_archives
 	/home/gppk/Downloads/archives
+t/home/gppk/.local/share/Trash/files/000_again2
+	/home/gppk/again2
+t/home/gppk/.local/share/Trash/files/000_again1
+	/home/gppk/again1
+t/home/gppk/.local/share/Trash/files/000_again
+	/home/gppk/again
+t/home/gppk/.local/share/Trash/files/000_wow
+	/home/gppk/wow
+t/home/gppk/.local/share/Trash/files/000_aoo
+	/home/gppk/aoo
+t/home/gppk/.local/share/Trash/files/000_hell
+	/home/gppk/hell
+t/home/gppk/.local/share/Trash/files/000_jude
+	/home/gppk/jude
+t/home/gppk/.local/share/Trash/files/000_alex
+	/home/gppk/alex
+t/home/gppk/.local/share/Trash/files/000_todd
+	/home/gppk/todd
+t/home/gppk/.local/share/Trash/files/000_kate
+	/home/gppk/kate
+t/home/gppk/.local/share/Trash/files/000_kit
+	/home/gppk/kit
+t/home/gppk/.local/share/Trash/files/000_ala
+	/home/gppk/ala
+t/home/gppk/.local/share/Trash/files/000_.git
+	/home/gppk/.git
 
 # State:
 f.*

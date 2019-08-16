@@ -28,19 +28,6 @@ input "*" {
     xkb_options grp:caps_toggle
 }
 
-## AUTOLOAD
-#exec_always "pgrep -x unclutter || (unclutter &)"
-exec transmission-daemon
-# exec wal -R 
-# exec_always $wal_bg
-exec waybar
-exec mako
-exec redshift -m wayland
-exec swayidle -w \
-    timeout 600 'swaylock -s stretch -fli $img_lock' \
-    timeout 700 'swaymsg "output * dpms off"' \
-        resume 'swaymsg "output * dpms on" && $wal_bg ' \
-    before-sleep 'swaylock -s stretch -fli $img_lock'
 
 workspace_auto_back_and_forth yes
 focus_follows_mouse no
@@ -150,19 +137,19 @@ bindsym $mod+F12 exec --no-startup-id pulsemixer --change-volume +5
 ### WINDOWS
 # Float window for sxiv
     for_window [instance="sxiv"] floating enable
-    for_window [instance="sxiv"] move position 950 50
-    for_window [instance="sxiv"] floating_maximum_size -1 x -1
-    for_window [instance="sxiv"] resize set 959 700
+    # for_window [instance="sxiv"] move position 950 50
+    # for_window [instance="sxiv"] floating_maximum_size -1 x -1
+    # for_window [instance="sxiv"] resize set 959 700
 # Float window for imv
     for_window [instance="imv"]  floating enable
-    for_window [instance="imv"]  move position 750 1
-    for_window [instance="imv"]  floating_maximum_size -1 x -1
-    for_window [instance="imv"]  resize set 640 380
+    # for_window [instance="imv"]  move position 750 1
+    # for_window [instance="imv"]  floating_maximum_size -1 x -1
+    # for_window [instance="imv"]  resize set 640 380
 # Float window for feh
     for_window [instance="feh"]  floating enable
-    for_window [instance="feh"]  move position 950 50
-    for_window [instance="feh"]  floating_maximum_size -1 x -1
-    for_window [instance="feh"]  resize set 800 600
+    # for_window [instance="feh"]  move position 950 50
+    # for_window [instance="feh"]  floating_maximum_size -1 x -1
+    # for_window [instance="feh"]  resize set 800 600
 # Float window for zotero
     for_window [class="zotero"]  floating enable
 
@@ -339,3 +326,16 @@ bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
 bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
 
 exec_always "$HOME/displays.sh"
+## AUTOLOAD
+#exec_always "pgrep -x unclutter || (unclutter &)"
+exec transmission-daemon
+# exec wal -R 
+# exec_always $wal_bg
+exec "pgrep -x waybar || (waybar &)"
+exec mako
+exec redshift -m wayland
+exec swayidle -w \
+    timeout 600 'swaylock -s stretch -fli $img_lock' \
+    timeout 700 'swaymsg "output * dpms off"' \
+        resume 'swaymsg "output * dpms on" && $wal_bg ' \
+    before-sleep 'swaylock -s stretch -fli $img_lock'
