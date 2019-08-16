@@ -634,12 +634,6 @@ d
 
 # Right window history (oldest to newest):
 D/home/gppk/.config
-	gconf
-16
-D/home/gppk
-	.config
-8
-D/home/gppk/.config
 	user-dirs.locale
 24
 D/home/gppk
@@ -1233,6 +1227,12 @@ D/home/gppk/Downloads
 D/home/gppk/Downloads/xlsxs
 	memoirs_without_stopwords.xlsx
 2
+D/home/gppk/Downloads
+	xlsxs
+4
+D/home/gppk/Downloads/xlsxs
+	memoirs_without_stopwords.xlsx
+2
 D
 
 # Command line history (oldest to newest):
@@ -1331,6 +1331,9 @@ D
 :s
 :shell
 :!sc-im &f
+:file %
+:file %f
+:!xdg-open %f
 
 # Search history (oldest to newest):
 /2W
@@ -1386,6 +1389,7 @@ D
 /fish
 /howd
 /torr
+/Chr
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
