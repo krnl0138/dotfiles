@@ -633,9 +633,6 @@ d/home/gppk
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/.config/gconf
-	desktop
-2
 D/home/gppk/.config
 	gconf
 16
@@ -1231,8 +1228,11 @@ D/home/gppk
 	..
 0
 D/home/gppk/Downloads
-	Arcanum_Of_Steamworks_and_Magick_Obscura_Arcanum_Multiverse_Edition__RePack__MOD__ENG__RUS__rutracker-5213556_torrent.torrent
-19
+	xlsxs
+4
+D/home/gppk/Downloads/xlsxs
+	memoirs_without_stopwords.xlsx
+2
 D
 
 # Command line history (oldest to newest):
@@ -1330,6 +1330,7 @@ D
 :!xdg-mime query filetype %f
 :s
 :shell
+:!sc-im &f
 
 # Search history (oldest to newest):
 /2W
