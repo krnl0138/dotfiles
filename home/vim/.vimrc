@@ -65,9 +65,12 @@ set incsearch
 set ignorecase
 set smartcase
 " History
-set nobackup
-set nowritebackup
-set noswapfile
+" set nobackup
+" set nowritebackup
+" set noswapfile
+set backupdir="$HOME"/.vimbackup,/tmp//
+set directory="$HOME"/.vimbackup,/tmp//
+set undodir="$HOME"/.vimbackup,/tmp//
 
 set mouse=a "using mouse
 set bs=2 " Better deleting by backspace
