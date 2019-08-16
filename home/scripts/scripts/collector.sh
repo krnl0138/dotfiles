@@ -1,35 +1,30 @@
 #!/bin/sh
-# location="$HOME/Downloads"
-# comm="find -maxdepth 1 -type f $location"
-# $comm \( -iname \*pdf \) -exec mv {} ~/Downloads/pdfs  \;  && \
-# $comm \( -iname \*djvu \) -exec mv {} ~/Downloads/djvus  \; && \
-# $comm \( -iname \*docx \) -exec mv {} ~/Downloads/docxs \; && \
-# $comm \( -iname \*epub \) -exec mv {} ~/Downloads/epubs \; && \
-# $comm \( -iname \*fb2 \) -exec mv {} ~/Downloads/fb2s  \; && \
-# $comm \( -iname \*ppt \) -exec mv {} ~/Downloads/ppts  \; && \
-# $comm \( -iname \*zip \) -exec mv {} ~/Downloads/zips  \; && \
-# $comm \( -iname \*jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
-#                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
-#                                         -iname \*gif \) -exec mv {} ~/pics \; && \
-# find ~/pics "$style" ! \( -iname \*jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
-#                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
-#                                         -iname \*gif \) -exec mv {} ~/Downloads \; 
 location=". $HOME/Downloads"
-comm="fd -I -d 1 -t f $location"
-$comm -e pdf -x mv {} ~/Downloads/pdfs
-$comm -e djvu -x mv {} ~/Downloads/djvus
-$comm -e docx -x mv {} ~/Downloads/docxs
-$comm -e epub -x mv {} ~/Downloads/epubs
-$comm -e fb2 -x mv {} ~/Downloads/fb2s  
-$comm -e ppt -x mv {} ~/Downloads/ppts  
-$comm -e zip -x mv {} ~/Downloads/zips  
-$comm -e jpg -x mv {} ~/pics  
-$comm -e jpeg -x mv {} ~/pics
-$comm -e jpg_ -x mv {} ~/pics
-$comm -e png -x mv {} ~/pics
-# $comm -e jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
-#                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
-#                                         -iname \*gif \) -exec mv {} ~/pics \; && \
-# find ~/pics "$style" ! \( -iname \*jpg -o -iname \*jpeg -o -iname \*jpg_ -o \
-#                                         -iname \*jpe -o -iname \*png -o -iname \*png_ -o \
-#                                         -iname \*gif \) -exec mv {} ~/Downloads \; 
+location1=". $HOME/pics"
+comm="fd -I -d 1 -t f"
+$comm $location -e pdf -x mv {} ~/Downloads/pdfs
+$comm $location -e txt -x mv {} ~/Downloads/txts
+$comm $location -e djvu -x mv {} ~/Downloads/djvus
+$comm $location -e docx -x mv {} ~/Downloads/docxs
+$comm $location -e doc -x mv {} ~/Downloads/docxs
+$comm $location -e xlsx -x mv {} ~/Downloads/xlsxs
+$comm $location -e xls -x mv {} ~/Downloads/xlsxs
+$comm $location -e epub -x mv {} ~/Downloads/epubs
+$comm $location -e fb2 -x mv {} ~/Downloads/fb2s  
+$comm $location -e ppt -x mv {} ~/Downloads/ppts  
+$comm $location -e torrent -x mv {} ~/Downloads/torrents  
+$comm $location -e rar -x mv {} ~/Downloads/archives
+$comm $location -e 7z -x mv {} ~/Downloads/archives
+$comm $location -e zip -x mv {} ~/Downloads/archives  
+$comm $location -e jpg -x mv {} ~/pics  
+$comm $location -e jpe -x mv {} ~/pics  
+$comm $location -e JPG -x mv {} ~/pics  
+$comm $location -e jpeg -x mv {} ~/pics
+$comm $location -e jpg_ -x mv {} ~/pics
+$comm $location -e png -x mv {} ~/pics
+$comm $location -e PNG -x mv {} ~/pics
+$comm $location -e png_ -x mv {} ~/pics
+$comm $location -e gif -x mv {} ~/pics  
+
+$comm $location1 -E "*.jpg" -E "*.png" -E "*.gif" -E "*.JPG" -E "*.jpeg" -E "*.jpe" -E "*.png_" -E "*.jpg_" -E "*.PNG"
+
