@@ -103,7 +103,7 @@ bindsym $mod+Shift+r reload
 ## XF86 bindings
 bindsym $mod+F1 reload
 bindsym $mod+F2 exec $TERMINAL -e nmtui-connect
-bindsym $mod+F3 exec "pgrep -x waybar || waybar &" 
+bindsym $mod+F3 exec "pgrep -x waybar || waybar &"
 bindsym $mod+F4 exec --no-startup-id wallpaper.sh
 bindsym $mod+F5 exec light -U 5
 bindsym $mod+F6 exec light -A 5
