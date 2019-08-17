@@ -330,7 +330,7 @@ exec_always sh "$HOME/displays.sh"
 # exec transmission-daemon
 ## exec wal -R 
 # exec_always $wal_bg
-# exec "pgrep -x waybar || (waybar &)"
+exec_always "pgrep -x waybar || (waybar &)"
 exec mako
 exec redshift -m wayland
 exec swayidle -w \
