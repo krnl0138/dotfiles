@@ -324,7 +324,7 @@ bindsym $mod+u resize grow   height $shrink_size px or $shrink_size ppt
 bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
 bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
 
-# exec_always "$HOME/displays.sh"
+exec_always "$HOME/displays.sh"
 ### AUTOLOAD
 ##exec_always "pgrep -x unclutter || (unclutter &)"
 # exec transmission-daemon
