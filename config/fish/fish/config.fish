@@ -1,3 +1,4 @@
+# CONFIGURATION FILE FOR FISH SHELL
 ## BINDS
 #
 bind \cr fzf_history_search
