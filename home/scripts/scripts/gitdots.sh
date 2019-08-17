@@ -4,4 +4,5 @@
 export DISPLAY=:0
 eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME sway | sed -n 1p)/environ)";
 cd "$HOME/dotfiles"
-git add * && git commit -am "regular auto update" && git push && notify-send "Dotfiles were synchronized successfully" || notify-send "Synchronization of dots failed "
+git add * && git commit -am "regular auto update" && git push && notify-send 
+"Dotfiles were synchronized successfully" || notify-send "Synchronization of dots failed or there were no changes"
