@@ -1,6 +1,6 @@
 ## BINDS
 #
-bind \ch fzf_history_search
+bind \cr fzf_history_search
 bind \cq fzf_kill_process
 bind \ce fzf_cd_category
 bind \ct fzf_finder_home
