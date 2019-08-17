@@ -633,21 +633,6 @@ d/home/gppk
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog
-	Temp
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog/Temp
-	..
-0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gog
-	Temp
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users
-	gppk
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk
-	My Documents
-1
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
 	Deus Ex
 1
@@ -1232,7 +1217,22 @@ D/home/gppk/.config/fish
 1
 D/home/gppk/.config/fish/functions
 	cfg_fish.fish
+7
+D/home/gppk/.config/fish
+	functions
 1
+D/home/gppk/.config
+	fish
+8
+D/home/gppk
+	scripts
+19
+D/home/gppk/scripts
+	trash_notification.sh
+1
+D/home/gppk
+	scripts
+19
 D
 
 # Command line history (oldest to newest):
@@ -1334,12 +1334,12 @@ D
 :file %f
 :!xdg-open %f
 :!diff $HOME/.config/llpp.conf $HOME/dotfiles/config/llpp/llpp.conf
-:q
 :!vimdiff $HOME/.config/llpp.conf $HOME/dotfiles/config/llpp/llpp.conf
 :mkdir hll
 :mkdir wow
 :mkdir llpp
 :/fish
+:q
 
 # Search history (oldest to newest):
 /2W
@@ -1405,6 +1405,7 @@ D
 /imv
 /fish
 /cfg_f
+/scrip
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
