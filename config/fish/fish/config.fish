@@ -13,7 +13,7 @@ set -x BIB $HOME/uni.bib
 set -x SCRIPTS $HOME/scripts
 set -x STOW_DIR $HOME/dotfiles
 set -x PATH $SCRIPTS:$PATH
-set -x EDITOR vim
+set -x EDITOR nvim
 set -x TERMINAL st
 set -x READER zathura
 set -x BROWSER chromium
