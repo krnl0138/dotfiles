@@ -117,8 +117,8 @@ bindsym $mod+F12 exec --no-startup-id pulsemixer --change-volume +5
 # bindsym $mod+Control+Tab move scratchpad; move position center
 # bindsym $mod+Control+grave scratchpad show; move position center
 # Luke's dropdown term
-    exec --no-startup-id $TERMINAL -t dropdown
-    bindsym $mod+Tab   [title="^dropdown"] scratchpad show; move position center
+    exec $TERMINAL -t dropdown
+    bindsym $mod+Tab   [title="dropdown"] scratchpad show; move position center
     for_window [title="dropdown"] floating enable
     for_window [title="dropdown"] resize set 625 400
     for_window [title="dropdown"] move position center
