@@ -25,9 +25,7 @@ set -x NNN_SCRIPT $HOME/.config/nnn/scripts
 set -x NNN_SHOW_HIDDEN 1
 set -x LC_COLLATE "C"
 set -x NNN_BMS 'd:~/Downloads;p:~/pics;D:~/Dropbox/;s:~/Dropbox/screenshots' 
-set -x FZF_DEFAULT_OPTS "--reverse --height=40% --color=dark --cycle -m \
-                            --bind=ctrl-alt-j:down,ctrl-alt-k:up --inline-info \
-                            --preview '(highlight -O ansi -l {}) | head -100'" 
+set -x FZF_DEFAULT_OPTS "--reverse --height=40% --color=dark --cycle -m --bind=ctrl-alt-j:down,ctrl-alt-k:up --inline-info --preview '(highlight -O ansi -l {}) | head -100'" 
 set -x LESS -R
 # Discrete video card options
 # like: vlc='DRI_PRIME=1 vlc'
