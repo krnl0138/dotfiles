@@ -8,6 +8,7 @@ bind \ct fzf_finder_home
 
 ## EXPORTS
 ### Do i need -U flag??
+set -x XDG_CURRENT_DESKTOP Unity
 set -x PATH /usr/local/bin $PATH
 set -x BIB $HOME/uni.bib
 set -x SCRIPTS $HOME/scripts
