@@ -330,6 +330,7 @@ exec_always sh $HOME/displays.sh
 ## exec wal -R 
 # exec_always $wal_bg
 exec_always "pgrep -x waybar || waybar &"
+exec udiskie &
 exec mako
 exec redshift -m wayland
 exec swayidle -w \

@@ -21,7 +21,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -30,18 +30,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/.local/share
-	Trash
-4
-d/home/gppk/.local/share/Trash
-	files
-1
-d/home/gppk/.local/share/Trash/files
-	..
-0
-d/home/gppk/.local/share/Trash
-	..
-0
 d/home/gppk/.local/share
 	..
 0
@@ -630,6 +618,18 @@ d/home/gppk/dotfiles1
 d/home/gppk
 	..
 0
+d/home
+	gppk
+1
+d/
+	var
+4
+d/var
+	lib
+2
+d/var/lib
+	mlocate
+1
 d
 
 # Right window history (oldest to newest):
@@ -1232,7 +1232,7 @@ D/home/gppk/scripts
 1
 D/home/gppk
 	scripts
-19
+16
 D
 
 # Command line history (oldest to newest):

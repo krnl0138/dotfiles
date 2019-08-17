@@ -74,6 +74,7 @@ SETUVAR _fish_abbr_tree:tree\x20\x2dhC
 SETUVAR _fish_abbr_tree1:tree\x20\x2dhCL\x201
 SETUVAR _fish_abbr_tree2:tree\x20\x2dhCL\x202
 SETUVAR _fish_abbr_tree3:tree\x20\x2dhCL\x203
+SETUVAR _fish_abbr_vim:nvim
 SETUVAR _fish_abbr_vless:/home/gppk/\x2evim/less\x2esh
 SETUVAR _fish_abbr_weather_2D_odintsovo:curl\x20wttr\x2ein/odintsovo
 SETUVAR _fish_abbr_weather_2D_saratov:curl\x20wttr\x2ein/saratov
