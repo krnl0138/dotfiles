@@ -27,4 +27,4 @@ $comm $location -e png_ -x mv {} ~/pics
 $comm $location -e gif -x mv {} ~/pics  
 
 $comm $location1 -E "*.jpg" -E "*.png" -E "*.gif" -E "*.JPG" -E "*.jpeg" -E "*.jpe" -E "*.png_" -E "*.jpg_" -E "*.PNG"
-
+notify-send -t 5000 "HELLO"
