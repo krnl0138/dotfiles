@@ -1,4 +1,5 @@
 ## BINDS
+#
 bind \cr fzf_history_search
 bind \cq fzf_kill_process
 # bind \ce fzf_cd_category
