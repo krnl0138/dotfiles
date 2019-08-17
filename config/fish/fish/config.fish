@@ -45,6 +45,7 @@ set -x PRIME 'DRI_PRIME=1'
 # set -x LESS_TERMCAP_so $(printf '\e[1;44;1m')
 
 ## ABBREVIATIONS
+abbr vim nvim
 #
 abbr n nnn
 abbr e exit
