@@ -9,7 +9,7 @@ set $img_bg   "~/pics/wall/easy.png"
 set $wal_bg 'swaymsg -s $SWAYSOCK output VGA-1 bg "$(< "${HOME}/.cache/wal/wal")" fill'
 set $wallpaper "$HOME/pics/wall/nivkx2h6z7y21.png"
 
-# include "$HOME/.cache/wal/colors-sway"
+include "$HOME/.cache/wal/colors-sway"
 
 # output LVDS-1 enable
 # output "*" bg $wallpaper fill 
@@ -324,17 +324,17 @@ bindsym $mod+u resize grow   height $shrink_size px or $shrink_size ppt
 bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
 bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
 
-exec_always "$HOME/displays.sh"
-## AUTOLOAD
-#exec_always "pgrep -x unclutter || (unclutter &)"
-exec transmission-daemon
-# exec wal -R 
-# exec_always $wal_bg
-# exec "pgrep -x waybar || (waybar &)"
-exec mako
-exec redshift -m wayland
-exec swayidle -w \
-    timeout 600 'swaylock -s stretch -fli $img_lock' \
-    timeout 700 'swaymsg "output * dpms off"' \
-        resume 'swaymsg "output * dpms on" && $wal_bg ' \
-    before-sleep 'swaylock -s stretch -fli $img_lock'
+#exec_always "$HOME/displays.sh"
+### AUTOLOAD
+##exec_always "pgrep -x unclutter || (unclutter &)"
+#exec transmission-daemon
+## exec wal -R 
+## exec_always $wal_bg
+## exec "pgrep -x waybar || (waybar &)"
+#exec mako
+#exec redshift -m wayland
+#exec swayidle -w \
+#    timeout 600 'swaylock -s stretch -fli $img_lock' \
+#    timeout 700 'swaymsg "output * dpms off"' \
+#        resume 'swaymsg "output * dpms on" && $wal_bg ' \
+#    before-sleep 'swaylock -s stretch -fli $img_lock'
