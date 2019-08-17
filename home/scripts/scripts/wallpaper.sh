@@ -1,3 +1,3 @@
-#!/bin/bash
-NEW=$(readlink -f "$1")
-swaymsg -s $SWAYSOCK output VGA-1 bg "$NEW" fill
+#!/bin/sh
+NEW=$(fd . "$HOME/pics/wall" | shuf -n 1)
+swaymsg output "*" bg "$NEW" fill

@@ -104,7 +104,7 @@ bindsym $mod+Shift+r reload
 bindsym $mod+F1 reload
 bindsym $mod+F2 exec $TERMINAL -e nmtui-connect
 bindsym $mod+F3 exec "pgrep -x waybar || waybar &"
-bindsym $mod+F4 exec --no-startup-id wallpaper.sh
+bindsym $mod+F4 exec --no-startup-id $HOME/scripts/wallpaper.sh
 bindsym $mod+F5 exec light -U 5
 bindsym $mod+F6 exec light -A 5
 bindsym $mod+F7 exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl set-sink-volume alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71 -5% || pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo -5%
