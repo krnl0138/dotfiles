@@ -14,7 +14,8 @@ set -x SCRIPTS $HOME/scripts
 set -x STOW_DIR $HOME/dotfiles
 set -x PATH $SCRIPTS:$PATH
 set -x EDITOR nvim
-set -x TERMINAL st
+set -x TERM alacritty
+set -x TERMINAL alacritty
 set -x READER zathura
 set -x BROWSER chromium
 set -x PLAYER mpv

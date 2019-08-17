@@ -16,7 +16,7 @@ SETUVAR --export PLAYER:mpv
 SETUVAR --export PRIME:DRI_PRIME\x3d1
 SETUVAR --export READER:zathura
 SETUVAR --export SCRIPTS:/home/gppk/scripts
-SETUVAR --export TERMINAL:st
+SETUVAR --export TERMINAL:alacritty
 SETUVAR --export VISUAL:nvim
 SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_init_2_39_8:\x1d
