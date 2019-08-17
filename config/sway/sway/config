@@ -67,9 +67,9 @@ bindsym $mod+e layout toggle split
 
 # Floating options
 # toggle tiling / floating
-bindsym $mod+shift+grave floating toggle
+bindsym $mod+grave floating toggle
 # change focus between tiling / floating windows
-bindsym $mod+grave focus mode_toggle
+bindsym $mod+shift+grave focus mode_toggle
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
