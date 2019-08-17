@@ -1,7 +1,6 @@
 ###
 # SWAY CONFIG FILE
 ###
-
 ### DEFAULT VARS
 set $mod      Mod1
 set $img_lock "~/pics/HURD_Live_CD.png"
@@ -98,7 +97,6 @@ bindsym $mod+Shift+r reload
 #bindsym $mod+Shift+c restart
 
 # bindsym $mod+Tab focus right
-
 
 ## XF86 bindings
 bindsym $mod+F1 reload
