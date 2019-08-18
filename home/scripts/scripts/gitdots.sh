@@ -6,4 +6,4 @@ eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME sway 
 SUCCESS_TEXT="Synchronization of dots at github succeeded"
 FAIL_TEXT="Synchronization of dots at github failed or there were no changes"
 cd "$HOME/dotfiles"
-git add * && git commit -am "regular auto update" && git push && notify-send $SUCCESS_TEXT || notify-send $FAIL_TEXT
+git add * && git commit -am "regular auto update" && git push && notify-send "$SUCCESS_TEXT" || notify-send "$FAIL_TEXT"
