@@ -5,5 +5,5 @@ eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME sway 
 DIRFROM="$HOME/dotfiles"
 DIRTO="$HOME/backup/dotfiles_$(date +%d-%m-%Y)"
 SUCCESS_TEXT="CRONJOB: dotfiles were backed up from " 
-FAIL_TEXT="CRONJOB: dotfiles weren't backed up"
-rsync -aq $DIRFROM $DIRTO && notify-send "'$SUCCESS_TEXT''$DIRFROM' at '$DIRTO'" || notify-send "$FAIL_TEXT"
+FAIL_TEXT="CRONJOB: dotfiles were NOT backed up"
+rsync -aq $DIRFROM $DIRTO && notify-send "$SUCCESS_TEXT$DIRFROM at $DIRTO" || notify-send "$FAIL_TEXT"
