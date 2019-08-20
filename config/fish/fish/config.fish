@@ -45,6 +45,7 @@ set -x PRIME 'DRI_PRIME=1'
 # set -x LESS_TERMCAP_so $(printf '\e[1;44;1m')
 
 ## ABBREVIATIONS
+abbr cd pushd
 abbr vim nvim
 #
 abbr n nnn
@@ -64,8 +65,7 @@ abbr ytaudio youtube-dl --extract-audio
 abbr ytallbest youtube-dl --audio-format "best" --video-format "best"
 #
 abbr wifi nmtui-connect
-abbr tr tree -h -C -L 1
-abbr tra tree -h -C -a -L 1
+abbr tree tree -aCuhL 1
 abbr paclog pacolog
 abbr mutt neomutt
 abbr starwars telnet towel.blinkenlights.nl
