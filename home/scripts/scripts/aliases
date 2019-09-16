@@ -58,7 +58,7 @@ vim_stime() { vim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log
 telegram_desktop() { DRI_PRIME=1 telegram-desktop ;}
 update_grub() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
 grub_update() { sudo grub-mkconfig -o /boot/grub/grub.cfg ;}
-orphans() { pacman -Rns $(pacman -Qtdq)) ;}
+orphans() { pacman -Rns $(pacman -Qtdq) ;}
 alias sc='sc-im'
 alias connection='connection.sh'
 alias connect='connection.sh'

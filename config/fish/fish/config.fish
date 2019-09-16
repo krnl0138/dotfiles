@@ -9,7 +9,8 @@ bind \ce fzf_finder_all
 
 ## EXPORTS
 ### Do i need -U flag??
-set -x XDG_CURRENT_DESKTOP Unity
+# delete if everything will be ok
+# set -x XDG_CURRENT_DESKTOP Unity
 set -x PATH /usr/local/bin $PATH
 set -x BIB $HOME/uni.bib
 set -x SCRIPTS $HOME/scripts
@@ -26,7 +27,6 @@ set -x PAGER less
 set -x DISPLAY :0
 set -x NNN_SCRIPT $HOME/.config/nnn/scripts
 set -x NNN_SHOW_HIDDEN 1
-set -x LC_COLLATE "C"
 set -x NNN_BMS 'd:~/Downloads;p:~/pics;D:~/Dropbox/;s:~/Dropbox/screenshots' 
 set -x FZF_DEFAULT_OPTS "--reverse --height=40% --color=dark --cycle -m --bind=ctrl-alt-j:down,ctrl-alt-k:up --inline-info --preview '(highlight -O ansi -l {}) | head -100'" 
 set -x LESS -R

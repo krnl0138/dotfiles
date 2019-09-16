@@ -23,151 +23,13 @@
 # TUI:
 al
 q0
-v2
+v1
 ov
 m-1
 l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/.local/share
-	..
-0
-d/home/gppk/.local
-	share
-1
-d/home/gppk
-	.scripts
-8
-d/home/gppk/.scripts
-	.wallpaper.sh
-8
-d/home/gppk
-	.scripts
-8
-d/home/gppk/.scripts
-	mypackages.sh
-7
-d/home/gppk
-	Docear
-8
-d/home
-	gppk
-1
-d/home/gppk
-	Documents
-9
-d/home/gppk/Documents
-	..
-0
-d/home/gppk
-	DL_homework_6
-8
-d/home
-	gppk
-1
-d/home/gppk
-	.angband
-3
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/Downloads/t
-	..
-0
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/Downloads/t
-	Unpack-4982
-1
-d/home/gppk/Downloads/t/Unpack-4982
-	..
-0
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/pics
-	wall
-8
-d/home/gppk/pics/wall
-	onnzjztzyqqy.png
-1
-d/home/gppk/pics
-	dq2h1oysnZ0.jpg
-13
-d/home/gppk
-	pics
-50
-d/home/gppk/pics
-	-3pKmZsXniU.jpg
-14
-d/home/gppk
-	.gnome
-10
-d/home/gppk/.gnome
-	..
-0
-d/home/gppk
-	.gnome
-10
-d/home/gppk/.gnome
-	apps
-1
-d/home/gppk
-	.gnome
-10
-d/home
-	gppk
-1
-d/home/gppk
-	.gnome
-10
-d/home/gppk/pics
-	wall
-8
-d/home/gppk/pics/wall
-	d9n6ip7-6c37548d-4f21-47c0-b4dd-d71ca9791033.jpg
-11
-d/home/gppk/pics
-	CkEed3KiDPM.jpg
-15
-d/home/gppk
-	pics
-1
-d/home
-	gppk
-1
-d/home/gppk
-	..
-0
-d/home/gppk/Dropbox/screenshots
-	2019-03-08-17-53-59.jpeg
-8
-d/home/gppk/Dropbox
-	screenshots
-1
 d/home/gppk
 	Dropbox
 31
@@ -629,19 +491,148 @@ d/var
 2
 d/var/lib
 	mlocate
+2
+d/home/gppk
+	dotfiles
+19
+d/home/gppk/dotfiles
+	config
+2
+d/home/gppk/dotfiles/config
+	waybar
+21
+d/home/gppk/dotfiles/config/waybar
+	waybar
 1
+d/home/gppk/dotfiles/config/waybar/waybar
+	style.css
+3
+d/home/gppk/dotfiles/config/waybar
+	waybar
+1
+d/home/gppk/pics
+	Nikola_Lenivets
+2
+d/home/gppk/pics/Nikola_Lenivets
+	000485230001.jpg
+1
+d/home/gppk/pics
+	..
+0
+d/home/gppk/scripts
+	..
+0
+d/home/gppk/Dropbox/screenshots
+	2019-09-11-15-54-49.jpeg
+1
+d/home/gppk
+	.winegames
+8
+d/home/gppk/.winegames
+	warcraft3
+5
+d/home/gppk/.winegames/warcraft3
+	drive_c
+2
+d/home/gppk/.winegames/warcraft3/drive_c
+	Warcraft 3 Frozen Throne
+1
+d/home/gppk/.winegames/warcraft3
+	drive_c
+2
+d/home/gppk/.winegames/warcraft3/drive_c
+	Warcraft 3 Frozen Throne
+1
+d/home/gppk/.winegames/warcraft3
+	drive_c
+2
+d/home/gppk/.winegames/warcraft3/drive_c
+	Warcraft 3 Frozen Throne
+1
+d/home/gppk/.winegames/warcraft3/drive_c/Warcraft 3 Frozen Throne
+	..
+0
+d/home/gppk/.winegames/warcraft3/drive_c
+	Program Files (x86)
+4
+d/home/gppk/pics
+	..
+0
+d/home/gppk/Downloads
+	pdfs
+3
+d/home/gppk/Downloads/pdfs
+	Vasilyev_V_v_-_V_Zaschitu_Klassicheskogo_Kompatibilizma_Esse_O_Svobode_Voli_filosofia_Soznania_-2017.pdf
+8
+d/home/gppk/pics
+	Nikola_Lenivets_3031_08_19
+1
+d/home/gppk/pics/Nikola_Lenivets_3031_08_19
+	..
+0
+d/home/gppk/pics
+	Nikola_Lenivets
+2
+d/home/gppk/pics/Nikola_Lenivets
+	000485230002.jpg
+2
+d/home/gppk/pics
+	test
+3
+d/home/gppk/pics/test
+	..
+0
+d/home/gppk/pics
+	test
+3
+d/home/gppk/pics/test
+	Map_Rus.png
+1
+d/home/gppk/pics
+	test
+1
+d/home/gppk
+	pics
+7
+d/home/gppk/Downloads
+	pdfs
+3
+d/home/gppk/Downloads/pdfs
+	Vasilyev_V_v_-_V_Zaschitu_Klassicheskogo_Kompatibilizma_Esse_O_Svobode_Voli_filosofia_Soznania_-2017.pdf
+8
+d/home/gppk/Downloads
+	mobis
+2
+d/home/gppk/Downloads/mobis
+	Adler_M_-_Kak_Chitat_Knigi_Rukovodstvo_Po_Chteniyu_Velikikh_Proizvedeny_-_2014.mobi
+1
+d/home/gppk/Downloads
+	mobis
+2
+d/home/gppk/pics
+	Pergamon altar
+5
+d/home/gppk/pics/Pergamon altar
+	pergamon_altar_pergamonmuseum1.jpg
+13
+d/home/gppk/pics
+	army2019_shoygoogle
+6
+d/home/gppk/pics/army2019_shoygoogle
+	army2019_calendar_05-may-min.jpg
+5
+d/home/gppk/pics
+	desktops
+7
+d/home/gppk/pics/desktops
+	t3_367a7i.jpe
+17
+d/home/gppk/pics
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
-	Deus Ex
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex/System
-	..
-0
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
 	System
 1
@@ -1233,6 +1224,15 @@ D/home/gppk/scripts
 D/home/gppk
 	scripts
 16
+D/home/gppk/.local/share/Trash/files
+	000_000_colors-waybar.css
+6
+D/home/gppk/.local/share/Trash
+	files
+1
+D/home/gppk/.local/share/Trash/files
+	Nikola_Lenivets.zip
+8
 D
 
 # Command line history (oldest to newest):
@@ -1340,6 +1340,12 @@ D
 :mkdir llpp
 :/fish
 :q
+:!trash-restore %f
+:feh %f
+:!feh %f
+:!sxiv %f
+:!ebook-viewer %f
+:!okular %f
 
 # Search history (oldest to newest):
 /2W
@@ -1348,7 +1354,6 @@ D
 /Pata
 /ghs
 /gh
-/way
 /pi
 /a
 /goto ~
@@ -1406,6 +1411,9 @@ D
 /fish
 /cfg_f
 /scrip
+/dotfi
+/way
+/wine
 
 # Prompt history (oldest to newest):
 pdotfiles_03-06-2019
@@ -1813,6 +1821,10 @@ t/home/gppk/.local/share/Trash/files/000_imv
 	/home/gppk/.config/imv
 t/home/gppk/.local/share/Trash/files/000_llpp
 	/home/gppk/dotfiles/config/llpp
+t/home/gppk/.local/share/Trash/files/000_colors-waybar.css
+	/home/gppk/dotfiles/config/waybar/waybar/colors-waybar.css
+t/home/gppk/.local/share/Trash/files/000_000_colors-waybar.css
+	/home/gppk/pics/test/000_colors-waybar.css
 
 # State:
 f.*

@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window", "custom/xxkb"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/news", "temperature", "custom/root","custom/home", "cpu", "memory", "pulseaudio", "network", "tray"],
+    "modules-right": ["custom/news", "temperature", "custom/root","custom/home", "cpu", "memory", "pulseaudio", "network", "battery", "tray"],
     // Modules configuration
     "sway/workspaces": {
         "tooltip": false,
@@ -68,7 +68,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
+        "format": "BAT {capacity}%",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
