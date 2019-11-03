@@ -10,7 +10,7 @@ set $wallpaper "$HOME/pics/wall/nivkx2h6z7y21.png"
 
 include "$HOME/.cache/wal/colors-sway"
 
-xwayland disable
+# xwayland disable
 
 # output LVDS-1 enable
 # output "*" bg $wallpaper fill 

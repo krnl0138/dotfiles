@@ -1,0 +1,256 @@
+## FUNCTIONS
+function cfg_zathura 
+    "$EDITOR" "$HOME/.config/zathura/zathurarc"
+end
+function cfg_mako 
+    "$EDITOR" "$HOME/.config/mako/config" 
+end
+function cfg_vifm 
+    "$EDITOR" "$HOME/.config/vifm/vifmrc" 
+end
+function cfg_alacritty 
+    "$EDITOR" "$HOME/.config/alacritty/alacritty.yml" 
+end
+function cfg_vim 
+    "$EDITOR" "$HOME/.vimrc" 
+end
+function cfg_sway 
+    "$EDITOR" "$HOME/.config/sway/config" 
+end
+function cfg_zsh 
+    "$EDITOR" "$HOME/.zshrc" 
+end
+function cfg_ranger 
+    "$EDITOR" "$HOME/.config/ranger" 
+end
+function cfg_waybar 
+    "$EDITOR" "$HOME/.config/waybar" 
+end
+function cfg_gtk3 
+    "$EDITOR" "$HOME/.config/gtk-3.0/settings.ini" 
+end
+function cfg_llpp 
+    "$EDITOR" "$HOME/.config/llpp.conf" 
+end
+function cfg_dunst 
+    "$EDITOR" "$HOME/.config/dunst/dunstrc" 
+end
+function cfg_sxiv 
+    "$EDITOR" "$HOME/.config/sxiv" 
+end
+function cfg_yay 
+    "$EDITOR" "$HOME/.config/yay/config.json" 
+end
+function cfg_youtube_viewer 
+    "$EDITOR" "$HOME/.config/yay/config.json" 
+end
+function cfg_redshift 
+    "$EDITOR" "$HOME/.config/redshift.conf" 
+end
+function cfg_imv 
+    "$EDITOR" "$HOME/.config/imv/config" 
+end
+function cfg_gtk3 
+    "$EDITOR" "$HOME/.config/gtk-3.0/" 
+end
+function cfg_mpv 
+    "$EDITOR" "$HOME/.config/mpv/mpv.conf" 
+end
+function cfg_pacman 
+    "$EDITOR" "/etc/pacman.conf" 
+end
+#
+# function rld_zsh 
+#     . /home/gppk/.zshrc 
+# end
+function rld_sway 
+    sway reload 
+end
+### GAMES
+function play_wc3 
+    env WINEPREFIX="$HOME/.winegames/warcraft3" wine $HOME/.winegames/warcraft3/drive_c/Warcraft\ 3\ Frozen\ Throne/Frozen\ Throne.exe 
+end
+function play_deusex 
+    env WINEPREFIX="$HOME/.winegames/deusex" wine $HOME/.winegames/deusex/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe 
+end
+function play_heroes3 
+    env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegames/heroes/drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe 
+end
+function play_factorio
+    env WINEPREFIX="$HOME/.winegames/factorio_vanilla" wine $HOME/.winegames/factorio_vanilla/drive_c/Games/Factorio/bin/x64/factorio.exe
+end
+function play_arcanum
+    env WINEPREFIX="$HOME/.winegames/arcanum2" wine $HOME/.winegames/arcanum2/drive_c/Arcanum\ \(Ultimate\ Edition\)/Arcanum.exe
+end
+function play_undertale
+    env WINEPREFIX="$HOME/.winegames/undertale" wine $HOME/.winegames/undertale/drive_c/GOG\ Games/Undertale/UNDERTALE.exe
+end
+function play_df 
+    cd $HOME/Downloads/df_linux/ || exit ; ./df 
+end
+function play_nethack 
+    telnet nethack.alt.org 
+end
+#
+function aliases 
+    "$EDITOR" $HOME/scripts/aliases 
+end
+function exports 
+    "$EDITOR" $HOME/scripts/exports 
+end
+function scripts 
+    "$EDITOR" $HOME/scripts 
+end
+function funcs 
+    "$EDITOR" $HOME/scripts/funcs 
+end
+function gitdots 
+    git add ./*glob* ; git commit -m "regular update" ; git push 
+end
+function mpv 
+    env DRI_PRIME=1 mpv 
+end
+function wine 
+    env DRI_PRIME=1 wine 
+end
+function chromium 
+    env DRI_PRIME=1 chromium 
+end
+function gimp 
+    env DRI_PRIME=1 gimp 
+end
+function executable 
+    chmod +x 
+end
+function nvim_stime 
+    nvim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log 
+end
+function vim_stime 
+    vim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log 
+end
+function telegram_desktop 
+    DRI_PRIME=1 telegram-desktop 
+end
+function update_grub 
+    sudo grub-mkconfig -o /boot/grub/grub.cfg 
+end
+function grub_update 
+    sudo grub-mkconfig -o /boot/grub/grub.cfg 
+end
+function orphans 
+     pacman -Rns (pacman -Qtdq)
+end
+function vimw 
+    "$EDITOR" ~/vimwiki/index.wiki 
+end
+function vw 
+    "$EDITOR" ~/vimwiki/index.wiki 
+end
+function du 
+    du -h --max-depth=1 | sort -h -r 
+end
+function lostfiles_relaxed 
+    sudo /usr/bin/lostfiles relaxed 
+end
+function lostfiles_stricted 
+    sudo /usr/bin/lostfiles strict 
+end
+function myip 
+    ip route ; curl ipinfo.io 
+end
+function killX 
+    killall Xorg 
+end
+### BLOG
+function blog_new 
+    cd $HOME/blog/lb/ || exit ; ./lb n 
+end
+function blog_edit 
+    cd $HOME/blog/lb/ || exit ; ./lb e 
+end
+function blog_trash 
+    cd $HOME/blog/lb/ || exit ; ./lb t 
+end
+function blog_publish 
+    cd $HOME/blog/lb/ || exit ; ./lb p 
+end
+function blog_delete 
+    cd $HOME/blog/lb/ || exit ; ./lb d 
+end
+function blog_revise 
+    cd $HOME/blog/lb/ || exit ; ./lb r 
+end
+#
+abbr n nnn
+abbr e exit
+abbr q exit
+abbr r ranger
+abbr c clear
+# 
+abbr rsync-copy rsync -avz --progress -h
+abbr rsync-move rsync -avz --progress -h --remove-source-files
+abbr rsync-update rsync -avzu --progress -h
+abbr rsync-synchronize rsync -avzu --delete --progress -h
+#
+abbr ytdl youtube-dl
+abbr ytmp3 youtube-dl --extract-audio --audio-format mp3
+abbr ytaudio youtube-dl --extract-audio
+abbr ytallbest youtube-dl --audio-format "best" --video-format "best"
+#
+abbr wifi nmtui-connect
+abbr tr tree -h -C -L 1
+abbr tra tree -h -C -a -L 1
+abbr paclog pacolog
+abbr mutt neomutt
+abbr starwars telnet towel.blinkenlights.nl
+abbr mkdir mkdir -pv
+abbr calc wcalc
+abbr calculator wcalc
+abbr wifi-menu sudo wifi-menu
+abbr df df -h
+abbr weather-saratov curl wttr.in/saratov
+abbr weather-odintsovo curl wttr.in/odintsovo
+abbr vless ~/.vim/less.sh
+abbr zzz systemctl suspend
+abbr off systemctl shutdown -r now
+abbr ping ping -c 3
+abbr boottime systemd-analyze
+abbr mapscii telnet mapscii.me
+abbr whoneeds pactree -r
+abbr wn pactree -r
+abbr pactree pactree -c
+abbr .. cd ..
+abbr ... cd ../..
+abbr .... cd ../../..
+abbr connection connection.sh
+abbr connect connection.sh
+abbr reconnection connection.sh
+abbr reconnect connection.sh
+abbr rg rg -S
+abbr nv nvim
+abbr cp cp -i
+abbr mv mv -i
+abbr rm trash-put
+abbr diff vimdiff
+abbr dmesg dmesg -HL
+abbr neofetch neofetch --disable theme icons --package_managers off --uptime_shorthand on --w3m /home/gppk/pics/top.jpg --loop --crop_mode fit
+abbr ka killall
+#
+abbr ys yay -S --sudoloop
+#https://www.reddit.com/r/archlinux/comments/a030v7/how_do_you_manage_git_aur_packages/
+abbr ysyu yay -Syu --sudoloop # --devel
+abbr ysuy yay -Syu --sudoloop # --devel
+abbr yss yay -Ss
+abbr ysi yay -Si
+abbr yq yay -Q
+abbr yqi yay -Qi
+abbr yrns yay -Rns
+abbr yrsn yay -Rns
+#
+abbr ls ls --color=auto
+abbr lsla ls -la --color=auto
+abbr grep grep -n --color=always
+#
+abbr todo jrnl @todolist -n 1
+abbr todolist jrnl @todolist -n 1
+abbr todoedit jrnl @todolist -n 1 --edit

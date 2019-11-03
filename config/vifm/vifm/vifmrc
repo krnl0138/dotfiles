@@ -25,13 +25,14 @@ map x :!sxiv -ft * 2>/dev/null &<CR>
 nnoremap O :file &<CR>
 nnoremap o :file &<CR>l
 nnoremap gd :cd $HOME/Downloads <CR>
-nnoremap gp :cd $HOME/pics <CR>
+nnoremap gP :cd $HOME/personal/pics <CR>
 nnoremap gh :cd $HOME <CR>
 nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
 nnoremap gs :cd $HOME/scripts <CR>
 nnoremap gD :cd $HOME/Dropbox <CR>
 nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
 nnoremap gc :cd $HOME/.config <CR>
+nnoremap gp :cd $HOME/personal <CR>
 nnoremap <tab> <C-w>p
 noremap <s-tab> :vsplit <CR>
 nnoremap : ;
@@ -236,6 +237,8 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+        \ {View in imv}
+        \ imv -n %f %d &,
         \ {View in feh}
         \ feh -g 800x600 -. --start-at %f &,
         \ {Set as background}
