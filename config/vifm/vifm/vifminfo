@@ -26,115 +26,10 @@ q0
 v1
 ov
 m-1
-l-2
+l2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/Downloads
-	Mail
-2
-d/home/gppk/Downloads/Mail
-	Gmail
-1
-d/home/gppk/Downloads/Mail/Gmail
-	INBOX
-2
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	cur
-1
-d/home/gppk/Downloads/Mail/Gmail/INBOX/cur
-	..
-0
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	new
-2
-d/home/gppk/Downloads/Mail/Gmail/INBOX/new
-	..
-0
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	new
-2
-d/home/gppk/Downloads/Mail/Gmail/INBOX/new
-	..
-0
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	tmp
-3
-d/home/gppk/Downloads/Mail/Gmail/INBOX/tmp
-	..
-0
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	tmp
-3
-d/home/gppk/Downloads/Mail/Gmail
-	INBOX
-2
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	cur
-1
-d/home/gppk/Downloads/Mail/Gmail/INBOX/cur
-	1503364327_0.23437.carbontrade,U=2020,FMD5=7e33429f656f1e6e9d79b29c3f82c57e:2,
-40
-d/home/gppk/Downloads/Mail/Gmail/INBOX
-	tmp
-3
-d/home/gppk/Downloads/Mail/Gmail
-	Meduza
-3
-d/home/gppk/Downloads/Mail/Gmail/Meduza
-	cur
-1
-d/home/gppk/Downloads/Mail/Gmail/Meduza/cur
-	1503364137_1.23437.carbontrade,U=2,FMD5=b933055b6c40c29857669d483cdff493:2,S
-2
-d/home/gppk/Downloads/Mail/Gmail/Meduza
-	cur
-1
-d/home/gppk/Downloads/Mail/Gmail
-	Meduza
-3
-d/home/gppk/Downloads/Mail
-	Gmail
-1
-d/home/gppk/Downloads
-	archives
-2
-d/home/gppk/personal
-	diary
-4
-d/home/gppk/personal/diary
-	Mail
-1
-d/home/gppk/personal
-	diary
-4
-d/home/gppk
-	personal
-18
-d/home/gppk/Downloads
-	Kudinov_Movies (1)
-1
-d/home/gppk/Downloads/Kudinov_Movies (1)
-	resources
-1
-d/home/gppk/Downloads
-	Kudinov_Movies (1)
-1
-d/home/gppk/Downloads/Kudinov_Movies (1)
-	resources
-1
-d/home/gppk/Downloads/Kudinov_Movies (1)/resources
-	sheet.css
-1
-d/home/gppk/Downloads/Kudinov_Movies (1)
-	resources
-1
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/personal
-	diary
-4
 d/home/gppk/personal/diary
 	Kudinov_Movies (1)
 1
@@ -628,8 +523,113 @@ d/home/gppk/personal/books/analytics
 	DEL2017-18__Lecture1-2.pdf
 34
 d/home/gppk/personal/books
-	logika-v-deystvii-vvedenie.pdf
-34
+	literature
+12
+d/home/gppk/personal/books/literature
+	elibrary_29708664_19204842.pdf
+1
+d/home/gppk/personal/books
+	fiction
+19
+d/home/gppk/personal/books/fiction
+	rilke_novye_stixotvorenija.pdf
+1
+d/home/gppk/personal/books
+	economics
+20
+d/home/gppk/personal/books/economics
+	Principles For Navigating Big Debt Crises By Ray Dalio.pdf
+1
+d/home/gppk/personal/books
+	music
+9
+d/home/gppk/personal/books/music
+	..
+0
+d/home/gppk/personal/books
+	nonfiction
+8
+d/home/gppk/personal/books/nonfiction
+	Даглас Р. Хофштадтер-Гедель, Эшер, Бах. Эта бесконечная гирлянда-Бахрах-М (2001).pdf
+3
+d/home/gppk/personal/books
+	other
+7
+d/home/gppk/personal/books/other
+	report.pdf
+8
+d/home/gppk/personal/books
+	philosophy
+6
+d/home/gppk/personal/books/philosophy
+	..
+0
+d/home/gppk/personal/books
+	physics
+5
+d/home/gppk/personal/books/physics
+	..
+0
+d/home/gppk/personal/books
+	programming
+4
+d/home/gppk/personal/books/programming
+	Эрик Фримен, Элизабет Фримен - Паттерны проектирования (Head First O'Reilly) - 2011.pdf
+2
+d/home/gppk/personal/books
+	sociology
+3
+d/home/gppk/personal/books/sociology
+	Kimlika_U_-_Sovremennaya_Politicheskaya_Filosofia.pdf
+15
+d/home/gppk/personal/books
+	statistics
+2
+d/home/gppk/personal/books/statistics
+	1mkhitaryan_v_s_statistika.pdf
+1
+d/home/gppk/personal/books
+	sociology
+18
+d/home/gppk/personal
+	books
+2
+d/home/gppk/personal/books
+	physics
+20
+d/home/gppk/personal/books/physics
+	..
+0
+d/home/gppk/personal/books
+	kursovaya
+19
+d/home/gppk/personal/books/kursovaya
+	William_James_Lectures_Michael_Dummett_-_The_Logical_Basis_of_Metaphysics__1991_Harvard_University_Press.pdf
+6
+d/home/gppk/personal/books
+	kursovaya
+19
+d/home/gppk/personal
+	university
+6
+d/home/gppk/personal/university
+	lections
+3
+d/home/gppk/personal
+	university
+1
+d/home/gppk/personal/university
+	lections
+3
+d/home/gppk/personal
+	university
+6
+d/home/gppk
+	personal
+48
+d/home/gppk/personal
+	university
+6
 d
 
 # Right window history (oldest to newest):
@@ -1236,6 +1236,12 @@ D/home/gppk/.local/share/Trash/files
 D
 
 # Command line history (oldest to newest):
+:mkdir mine
+:!imv %f
+:!cp %f /home/schizo/
+:!scp %f /home/schizo/
+:!scp schizo@gegege/%f /home/schizo/
+:!scp schizo@gegege %f /home/schizo/
 :mkdir rars
 :mkdir archives
 :mkdir txts
@@ -1986,6 +1992,8 @@ t/home/gppk/.local/share/Trash/files/000_Unpack-7816
 	/home/gppk/Downloads/archives/Unpack-7816
 t/home/gppk/.local/share/Trash/files/000_latin.pdf
 	/home/gppk/personal/books/latin/latin.pdf
+t/home/gppk/.local/share/Trash/files/000_pics
+	/home/gppk/pics
 
 # State:
 f.*
