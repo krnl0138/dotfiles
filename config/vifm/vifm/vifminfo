@@ -30,15 +30,6 @@ l2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/personal/diary
-	Kudinov_Movies (1)
-1
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	..
-0
 d/home/gppk/Downloads
 	archives
 1
@@ -630,6 +621,15 @@ d/home/gppk
 d/home/gppk/personal
 	university
 6
+d/home/gppk
+	personal
+32
+d/home/gppk/personal
+	university
+6
+d/home/gppk
+	personal
+32
 d
 
 # Right window history (oldest to newest):
