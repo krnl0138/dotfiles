@@ -1,0 +1,9 @@
+### Sync up dotfiles
+
+- rsync
+- git w/ ssh access
+
+____Rsync_
+
+[yt_tutorial](https://www.youtube.com/watch?v=3aKda-oXWc8)
+[access wo/ password](https://medium.com/@amanze.ogbonna/accessing-pushing-to-github-without-username-and-password-3022feb077fb)

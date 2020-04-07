@@ -6,7 +6,11 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window", "custom/corona"],
     "modules-center": ["clock"],
+<<<<<<< HEAD
     "modules-right": ["custom/pomodoro", "custom/layout", "temperature", "custom/root","custom/home", "cpu", "memory", "pulseaudio", "network", "battery", "tray"],
+=======
+    "modules-right": ["custom/news", "temperature", "custom/root","custom/home", "cpu", "memory", "pulseaudio", "network", "battery", "tray"],
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
     // Modules configuration
     "sway/workspaces": {
         "tooltip": false,

@@ -1,0 +1,7 @@
+PATH=/bin:/usr/bin:/home/gppk/scripts
+*/1 * * * * collector.sh
+* */2 * * * gitdots.sh
+0 19 */5 * * fish_update_completions
+0 18 */5 * * mypackages.sh
+0 18 */5 * * dots_backup.sh
+0 19 */5 * * trash_notification.sh

@@ -59,17 +59,27 @@ map xi :!mv %f ~/personal/books/iskusstvo<CR>
 
 nnoremap O :file &<CR>
 nnoremap o :file &<CR>l
+<<<<<<< HEAD
 
 nnoremap gd :cd $XDG_DOWNLOAD_DIR <CR>
 nnoremap gP :cd $XDG_PICTURES_DIR <CR>
 nnoremap gp :cd $HOME/personal <CR>
+=======
+nnoremap gd :cd $HOME/Downloads <CR>
+nnoremap gP :cd $HOME/personal/pics <CR>
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 nnoremap gh :cd $HOME <CR>
 nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
 nnoremap gs :cd $HOME/scripts <CR>
 nnoremap gD :cd $HOME/Dropbox <CR>
 nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
+<<<<<<< HEAD
 nnoremap gc :cd $XDG_CONFIG_HOME <CR>
 
+=======
+nnoremap gc :cd $HOME/.config <CR>
+nnoremap gp :cd $HOME/personal <CR>
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 nnoremap <tab> <C-w>p
 noremap <s-tab> :vsplit <CR>
 nnoremap : ;
@@ -90,6 +100,7 @@ set syscalls
 " files by deleting them and then using p to put the file in the new location.
 " I recommend not changing this until you are familiar with vifm.
 " This probably shouldn't be an option.
+set confirm=permdelete
 set trash
 set trashdir="%r/.vifm-Trash-%u,$HOME/.local/share/Trash/files,%r/.vifm-Trash"
 
@@ -284,8 +295,13 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+<<<<<<< HEAD
         \ {View in sxiv}
         \ sxiv-rifle %f &,
+=======
+        \ {View in imv}
+        \ imv -n %f %d &,
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
         \ {View in feh}
         \ feh -g 800x600 -. --start-at %f &,
         \ {View in sxiv}

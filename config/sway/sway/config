@@ -4,6 +4,7 @@
 #
 include "$HOME/.cache/wal/colors-sway"
 
+<<<<<<< HEAD
 # BASIC OPTIONS
 set $mod      Mod1
     # xwayland disable
@@ -22,6 +23,10 @@ title_align center
 font pango:SFNS Display 11px
 
 # OUTPUTS
+=======
+# xwayland disable
+
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 # output LVDS-1 enable
 # output "*" bg $wallpaper fill
 # output * {
@@ -390,6 +395,7 @@ exec_always swayidle -w \
     after-resume sleep 3 && killall waybar && waybar && outputs2.sh
 exec udiskie &
 exec mako
+<<<<<<< HEAD
 exec wallp.sh
 # exec redshift -m wayland -l 51.54:46.00
 # set $img_lock "$HOME/personal/pictures/LPlEKFjp68o.jpg"
@@ -405,3 +411,11 @@ exec wallp.sh
 #       timeout 500 'systemctl suspend' \
 #           resume 'swaymsg "output * dpms on"'""\
 #    before-sleep ''
+=======
+exec redshift -m wayland
+# exec swayidle -w \
+#     timeout 600 'swaylock -s stretch -fli $img_lock' \
+#     timeout 700 'swaymsg "output * dpms off"' \
+#         resume 'swaymsg "output * dpms on" && $wal_bg ' \
+#     before-sleep 'swaylock -s stretch -fli $img_lock'
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a

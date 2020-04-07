@@ -1,0 +1,206 @@
+# To add use builtins 'funced' 'funcsave'
+## FUNCTIONS
+function fish_functions
+    set -l host $HOME/.config/fish/functions/
+    "$EDITOR" $host(fd . $HOME/.config/fish/functions/ | sed 's:.*functions\/::' | fzf -e)
+end
+function fzf_finder_all
+    xdg-open (locate * | fzf -e)
+end
+function fzf_finder_home
+    xdg-open (locate $HOME | fzf -e)
+end
+function fzf_cd_category
+  cd (fd -t d | fzf)
+end
+function fzf_kill_process
+  ps -ef | sed 1d | fzf -m | awk '{print $2}' | xargs kill -9 $1
+end
+function fzf_history_search
+    history | fzf +s
+end
+function cfg_fish 
+    "$EDITOR" "$HOME/.config/fish/config.fish"
+end
+function cfg_zathura 
+    "$EDITOR" "$HOME/.config/zathura/zathurarc"
+end
+function cfg_mako 
+    "$EDITOR" "$HOME/.config/mako/config" 
+end
+function cfg_vifm 
+    "$EDITOR" "$HOME/.config/vifm/vifmrc" 
+end
+function cfg_alacritty 
+    "$EDITOR" "$HOME/.config/alacritty/alacritty.yml" 
+end
+function cfg_vim 
+    "$EDITOR" "$HOME/.vimrc" 
+end
+function cfg_sway 
+    "$EDITOR" "$HOME/.config/sway/config" 
+end
+function cfg_zsh 
+    "$EDITOR" "$HOME/.zshrc" 
+end
+function cfg_ranger 
+    "$EDITOR" "$HOME/.config/ranger" 
+end
+function cfg_waybar 
+    "$EDITOR" "$HOME/.config/waybar" 
+end
+function cfg_gtk3 
+    "$EDITOR" "$HOME/.config/gtk-3.0/settings.ini" 
+end
+function cfg_llpp 
+    "$EDITOR" "$HOME/.config/llpp.conf" 
+end
+function cfg_dunst 
+    "$EDITOR" "$HOME/.config/dunst/dunstrc" 
+end
+function cfg_sxiv 
+    "$EDITOR" "$HOME/.config/sxiv" 
+end
+function cfg_yay 
+    "$EDITOR" "$HOME/.config/yay/config.json" 
+end
+function cfg_youtube_viewer 
+    "$EDITOR" "$HOME/.config/yay/config.json" 
+end
+function cfg_redshift 
+    "$EDITOR" "$HOME/.config/redshift.conf" 
+end
+function cfg_imv 
+    "$EDITOR" "$HOME/.config/imv/config" 
+end
+function cfg_gtk3 
+    "$EDITOR" "$HOME/.config/gtk-3.0/" 
+end
+function cfg_mpv 
+    "$EDITOR" "$HOME/.config/mpv/mpv.conf" 
+end
+function cfg_pacman 
+    "$EDITOR" "/etc/pacman.conf" 
+end
+#
+# function rld_zsh 
+#     . /home/gppk/.zshrc 
+# end
+function rld_sway 
+    sway reload 
+end
+function aliases 
+    "$EDITOR" $HOME/scripts/aliases 
+end
+function exports 
+    "$EDITOR" $HOME/scripts/exports 
+end
+function scripts 
+    "$EDITOR" $HOME/scripts 
+end
+function funcs 
+    "$EDITOR" $HOME/scripts/funcs 
+end
+function gitdots 
+    git add ./*glob* ; git commit -m "regular update" ; git push 
+end
+function mpv 
+    env DRI_PRIME=1 mpv 
+end
+function wine 
+    env DRI_PRIME=1 wine 
+end
+function chromium 
+    env DRI_PRIME=1 chromium 
+end
+function gimp 
+    env DRI_PRIME=1 gimp 
+end
+function executable 
+    chmod +x 
+end
+function nvim_stime 
+    nvim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log 
+end
+function vim_stime 
+    vim --startuptime /tmp/startup.log +q ; "$EDITOR" /tmp/startup.log 
+end
+function telegram_desktop 
+    DRI_PRIME=1 telegram-desktop 
+end
+function update_grub 
+    sudo grub-mkconfig -o /boot/grub/grub.cfg 
+end
+function grub_update 
+    sudo grub-mkconfig -o /boot/grub/grub.cfg 
+end
+function orphans 
+     pacman -Rns (pacman -Qtdq)
+end
+function vimw 
+    "$EDITOR" ~/vimwiki/index.wiki 
+end
+function vw 
+    "$EDITOR" ~/vimwiki/index.wiki 
+end
+function du 
+    du -h --max-depth=1 | sort -h -r 
+end
+function lostfiles_relaxed 
+    sudo /usr/bin/lostfiles relaxed 
+end
+function lostfiles_stricted 
+    sudo /usr/bin/lostfiles strict 
+end
+function myip 
+    ip route ; curl ipinfo.io 
+end
+function killX 
+    killall Xorg 
+end
+
+### GAMES
+function play_wc3 
+    env WINEPREFIX="$HOME/.winegames/warcraft3" wine $HOME/.winegames/warcraft3/drive_c/Warcraft\ 3\ Frozen\ Throne/Frozen\ Throne.exe 
+end
+function play_deusex 
+    env WINEPREFIX="$HOME/.winegames/deusex" wine $HOME/.winegames/deusex/drive_c/GOG\ Games/Deus\ Ex\ GOTY/System/DeusEx.exe 
+end
+function play_heroes3 
+    env WINEPREFIX="$HOME/.winegames/heroes" wine $HOME/.winegames/heroes/drive_c/GOG Games/HoMM 3 Complete/Heroes3.exe 
+end
+function play_factorio
+    env WINEPREFIX="$HOME/.winegames/factorio_vanilla" wine $HOME/.winegames/factorio_vanilla/drive_c/Games/Factorio/bin/x64/factorio.exe
+end
+function play_arcanum
+    env WINEPREFIX="$HOME/.winegames/arcanum2" wine $HOME/.winegames/arcanum2/drive_c/Arcanum\ \(Ultimate\ Edition\)/Arcanum.exe
+end
+function play_undertale
+    env WINEPREFIX="$HOME/.winegames/undertale" wine $HOME/.winegames/undertale/drive_c/GOG\ Games/Undertale/UNDERTALE.exe
+end
+function play_df 
+    cd $HOME/Downloads/df_linux/ || exit ; ./df 
+end
+function play_nethack 
+    telnet nethack.alt.org 
+end
+
+### BLOG
+function blog_new 
+    cd $HOME/blog/lb/ || exit ; ./lb n 
+end
+function blog_edit 
+    cd $HOME/blog/lb/ || exit ; ./lb e 
+end
+function blog_trash 
+    cd $HOME/blog/lb/ || exit ; ./lb t 
+end
+function blog_publish 
+    cd $HOME/blog/lb/ || exit ; ./lb p 
+end
+function blog_delete 
+    cd $HOME/blog/lb/ || exit ; ./lb d 
+end
+function blog_revise 
+    cd $HOME/blog/lb/ || exit ; ./lb r 
+end

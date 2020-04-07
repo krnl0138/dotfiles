@@ -23,6 +23,7 @@ Plug '907th/vim-auto-save'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
@@ -167,6 +168,17 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
 
 " PLUGINS
+
+" vim fugutive
+" define command which will be used when "nvim" is set as a merge tool
+[mergetool "nvim"]
+  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+" set "nvim" as tool for merging
+[merge]
+  tool = nvim
+" automatically launch merge tool without displaying a prompt
+[mergetool]
+  prompt = false
 
 " Netrw
 " https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim
