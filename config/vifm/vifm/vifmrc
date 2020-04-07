@@ -67,6 +67,9 @@ nnoremap gp :cd $HOME/personal <CR>
 =======
 nnoremap gd :cd $HOME/Downloads <CR>
 nnoremap gP :cd $HOME/personal/pics <CR>
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
 >>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 nnoremap gh :cd $HOME <CR>
 nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
@@ -79,6 +82,9 @@ nnoremap gc :cd $XDG_CONFIG_HOME <CR>
 =======
 nnoremap gc :cd $HOME/.config <CR>
 nnoremap gp :cd $HOME/personal <CR>
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
 >>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 nnoremap <tab> <C-w>p
 noremap <s-tab> :vsplit <CR>
@@ -296,8 +302,13 @@ fileviewer *.[1-8] man ./%c | col -b
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
 <<<<<<< HEAD
+<<<<<<< HEAD
         \ {View in sxiv}
         \ sxiv-rifle %f &,
+=======
+        \ {View in imv}
+        \ imv -n %f %d &,
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 =======
         \ {View in imv}
         \ imv -n %f %d &,

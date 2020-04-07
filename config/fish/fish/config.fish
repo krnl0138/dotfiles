@@ -19,6 +19,7 @@ bind \ct fzf_finder_home
 ## EXPORTS
 ### Do i need -U flag??
 <<<<<<< HEAD
+<<<<<<< HEAD
 # set SPACEFISH_PROMPT_ORDER time user dir host git package node docker ruby golang php rust haskell julia aws conda pyenv kubecontext exec_time line_sep battery jobs exit_code char
 set SPACEFISH_PROMPT_ORDER time user dir host git package exec_time line_sep battery jobs exit_code char
 set -x XDG_DOWNLOAD_DIR "$HOME/downloads"
@@ -33,6 +34,10 @@ set -x XDG_PUBLICSHARE_DIR "$HOME/dump/public"
 set -x XDG_DOCUMENTS_DIR "$HOME/dump/documents"
 set -x XDG_CURRENT_DESKTOP "Unity"
 set -x XDG_DATA_HOME "$HOME/.local/share"
+=======
+# delete if everything will be ok
+# set -x XDG_CURRENT_DESKTOP Unity
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 =======
 # delete if everything will be ok
 # set -x XDG_CURRENT_DESKTOP Unity
@@ -62,10 +67,13 @@ set -x LESSHISTFILE -
 set -x NNN_SCRIPT $HOME/.config/nnn/scripts
 set -x NNN_SHOW_HIDDEN 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 set -x NNN_BMS 'd:~/Downloads;p:~/pics;D:~/Dropbox/;s:~/Dropbox/screenshots'
 # set -x FZF_DEFAULT_OPTS "--reverse --height=40% --color=dark --cycle -m --bind=ctrl-alt-j:down,ctrl-alt-k:up --inline-info --preview '(highlight -O ansi -l {}) | head -100'"
 set -x FZF_DEFAULT_OPTS "--cycle -m --inline-info"
 =======
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 set -x NNN_BMS 'd:~/Downloads;p:~/pics;D:~/Dropbox/;s:~/Dropbox/screenshots' 
 set -x FZF_DEFAULT_OPTS "--reverse --height=40% --color=dark --cycle -m --bind=ctrl-alt-j:down,ctrl-alt-k:up --inline-info --preview '(highlight -O ansi -l {}) | head -100'" 
 >>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a

@@ -26,6 +26,11 @@ font pango:SFNS Display 11px
 =======
 # xwayland disable
 
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
+# xwayland disable
+
 >>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 # output LVDS-1 enable
 # output "*" bg $wallpaper fill
@@ -418,4 +423,7 @@ exec redshift -m wayland
 #     timeout 700 'swaymsg "output * dpms off"' \
 #         resume 'swaymsg "output * dpms on" && $wal_bg ' \
 #     before-sleep 'swaylock -s stretch -fli $img_lock'
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
 >>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
