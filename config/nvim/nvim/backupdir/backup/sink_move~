@@ -1,0 +1,4 @@
+#!/bin/sh
+
+inputs=$(pactl list short sink-inputs | awl '{ print $1 }')
+

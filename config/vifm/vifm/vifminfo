@@ -1,1241 +1,497 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Marks:
-'H
-	/home/gppk/
-	..
-1547222571
 'b
-	/home/gppk/bin/
+	/home/schizo/bin/
 	..
-1547222571
+1585262714
 'h
-	/home/gppk/
+	/home/schizo/
 	..
-1550283002
-'m
-	/
-	..
-1550282562
+1585262714
 
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
 m-1
 l-10,2
-r-10,2
+r2
 
 # Left window history (oldest to newest):
-d/home/gppk/.local/share
+d/home/schizo/.config/vifm/scripts
 	..
 0
-d/home/gppk/.local
-	share
-1
-d/home/gppk
-	.scripts
-8
-d/home/gppk/.scripts
-	.wallpaper.sh
-8
-d/home/gppk
-	.scripts
-8
-d/home/gppk/.scripts
-	mypackages.sh
-7
-d/home/gppk
-	Docear
-8
-d/home
-	gppk
-1
-d/home/gppk
-	Documents
-9
-d/home/gppk/Documents
+d/home/schizo/.cache/yay/ttf-d2coding
 	..
 0
-d/home/gppk
-	DL_homework_6
-8
-d/home
-	gppk
+d/home/schizo/tmp
+	github.com
 1
-d/home/gppk
-	.angband
+d/home/schizo/.config
+	vifm
+41
+d/home/schizo/.config/vifm
+	vifm_devicons
 3
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/Downloads/t
-	..
-0
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/Downloads/t
-	Unpack-4982
-1
-d/home/gppk/Downloads/t/Unpack-4982
-	..
-0
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads/t/CD
-	17 - Ostfront Hate System - Sinuskurve.mp3
-17
-d/home/gppk/Downloads/t
-	CD
-1
-d/home/gppk/Downloads
-	t
-15
-d/home/gppk/pics
-	wall
-8
-d/home/gppk/pics/wall
-	onnzjztzyqqy.png
-1
-d/home/gppk/pics
-	dq2h1oysnZ0.jpg
-13
-d/home/gppk
-	pics
-50
-d/home/gppk/pics
-	-3pKmZsXniU.jpg
-14
-d/home/gppk
-	.gnome
-10
-d/home/gppk/.gnome
-	..
-0
-d/home/gppk
-	.gnome
-10
-d/home/gppk/.gnome
-	apps
-1
-d/home/gppk
-	.gnome
-10
+d/home/schizo/.config
+	vifm
+41
 d/home
-	gppk
-1
-d/home/gppk
-	.gnome
-10
-d/home/gppk/pics
-	wall
-8
-d/home/gppk/pics/wall
-	d9n6ip7-6c37548d-4f21-47c0-b4dd-d71ca9791033.jpg
-11
-d/home/gppk/pics
-	CkEed3KiDPM.jpg
-15
-d/home/gppk
-	pics
-1
-d/home
-	gppk
-1
-d/home/gppk
-	..
-0
-d/home/gppk/Dropbox/screenshots
-	2019-03-08-17-53-59.jpeg
-8
-d/home/gppk/Dropbox
-	screenshots
-1
-d/home/gppk
-	Dropbox
-31
-d/home
-	gppk
-1
-d/
-	var
-17
-d/var
-	cache
-1
-d/
-	bin
-0
-d/bin
-	fzf
-49
-d/
-	etc
-3
-d/etc
-	..
-0
-d/
-	home
-4
-d/home
-	gppk
-1
-d/home/gppk
-	.fzf
-8
-d/home/gppk/.fzf
-	shell
-7
-d/home/gppk/.fzf/shell
-	key-bindings.zsh
-5
-d/home/gppk/.fzf
-	shell
-7
-d/home/gppk
-	.fzf
-8
-d/home
-	gppk
-1
+	schizo
+2
 d/
 	usr
-16
-d/usr
-	share
-8
-d/usr/share
-	groff
-12
-d/usr/share/groff
-	1.22.3
-1
-d/usr/share/groff/1.22.3
-	..
-0
-d/usr/share/groff
-	current
-2
-d/usr/share/groff/current
-	font
-1
-d/usr/share/groff/current/font
-	..
-0
-d/usr/share/groff/current
-	oldfont
-2
-d/usr/share/groff/current/oldfont
-	devps
-1
-d/usr/share/groff/current/oldfont/devps
-	HNB
-7
-d/usr/share/groff/current/oldfont
-	devps
-1
-d/usr/share/groff/current
-	font
-1
-d/usr/share/groff/current/font
-	devutf8
-13
-d/usr/share/groff/current/font/devutf8
-	R
-5
-d/usr/share/groff/current/font
-	devpdf
-11
-d/usr/share/groff/current/font/devpdf
-	TR
-19
-d/usr/share/groff/current/font
-	devpdf
-11
-d/usr/share/groff/current
-	font
-1
-d/usr/share/groff
-	current
-2
-d/usr/share
-	groff
-12
-d/usr
-	share
-8
-d/
-	home
-4
-d/home
-	gppk
-1
-d/home/gppk
-	pics
-16
-d/home/gppk/pics
-	992NB.jpg
-8
-d/home/gppk
-	pics
-16
-d/home
-	gppk
-1
-d/home/gppk
-	notes
-15
-d/home/gppk/notes
-	t
-1
-d/home/gppk/notes/t
-	..
-0
-d/home/gppk/notes
-	stow_notes.md
-6
-d/home/gppk
-	notes
-15
-d/home
-	gppk
-1
-d/home/gppk
-	.adobe
-1
-d/home/gppk/pics
-	992NB.jpg
-8
-d/home/gppk/Downloads
-	zips
 17
-d/home/gppk/Downloads/zips
-	24-244-spring-2015.zip
-2
-d/home/gppk/Downloads
-	zips
-1
-d/home/gppk/Downloads/zips
-	The Simpsons - 1x01 - Simpsons Roasting on an Open Fire.en.sub
-2
-d/home/gppk/Downloads
-	pdfs
-3
-d/home/gppk/Downloads/pdfs
-	Кудинов_173_Философия_Сознания_Перебум.pdf
-47
-d/home/gppk/Downloads
-	docxs
-3
-d/home/gppk
-	.winegames
-2
-d/home/gppk/.winegames
-	heroes
-2
-d/home/gppk/.winegames/heroes
-	drive_c
-2
-d/home/gppk/.winegames/heroes/drive_c
-	GOG Games
-2
-d/home/gppk/pics
-	992NB.jpg
-8
-d/home/gppk/Downloads
-	zips
-1
-d/home/gppk/Downloads/zips
-	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-1
-d/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-	Deus_Ex.txz
-2
-d/home/gppk
-	.winegames
-2
-d/home/gppk/.winegames
-	deusex
-1
-d/home/gppk/.winegames/deusex
-	drive_c
-1
-d/home/gppk/.winegames/deusex/drive_c
-	Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-	DeusEx
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	prefix
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
+d/usr
+	local
+6
+d/usr/local
 	..
 0
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	wine_standalone
-2
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
-	bin
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/bin
-	..
-0
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
+d/usr
 	share
-3
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	support
-3
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/support
-	gog-system-report.sh
+8
+d/usr/share
+	fonts
+41
+d/usr/share/fonts
+	TTF
 1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	wine_standalone
-2
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
-	include
-2
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include
-	wine
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include/wine
-	msvcrt
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone/include
-	wine
-1
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/wine_standalone
-	winetricks
-7
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	start.sh
+d/usr/share/fonts/TTF
+	Inconsolata-CondensedExtraBold.ttf
 4
-d/home/gppk/.winegames/deusex/drive_c/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]
-	DeusEx
-1
-d/home/gppk/.winegames/deusex/drive_c
-	..
-0
-d/home/gppk/.winegames/deusex
-	dosdevices
-1
-d/home/gppk/.winegames
-	deusex
-3
-d/home/gppk
-	.local
-32
-d/home/gppk/.local
-	share
-1
-d/home/gppk/.local/share
-	fish
-1
-d/home/gppk/.local/share/fish
-	generated_completions
-1
-d/home/gppk/.local/share/fish/generated_completions
-	logger.fish
-32
-d/home/gppk/.local/share/fish
-	generated_completions
-1
-d/home/gppk/.local/share
-	fish
-1
-d/home/gppk/.local/share/fish
-	generated_completions
-1
-d/home/gppk/.local/share/fish/generated_completions
-	look.fish
+d/usr/share/fonts
+	util
 8
-d/home/gppk/scripts
-	..
-0
-d/home/gppk/Dropbox/screenshots
-	..
-0
-d/home/gppk/Dropbox
-	screenshots
-1
-d/home/gppk/Dropbox/screenshots
-	2019-07-19-08-56-01.jpeg
-3
-d/home/gppk/Dropbox
-	screenshots
-1
-d/home/gppk
-	Downloads
-1
-d/home/gppk/Downloads
-	Arcanum Multiverse Edition
-2
-d/home/gppk
-	dotfiles
-8
-d/home/gppk/dotfiles
-	config
-2
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles/config/llpp
-	llpp.conf
-1
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles/config/llpp
-	llpp.conf
-1
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles/config/llpp
-	llpp.conf
-1
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles/config/llpp
-	llpp.conf
-1
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles
-	config
-2
-d/home/gppk
-	dotfiles
-8
-d/home/gppk/dotfiles
-	home
-5
-d/home/gppk/dotfiles/home
-	vim
-3
-d/home/gppk/dotfiles/home/vim
-	.vim
-1
-d/home/gppk/dotfiles/home/vim/.vim
-	vimplug
+d/usr/share
+	fortune
 4
-d/home/gppk/dotfiles/home/vim
-	.vim
-1
-d/home/gppk/dotfiles/home
-	vim
-3
-d/home/gppk/dotfiles
-	home
-5
-d/home/gppk
-	dotfiles1
-1
-d/home/gppk/dotfiles1
-	config
-1
-d/home/gppk/dotfiles1/config
-	imv
-1
-d/home/gppk/dotfiles1
-	hll
-2
-d/home/gppk/dotfiles1/hll
-	wow
-1
-d/home/gppk/dotfiles1/hll/wow
-	imv
-1
-d/home/gppk/dotfiles1/hll
-	wow
-1
-d/home/gppk/dotfiles1
-	hll
-1
-d/home/gppk
-	dotfiles
-19
-d/home/gppk/dotfiles
-	config
-2
-d/home/gppk/dotfiles/config
-	llpp
-9
-d/home/gppk/dotfiles/config/llpp
-	..
-0
-d/home/gppk/dotfiles/config
-	llpp
-1
-d/home/gppk/dotfiles/config/llpp
-	llpp.conf
-1
-d/home/gppk/dotfiles/config
-	llpp
-1
-d/home/gppk/dotfiles
-	config
-2
-d/home/gppk
-	dotfiles1
-3
-d/home/gppk/dotfiles1
-	hll
-1
-d/home/gppk
-	dotfiles1
-2
-d/home/gppk/dotfiles1
-	llpp
-1
-d/home/gppk/dotfiles1/llpp
-	..
-0
-d/home/gppk/dotfiles1
-	llpp
-1
-d/home/gppk
-	..
-0
-d/home
-	gppk
-1
+d/usr
+	src
+8
 d/
-	var
+	proc
 4
-d/var
-	lib
-2
-d/var/lib
-	mlocate
+d/home/schizo/thaaszagren/assets
+	..
+0
+d/home/schizo/thaaszagren
+	assets
 1
+d/home/schizo
+	thaaszagren
+25
+d/home/schizo/test
+	test.jpg
+1
+d/home/schizo/downloads
+	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
+14
+d/home/schizo/personal
+	pictures
+5
+d/home/schizo/personal/pictures
+	thaas_1
+2
+d/home/schizo/personal/pictures/thaas_1
+	Yves-Tumor-Highlark-01-e1526669607118.jpg
+14
+d/home/schizo/personal/pictures
+	thaas_1
+2
+d/home/schizo/personal
+	pictures
+5
+d/home/schizo
+	documents
+8
+d/home/schizo/downloads
+	Sketch.app
+2
+d/home/schizo/personal
+	pictures
+5
+d/home/schizo/personal/pictures
+	thaas_1
+2
+d/home/schizo/personal/pictures/thaas_1
+	2u_nEE6Hiu0.jpg
+2
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	C4pQ_6ovFpg.jpg
+1
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	C4pQ_6ovFpg.jpg
+2
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	oxuxwiyargj41.jpg
+1
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	CallMeSlide1.png
+13
+d/home/schizo/personal/pictures
+	b8dbf9cf-db78-4d4f-8998-f6546457e904.jpeg
+12
+d/home/schizo/downloads
+	torrents
+14
+d/home/schizo
+	shopify
+4
+d/home/schizo/shopify
+	..
+0
+d/home/schizo
+	stuff
+2
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	b8dbf9cf-db78-4d4f-8998-f6546457e904.jpeg
+12
+d/home/schizo/scripts
+	..
+0
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	..
+0
+d/home/schizo/personal/pictures
+	wall
+6
+d/home/schizo/downloads
+	Desktop - 1.png
+17
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	-poPLdaCTBo.jpg
+1
+d/home/schizo/personal/pictures
+	wall
+6
+d/home/schizo/personal/pictures/wall
+	..
+0
+d/home/schizo/personal/pictures
+	thaas_1
+1
+d/home/schizo/personal/pictures/thaas_1
+	5MzK6jOkUoY.jpg
+1
+d/home/schizo/personal/pictures
+	gettyimages-89178581-2048x2048.jpg
+43
+d/home/schizo
+	..
+0
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	orlando
+1
+d/home/schizo/personal/pictures/screenshots/orlando
+	2020-04-05-20-22-44.png
+15
+d/home/schizo/personal/pictures/screenshots
+	orlando
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	2020-04-06-002551.png
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/downloads
+	djvu
+5
+d/home/schizo/downloads/djvu
+	..
+0
+d/home/schizo/downloads
+	fb2
+5
+d/home/schizo/downloads/fb2
+	..
+0
+d/home/schizo/downloads
+	flac
+5
+d/home/schizo/downloads/flac
+	..
+0
+d/home/schizo/downloads
+	mp3
+5
+d/home/schizo/downloads/mp3
+	..
+0
+d/home/schizo/downloads
+	pdf
+5
+d/home/schizo/downloads/pdf
+	..
+0
+d/home/schizo/downloads
+	txt
+6
+d/home/schizo/downloads/txt
+	..
+0
+d/home/schizo/downloads
+	xlsx
+6
+d/home/schizo/downloads/xlsx
+	..
+0
+d/home/schizo/downloads
+	archives
+6
+d/home/schizo/downloads/archives
+	..
+0
+d/home/schizo/downloads
+	xlsxs
+7
+d/home/schizo/downloads/xlsxs
+	..
+0
+d/home/schizo/downloads
+	xlsxs
+7
+d/home/schizo/downloads/xlsxs
+	..
+0
+d/home/schizo/downloads
+	zoom
+7
+d/home/schizo/downloads/zoom
+	..
+0
+d/home/schizo/downloads
+	Sketch.app
+8
+d/home/schizo/downloads/Sketch.app
+	..
+0
+d/home/schizo/downloads
+	video
+8
+d/home/schizo/downloads/video
+	..
+0
+d/home/schizo/downloads
+	docx
+1
+d/home/schizo/downloads/docx
+	..
+0
+d/home/schizo/downloads
+	docx
+1
+d/home/schizo/downloads/docx
+	..
+0
+d/home/schizo/downloads
+	docxs
+1
+d/home/schizo/downloads/docxs
+	..
+0
+d/home/schizo/downloads
+	docx
+1
+d/home/schizo/downloads/docx
+	..
+0
+d/home/schizo/downloads
+	ppt
+6
+d/home/schizo/downloads/ppt
+	..
+0
+d/home/schizo/downloads
+	ppts
+9
+d/home/schizo/downloads/ppts
+	..
+0
+d/home/schizo/downloads
+	ppt
+1
+d/home/schizo/downloads/ppt
+	..
+0
+d/home/schizo/downloads
+	ppt
+1
+d/home/schizo/downloads/ppt
+	..
+0
+d/home/schizo/downloads
+	test_keyboard_libreoffice.cfg
+24
+d/home/schizo
+	downloads
+1
+d/home
+	schizo
+1
+d/home/schizo
+	new.png
+30
 d
 
 # Right window history (oldest to newest):
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
-	Deus Ex
+D/home/schizo/personal/pictures/screenshots
+	2020-04-02-174925.png
 1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
+D/home/schizo
+	thaaszagren
+14
+D/home/schizo/.config
+	fontconfig
+14
+D/home/schizo/.config/fontconfig
+	fonts
 1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex/System
+D/home/schizo/.config/fontconfig/fonts
 	..
 0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
+D/home/schizo/.config/fontconfig
+	fonts
 1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex/System
-	deusex.log
+D/home/schizo/.config
+	fontconfig
+14
+D/home/schizo/.config/fontconfig
+	fonts
 1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
+D/home/schizo/.config/fontconfig/fonts
+	..
+0
+D/home/schizo/thaaszagren/assets
+	thaaszagren2x.jpg
+3
+D/home/schizo/thaaszagren
+	assets
 1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents
-	Deus Ex
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk
-	My Documents
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users
-	gppk
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:
-	users
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices
-	c:
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
-	.update-timestamp
+D/home/schizo/thaaszagren/assets
+	thaaszagren2x.jpg
+3
+D/home/schizo/personal
+	pictures
 5
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	prefix
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
-	dosdevices
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices
-	c:
-1
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
-	drive_c
+D/home/schizo/personal/pictures
+	thaas_1
 2
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
-	DeusEx
+D/home/schizo/personal/pictures/thaas_1
+	960.png
+9
+D/home/schizo/personal/pictures
+	thaas_1
 2
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
+D/home/schizo/personal/pictures/thaas_1
+	960.png
+9
+D/home/schizo/personal/pictures
+	thaas_1
+2
+D/home/schizo/personal/pictures/thaas_1
+	960.png
+14
+D/home/schizo/personal/pictures
+	pierro
+1
+D/home/schizo/personal/pictures/pierro
 	..
 0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
-	Program Files
-3
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
-	Windows Media Player
-3
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows Media Player
-	..
-0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
-	Windows NT
+D/home/schizo/personal/pictures
+	screenshots
 4
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows NT
+D/home/schizo/personal/pictures/screenshots
+	orlando
+1
+D/home/schizo/personal/pictures/screenshots/orlando
+	1
+1
+D/home/schizo/personal/pictures/screenshots/orlando/1
+	2020-04-05-20-26-28.png
+9
+D/home/schizo/personal/pictures/screenshots
 	..
 0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
-	Windows NT
-4
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files/Windows NT
-	..
-0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/Program Files
-	Windows NT
-4
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
-	DeusEx
-2
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
-	System
-4
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx/System
-	..
-0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
-	System
-4
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx/System
-	..
-0
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c/DeusEx
-	Maps
-7
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/drive_c
-	DeusEx
-2
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix
-	drive_c
-2
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx
-	start.sh
-4
-D/home/gppk/pics
-	wall
-1
-D/home/gppk/pics/wall
-	..
-0
-D/home/gppk/pics
-	wall
-1
-D/home/gppk
-	pics
-1
-D/home/gppk/pics
-	wall
-1
-D/home/gppk/pics/wall
-	Ra9JM2n.jpg
-3
-D/home/gppk/Downloads
-	pdfs
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	..
-0
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	..
-0
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Yoga-Makaranda-Part-II.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Кришнамачарья-Йогарахасья.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Yoga-Makaranda-rus.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Krishnamacharya's full primary poster 1.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Ayengar_B_K_S_Joga-Sutry_Patandzhali_Proyasnenie_B_K_S_Ayengar_Per_S_Angl__2-E_Izd__M_Alpina_Non-Fikshn_2008.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads/pdfs/yoga
-	Ayengar_B_K_S_Joga-Sutry_Patandzhali_Proyasnenie_B_K_S_Ayengar_Per_S_Angl__2-E_Izd__M_Alpina_Non-Fikshn_2008.pdf
-1
-D/home/gppk/Downloads/pdfs
-	yoga
-1
-D/home/gppk/Downloads
-	esse soc_fil
-1
-D/home/gppk/Downloads/esse soc_fil
-	XX-век-в-социологических-теориях-общества.rar
-1
-D/home/gppk/Downloads
-	esse soc_fil
-1
-D/home/gppk/Downloads/esse soc_fil
-	polyakova
-1
-D/home/gppk/Downloads/esse soc_fil/polyakova
-	..
-0
-D/home/gppk/Downloads/esse soc_fil
-	polyakova
-1
-D/home/gppk/Downloads/esse soc_fil/polyakova
-	CONTENTS.doc
-13
-D/home/gppk/Downloads/esse soc_fil
-	polyakova
-1
-D/home/gppk/Downloads
-	esse soc_fil
-1
-D/home/gppk/Downloads/esse soc_fil
-	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
-3
-D/home/gppk/Downloads
-	pdfs
-2
-D/home/gppk/Downloads/pdfs
-	dve-antichnye-modeli-vsego-suschego-aristotel-i-platon.pdf
-4
-D/home/gppk/Downloads
-	esse soc_fil
-2
-D/home/gppk/Downloads/esse soc_fil
-	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
-4
-D/home/gppk/Downloads
-	docxs
-1
-D/home/gppk/Downloads/docxs
-	Приказ_регламент.docx
-1
-D/home/gppk/Downloads
-	esse soc_fil
-2
-D/home/gppk/Downloads/esse soc_fil
-	Ролз Дж. Теория справедливости (фрагменты).docx
-2
-D/home/gppk/Downloads
-	pdfs
-1
-D/home/gppk/Downloads/pdfs
-	dve-antichnye-modeli-vsego-suschego-aristotel-i-platon.pdf
-4
-D/home/gppk/Downloads
-	esse soc_fil
-2
-D/home/gppk/Downloads/esse soc_fil
-	Rolz_Dzh_-_Teoria_Spravedlivosti_2010.djvu
-7
-D/home/gppk/Downloads
-	esse soc_fil
-3
-D/home/gppk/pics
-	wall
-1
-D/home/gppk/pics/wall
-	..
-0
-D/home/gppk/pics
-	msk_botan_sad_japan_08_18
-8
-D/home/gppk/pics/msk_botan_sad_japan_08_18
-	..
-0
-D/home/gppk/pics
-	msk_botan_sad_japan_08_18
-8
-D/home/gppk/pics/msk_botan_sad_japan_08_18
-	..
-0
-D/home/gppk
-	..
-0
-D/home
-	gppk
-1
-D/
-	run
-1
-D/run
-	media
-1
-D/run/media
-	gppk
-1
-D/run/media/gppk
-	Kindle
-1
-D/run/media/gppk/Kindle
-	documents
-1
-D/run/media/gppk/Kindle/documents
-	Тургенев_-_Отцы_и_дети.mobi
-20
-D/run/media
-	..
-0
-D/run
-	media
-10
-D/
-	run
+D/home/schizo/personal/pictures
+	FdV22_cKYXY.jpg
+14
+D/home/schizo/personal
+	pictures
 5
-D/home/gppk
-	..
-0
-D/home/gppk/Downloads
-	xlsxs
-4
-D/home/gppk/Downloads/xlsxs
-	memoirs_without_stopwords.xlsx
+D/home/schizo/personal/pictures
+	screenshots
 2
-D/home/gppk/Downloads
-	xlsxs
-4
-D/home/gppk/Downloads/xlsxs
-	..
-0
-D/home/gppk/Downloads
-	xlsxs
+D/home/schizo/personal/pictures/screenshots
+	abs
 1
-D/home/gppk
-	.vimbackup
+D/home/schizo/personal/pictures/screenshots/abs
+	2020-04-06-180324.png
 1
-D/home/gppk/.vimbackup
-	backup
-1
-D/home/gppk/.vimbackup/backup
-	..
-0
-D/home/gppk/.vimbackup
-	backup
+D/home/schizo/personal/pictures/screenshots
+	abs_old
 2
-D/home/gppk
-	.vimbackup
+D/home/schizo/personal/pictures/screenshots/abs_old
+	abs.png
 1
-D/home/gppk/.vimbackup
-	swp
-1
-D/home/gppk/.vimbackup/swp
-	..
-0
-D/home/gppk/.vimbackup
-	swp
-1
-D/home/gppk
-	.vimbackup
-1
-D/home/gppk/.vimbackup
-	swp
-1
-D/home/gppk
-	.vimbackup
-1
-D/home
-	gppk
-1
-D/
-	tmp
-0
-D/tmp
-	.vimrc.swp
-23
-D/
-	tmp
-0
-D/home/gppk
-	.vimbackup
-1
-D/home/gppk/.vimbackup
-	swp
-1
-D/home/gppk/.vimbackup/swp
-	..
-0
-D/home/gppk/.vimbackup
-	backup
-2
-D/home/gppk/.vimbackup/backup
-	..
-0
-D/home/gppk/.vimbackup
-	swp
-1
-D/home/gppk/.vimbackup/swp
-	..
-0
-D/home/gppk/.vimbackup
-	backup
-1
-D/home/gppk/.vimbackup/backup
-	..
-0
-D/home/gppk/.vimbackup
-	backup
-1
-D/home/gppk/.vimbackup/backup
-	again1~
-1
-D/home/gppk/.vimbackup
-	swp
-2
-D/home/gppk/.vimbackup/swp
-	..
-0
-D/home/gppk/.vimbackup
-	backup
-1
-D/home/gppk/.vimbackup/backup
-	again1~
-1
-D/home/gppk/.vimbackup
-	backup
-1
-D/home/gppk/.vimbackup/backup
-	again1~
-2
-D/home/gppk/.vimbackup
-	undo
-2
-D/home/gppk/.vimbackup/undo
-	%home%gppk%again2
-1
-D/home/gppk/.vimbackup
-	undo
-2
-D/home/gppk
-	.git
-8
-D/home/gppk/.git
-	branches
-4
-D/home/gppk/.git/branches
-	..
-0
-D/home/gppk/.git
-	ORIG_HEAD
-9
-D/home/gppk
-	VirtualBox VMs
-8
-D/home/gppk/pics
-	wallp
-11
-D/home/gppk/.config
-	fish
-8
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config/fish/functions
-	..
-0
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config/fish/functions
-	..
-0
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config
-	waybar
-8
-D/home/gppk
-	.config
-3
-D/home/gppk/.config
-	fish
-8
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config/fish/functions
-	cfg_ranger.fish
-12
-D/home/gppk/.config/fish
-	config.fish
-3
-D/home/gppk/.config
-	gxkb
-10
-D/home/gppk/.config/gxkb
-	gxkb.cfg
-1
-D/home/gppk/.config
-	VK
-12
-D/home/gppk/.config/VK
-	..
-0
-D/home/gppk/.config
-	enchant
-7
-D/home/gppk/.config/enchant
-	en_US.exc
-2
-D/home/gppk/.config
-	transmission-daemon
-4
-D/home/gppk/.config/transmission-daemon
-	..
-0
-D/home/gppk/.config
-	systemd
-15
-D/home/gppk/.config/systemd
-	user
-1
-D/home/gppk/.config/systemd/user
-	default.target.wants
-1
-D/home/gppk/.config/systemd/user/default.target.wants
-	..
-0
-D/home/gppk/.config/systemd/user
-	default.target.wants
-1
-D/home/gppk/.config/systemd
-	user
-1
-D/home/gppk/.config
-	wal
-12
-D/home/gppk/.config/wal
-	..
-0
-D/home/gppk/.config
-	mimeapps.list
-17
-D/home/gppk
-	dotfiles
-19
-D/home/gppk/dotfiles
-	config
-2
-D/home/gppk/dotfiles/config
-	llpp
-9
-D/home/gppk/dotfiles/config/llpp
-	..
-0
-D/home/gppk/dotfiles/config
-	neofetch
-11
-D/home/gppk/.config
-	imv
-8
-D/home/gppk/.config/imv
-	config
-1
-D/home/gppk/.config
-	pavucontrol.ini
-19
-D/home/gppk
-	dotfiles
-19
-D/home/gppk/dotfiles
-	config
-2
-D/home/gppk/dotfiles/config
-	imv
-9
-D/home/gppk/dotfiles/config/imv
-	imv
-1
-D/home/gppk/dotfiles/config/imv/imv
-	..
-0
-D/home/gppk/dotfiles/config/imv
-	imv
-1
-D/home/gppk/dotfiles/config
-	imv
-9
-D/home/gppk/dotfiles
-	config
-2
-D/home/gppk
-	dotfiles
-19
-D/home/gppk/.config
-	fish
-8
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config/fish/functions
-	cfg_fish.fish
-7
-D/home/gppk/.config/fish
-	functions
-1
-D/home/gppk/.config
-	fish
-8
-D/home/gppk
-	scripts
-19
-D/home/gppk/scripts
-	trash_notification.sh
-1
-D/home/gppk
-	scripts
-16
 D
 
 # Command line history (oldest to newest):
+:!echo %c
+:!echo %rx
+:!echo %x
+:!echo %r
+:!echo %u
+:!echo %d%f
+:filter mobi
+:filter! mobi
+:filter .pdf
+:!filter .pdf
+:filter! .pdf
+:filter! djvu
+:filter!
+:mkdir anki
 :mkdir rars
 :mkdir archives
 :mkdir txts
@@ -1254,7 +510,6 @@ D
 :colorscheme Default
 :goto ~
 :colorscheme ph
-:pwd
 :filter !
 :filter 
 :filter .*
@@ -1268,7 +523,6 @@ D
 :file &<CR>
 :file &<cr>l
 :file &
-:file
 :set sortnumbers
 :mkdir .scripts
 :rename 
@@ -1283,7 +537,6 @@ D
 :!simple-fb2-reader %f
 :!zathura %f
 :!rename
-:rename
 :sort 
 :help sort
 :set millerview
@@ -1302,18 +555,12 @@ D
 :!wallpaper.sh $(echo "%f")
 :!wallpaper.sh "%f"
 :!wallpaper.sh %f
-:reload
-:wq
 :!extract %f
 :!unrar %f
-:!unrar e %f
-:!zathura %f &
 :mpv
 :!mpv
-:!mpv %f
 :sort
 :!unzip %f
-:!chromium %f
 :!Failed to connect to a Wayland server
 :!nv %f
 :!nvim %f
@@ -1339,82 +586,103 @@ D
 :mkdir wow
 :mkdir llpp
 :/fish
+:chromium %f
+:!chromium %f
+:imv %f
+:!imv %f
+:mupdf-
+:!mpv %file
+:e
+:!atool %f
+:rename
+:mkdir srv
+:file
+:r
+:reload
+:mkdir vids
+:mkdir 
+:cd "$(xdg-user-dir PICTURES)"
+:cd $XDG_PICTURES_DIR
+:mkdir lection_1
+:pwd
+:S
+:mkdir dump
+:mkdir desktop
+:mkdir templates
+:mkdir public
+:mkdir documents
+:!filter pdf
+:filter !pdf
+:filter! pdf
+:filter pdf
+:!atool -a %f
+:filter
+:!atool -x %f
+:mkdir hz_knijki
+:mkdir zotero_library
+:!acroread %f
+:!evince %f
+:!okular %f
+:!evince %f &
+:!okular %f &
+:!zathura %f &
+:mkdir Strauss
+:swaymsg output "*" bg %f fill
+:!swaymsg output "*" bg %f fill
+:!swaymsg output "*" bg "%f" fill
+:!swaymsg output "*" bg '%f' fill
+:!sh $HOME/scripts/wallpaper_this.sh %f
+:!libreoffice writer %f
+:!gimp %f
+:!firefox-nightly %f
+:!unrar -x %f
+:!unrar e %f
+:mkdir kant_sobranie_sochinenii
+:!imv %f &
+:!wallpaper_this.sh %f
+:mkdir civ5
+:!bg_this.sh %f
+:!bg_this.sh %d
+:mkdir bash
+:wq
+:mkdir stuff
+:set hidden
+:w
+:vifmimg
+:vifmimg 
+:mkdir pierro
+:!mpv %f
 :q
+:!convert "%f" -resize 640x480 -quality 100 "test.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs2.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs3.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs4.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs5.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs6.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs7.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs8.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs9.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs10.png"
+:!convert "%f" -resize 640x480 -quality 100 "abs11.png"
 
 # Search history (oldest to newest):
-/2W
-/rars
-/txt
-/Pata
-/ghs
-/gh
-/way
-/pi
-/a
-/goto ~
-/tras
-/.init
-/.nvim
-/.config
-/nvim
-/Down
-/Drop
-/config
-/script
-/cache
-/wal
-/down
-/pdf
-/ala
-/sway
-/dotfiles
-/vim
-/cropped
-/t
-/fzf
-/pics
-/note
-/loca
-/deter
-/al
-/dente
-/hard
-/Hard
-/pereboo
-/Пере
-/мака
-/Ма
-/йог
-/Криш
-/Mak
-/kris
-/Kris
-/yoga
-/local
-/gen
-/howd
-/torr
-/Chr
 /tmp
-/swp
-/back
-/g
-/git
-/ll
-/dot
-/imv
-/fish
-/cfg_f
-/scrip
+/font
+/vifm
+/usr
+/fon
+/960
+/Pi
+/pi
+/Do
 
 # Prompt history (oldest to newest):
-pdotfiles_03-06-2019
-pdotfiles_backup
-pp
+pabs
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/schizo/.local/share/Trash/files/000_2020-04-06-180324.png
 
 # Directory stack (oldest to newest):
 
@@ -1813,14 +1081,554 @@ t/home/gppk/.local/share/Trash/files/000_imv
 	/home/gppk/.config/imv
 t/home/gppk/.local/share/Trash/files/000_llpp
 	/home/gppk/dotfiles/config/llpp
+t/home/schizo/.local/share/vifm/Trash/000_testtexagain
+	/home/schizo/testtexagain
+t/home/schizo/.local/share/vifm/Trash/000_testfuck
+	/home/schizo/testfuck
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.fdb_latexmk
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.fdb_latexmk
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.aux
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.aux
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.fls
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.fls
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.log
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.log
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.pdf
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.pdf
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.synctex.gz
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.synctex.gz
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.toc
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.toc
+t/home/schizo/.local/share/vifm/Trash/000_Ortega_y_Gasset_La_Rebelion_de_la_massas.tex
+	/home/schizo/Ortega_y_Gasset_La_Rebelion_de_la_massas.tex
+t/home/schizo/.local/share/vifm/Trash/000_test_spell.txt
+	/home/schizo/test_spell.txt
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.tex
+	/home/schizo/test_vimtex.tex
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.aux
+	/home/schizo/test_vimtex.aux
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.fdb_latexmk
+	/home/schizo/test_vimtex.fdb_latexmk
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.fls
+	/home/schizo/test_vimtex.fls
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.log
+	/home/schizo/test_vimtex.log
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.pdf
+	/home/schizo/test_vimtex.pdf
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.synctex.gz
+	/home/schizo/test_vimtex.synctex.gz
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.toc
+	/home/schizo/test_vimtex.toc
+t/home/schizo/.local/share/vifm/Trash/000_test_vimtex.pyg
+	/home/schizo/test_vimtex.pyg
+t/home/schizo/.local/share/vifm/Trash/000_Gerder_I.G._Idei_k_filosofii_istorii_chelovechestva.(1977).[djv-f02]
+	/home/schizo/Downloads/Gerder_I.G._Idei_k_filosofii_istorii_chelovechestva.(1977).[djv-f02]
+t/home/schizo/.local/share/vifm/Trash/000_Gerder_I.G._Idei_k_filosofii_istorii_chelovechestva.(1977).[djv-f02].zip
+	/home/schizo/Downloads/Gerder_I.G._Idei_k_filosofii_istorii_chelovechestva.(1977).[djv-f02].zip
+t/home/schizo/.local/share/Trash/files/000_Zettelkasten3_linux
+	/home/schizo/Downloads/Zettelkasten3_linux
+t/home/schizo/.local/share/Trash/files/000_Unpack-5505
+	/home/schizo/Downloads/Unpack-5505
+t/home/schizo/.local/share/Trash/files/000_Unpack-6017
+	/home/schizo/Downloads/Unpack-6017
+t/home/schizo/.local/share/Trash/files/000_Unpack-9839
+	/home/schizo/Downloads/Unpack-9839
+t/home/schizo/.local/share/Trash/files/000_Unpack-1446
+	/home/schizo/Downloads/Unpack-1446
+t/home/schizo/.local/share/Trash/files/000_Unpack-4626
+	/home/schizo/Downloads/Unpack-4626
+t/home/schizo/.local/share/Trash/files/000_Unpack-7480
+	/home/schizo/Downloads/Unpack-7480
+t/home/schizo/.local/share/Trash/files/000_sun
+	/home/schizo/Zettelkasten/sun
+t/home/schizo/.local/share/Trash/files/000_Zettel.jar
+	/home/schizo/Zettel.jar
+t/home/schizo/.local/share/Trash/files/000_Zett.jar
+	/home/schizo/Zett.jar
+t/home/schizo/.local/share/Trash/files/000_Zet.jar
+	/home/schizo/Zet.jar
+t/home/schizo/.local/share/Trash/files/000_Zettelkasten
+	/home/schizo/Zettelkasten
+t/home/schizo/.local/share/Trash/files/000_.Zettelkasten
+	/home/schizo/.Zettelkasten
+t/home/schizo/.local/share/Trash/files/000_public
+	/home/schizo/public
+t/home/schizo/.local/share/Trash/files/000_vids
+	/home/schizo/vids
+t/home/schizo/.local/share/Trash/files/000_Ха-Джун Чанг - Как устроена экономика-Манн, Иванов и Фербер (2015).pdf
+	/home/schizo/downloads/Ха-Джун Чанг - Как устроена экономика-Манн, Иванов и Фербер (2015).pdf
+t/home/schizo/.local/share/Trash/files/000___.pdf
+	/home/schizo/downloads/__.pdf
+t/home/schizo/.local/share/Trash/files/000_bertrand-russell_the-problems-of-philosophy.azw3
+	/home/schizo/downloads/anki/bertrand-russell_the-problems-of-philosophy.azw3
+t/home/schizo/.local/share/Trash/files/000_http _www.antimoon.com_how_pronunc-soundsipa.html
+	/home/schizo/downloads/http _www.antimoon.com_how_pronunc-soundsipa.html
+t/home/schizo/.local/share/Trash/files/000_ttt
+	/home/schizo/ttt
+t/home/schizo/.local/share/Trash/files/000_wow1
+	/home/schizo/wow1
+t/home/schizo/.local/share/Trash/files/001_wow
+	/home/schizo/wow
+t/home/schizo/.local/share/Trash/files/000_test
+	/home/schizo/test
+t/home/schizo/.local/share/Trash/files/000_dcba
+	/home/schizo/dcba
+t/home/schizo/.local/share/Trash/files/000_abcd
+	/home/schizo/abcd
+t/home/schizo/.local/share/Trash/files/000_new
+	/home/schizo/new
+t/home/schizo/.local/share/Trash/files/000_newfile
+	/home/schizo/newfile
+t/home/schizo/.local/share/Trash/files/000_neworder
+	/home/schizo/neworder
+t/home/schizo/.local/share/Trash/files/000_masha.html
+	/home/schizo/masha.html
+t/home/schizo/.local/share/Trash/files/000_masha.pdf
+	/home/schizo/masha.pdf
+t/home/schizo/.local/share/Trash/files/000_.bash_history
+	/home/schizo/.bash_history
+t/home/schizo/.local/share/Trash/files/000_dead.letter
+	/home/schizo/dead.letter
+t/home/schizo/.local/share/Trash/files/000_masha.log
+	/home/schizo/masha.log
+t/home/schizo/.local/share/Trash/files/000_masha.aux
+	/home/schizo/masha.aux
+t/home/schizo/.local/share/Trash/files/000_masha.fdb_latexmk
+	/home/schizo/masha.fdb_latexmk
+t/home/schizo/.local/share/Trash/files/000_masha.fls
+	/home/schizo/masha.fls
+t/home/schizo/.local/share/Trash/files/000_masha.md
+	/home/schizo/masha.md
+t/home/schizo/.local/share/Trash/files/000_new.txt
+	/home/schizo/new.txt
+t/home/schizo/.local/share/Trash/files/000_thaas.txt
+	/home/schizo/thaas.txt
+t/home/schizo/.local/share/Trash/files/003_nohup.out
+	/home/schizo/nohup.out
+t/home/schizo/.local/share/Trash/files/000_notes.md
+	/home/schizo/notes.md
+t/home/schizo/.local/share/Trash/files/000_2019-10-28T04-23-36.pdf
+	/home/schizo/2019-10-28T04-23-36.pdf
+t/home/schizo/.local/share/Trash/files/000_2019-10-28T04-22-56.pdf
+	/home/schizo/2019-10-28T04-22-56.pdf
+t/home/schizo/.local/share/Trash/files/000_sh.sh
+	/home/schizo/sh.sh
+t/home/schizo/.local/share/Trash/files/000_wl-copy
+	/home/schizo/wl-copy
+t/home/schizo/.local/share/Trash/files/000_thaas.html
+	/home/schizo/thaas.html
+t/home/schizo/.local/share/Trash/files/000_Murphy_R_-_Essential_Grammar_in_Use_Russkaya_Versia_-_2017.pdf
+	/home/schizo/downloads/Murphy_R_-_Essential_Grammar_in_Use_Russkaya_Versia_-_2017.pdf
+t/home/schizo/.local/share/Trash/files/000_statistics
+	/home/schizo/downloads/statistics
+t/home/schizo/.local/share/Trash/files/000_(Springer Texts in Statistics) Allan Gut-Probability_ A graduate course-Springer (2005).pdf
+	/home/schizo/(Springer Texts in Statistics) Allan Gut-Probability_ A graduate course-Springer (2005).pdf
+t/home/schizo/.local/share/Trash/files/000_1mkhitaryan_v_s_statistika.pdf
+	/home/schizo/1mkhitaryan_v_s_statistika.pdf
+t/home/schizo/.local/share/Trash/files/000_Antonov_D_i_Smuta_V_Kulture_Srednevekovoy_Rusi.pdf
+	/home/schizo/Antonov_D_i_Smuta_V_Kulture_Srednevekovoy_Rusi.pdf
+t/home/schizo/.local/share/Trash/files/000_Bloch_M_-_La_soci_233_t_233_f_233_odale_-_2005.pdf
+	/home/schizo/Bloch_M_-_La_soci_233_t_233_f_233_odale_-_2005.pdf
+t/home/schizo/.local/share/Trash/files/000_Blok_M_-_Feodalnoe_Obschestvo_-_2003.pdf
+	/home/schizo/Blok_M_-_Feodalnoe_Obschestvo_-_2003.pdf
+t/home/schizo/.local/share/Trash/files/000_Dummett-s-Anti-Realism.pdf
+	/home/schizo/Dummett-s-Anti-Realism.pdf
+t/home/schizo/.local/share/Trash/files/000_Host
+	/home/schizo/Host
+t/home/schizo/.local/share/Trash/files/000_Karnap-Empirizm_Semantika_I_Ontologia.pdf
+	/home/schizo/Karnap-Empirizm_Semantika_I_Ontologia.pdf
+t/home/schizo/.local/share/Trash/files/000_L_b_makeeva_-_Yazyk_Ontologia_Realizm.djvu
+	/home/schizo/L_b_makeeva_-_Yazyk_Ontologia_Realizm.djvu
+t/home/schizo/.local/share/Trash/files/000_Semantic-Challenges-to-Realism-Dummett-and-Putnam-Toronto-Studies-in-Philosophy-.pdf
+	/home/schizo/Semantic-Challenges-to-Realism-Dummett-and-Putnam-Toronto-Studies-in-Philosophy-.pdf
+t/home/schizo/.local/share/Trash/files/000_The-Seas-of-Language.pdf
+	/home/schizo/The-Seas-of-Language.pdf
+t/home/schizo/.local/share/Trash/files/000_Thought-and-Reality.pdf
+	/home/schizo/Thought-and-Reality.pdf
+t/home/schizo/.local/share/Trash/files/000_Truth-and-other-enigmas.djvu
+	/home/schizo/Truth-and-other-enigmas.djvu
+t/home/schizo/.local/share/Trash/files/000_William_James_Lectures_Michael_Dummett_-_The_Logical_Basis_of_Metaphysics__1991_Harvard_University_Press.pdf
+	/home/schizo/William_James_Lectures_Michael_Dummett_-_The_Logical_Basis_of_Metaphysics__1991_Harvard_University_Press.pdf
+t/home/schizo/.local/share/Trash/files/000_dammit-majkl_chto-takoe-teoriya-znacheniya.fb2
+	/home/schizo/dammit-majkl_chto-takoe-teoriya-znacheniya.fb2
+t/home/schizo/.local/share/Trash/files/000_dummett1982.pdf
+	/home/schizo/dummett1982.pdf
+t/home/schizo/.local/share/Trash/files/001_Bloch_M_-_La_soci_233_t_233_f_233_odale_-_2005.pdf
+	/home/schizo/personal/books/Bloch_M_-_La_soci_233_t_233_f_233_odale_-_2005.pdf
+t/home/schizo/.local/share/Trash/files/000_Dalgleish et al. - 2007 - No Title.pdf
+	/home/schizo/personal/books/Dalgleish et al. - 2007 - No Title.pdf
+t/home/schizo/.local/share/Trash/files/000_IGRA_Hatzopoulos_04_02.pdf
+	/home/schizo/personal/books/IGRA_Hatzopoulos_04_02.pdf
+t/home/schizo/.local/share/Trash/files/000_MES-00-CityStates.pdf
+	/home/schizo/personal/books/MES-00-CityStates.pdf
+t/home/schizo/.local/share/Trash/files/000_wow.pdf
+	/home/schizo/personal/books/wow.pdf
+t/home/schizo/.local/share/Trash/files/000_orientsever.pdf
+	/home/schizo/personal/books/orientsever.pdf
+t/home/schizo/.local/share/Trash/files/000_game_theory
+	/home/schizo/personal/books/game_theory
+t/home/schizo/.local/share/Trash/files/000_analytics
+	/home/schizo/personal/books/analytics
+t/home/schizo/.local/share/Trash/files/000_Zedlmayr_Utrata_Serediny_pdf_download
+	/home/schizo/personal/books/Zedlmayr_Utrata_Serediny_pdf_download
+t/home/schizo/.local/share/Trash/files/000_Zedlmayr_Utrata_Serediny_pdf_download.zip
+	/home/schizo/personal/books/Zedlmayr_Utrata_Serediny_pdf_download.zip
+t/home/schizo/.local/share/Trash/files/000_Voevodsky - 2003 - Motivic cohomology with {{bf Z}2}-coefficients.pdf
+	/home/schizo/personal/books/Voevodsky - 2003 - Motivic cohomology with {{bf Z}2}-coefficients.pdf
+t/home/schizo/.local/share/Trash/files/000_gill2007.pdf
+	/home/schizo/personal/books/other/gill2007.pdf
+t/home/schizo/.local/share/Trash/files/000_Lars_Svendsen_Filosofia_Skuki.rtf
+	/home/schizo/personal/books/other/Lars_Svendsen_Filosofia_Skuki.rtf
+t/home/schizo/.local/share/Trash/files/000_Georgy_Tovstonogov_Krug_Mysley_stati_Rezhisserskie_Kommentarii.rtf
+	/home/schizo/personal/books/other/Georgy_Tovstonogov_Krug_Mysley_stati_Rezhisserskie_Kommentarii.rtf
+t/home/schizo/.local/share/Trash/files/000_20066328.fb2
+	/home/schizo/personal/books/other/20066328.fb2
+t/home/schizo/.local/share/Trash/files/000_20066328.zip
+	/home/schizo/personal/books/other/20066328.zip
+t/home/schizo/.local/share/Trash/files/000_23.pdf
+	/home/schizo/personal/books/other/23.pdf
+t/home/schizo/.local/share/Trash/files/000_Rationality__From_AI_to_Zombies
+	/home/schizo/personal/books/other/Rationality__From_AI_to_Zombies
+t/home/schizo/.local/share/Trash/files/000_20066328
+	/home/schizo/personal/books/other/20066328
+t/home/schizo/.local/share/Trash/files/000_productivity
+	/home/schizo/personal/books/other/productivity
+t/home/schizo/.local/share/Trash/files/000_ranger
+	/home/schizo/ranger
+t/home/schizo/.local/share/Trash/files/000_Unpack-6889
+	/home/schizo/personal/diary/Unpack-6889
+t/home/schizo/.local/share/Trash/files/000_Vitgenshteyn_Lyudvig_Logiko-filosofskiy_traktat.doc
+	/home/schizo/personal/books/philosophy/Vitgenshteyn_Lyudvig_Logiko-filosofskiy_traktat.doc
+t/home/schizo/.local/share/Trash/files/000_[Mamardashvili_Merab]_Lekcii_po_antichnoi_filosofi(BookFi).fb2.zip
+	/home/schizo/personal/books/philosophy/[Mamardashvili_Merab]_Lekcii_po_antichnoi_filosofi(BookFi).fb2.zip
+t/home/schizo/.local/share/Trash/files/000_[Ortega-i-Gasset_Hose]_CHto_takoe_filosofiya(BookFi).fb2.zip
+	/home/schizo/personal/books/philosophy/[Ortega-i-Gasset_Hose]_CHto_takoe_filosofiya(BookFi).fb2.zip
+t/home/schizo/.local/share/Trash/files/000_Ф._1809_Философские исследования о сущности человеческой своб.doc
+	/home/schizo/personal/books/philosophy/Ф._1809_Философские исследования о сущности человеческой своб.doc
+t/home/schizo/.local/share/Trash/files/000_Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018
+	/home/schizo/personal/books/music/Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018
+t/home/schizo/.local/share/Trash/files/000_Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018.7z
+	/home/schizo/personal/books/music/Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018.7z
+t/home/schizo/.local/share/Trash/files/000_Ditmarsch and Koi - 2015 - One hundred prisoners and a light bulb 2.pdf
+	/home/schizo/personal/books/philosophy/analytics/Ditmarsch and Koi - 2015 - One hundred prisoners and a light bulb 2.pdf
+t/home/schizo/.local/share/Trash/files/000_.lesshst
+	/home/schizo/.lesshst
+t/home/schizo/.local/share/Trash/files/000_dupes_books.txt
+	/home/schizo/dupes_books.txt
+t/home/schizo/.local/share/Trash/files/000_.esd_auth
+	/home/schizo/.esd_auth
+t/home/schizo/.local/share/Trash/files/000_hpmor_ru.fb2.zip
+	/home/schizo/personal/books/nonfiction/hpmor_ru.fb2.zip
+t/home/schizo/.local/share/Trash/files/000_Artur_Lidyard_-_Beg_S_Lidyardom.fb2
+	/home/schizo/personal/books/health/sport/running/Artur_Lidyard_-_Beg_S_Lidyardom.fb2
+t/home/schizo/.local/share/Trash/files/000_read
+	/home/schizo/personal/books/health/sport/running/read
+t/home/schizo/.local/share/Trash/files/000_Туманова and Киселев - 2011 - Права человека в правовой мысли и законотворчестве 2.pdf
+	/home/schizo/personal/books/sociology/Туманова and Киселев - 2011 - Права человека в правовой мысли и законотворчестве 2.pdf
+t/home/schizo/.local/share/Trash/files/000_Маккарти - Старикам тут не место 2.pdf
+	/home/schizo/personal/books/fiction/Маккарти - Старикам тут не место 2.pdf
+t/home/schizo/.local/share/Trash/files/000_pg5200.mobi
+	/home/schizo/downloads/pg5200.mobi
+t/home/schizo/.local/share/Trash/files/000_pg5827.mobi
+	/home/schizo/downloads/pg5827.mobi
+t/home/schizo/.local/share/Trash/files/000_pg40196.mobi
+	/home/schizo/downloads/pg40196.mobi
+t/home/schizo/.local/share/Trash/files/000_thaaszagren_posts - Sheet1(1).csv
+	/home/schizo/downloads/thaaszagren_posts - Sheet1(1).csv
+t/home/schizo/.local/share/Trash/files/000_thaaszagren_posts - Sheet1(2).csv
+	/home/schizo/downloads/thaaszagren_posts - Sheet1(2).csv
+t/home/schizo/.local/share/Trash/files/000_thaaszagren_posts - Sheet1.csv
+	/home/schizo/downloads/thaaszagren_posts - Sheet1.csv
+t/home/schizo/.local/share/Trash/files/000_todo.md
+	/home/schizo/downloads/todo.md
+t/home/schizo/.local/share/Trash/files/000_Economics
+	/home/schizo/downloads/Economics
+t/home/schizo/.local/share/Trash/files/000_Economics_z
+	/home/schizo/downloads/Economics_z
+t/home/schizo/.local/share/Trash/files/000_Document Cloud
+	/home/schizo/downloads/Document Cloud
+t/home/schizo/.local/share/Trash/files/000_Document Cloud(1)
+	/home/schizo/downloads/Document Cloud(1)
+t/home/schizo/.local/share/Trash/files/000_Document Cloud(2)
+	/home/schizo/downloads/Document Cloud(2)
+t/home/schizo/.local/share/Trash/files/000_Elysia Crampton
+	/home/schizo/downloads/Elysia Crampton
+t/home/schizo/.local/share/Trash/files/000_common.css
+	/home/schizo/downloads/Frye_N_-_Anatomy_of_Criticism_Four_Essays_files/common.css
+t/home/schizo/.local/share/Trash/files/000_fonts_cnt.css
+	/home/schizo/downloads/Frye_N_-_Anatomy_of_Criticism_Four_Essays_files/fonts_cnt.css
+t/home/schizo/.local/share/Trash/files/000_fonts_utf.css
+	/home/schizo/downloads/Frye_N_-_Anatomy_of_Criticism_Four_Essays_files/fonts_utf.css
+t/home/schizo/.local/share/Trash/files/001_Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018
+	/home/schizo/downloads/Lyalya_Kandaurova_Polchasa_Muzyki_Kak_Ponyat_I_Polyubit_Klassiku_2018
+t/home/schizo/.local/share/Trash/files/000_http _www.antimoon.com_how_pronunc-soundsipa_files
+	/home/schizo/downloads/http _www.antimoon.com_how_pronunc-soundsipa_files
+t/home/schizo/.local/share/Trash/files/000_vkrss-master
+	/home/schizo/downloads/vkrss-master
+t/home/schizo/.local/share/Trash/files/000_zotero_library
+	/home/schizo/zotero_library/zotero_library
+t/home/schizo/.local/share/Trash/files/000_Antonov_D_i_Smuta_V_Kulture_Srednevekovoy_Rusi_copy.pdf
+	/home/schizo/downloads/books/Antonov_D_i_Smuta_V_Kulture_Srednevekovoy_Rusi_copy.pdf
+t/home/schizo/.local/share/Trash/files/000_Oct_28_-_Nov_3.pdf
+	/home/schizo/downloads/books/Oct_28_-_Nov_3.pdf
+t/home/schizo/.local/share/Trash/files/000_Gerder_I_g_-_Idei_K_Filosofii_Istorii_Chelovechestva_pdf(1).pdf
+	/home/schizo/downloads/Gerder_I_g_-_Idei_K_Filosofii_Istorii_Chelovechestva_pdf(1).pdf
+t/home/schizo/.local/share/Trash/files/000_kCL2qveldk8.jpg~
+	/home/schizo/personal/pictures/kCL2qveldk8.jpg~
+t/home/schizo/.local/share/Trash/files/000_DZ2_data.csv
+	/home/schizo/minor_DZ2/DZ2_data.csv
+t/home/schizo/.local/share/Trash/files/000_Фейнман Р., Леймон Р., Сендс М. - Фейнмановские лекции по физике, том 1 - 1965.pdf
+	/home/schizo/Фейнман Р., Леймон Р., Сендс М. - Фейнмановские лекции по физике, том 1 - 1965.pdf
+t/home/schizo/.local/share/Trash/files/000_Кант Иммануил. - Сочинения на немецком и русском языках. Том 3(1).pdf
+	/home/schizo/downloads/Кант Иммануил. - Сочинения на немецком и русском языках. Том 3(1).pdf
+t/home/schizo/.local/share/Trash/files/000_Идея вечного возвращения Ф. Ницше  между философией и поэзией_files
+	/home/schizo/downloads/Идея вечного возвращения Ф. Ницше  между философией и поэзией_files
+t/home/schizo/.local/share/Trash/files/000_Dante_Aligyeri_-_Bozhestvennaya_Komedia_-_Lozinsky_-_Ad_-_1939.pdf
+	/home/schizo/downloads/Dante_Aligyeri_-_Bozhestvennaya_Komedia_-_Lozinsky_-_Ad_-_1939.pdf
+t/home/schizo/.local/share/Trash/files/000_Пластик.pdf
+	/home/schizo/downloads/Пластик.pdf
+t/home/schizo/.local/share/Trash/files/000_Лист приема дежурства 952 квартиры.pdf
+	/home/schizo/downloads/Лист приема дежурства 952 квартиры.pdf
+t/home/schizo/.local/share/Trash/files/000_График_уборки_952 - Февраль.pdf
+	/home/schizo/downloads/График_уборки_952 - Февраль.pdf
+t/home/schizo/.local/share/Trash/files/000_Achmatova - 1978 - Poèma bez geroja.pdf
+	/home/schizo/downloads/books/Achmatova - 1978 - Poèma bez geroja.pdf
+t/home/schizo/.local/share/Trash/files/000_Hemingway_1995_A Farewell to Arms.pdf
+	/home/schizo/downloads/Hemingway_1995_A Farewell to Arms.pdf
+t/home/schizo/.local/share/Trash/files/000_Кудинов_к_курсовой.pdf
+	/home/schizo/downloads/Кудинов_к_курсовой.pdf
+t/home/schizo/.local/share/Trash/files/000_Laba1 (ISTRA-like).c
+	/home/schizo/downloads/Laba1 (ISTRA-like).c
+t/home/schizo/.local/share/Trash/files/000_Laba2.sh
+	/home/schizo/downloads/Laba2.sh
+t/home/schizo/.local/share/Trash/files/000_Mroz.csv
+	/home/schizo/downloads/Mroz.csv
+t/home/schizo/.local/share/Trash/files/000_chief keef - kay kay __nightcore__.mp3
+	/home/schizo/downloads/chief keef - kay kay __nightcore__.mp3
+t/home/schizo/.local/share/Trash/files/000_����� ����6.csv
+	/home/schizo/downloads/����� ����6.csv
+t/home/schizo/.local/share/Trash/files/000_тест 13.12 (6).docx
+	/home/schizo/downloads/тест 13.12 (6).docx
+t/home/schizo/.local/share/Trash/files/000_Лотман Юрий. Беседы о русской культуре. Быт и традиции русского дворянства (XVIII — начало XIX века) - royallib.com.epub.zip
+	/home/schizo/downloads/Лотман Юрий. Беседы о русской культуре. Быт и традиции русского дворянства (XVIII — начало XIX века) - royallib.com.epub.zip
+t/home/schizo/.local/share/Trash/files/000_ОТЧЁТ учебного ассистента и консультанта.xls
+	/home/schizo/downloads/ОТЧЁТ учебного ассистента и консультанта.xls
+t/home/schizo/.local/share/Trash/files/000_photo5354933300617130118.jpg
+	/home/schizo/downloads/photo5354933300617130118.jpg
+t/home/schizo/.local/share/Trash/files/000_photo5354933300617130119.jpg
+	/home/schizo/downloads/photo5354933300617130119.jpg
+t/home/schizo/.local/share/Trash/files/000_LearnGerman A2 - Relativsätze Nom (1).pdf
+	/home/schizo/downloads/LearnGerman A2 - Relativsätze Nom (1).pdf
+t/home/schizo/.local/share/Trash/files/000_Grammatika_Sovremennogo_Nemetskogo_Yazyka_chobotar_A(1).pdf
+	/home/schizo/downloads/Grammatika_Sovremennogo_Nemetskogo_Yazyka_chobotar_A(1).pdf
+t/home/schizo/.local/share/Trash/files/000_LearnGerman A2 - Relativsätze Nom.pdf
+	/home/schizo/downloads/LearnGerman A2 - Relativsätze Nom.pdf
+t/home/schizo/.local/share/Trash/files/000_markdown-preview.nvim
+	/home/schizo/.vim/vimplug/markdown-preview.nvim
+t/home/schizo/.local/share/Trash/files/000_vimwiki
+	/home/schizo/vimwiki
+t/home/schizo/.local/share/Trash/files/000_vimwiki_html
+	/home/schizo/vimwiki_html
+t/home/schizo/.local/share/Trash/files/000_vim-instant-markdown
+	/home/schizo/.vim/vimplug/vim-instant-markdown
+t/home/schizo/.local/share/Trash/files/004_vimwiki
+	/home/schizo/.vim/vimplug/vimwiki
+t/home/schizo/.local/share/Trash/files/000_vim-ripgrep
+	/home/schizo/.vim/vimplug/vim-ripgrep
+t/home/schizo/.local/share/Trash/files/000_bash_tips.md
+	/home/schizo/bash_tips.md
+t/home/schizo/.local/share/Trash/files/000_23123
+	/home/schizo/23123
+t/home/schizo/.local/share/Trash/files/000_new2.pdf
+	/home/schizo/new2.pdf
+t/home/schizo/.local/share/Trash/files/000_new2.md
+	/home/schizo/new2.md
+t/home/schizo/.local/share/Trash/files/000_hello.tex
+	/home/schizo/hello.tex
+t/home/schizo/.local/share/Trash/files/000_new1.pdf
+	/home/schizo/new1.pdf
+t/home/schizo/.local/share/Trash/files/000_new1.md
+	/home/schizo/new1.md
+t/home/schizo/.local/share/Trash/files/000_new.pdf
+	/home/schizo/new.pdf
+t/home/schizo/.local/share/Trash/files/000_new.md
+	/home/schizo/new.md
+t/home/schizo/.local/share/Trash/files/000_bash_cheatsheet.html
+	/home/schizo/bash_cheatsheet.html
+t/home/schizo/.local/share/Trash/files/000_bash.html
+	/home/schizo/bash.html
+t/home/schizo/.local/share/Trash/files/000_t.sh
+	/home/schizo/t.sh
+t/home/schizo/.local/share/Trash/files/000_wow.sh
+	/home/schizo/wow.sh
+t/home/schizo/.local/share/Trash/files/000_wow2.sh
+	/home/schizo/wow2.sh
+t/home/schizo/.local/share/Trash/files/000_pure-bash-bible
+	/home/schizo/personal/books/programming/linux/pure-bash-bible
+t/home/schizo/.local/share/Trash/files/000_geide_sm-rotated90.pdf
+	/home/schizo/geide_sm-rotated90.pdf
+t/home/schizo/.local/share/Trash/files/000_altusser_ideologia.txt
+	/home/schizo/altusser_ideologia.txt
+t/home/schizo/.local/share/Trash/files/000_altusser_ideologia.html
+	/home/schizo/altusser_ideologia.html
+t/home/schizo/.local/share/Trash/files/000_altusser.html
+	/home/schizo/altusser.html
+t/home/schizo/.local/share/Trash/files/000_.apvlvinfo
+	/home/schizo/.apvlvinfo
+t/home/schizo/.local/share/Trash/files/000_lotman_gs_ebook.pdf
+	/home/schizo/tmp/lotman_gs_ebook.pdf
+t/home/schizo/.local/share/Trash/files/000_lotman_gs_prepress.pdf
+	/home/schizo/tmp/lotman_gs_prepress.pdf
+t/home/schizo/.local/share/Trash/files/000_lotman_small.pdf
+	/home/schizo/tmp/lotman_small.pdf
+t/home/schizo/.local/share/Trash/files/001_output.pdf
+	/home/schizo/tmp/output.pdf
+t/home/schizo/.local/share/Trash/files/000_output_shell_gs.pdf
+	/home/schizo/tmp/output_shell_gs.pdf
+t/home/schizo/.local/share/Trash/files/000_output_shell_gs_ebook.pdf
+	/home/schizo/tmp/output_shell_gs_ebook.pdf
+t/home/schizo/.local/share/Trash/files/000_output_shell_gs_prepress.pdf
+	/home/schizo/tmp/output_shell_gs_prepress.pdf
+t/home/schizo/.local/share/Trash/files/000_Fikhte_I_G_-_Sochinenia_v_2_tomakh_t_1_-_1993-compressed.pdf
+	/home/schizo/tmp/Fikhte_I_G_-_Sochinenia_v_2_tomakh_t_1_-_1993-compressed.pdf
+t/home/schizo/.local/share/Trash/files/000_Lotman_Yu_M_-_Struktura_Khudozhestvennogo_Texta-compressed.pdf
+	/home/schizo/tmp/Lotman_Yu_M_-_Struktura_Khudozhestvennogo_Texta-compressed.pdf
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-13-32.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-13-32.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-13-02.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-13-02.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-13-07.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-13-07.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-12-32.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-12-32.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-11-45.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-11-45.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-11-43.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-11-43.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-11-44.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-11-44.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-10-29.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-10-29.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-10-15.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-10-15.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-09-52.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-09-52.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-09-23.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-09-23.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-09-07.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-09-07.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-08-52.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-08-52.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-08-53.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-08-53.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-08-51.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-08-51.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-08-43.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-08-43.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-53.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-53.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-52.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-52.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-48.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-48.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-40.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-40.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-39.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-39.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-49.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-49.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-25-22-07-46.png
+	/home/schizo/personal/pictures/screenshots/2020-03-25-22-07-46.png
+t/home/schizo/.local/share/Trash/files/000_2020-03-20-06-56-38.png
+	/home/schizo/personal/pictures/screenshots/2020-03-20-06-56-38.png
+t/home/schizo/.local/share/Trash/files/000_github.com
+	/home/schizo/tmp/github.com
+t/home/schizo/.local/share/Trash/files/000_Roboto Mono Nerd Font Complete Mono Windows Compatible.ttf
+	/home/schizo/tmp/Roboto Mono Nerd Font Complete Mono Windows Compatible.ttf
+t/home/schizo/.local/share/Trash/files/000_Roboto Mono Nerd Font Complete Windows Compatible.ttf
+	/home/schizo/tmp/Roboto Mono Nerd Font Complete Windows Compatible.ttf
+t/home/schizo/.local/share/Trash/files/000_vimfiles
+	/home/schizo/.config/vifm/vimfiles
+t/home/schizo/.local/share/Trash/files/000_vifmimgpdffile
+	/home/schizo/.config/vifm/vifmimgpdffile
+t/home/schizo/.local/share/Trash/files/000_vifmimgpdfpage
+	/home/schizo/.config/vifm/vifmimgpdfpage
+t/home/schizo/.local/share/Trash/files/000_photo-1540848893531-5eece9a5fa64.jpeg
+	/home/schizo/personal/pictures/photo-1540848893531-5eece9a5fa64.jpeg
+t/home/schizo/.local/share/Trash/files/000_9b4f5f770affee9069061e685e23ea9c.jpg
+	/home/schizo/personal/pictures/9b4f5f770affee9069061e685e23ea9c.jpg
+t/home/schizo/.local/share/Trash/files/000_pixel-character.png
+	/home/schizo/personal/pictures/pixel-character.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-01-16-40-44.png
+	/home/schizo/personal/pictures/pierro/2020-04-01-16-40-44.png
+t/home/schizo/.local/share/Trash/files/000_Béatrice Serre _ Sun Mirror (2017) _ Available for Sale _ Artsy_files
+	/home/schizo/personal/pictures/thaas_1/Béatrice Serre _ Sun Mirror (2017) _ Available for Sale _ Artsy_files
+t/home/schizo/.local/share/Trash/files/000_Béatrice Serre _ Sun Mirror (2017) _ Available for Sale _ Artsy.html
+	/home/schizo/personal/pictures/thaas_1/Béatrice Serre _ Sun Mirror (2017) _ Available for Sale _ Artsy.html
+t/home/schizo/.local/share/Trash/files/000_d37ae706-b3bd-443b-93e7-85ccbfabde7d.webp
+	/home/schizo/personal/pictures/thaas_1/d37ae706-b3bd-443b-93e7-85ccbfabde7d.webp
+t/home/schizo/.local/share/Trash/files/000_89964823_2539027879670554_8172233941426517005_n.jpg
+	/home/schizo/personal/pictures/thaas_1/89964823_2539027879670554_8172233941426517005_n.jpg
+t/home/schizo/.local/share/Trash/files/000_2020-04-05-20-11-37.png
+	/home/schizo/personal/pictures/screenshots/orlando/1/2020-04-05-20-11-37.png
+t/home/schizo/.local/share/Trash/files/000_orlando
+	/home/schizo/personal/pictures/screenshots/orlando
+t/home/schizo/.local/share/Trash/files/000_pierro
+	/home/schizo/personal/pictures/pierro
+t/home/schizo/.local/share/Trash/files/000_nosferatu
+	/home/schizo/personal/pictures/nosferatu
+t/home/schizo/.local/share/Trash/files/000_djvu
+	/home/schizo/downloads/djvu
+t/home/schizo/.local/share/Trash/files/000_fb2
+	/home/schizo/downloads/fb2
+t/home/schizo/.local/share/Trash/files/000_flac
+	/home/schizo/downloads/flac
+t/home/schizo/.local/share/Trash/files/000_mp3
+	/home/schizo/downloads/mp3
+t/home/schizo/.local/share/Trash/files/000_pdf
+	/home/schizo/downloads/pdf
+t/home/schizo/.local/share/Trash/files/000_txt
+	/home/schizo/downloads/txt
+t/home/schizo/.local/share/Trash/files/000_wav
+	/home/schizo/downloads/wav
+t/home/schizo/.local/share/Trash/files/000_xlsx
+	/home/schizo/downloads/xlsx
+t/home/schizo/.local/share/Trash/files/000_xlsxs
+	/home/schizo/downloads/xlsxs
+t/home/schizo/.local/share/Trash/files/000_Sketch.app
+	/home/schizo/downloads/Sketch.app
+t/home/schizo/.local/share/Trash/files/000_docx
+	/home/schizo/downloads/docx
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180759.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180759.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180741.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180741.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180719.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180719.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180702.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180702.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180649.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180649.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180635.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180635.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180624.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180624.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180402.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180402.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180354.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180354.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180339.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180339.png
+t/home/schizo/.local/share/Trash/files/000_2020-04-06-180324.png
+	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180324.png
 
 # State:
-f.*
-i0
+f
+i1
 [.0
 [F
-F.*
-I0
-].0
+F
+I1
+].1
 ]F
 s0

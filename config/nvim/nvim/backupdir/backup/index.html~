@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Create your online store today with Shopify</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Shopify font-->
+    <link href="//db.onlinewebfonts.com/c/1fa6f8f49a331cc09801c741de42ab84?family=Shopify+Sans+Black" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <header class="header">
+        <img class="header_logo" src="file:///home/schizo/shopify/assets/logo.png">
+        <h1 class="header_title">Sell online with Shopify</h1>
+        <h2 class="header_subtitle">Trusted by over 1,000,000 businesses worldwide</h2>
+        <div class="header_button_wrapper">
+            <input class="header_input" type="text" id="header_input">
+            <button class="header_button">Start free trial</button>
+        </div>
+        <p class="header_text">Try Shopify free for 90 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
+        <div class="relative">
+            <img class="header_img" src="file:///home/schizo/shopify/assets/title_pic.png">
+        </div>
+    </header>
+
+    <section class="content">
+
+        <div class="card">
+            <img class="card_icon" src="file:///home/schizo/shopify/assets/icon_card1.png">
+            <h3 class="card_title">Beautiful themes that are responsive and customizable</h3>
+            <p class="card_text">No design skills needed. You have complete control over the look and feel of your website, from its layout, to content and colors.</p3>
+        </div>
+
+        <div class="card">
+            <img class="card_icon" src="file:///home/schizo/shopify/assets/icon_card2.png">
+            <h3 class="card_title">Pricing as low as $29/month</h3>
+            <p class="card_text">Whether you sell online, on social media, in store, or out of the trunk of your car, Shopify has you covered. Start selling anywhere for just $29/month.</p3>
+        </div>
+
+        <div class="card no-right-margin">
+            <img class="card_icon" src="file:///home/schizo/shopify/assets/icon_card3.png">
+            <h3 class="card_title">Trusted by over 1,000,000 businesses worldwide</h3>
+            <p class="card_text">Shopify handles everything from marketing and payments, to secure checkout and shipping</p3>
+        </div>
+
+        <div class="vendor">
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor1.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor2.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor3.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor4.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor5.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor6.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor7.png">
+            </div>
+            <div class="vendor_img">
+                <img class="vendor_img" src="file:///home/schizo/shopify/assets/vendor8.png">
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="inline-block">
+                <h3 class="review_text">“Shopify is better than any other platform we’ve played with, and we’ve played with them all.”</h3>
+                <p class="review_author">Jonathon Bayme | Theory11</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer_content">
+            <img class="footer_logo" src="file:///home/schizo/shopify/assets/books_icon.svg">
+            <h3 class="footer_text">Try Shopify for free, and explore all the tools and services you need to start, run, and grow your business.</h3>
+        </div>
+
+        <div class="footer_links">
+            <a href="https://somewhere.com">Terms of Service</a>
+            <a href="https://somewhere.com">Privacy Policy</a>
+        </div>
+    </footer>
+
+</body>
+</html>

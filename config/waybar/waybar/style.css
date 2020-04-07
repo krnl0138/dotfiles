@@ -3,7 +3,7 @@
     border: none;
     border-radius: 0;
     min-height: 0;
-    font-family: 'D2Coding for Powerline', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Inconsolata, 'D2Coding for Powerline', Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -31,7 +31,7 @@ window#waybar {
     border-bottom: 3px solid @color15;
 }
 
-#custom-xxkb, #temperature, #custom-news, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode, #custom-temp, #custom-root, #custom-home, #custom-backup, #custom-scratch, #custom-main {
+#custom-layout, #temperature, #custom-news, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode, #custom-temp, #custom-root, #custom-home, #custom-backup, #custom-scratch, #custom-main {
     padding: 0 6px;
     margin: 0 3px;
 }
@@ -39,7 +39,7 @@ window#waybar {
 #window {
     background: rgba(0, 0, 0, 0.6);
     color: @foreground;
-    font-family: 'D2Coding for Powerline', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Inconsolata, 'SFNS Text', 'D2Coding for Powerline', Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
     padding: 0 6px;
 }
@@ -51,8 +51,10 @@ window#waybar {
 }
 
 #battery {
-    background-color: #ffffff;
-    color: black;
+    background: transparent;
+    border-bottom: 3px solid @foreground;
+    /* background-color: #ffffff; */
+    color: @foreground;
 }
 
 #battery.charging {
@@ -127,7 +129,7 @@ window#waybar {
     border-bottom: 3px solid @foreground;
 }
 
-#custom-root { 
+#custom-root {
     background: transparent;
     border-bottom: 3px solid @foreground;
 }
@@ -137,13 +139,17 @@ window#waybar {
     border-bottom: 3px solid @foreground;
 }
 
-#custom-home { 
+#custom-home {
     background: transparent;
     border-bottom: 3px solid @foreground;
 }
 
-#custom-news { 
+#custom-news {
     background: transparent;
     border-bottom: 3px solid @foreground;
 }
 
+#custom-layout {
+    background: transparent;
+    border-bottom: 3px solid @foreground;
+}

@@ -1,3 +1,3 @@
 #!/bin/sh
-NEW=$(fd . "$HOME/pics/wall" | shuf -n 1)
-swaymsg output "*" bg "$NEW" fill
+NEW=$(fd . $XDG_PICTURES_DIR | shuf -n 1)
+swaymsg output "*" bg "$NEW" fit

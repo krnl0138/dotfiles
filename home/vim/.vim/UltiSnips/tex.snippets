@@ -1,0 +1,122 @@
+snippet start
+\documentclass[${1:a4paper,12pt}]{${2:article}}
+\usepackage[${3:english,russian}]{${4:babel}}
+\usepackage[${5:backend=biber,style=gost-authoryear}]{${6:biblatex}}
+\usepackage{hyperref}
+\addbibresource{${7:uni.bib}}
+
+\author{${8:Ivan Kudinov}}
+\title{${9:Default Title}}
+\date{\today}
+\begin{${10:document}}
+\maketitle
+\tableofcontents
+\section{${11:Section}}
+$0
+\printbibliography
+\end{$10}
+endsnippet
+
+snippet package
+\usepackage[$1]{$2}
+$0
+endsnippet
+snippet пакет
+\usepackage[$1]{$2}
+$0
+endsnippet
+
+snippet begin
+\begin{$1}
+$2
+\end{$1}
+$0
+endsnippet
+snippet бегин
+\begin{$1}
+$2
+\end{$1}
+$0
+endsnippet
+
+snippet paragraph
+\paragraph{$1}
+$0
+endsnippet
+snippet параграф
+\paragraph{$1}
+$0
+endsnippet
+
+snippet section
+\section{$1}
+$0
+endsnippet
+snippet секция
+\section{$1}
+$0
+endsnippet
+
+snippet description
+\begin{description}
+$1
+\end{description}
+$0
+endsnippet
+
+snippet quote
+\begin{quote}
+с. $1
+\end{quote}
+$0
+endsnippet
+snippet цитата
+\begin{quote}
+с. $1
+\end{quote}
+$0
+endsnippet
+
+snippet ``
+\`\`$1'' $0
+endsnippet
+snippet ёё
+\`\`$1'' $0
+endsnippet
+
+snippet list
+\begin{enumerate}
+	\item $1
+	\item $2
+	${3:\item }
+\end{enumerate}
+$0
+endsnippet
+snippet список
+\begin{enumerate}
+	\item $1
+	\item $2
+	${3:\item }
+\end{enumerate}
+$0
+endsnippet
+
+snippet NB
+NB \textit{$1}\\\\
+
+$0
+endsnippet
+
+snippet bold
+\textbf{$1} $0
+endsnippet
+snippet жирно
+\textbf{$1} $0
+endsnippet
+
+snippet ital
+\textit{$1} $0
+endsnippet
+snippet курсив
+\textit{$1} $0
+endsnippet

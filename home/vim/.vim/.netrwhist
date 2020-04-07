@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/gppk/blog/lb/blog/.drafts'
-let g:netrw_dirhist_2='/home/gppk/linux-insides/Booting'
-let g:netrw_dirhist_3='/home/gppk/.config/sway'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/schizo/.config/waybar'
+let g:netrw_dirhist_6='/home/schizo/scripts'
+let g:netrw_dirhist_5='/home/schizo/.config/transmission/blocklists'
+let g:netrw_dirhist_4='/home/schizo/scripts'
+let g:netrw_dirhist_3='/home/schizo/pictures'
+let g:netrw_dirhist_2='/home/schizo/pictures/wall'
+let g:netrw_dirhist_1='/home/schizo/pictures'
+let g:netrw_dirhist_0='/home/schizo/pictures/wall'
+let g:netrw_dirhist_9='/home/schizo/pictures'
+let g:netrw_dirhist_8='/home/schizo/scripts'

@@ -1,0 +1,410 @@
+###
+# SWAY CONFIG FILE
+###
+#
+include "$HOME/.cache/wal/colors-sway"
+
+# BASIC OPTIONS
+set $mod      Mod1
+    # xwayland disable
+    #
+# set $laptop_output "LVDS-1"
+# bindswitch lid:on output $laptop_output disable
+# bindswitch lid:off output $laptop_output enable
+#
+workspace_auto_back_and_forth yes
+focus_follows_mouse no
+default_border pixel 2
+titlebar_border_thickness 0
+hide_edge_borders smart
+title_align center
+# Font for window titles.
+font pango:SFNS Display 11px
+
+# OUTPUTS
+# output LVDS-1 enable
+# output "*" bg $wallpaper fill
+# output * {
+#     bg $wallpaper fill
+# }
+# output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg $wallpaper fill
+#output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg "$(find $HOME/pics/wall | shuf -n 1)" fill
+
+# KEYBOARD SETTINGS
+input "*" {
+    repeat_delay 200
+    repeat_rate 80
+    xkb_layout us,ru
+    xkb_options caps:backspace
+    xkb_options grp:caps_toggle
+}
+
+# BINDINGS
+    bindsym $mod+z exec "makoctl dismiss -a"
+    bindsym $mod+v split toggle
+    bindsym $mod+Shift+d border toggle
+    # bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="'"bemenu -i -n -w -f --fn 'D2Coding for Powerline' --nb '#0269A4' --tb '#0269A4' --sb '#000000' --fb '#0269A4' --tf '#ffffff' --hf '#ffffff'"'" --term="alacritty"'
+    bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="bemenu -i"'
+    bindsym $mod+Return exec alacritty
+    bindsym $mod+q kill
+    bindsym $mod+f fullscreen toggle
+    bindsym $mod+Shift+r reload
+    #bindsym $mod+Shift+c restart
+    bindsym $mod+Tab focus right
+# Screenshots
+    bindsym Print exec grim -t png "$(xdg-user-dir SCREENSHOTS)"/"$(date +%Y-%m-%d-%H-%M-%S)".png
+    bindsym $mod+Print exec sh "$HOME/scripts/screenshot.sh"
+## XF86 bindings
+    bindsym $mod+F1 exec sink_move.sh
+    bindsym $mod+F2 exec $TERMINAL -t "wifi" -e nmtui-connect
+    bindsym $mod+F3 exec "pgrep -x waybar || waybar &"
+    bindsym $mod+F4 exec --no-startup-id "$HOME/scripts/wallpaper.sh"
+    bindsym XF86MonBrightnessUp exec sudo light -A 5
+    bindsym XF86MonBrightnessDown exec sudo light -U 5
+    bindsym XF86AudioRaiseVolume exec pulsemixer --change-volume +5
+    bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5
+    bindsym XF86AudioMute exec pulsemixer --toggle-mute
+    #bindsym $mod+F7 exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl set-sink-volume alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71 -5% || pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo -5%
+    #bindsym $mod+F8 exec --no-startup-id pulsemixer --list-sinks | grep -q "on Xonar" && pactl set-sink-volume alsa_output.usb-ASUS_Xonar_U7-00.analog-surround-71 +5% || pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo +5%
+    bindsym $mod+F9 exec --no-startup-id pactl set-sink-mute compressor-stereo toggle
+    bindsym $mod+F10 exec --no-startup-id pulsemixer --toggle-mute
+    #bindsym $mod+F11 exec --no-startup-id pulsemixer --change-volume -5
+    #bindsym $mod+F12 exec --no-startup-id pulsemixer --change-volume +5
+    # bindsym $mod+F12 exec --no-startup-id systemctl suspend
+
+# WINDOWS
+#
+### SCRATCHPADS
+# bindsym $mod+Control+Tab move scratchpad; move position center
+# bindsym $mod+Control+grave scratchpad show; move position center
+# Luke's dropdown term
+    exec $TERMINAL -t dropdown
+    # bindsym $mod+Tab   [title="dropdown"] scratchpad show; move position center
+    for_window [title="dropdown"] floating enable
+    for_window [title="dropdown"] resize set 625 400
+    for_window [title="dropdown"] move position center
+    for_window [title="dropdown"] move scratchpad
+# Grave HTOP scratchpad
+    #exec --no-startup-id $TERMINAL -t htopdropdown -e htop
+    # bindsym $mod+grave [title="^htopdropdown"] scratchpad show; move position center
+    for_window [title="htopdropdown"] floating enable
+    for_window [title="htopdropdown"] resize set 1920 1060
+    for_window [title="htopdropdown"] move position center
+    for_window [title="htopdropdown"] move scratchpad
+
+
+# Float window for sxiv
+    for_window [instance="sxiv"] floating enable
+    # for_window [instance="sxiv"] move position 950 50
+    # for_window [instance="sxiv"] floating_maximum_size -1 x -1
+    # for_window [instance="sxiv"] resize set 959 700
+# Float window for imv
+    for_window [app_id="imv"]  floating enable
+    # for_window [instance="imv"]  move position 750 1
+    # for_window [instance="imv"]  floating_maximum_size -1 x -1
+    # for_window [instance="imv"]  resize set 640 380
+# Float window for feh
+    for_window [instance="feh"]  floating enable
+    # for_window [instance="feh"]  move position 950 50
+    # for_window [instance="feh"]  floating_maximum_size -1 x -1
+    # for_window [instance="feh"]  resize set 800 600
+# Float window for zotero
+    for_window [class="zotero"]  floating enable
+
+# Float window for anki
+    for_window [class="Anki"]  floating enable
+    for_window [class="Anki" title="ivan - Anki"]  floating disable
+
+
+# Google Sign-in Floating
+    for_window [class="Nightly" title="Sign in - Google Accounts - Firefox Nightly"] floating enable
+    for_window [class="Nightly" title="Sign in - Google Accounts - Firefox Nightly"] move position center
+    for_window [class="Nightly" title="Sign in - Google Accounts - Firefox Nightly"] resize set 800 700
+
+# Assignment
+    for_window [class="Chromium" window_role="pop-up"] floating enable
+    for_window [class="Firefox" window_role="pop-up"] floating enable
+    for_window [class="Firefox-nightly" window_role="pop-up"] floating enable
+# Task manager
+    for_window [title="Task Manager - Chromium"] floating enable
+    for_window [title="Task Manager - Chromium"] move position center
+    for_window [title="Task Manager - Chromium"] resize set 800 600
+# # PavuControl
+#     for_window [app_id="pavucontrol"] floating enable
+#     for_window [app_id="pavucontrol"] move position 1280 0
+#     for_window [app_id="pavucontrol"] resize set 640 480
+# # Pulsemixer
+#     for_window [title="pulsemixer_tray"] floating enable
+#     for_window [title="pulsemixer_tray"] move position 1235 -25
+#     for_window [title="pulsemixer_tray"] resize set 800 360
+# Connection -- bar network change
+    for_window [app_id="connection"] floating enable
+    for_window [app_id="connection"] move position 1565 -85
+    for_window [app_id="connection"] resize set 150 240
+# News -- bar newsboat
+    for_window [app_id="news"] floating enable
+    for_window [app_id="news"] move position 1235 -25
+    for_window [app_id="news"] resize set 800 360
+# nmtui-connect
+    for_window [title="wifi"] floating enable
+    for_window [title="wifi"] move position center
+    for_window [title="wifi"] resize set 640 480
+
+## Turn off idle for fullscreen
+# xwayland version
+for_window [class="Firefox"] inhibit_idle fullscreen
+for_window [class="Chromium"] inhibit_idle fullscreen
+# wayland vesion
+for_window [app_id="firefox"] inhibit_idle fullscreen
+for_window [app_id="chromium"] inhibit_idle fullscreen
+
+# Floating options
+# toggle tiling / floating
+bindsym $mod+shift+grave floating toggle
+# change focus between tiling / floating windows
+bindsym $mod+grave focus mode_toggle
+bindsym control+grave focus mode_toggle
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+# FUN W/ WINDOWS POSITIONS
+bindsym {
+    $mod+KP_Home    floating enable;    sticky enable;      resize set 625 400;   move position 0 0
+    $mod+KP_Up      floating enable;    sticky enable;      resize set 625 400;   move position 680 0
+    $mod+KP_Prior   floating enable;    sticky enable;      resize set 625 400;   move position 1295 0
+
+    $mod+KP_Left    floating enable;    sticky enable;      resize set 625 400;   move position 0 330
+    $mod+KP_Begin   floating enable;    sticky enable;      resize set 625 400;   move position center
+    $mod+KP_Right   floating enable;    sticky enable;      resize set 625 400;   move position 1295 330
+
+    $mod+KP_End     floating enable;    sticky enable;      resize set 625 400;   move position 0 660
+    $mod+KP_Down    floating enable;    sticky enable;      resize set 625 400;   move position 680 660
+    $mod+KP_Next    floating enable;    sticky enable;      resize set 625 400;   move position 1295 660
+
+    $mod+KP_Delete  floating toggle
+    $mod+KP_Insert  focus mode_toggle
+}
+
+# GAPS
+smart_gaps on
+smart_borders on
+set $gaps_size 5
+set $default_inner 15
+set $default_outer 0
+gaps inner $default_inner
+gaps outer $default_outer
+# inner gaps
+bindsym $mod+equal           gaps inner all plus $gaps_size
+bindsym $mod+minus           gaps inner all minus $gaps_size
+bindsym $mod+BackSpace       gaps inner all set $default_inner
+# outer gaps
+bindsym $mod+Shift+equal     gaps outer all plus $gaps_size
+bindsym $mod+Shift+minus     gaps outer all minus $gaps_size
+bindsym $mod+Shift+BackSpace gaps outer all set $default_outer
+# more precise
+# bindsym $mod+Shift+o     gaps horizontal all plus $gaps_size
+# bindsym $mod+Shift+p     gaps horizontal all minus $gaps_size
+
+# sticky mode for floating
+bindsym $mod+Shift+m mode "sticky"
+mode "sticky" {
+	bindsym $mod+m exec i3-msg sticky enable
+	bindsym $mod+n exec i3-msg sticky disable
+	bindsym $mod+Shift+m mode "default"
+	}
+
+# Container layout (stacked, tabbed, toggle split)
+bindsym $mod+w layout toggle tabbed stacking split
+# bindsym $mod+e layout toggle split
+
+# focus the parent/child container
+bindsym $mod+a focus parent
+bindsym $mod+d focus child
+
+# Shrink layouts with the keyboard
+set $shrink_size 10
+bindsym $mod+y resize shrink width  $shrink_size px or $shrink_size ppt
+bindsym $mod+u resize grow   height $shrink_size px or $shrink_size ppt
+bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
+bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
+
+# LAUNCHER MODE
+set $mode_launcher Launcher
+set $n_time 5000
+set $apps "[A]nki \n[F]irefox \n[V]ifm \n[N]otion \n[H]top \nnc[P]amixer \n[C]hromium \n[Z]otero \n[B]rave \n[T]elegram \nv[M]pk \n[G]imp \n[Q]bittorent \n[D]ocear \nb[I]b"
+bindsym $mod+space mode "$mode_launcher" ; exec notify-send -a "launch" -t 5000 "Launcher" $apps
+mode "$mode_launcher" {
+
+    #bindsym r exec notify-send -t $n_time "Ranger has been started"       && $TERMINAL -e ranger       ; mode "default"
+    bindsym --to-code {
+        a exec notify-send -t $n_time "Anki has been started"          && anki                      ; mode "default"
+        f exec notify-send -t $n_time "Firefox has been started"       && env MOZ_WEBRENDER=1 firefox-nightly; mode "default"
+        v exec notify-send -t $n_time "VIFM has been started"          && $TERMINAL -e vifm         ; mode "default"
+        n exec notify-send -t $n_time "Notion has been started"        && notion-app                ; mode "default"
+        h exec notify-send -t $n_time "HTop has been started"          && $TERMINAL -e htop         ; mode "default"
+        p exec notify-send -t $n_time "ncPamixer has been started"     && $TERMINAL -e ncpamixer    ; mode "default"
+        c exec notify-send -t $n_time "Chromium has been started"      && chromium                  ; mode "default"
+        z exec notify-send -t $n_time "Zotero has been started"        && zotero                    ; mode "default"
+        # b exec notify-send -t $n_time "Newsboat has been started"      && $TERMINAL -e newsboat     ; mode "default"
+        t exec notify-send -t $n_time "Telegram has been started"      && telegram-desktop          ; mode "default"
+        m exec notify-send -t $n_time "VMPK has been started"          && qsynth & vmpk             ; mode "default"
+        g exec notify-send -t $n_time "GIMP has been started"          && gimp                      ; mode "default"
+        q exec notify-send -t $n_time "Qbittorrent has been started"   && qbittorrent               ; mode "default"
+        d exec notify-send -t $n_time "Docear has been started"        && docear                    ; mode "default"
+        i exec notify-send -t $n_time "BIB file has been opened"       && $TERMINAL -e $EDITOR $BIB ; mode "default"
+        b exec notify-send -t $n_time "Brave has been started"         && brave                     ; mode "default"
+
+        Escape     mode "default"
+        Return     mode "default"
+        $mod+space mode "default"
+        space      mode "default"
+        }
+
+    }
+
+# FUNCTION MODE
+set $mode_function Function
+set $notify_time 5000
+set $functions "[T]ouchpad \n[S]uspend \n[W]ifi \n[M]onitor \n[R]eboot"
+bindsym $mod+backslash mode "$mode_function" ; exec notify-send -a "launch" -t 5000 "What to execute?" $functions
+mode "$mode_function" {
+
+    bindsym --to-code {
+        t exec notify-send -t $notify_time "Touchpad was turned on/off" && swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled ; mode "default"
+        s exec notify-send -t $notify_time "System was suspended" && systemctl suspend ; mode "default"
+        r exec notify-send -t $notify_time "System was rebooted" && systemctl reboot ; mode "default"
+        w exec notify-send -t $notify_time "Wifi dialog was opened" && $TERMINAL -e nmtui-connect ; mode "default"
+        m exec notify-send -t $notify_time "Second monitor was toggled" && swaymsg output LVDS-1 toggle ; mode "default"
+
+        Escape     mode "default"
+        Return     mode "default"
+        $mod+space mode "default"
+        space      mode "default"
+        }
+
+    }
+
+# COLORS
+# Defaults colors
+set $background               #000000
+set $foreground               #ffffff
+set $color4                   #0269B4
+set $transparent             #00000000
+set $bg-border-color         #4286f4
+set $inactive-bg-color       #000000
+set $text-color              #0269B4
+set $inactive-text-color     #ffffff
+set $inactive-text-indicator #0000ff
+#set $urgent-bg-color		 #E53935
+set $urgent-bg-color         #ff00ff
+set $childborder             #0269B4
+set $bg-bg-color             #428aff
+set $active-text-indicator   #ffff00
+set $child_border             #0269B4
+
+# Window colors
+# class                 border          backgr.         text         indicator         child_border
+client.focused          $color4         $color4     $foreground  $background       $child_border
+client.focused_inactive $background     $background     $foreground  $background       $background
+client.unfocused        $background     $background     $foreground  $background       $background
+client.urgent           $background     $background     $foreground  $background       $background
+client.placeholder      $background     $background     $foreground  $background       $text-color
+client.background       $background
+
+# WORKSPACES
+# Workspaces names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+bindsym {
+# switch to workspace
+    $mod+1 workspace $ws1
+    $mod+2 workspace $ws2
+    $mod+3 workspace $ws3
+    $mod+4 workspace $ws4
+    $mod+5 workspace $ws5
+    $mod+6 workspace $ws6
+    $mod+7 workspace $ws7
+    $mod+8 workspace $ws8
+    $mod+9 workspace $ws9
+    $mod+0 workspace $ws10
+}
+
+bindsym $mod+n workspace prev
+bindsym $mod+period workspace next
+
+bindsym {
+# move focused container to workspace
+    $mod+Shift+1 move container to workspace $ws1
+    $mod+Shift+2 move container to workspace $ws2
+    $mod+Shift+3 move container to workspace $ws3
+    $mod+Shift+4 move container to workspace $ws4
+    $mod+Shift+5 move container to workspace $ws5
+    $mod+Shift+6 move container to workspace $ws6
+    $mod+Shift+7 move container to workspace $ws7
+    $mod+Shift+8 move container to workspace $ws8
+    $mod+Shift+9 move container to workspace $ws9
+    $mod+Shift+0 move container to workspace $ws10
+    $mod+m move workspace to output left
+}
+
+# ANOTHER LAYOUT
+bindsym --to-code {
+# change focus
+    $mod+h     focus left
+    $mod+j     focus down
+    $mod+k     focus up
+    $mod+l     focus right
+    # alternatively, the cursor keys:
+    $mod+Left  focus left
+    $mod+Down  focus down
+    $mod+Up    focus up
+    $mod+Right focus right
+
+    # move focused window
+    $mod+Shift+h     move left
+    $mod+Shift+j     move down
+    $mod+Shift+k     move up
+    $mod+Shift+l     move right
+    # alternatively, the cursor keys:
+    $mod+Shift+Left  move left
+    $mod+Shift+Down  move down
+    $mod+Shift+Up    move up
+    $mod+Shift+Right move right
+}
+
+# AUTOLOAD
+##exec_always "pgrep -x unclutter || (unclutter &)"
+# exec transmission-daemon
+## exec wal -R
+# exec_always $wal_bg
+# exec pactl load-module module-jack-sink
+# exec pactl load-module module-jack-source
+exec_always pgrep -x waybar || waybar &
+exec_always swayidle -w \
+    after-resume sleep 3 && killall waybar && waybar && outputs2.sh
+exec udiskie &
+exec mako
+exec wallp.sh
+# exec redshift -m wayland -l 51.54:46.00
+# set $img_lock "$HOME/personal/pictures/LPlEKFjp68o.jpg"
+# exec swayidle -w \
+    # timeout 600 'swaylock -f -s stretch -fli $img_lock' \
+    # timeout 700 'swaymsg "output * dpms off"' \
+        # resume 'swaymsg "output * dpms on"' \
+    # before-sleep 'swaylock -f -s stretch -fli $img_lock'
+#
+# exec swayidle -w \
+#       timeout 300 'swaylock -e -f' \
+#       timeout 340 'swaymsg "output * dpms off"' \
+#       timeout 500 'systemctl suspend' \
+#           resume 'swaymsg "output * dpms on"'""\
+#    before-sleep ''

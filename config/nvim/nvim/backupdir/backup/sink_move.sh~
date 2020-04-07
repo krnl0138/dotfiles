@@ -1,0 +1,12 @@
+#!/bin/sh
+
+inputs=($(pactl list short sink-inputs | awk '{print $1 " "}' | tr -d $'\n'))
+sources=($(pactl list short sink-inputs | awk '{print $2 " "}' | tr -d $'\n'))
+
+for (( i=0; i<${#inputs[@]}; i++ )); do
+    if [[ ${sources[$i]} == "9" ]]; then
+        pactl move-sink-input ${inputs[$i]} 2
+    else
+        pactl move-sink-input ${inputs[$i]} 9
+    fi
+done

@@ -6,8 +6,10 @@
 " The basic format for each item is shown with an example.
 
 " ------------------------------------------------------------------------------
+" Plugin for icons in vifm
+source ~/.config/vifm/vifm_devicons/SETUP
 
-set vicmd=vim
+set vicmd=nvim
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -18,20 +20,56 @@ map <C-s> <C-w>s
 map <C-v> <C-w>v
 
 ""------ PERSONAL KEYMAPS
-noremap bg :!wallpaper.sh %f <CR>
+set confirm=permdelete
+
+nnoremap o :file %f <CR>
+nnoremap s S
+nnoremap rr :reload<CR>
+nnoremap aA cw
+nnoremap aa cW
+nnoremap bg :!bg_this.sh %d/%f<CR>
 nnoremap <space> tj
 nnoremap q ZQ
-map x :!sxiv -ft * 2>/dev/null &<CR>
+
+command! FZFlocate :set noquickview | :execute 'goto "'.system('locate $HOME | fzf 2>/dev/tty ').'"%IU' | redraw
+command! FZFfind :set noquickview | :execute 'goto "'.system('find | fzf 2>/dev/tty ').'"%IU' | redraw
+map ff :FZFlocate<CR>
+map fr :FZFfind<CR>
+
+nmap F :FZFlocate<CR>
+nnoremap <c-f> :filter!
+
+map xa :!mv %f ~/personal/books/analytics<CR>
+map xr :!mv %f ~/personal/books/health/sport/running<CR>
+map xg :!mv %f ~/personal/books/mathematics/game_theory<CR>
+map xp :!mv %f ~/personal/books/philosophy<CR>
+map xM :!mv %f ~/personal/books/music<CR>
+map xP :!mv %f ~/personal/books/programming<CR>
+map xo :!mv %f ~/personal/books/other<CR>
+map xl :!mv %f ~/personal/books/literature<CR>
+map xm :!mv %f ~/personal/books/mathematics<CR>
+map xS :!mv %f ~/personal/books/statistics<CR>
+map xs :!mv %f ~/personal/books/sociology<CR>
+map xe :!mv %f ~/personal/books/economics<CR>
+map xf :!mv %f ~/personal/books/fiction<CR>
+map xn :!mv %f ~/personal/books/nonfiction<CR>
+map xy :!mv %f ~/personal/books/physics<CR>
+map xh :!mv %f ~/personal/books/history<CR>
+map xi :!mv %f ~/personal/books/iskusstvo<CR>
+
 nnoremap O :file &<CR>
 nnoremap o :file &<CR>l
-nnoremap gd :cd $HOME/Downloads <CR>
-nnoremap gp :cd $HOME/pics <CR>
+
+nnoremap gd :cd $XDG_DOWNLOAD_DIR <CR>
+nnoremap gP :cd $XDG_PICTURES_DIR <CR>
+nnoremap gp :cd $HOME/personal <CR>
 nnoremap gh :cd $HOME <CR>
 nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
 nnoremap gs :cd $HOME/scripts <CR>
 nnoremap gD :cd $HOME/Dropbox <CR>
 nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
-nnoremap gc :cd $HOME/.config <CR>
+nnoremap gc :cd $XDG_CONFIG_HOME <CR>
+
 nnoremap <tab> <C-w>p
 noremap <s-tab> :vsplit <CR>
 nnoremap : ;
@@ -53,7 +91,7 @@ set syscalls
 " I recommend not changing this until you are familiar with vifm.
 " This probably shouldn't be an option.
 set trash
-set trashdir="%r/.vifm-Trash-%u,/home/gppk/.local/share/Trash/files,%r/.vifm-Trash"
+set trashdir="%r/.vifm-Trash-%u,$HOME/.local/share/Trash/files,%r/.vifm-Trash"
 
 " This is how many directories to store in the directory history.
 set history=200
@@ -176,8 +214,14 @@ command! reload :write | restart
 " program.
 
 " Pdf
-filextype *.pdf zathura %c %i &, apvlv %c, xpdf %c
+filextype *.pdf okular %f 2>/dev/null &, zathura %c %i &, apvlv %c, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
+
+" Mobi
+filextype *.mobi okular %f 2>/dev/null &
+
+" Epub
+filextype *.epub zathura %f 2>/dev/null &
 
 " PostScript
 filextype *.ps,*.eps,*.ps.gz
@@ -188,13 +232,17 @@ filextype *.ps,*.eps,*.ps.gz
 
 " Djvu
 filextype *.djvu
+        \ {View in okular}
+        \ okular %f 2>/dev/null &,
         \ {View in zathura}
-        \ zathura %f,
+        \ zathura %f &,
         \ {View in apvlv}
         \ apvlv %f,
 
 " Audio
 filetype *.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus
+       \ {Play using ffplay}
+       \ mpv --volume=80 %f,
        \ {Play using ffplay}
        \ ffplay -nodisp -autoexit %c,
        \ {Play using MPlayer}
@@ -236,12 +284,16 @@ fileviewer *.[1-8] man ./%c | col -b
 
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+        \ {View in sxiv}
+        \ sxiv-rifle %f &,
         \ {View in feh}
         \ feh -g 800x600 -. --start-at %f &,
+        \ {View in sxiv}
+        \ sxiv -r -s f %f %d &,
+        \ {View in imv}
+        \ imv -d -s shrink -n %f %d,
         \ {Set as background}
         \ wallpaper.sh %f,
-        \ {View in sxiv}
-        \ sxiv %f,
         \ {View in gpicview}
         \ gpicview %c,
         \ {View in shotwell}
@@ -252,12 +304,6 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
          \ ~/imgt %px %py %pw %ph %c
 
-" ADDED MANUALLY FROM REDDIT SCRIPT
-" https://www.reddit.com/r/linux/comments/aviu08/ueberzug_v1810_released/
-" fileviewer *.jpg,*.jpeg,*.png
-"           \ vifmimg draw %px %py %pw %ph %c
-"           \ %pc
-"           \ vifmimg clear
 " OpenRaster
 filextype *.ora
         \ {Edit in MyPaint}
@@ -388,7 +434,6 @@ filextype */
 " filetype * open
 " For Windows:
 " filetype * start, explorer
-
 " ------------------------------------------------------------------------------
 
 " What should be saved automatically between vifm runs

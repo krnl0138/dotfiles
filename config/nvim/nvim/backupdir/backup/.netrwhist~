@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/schizo/.config/sxiv/exec'
+let g:netrw_dirhist_2='/home/schizo/.config/sxiv'
+let g:netrw_dirhist_1='/home/schizo/scripts'
+let g:netrw_dirhist_0='/home/schizo/test/mm'
+let g:netrw_dirhist_9='/home/schizo/test'
+let g:netrw_dirhist_8='/home/schizo/shopify'
+let g:netrw_dirhist_7='/home/schizo/.config/nvim'
+let g:netrw_dirhist_6='/home/schizo/.config'
+let g:netrw_dirhist_5='/home/schizo'
+let g:netrw_dirhist_4='/home/schizo/thaaszagren'

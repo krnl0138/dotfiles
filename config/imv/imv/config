@@ -1,7 +1,7 @@
 [binds]
 <r> = exec mogrify -rotate 90 "$imv_current_file"
 <d> = exec trash-put "$imv_current_file"; close
-<w> = exec killall swaybg && nohup swaybg VGA-1 "$imv_current_file" fill &
+<w> = exec swaybg_script.sh "$imv_current_file"
 <h> = select_rel -1
 <l> = select_rel 1
 <p> = overlay

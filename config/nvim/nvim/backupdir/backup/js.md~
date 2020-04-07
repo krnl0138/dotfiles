@@ -1,0 +1,27 @@
+### JS
+
+#### w3schools
+
+JavaScript is the programming language of HTML and the Web.
+JavaScript is easy to learn.
+
+JavaScript is one of the 3 languages all web developers must learn:
+   1. HTML to define the content of web pages
+   2. CSS to specify the layout of web pages
+   3. JavaScript to program the behavior of web pages
+
+Tutorials:
+- https://www.w3schools.com/js/default.asp
+
+JavaScript and Java are completely different languages, both in concept and design.
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+
+### React
+
+React is a JavaScript library for building user interfaces.
+React is used to build single page applications.
+React allows us to create reusable UI components.
+
+Tutorials:
+- https://www.w3schools.com/react/default.asp

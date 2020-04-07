@@ -1,6 +1,4 @@
 #!/bin/sh
-while true; do
-    img=$(find "$HOME"/pics/wall/* | shuf -n 1)
-    swaymsg output "*" bg $img fill
-    sleep 600
-done
+DIR="/home/schizo/personal/diary/archive/pics"
+img=$(fd -t f -S +2500K . "$XDG_PICTURES_DIR" "$DIR" | shuf -n 1)
+swaymsg output "*" bg "$img" fill

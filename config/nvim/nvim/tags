@@ -1,0 +1,453 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+11	init.vim	/^    inoremap 11 <ESC>$/;"	m
+:	init.vim	/^    nnoremap : ;$/;"	m
+;	init.vim	/^    nnoremap ; :$/;"	m
+<	init.vim	/^    vnoremap < <gv$/;"	m
+<C-f>	init.vim	/^    noremap <silent> <C-f> :call ToggleNetrw()<CR>$/;"	m
+<C-h>	init.vim	/^    nnoremap <C-h> gT$/;"	m
+<C-l>	init.vim	/^    nnoremap <C-l> gt$/;"	m
+<C-l>	init.vim	/^    noremap <buffer> <C-l> <C-w>l$/;"	m
+<C-t>	init.vim	/^    nnoremap <C-t> :tabnew<CR>$/;"	m
+<CR>	init.vim	/^    nmap <CR> o<Esc>$/;"	m
+<F12>	init.vim	/^nnoremap <F12> :exe '!$BROWSER %'<CR><CR>$/;"	m
+<F2>	init.vim	/^    nmap <F2> :set relativenumber!<CR>$/;"	m
+<F4>	init.vim	/^    noremap <F4> :set invhls<CR>$/;"	m
+<F6>	init.vim	/^    nnoremap <F6> :setlocal spell! <CR>$/;"	m
+<F9>	init.vim	/^nnoremap <F9> :!clear && shellcheck %<CR>$/;"	m
+<S-Enter>	init.vim	/^    nmap <S-Enter> O<Esc>$/;"	m
+<S-Tab>	init.vim	/^    nnoremap <S-Tab> gt$/;"	m
+<S-h>	init.vim	/^    noremap <S-h> <C-w><Left>$/;"	m
+<S-j>	init.vim	/^    noremap <S-j> <C-w><Down>$/;"	m
+<S-k>	init.vim	/^    noremap <S-k> <C-w><Up>$/;"	m
+<S-l>	init.vim	/^    noremap <S-l> <C-w><Right>$/;"	m
+<S-t>	init.vim	/^nnoremap <S-t> :hi! Normal ctermbg=NONE guibg=NONE<CR>$/;"	m
+<Space>	init.vim	/^    nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\\<Space>")<CR>$/;"	m
+<Space>	init.vim	/^    vnoremap <Space> zf$/;"	m
+<Tab>	init.vim	/^    nnoremap <Tab> gt$/;"	m
+<c-f>	init.vim	/^    noremap <c-f> :Fd<CR>$/;"	m
+<c-g>	init.vim	/^	noremap <c-g> :Goyo \\| set bg=dark \\| set linebreak<CR>$/;"	m
+<c-n>	init.vim	/^	noremap <c-n> :NERDTreeToggle<CR>$/;"	m
+<c-p>	init.vim	/^    nnoremap <c-p> <Plug>MarkdownPreviewToggle$/;"	m
+<c-s>	init.vim	/^nnoremap <c-s> :terminal<CR>i$/;"	m
+<leader>m	init.vim	/^    nnoremap <leader>m  :<c-u><c-r><c-r>='let @'. v:register .' = '. string(getreg(v:register))</;"	m
+<leader>n	init.vim	/^	noremap <leader>n :NERDTreeToggle<CR>$/;"	m
+<leader>p	init.vim	/^    nnoremap <leader>p :call Autosave_markdown_preview()<CR>$/;"	m
+>	init.vim	/^    vnoremap > >gv$/;"	m
+Autosave_markdown_preview	init.vim	/^    function Autosave_markdown_preview()$/;"	f
+Fd	init.vim	/^    command! Fd call fzf#run(fzf#wrap({'source': 'locate \/'}))$/;"	c
+H	init.vim	/^    noremap <buffer> H :call OpenBelow()<cr>$/;"	m
+J	init.vim	/^    command! -nargs=* J :call J(<f-args>)$/;"	c
+J	init.vim	/^    function! J(...)$/;"	f
+N	init.vim	/^    nnoremap <expr> N  'nN'[v:searchforward]$/;"	m
+N	init.vim	/^    onoremap <expr> N  'nN'[v:searchforward]$/;"	m
+N	init.vim	/^    xnoremap <expr> N  'nN'[v:searchforward]$/;"	m
+NetrwMappings	init.vim	/^function! NetrwMappings()$/;"	f
+OpenBelow	init.vim	/^function! OpenBelow()$/;"	f
+OpenToRight	init.vim	/^function! OpenToRight()$/;"	f
+Q	init.vim	/^    nmap Q gqap$/;"	m
+Q	init.vim	/^    vmap Q gq$/;"	m
+QQ	init.vim	/^    nnoremap QQ :q!<CR>$/;"	m
+SolarizedHiTrail	colors/solarized.vim	/^augroup SolarizedHiTrail$/;"	a
+SolarizedMenu	colors/solarized.vim	/^function! SolarizedMenu()$/;"	f
+SolarizedOptions	colors/solarized.vim	/^    command SolarizedOptions :call s:SolarizedOptions()$/;"	c
+ToggleNetrw	init.vim	/^function! ToggleNetrw()$/;"	f
+V	init.vim	/^    noremap <buffer> V :call OpenToRight()<cr>$/;"	m
+Y	init.vim	/^    map Y y\$$/;"	m
+colors_name	colors/mustang_vim_colorscheme_by_hcalves.vim	/^let colors_name = "mustang"$/;"	v
+colors_name	colors/solarized.vim	/^let colors_name = "solarized"$/;"	v
+colors_name	colors/sourcerer.vim	/^let colors_name = "sourcerer"$/;"	v
+colors_name	colors/wombat256mod.vim	/^let colors_name = "wombat256mod"$/;"	v
+ft_tex	init.vim	/^    augroup ft_tex$/;"	a
+g:NERDTreeShowHidden	init.vim	/^    let g:NERDTreeShowHidden = 1$/;"	v
+g:NERDTreeWinPos	init.vim	/^    let g:NERDTreeWinPos = "left"$/;"	v
+g:NetrwIsOpen	init.vim	/^        let g:NetrwIsOpen=0$/;"	v
+g:NetrwIsOpen	init.vim	/^        let g:NetrwIsOpen=1$/;"	v
+g:NetrwIsOpen	init.vim	/^let g:NetrwIsOpen=0$/;"	v
+g:UltiSnipsEditSplit	init.vim	/^    let g:UltiSnipsEditSplit = 'vertical'$/;"	v
+g:UltiSnipsExpandTrigger	init.vim	/^    let g:UltiSnipsExpandTrigger = '<tab>'$/;"	v
+g:UltiSnipsJumpBackwardTrigger	init.vim	/^    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'$/;"	v
+g:UltiSnipsJumpForwardTrigger	init.vim	/^    let g:UltiSnipsJumpForwardTrigger = '<tab>'$/;"	v
+g:airline_theme	init.vim	/^let g:airline_theme = 'codedark'$/;"	v
+g:auto_save	init.vim	/^        let g:auto_save = 1$/;"	v
+g:auto_save	init.vim	/^    let g:auto_save = 0$/;"	v
+g:auto_save_events	init.vim	/^        let g:auto_save_events = ["InsertLeave", "TextChanged"]$/;"	v
+g:auto_save_events	init.vim	/^    let g:auto_save_events = ["InsertLeave", "TextChanged"]$/;"	v
+g:auto_save_silent	init.vim	/^        let g:auto_save_silent = 1$/;"	v
+g:auto_save_silent	init.vim	/^    let g:auto_save_silent = 1$/;"	v
+g:colors_name	colors/hybrid_material.vim	/^let g:colors_name = "hybrid_material"$/;"	v
+g:colors_name	colors/hybrid_reverse.vim	/^let g:colors_name = "hybrid_reverse"$/;"	v
+g:colors_name	colors/molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:loaded_solarized_menu	colors/solarized.vim	/^    let g:loaded_solarized_menu = 1$/;"	v
+g:mkdp_browser	init.vim	/^    let g:mkdp_browser = 'chromium'$/;"	v
+g:netrw_banner	init.vim	/^let g:netrw_banner = 0$/;"	v
+g:netrw_browse_split	init.vim	/^let g:netrw_browse_split = 4$/;"	v
+g:netrw_liststyle	init.vim	/^let g:netrw_liststyle = 3$/;"	v
+g:netrw_winsize	init.vim	/^let g:netrw_winsize = 20$/;"	v
+g:path	init.vim	/^  let g:path=expand('%:p')$/;"	v
+g:tex_conceal	init.vim	/^    let g:tex_conceal='abdmgs'$/;"	v
+g:tex_flavor	init.vim	/^    let g:tex_flavor='latex'$/;"	v
+g:vimtex_quickfix_mode	init.vim	/^    let g:vimtex_quickfix_mode=0$/;"	v
+g:vimtex_view_method	init.vim	/^    let g:vimtex_view_method='mupdf'$/;"	v
+ga	init.vim	/^    nmap ga <Plug>(EasyAlign)$/;"	m
+ga	init.vim	/^    xmap ga <Plug>(EasyAlign)$/;"	m
+hs_highlight_boolean	colors/solarized.vim	/^let hs_highlight_boolean=1$/;"	v
+hs_highlight_delimiters	colors/solarized.vim	/^let hs_highlight_delimiters=1$/;"	v
+jj	init.vim	/^    inoremap jj <ESC>$/;"	m
+jk	init.vim	/^    inoremap jk <ESC>$/;"	m
+kj	init.vim	/^    inoremap kj <ESC>$/;"	m
+mapleader	init.vim	/^let mapleader=","$/;"	v
+n	init.vim	/^    nnoremap <expr> n  'Nn'[v:searchforward]$/;"	m
+n	init.vim	/^    onoremap <expr> n  'Nn'[v:searchforward]$/;"	m
+n	init.vim	/^    xnoremap <expr> n  'Nn'[v:searchforward]$/;"	m
+netrw_mappings	init.vim	/^augroup netrw_mappings$/;"	a
+qq	init.vim	/^    nnoremap qq :wq<CR>$/;"	m
+s:SetOption	colors/solarized.vim	/^function! s:SetOption(name,default)$/;"	f
+s:SolarizedHiTrail	colors/solarized.vim	/^function! s:SolarizedHiTrail()$/;"	f
+s:SolarizedOptions	colors/solarized.vim	/^function! s:SolarizedOptions()$/;"	f
+s:b	colors/hybrid_material.vim	/^let s:b      = ",bold"$/;"	v
+s:b	colors/hybrid_reverse.vim	/^let s:b      = ",bold"$/;"	v
+s:b	colors/solarized.vim	/^    let s:b           = ""$/;"	v
+s:b	colors/solarized.vim	/^    let s:b           = ",bold"$/;"	v
+s:back	colors/solarized.vim	/^        let s:back    = s:base03$/;"	v
+s:back	colors/solarized.vim	/^    let s:back        = "NONE"$/;"	v
+s:back	colors/solarized.vim	/^    let s:back        = s:back$/;"	v
+s:back	colors/solarized.vim	/^    let s:back        = s:base02$/;"	v
+s:back	colors/solarized.vim	/^    let s:back        = s:base03$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = "#808080"$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = "#839496"$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = "12"$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = "244"$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = "LightBlue"     " 4*$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = s:base1$/;"	v
+s:base0	colors/solarized.vim	/^    let s:base0       = s:temp00$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = "#585858"$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = "#657b83"$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = "11"$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = "240"$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = "LightYellow"   " 3*$/;"	v
+s:base00	colors/solarized.vim	/^    let s:base00      = s:base0$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = "#4e4e4e"$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = "#586e75"$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = "10"$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = "239"$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = "LightGreen"    " 2*$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = s:base00$/;"	v
+s:base01	colors/solarized.vim	/^    let s:base01      = s:base1$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = "#073642"$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = "#262626"$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = "0"$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = "235"$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = "Black"         " 0$/;"	v
+s:base02	colors/solarized.vim	/^    let s:base02      = s:base2$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = "#002b36"$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = "#1c1c1c"$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = "234"$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = "8"$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = "DarkGray"      " 0*$/;"	v
+s:base03	colors/solarized.vim	/^    let s:base03      = s:base3$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = "#8a8a8a"$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = "#93a1a1"$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = "14"$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = "245"$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = "LightCyan"     " 6*$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = s:base2$/;"	v
+s:base1	colors/solarized.vim	/^    let s:base1       = s:temp01$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = "#d7d7af"$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = "#eee8d5"$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = "187"$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = "7"$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = "LightGray"     " 7$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = s:base3$/;"	v
+s:base2	colors/solarized.vim	/^    let s:base2       = s:temp02$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = "#fdf6e3"$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = "#ffffd7"$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = "15"$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = "230"$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = "White"         " 7*$/;"	v
+s:base3	colors/solarized.vim	/^    let s:base3       = s:temp03$/;"	v
+s:bb	colors/solarized.vim	/^    let s:bb          = ""$/;"	v
+s:bb	colors/solarized.vim	/^    let s:bb          = ",bold"$/;"	v
+s:bg_none	colors/hybrid_material.vim	/^let s:bg_none = ' guibg=NONE ctermbg=NONE'$/;"	v
+s:bg_none	colors/hybrid_reverse.vim	/^let s:bg_none = ' guibg=NONE ctermbg=NONE'$/;"	v
+s:bg_normal	colors/hybrid_material.vim	/^  let s:bg_normal = s:bg_background$/;"	v
+s:bg_normal	colors/hybrid_material.vim	/^  let s:bg_normal = s:bg_none$/;"	v
+s:bg_normal	colors/hybrid_reverse.vim	/^  let s:bg_normal = s:bg_background$/;"	v
+s:bg_normal	colors/hybrid_reverse.vim	/^  let s:bg_normal = s:bg_none$/;"	v
+s:blue	colors/solarized.vim	/^    let s:blue        = "#0087ff"$/;"	v
+s:blue	colors/solarized.vim	/^    let s:blue        = "#268bd2"$/;"	v
+s:blue	colors/solarized.vim	/^    let s:blue        = "33"$/;"	v
+s:blue	colors/solarized.vim	/^    let s:blue        = "4"$/;"	v
+s:blue	colors/solarized.vim	/^    let s:blue        = "DarkBlue"      " 4$/;"	v
+s:bright	colors/solarized.vim	/^    let s:bright      = "* term=bold cterm=bold"$/;"	v
+s:build_prim	colors/hybrid_material.vim	/^function! s:build_prim(hi_elem, field)$/;"	f
+s:build_prim	colors/hybrid_reverse.vim	/^function! s:build_prim(hi_elem, field)$/;"	f
+s:c	colors/hybrid_material.vim	/^let s:c      = ",undercurl"$/;"	v
+s:c	colors/hybrid_reverse.vim	/^let s:c      = ",undercurl"$/;"	v
+s:c	colors/solarized.vim	/^    let s:c               = ",undercurl"$/;"	v
+s:colorscheme_list	colors/solarized.vim	/^let s:colorscheme_list=[$/;"	v
+s:cterm_aqua	colors/hybrid_material.vim	/^  let s:cterm_aqua       = "109"$/;"	v
+s:cterm_aqua	colors/hybrid_material.vim	/^  let s:cterm_aqua       = "14"  " LightCyan$/;"	v
+s:cterm_aqua	colors/hybrid_reverse.vim	/^  let s:cterm_aqua       = "109"$/;"	v
+s:cterm_aqua	colors/hybrid_reverse.vim	/^  let s:cterm_aqua       = "14"  " LightCyan$/;"	v
+s:cterm_blue	colors/hybrid_material.vim	/^  let s:cterm_blue       = "110"$/;"	v
+s:cterm_blue	colors/hybrid_material.vim	/^  let s:cterm_blue       = "12"  " LightBlue$/;"	v
+s:cterm_blue	colors/hybrid_reverse.vim	/^  let s:cterm_blue       = "110"$/;"	v
+s:cterm_blue	colors/hybrid_reverse.vim	/^  let s:cterm_blue       = "12"  " LightBlue$/;"	v
+s:cterm_comment	colors/hybrid_material.vim	/^  let s:cterm_comment    = "243"$/;"	v
+s:cterm_comment	colors/hybrid_material.vim	/^  let s:cterm_comment    = "7"   " LightGrey$/;"	v
+s:cterm_comment	colors/hybrid_reverse.vim	/^  let s:cterm_comment    = "243"$/;"	v
+s:cterm_comment	colors/hybrid_reverse.vim	/^  let s:cterm_comment    = "7"   " LightGrey$/;"	v
+s:cterm_delbg	colors/hybrid_material.vim	/^  let s:cterm_delbg      = "167"$/;"	v
+s:cterm_delbg	colors/hybrid_material.vim	/^  let s:cterm_delbg      = "9"   " LightRed$/;"	v
+s:cterm_delbg	colors/hybrid_reverse.vim	/^  let s:cterm_delbg      = "167"$/;"	v
+s:cterm_delbg	colors/hybrid_reverse.vim	/^  let s:cterm_delbg      = "9"   " LightRed$/;"	v
+s:cterm_foreground	colors/hybrid_material.vim	/^  let s:cterm_foreground = "15"  " White$/;"	v
+s:cterm_foreground	colors/hybrid_material.vim	/^  let s:cterm_foreground = "250"$/;"	v
+s:cterm_foreground	colors/hybrid_reverse.vim	/^  let s:cterm_foreground = "15"  " White$/;"	v
+s:cterm_foreground	colors/hybrid_reverse.vim	/^  let s:cterm_foreground = "250"$/;"	v
+s:cterm_green	colors/hybrid_material.vim	/^  let s:cterm_green      = "10"  " LightGreen$/;"	v
+s:cterm_green	colors/hybrid_material.vim	/^  let s:cterm_green      = "143"$/;"	v
+s:cterm_green	colors/hybrid_reverse.vim	/^  let s:cterm_green      = "10"  " LightGreen$/;"	v
+s:cterm_green	colors/hybrid_reverse.vim	/^  let s:cterm_green      = "143"$/;"	v
+s:cterm_line	colors/hybrid_material.vim	/^  let s:cterm_line       = "0"   " Black$/;"	v
+s:cterm_line	colors/hybrid_material.vim	/^  let s:cterm_line       = "235"$/;"	v
+s:cterm_line	colors/hybrid_reverse.vim	/^  let s:cterm_line       = "0"   " Black$/;"	v
+s:cterm_line	colors/hybrid_reverse.vim	/^  let s:cterm_line       = "235"$/;"	v
+s:cterm_orange	colors/hybrid_material.vim	/^  let s:cterm_orange     = "173"$/;"	v
+s:cterm_orange	colors/hybrid_material.vim	/^  let s:cterm_orange     = "3"   " DarkYellow$/;"	v
+s:cterm_orange	colors/hybrid_reverse.vim	/^  let s:cterm_orange     = "173"$/;"	v
+s:cterm_orange	colors/hybrid_reverse.vim	/^  let s:cterm_orange     = "3"   " DarkYellow$/;"	v
+s:cterm_purple	colors/hybrid_material.vim	/^  let s:cterm_purple     = "13"  " LightMagenta$/;"	v
+s:cterm_purple	colors/hybrid_material.vim	/^  let s:cterm_purple     = "139"$/;"	v
+s:cterm_purple	colors/hybrid_reverse.vim	/^  let s:cterm_purple     = "13"  " LightMagenta$/;"	v
+s:cterm_purple	colors/hybrid_reverse.vim	/^  let s:cterm_purple     = "139"$/;"	v
+s:cterm_red	colors/hybrid_material.vim	/^  let s:cterm_red        = "167"$/;"	v
+s:cterm_red	colors/hybrid_material.vim	/^  let s:cterm_red        = "9"   " LightRed$/;"	v
+s:cterm_red	colors/hybrid_reverse.vim	/^  let s:cterm_red        = "167"$/;"	v
+s:cterm_red	colors/hybrid_reverse.vim	/^  let s:cterm_red        = "9"   " LightRed$/;"	v
+s:cterm_selection	colors/hybrid_material.vim	/^  let s:cterm_selection  = "237"$/;"	v
+s:cterm_selection	colors/hybrid_material.vim	/^  let s:cterm_selection  = "8"   " DarkGrey$/;"	v
+s:cterm_selection	colors/hybrid_reverse.vim	/^  let s:cterm_selection  = "237"$/;"	v
+s:cterm_selection	colors/hybrid_reverse.vim	/^  let s:cterm_selection  = "8"   " DarkGrey$/;"	v
+s:cterm_yellow	colors/hybrid_material.vim	/^  let s:cterm_yellow     = "11"  " LightYellow$/;"	v
+s:cterm_yellow	colors/hybrid_material.vim	/^  let s:cterm_yellow     = "221"$/;"	v
+s:cterm_yellow	colors/hybrid_reverse.vim	/^  let s:cterm_yellow     = "11"  " LightYellow$/;"	v
+s:cterm_yellow	colors/hybrid_reverse.vim	/^  let s:cterm_yellow     = "221"$/;"	v
+s:cyan	colors/solarized.vim	/^    let s:cyan        = "#00afaf"$/;"	v
+s:cyan	colors/solarized.vim	/^    let s:cyan        = "#2aa198"$/;"	v
+s:cyan	colors/solarized.vim	/^    let s:cyan        = "37"$/;"	v
+s:cyan	colors/solarized.vim	/^    let s:cyan        = "6"$/;"	v
+s:cyan	colors/solarized.vim	/^    let s:cyan        = "DarkCyan"      " 6$/;"	v
+s:defaults_list	colors/solarized.vim	/^let s:defaults_list=[$/;"	v
+s:fg_bold	colors/hybrid_material.vim	/^    let s:fg_bold = s:fmt_bold$/;"	v
+s:fg_bold	colors/hybrid_material.vim	/^    let s:fg_bold = s:fmt_none$/;"	v
+s:fg_bold	colors/hybrid_reverse.vim	/^    let s:fg_bold = s:fmt_bold$/;"	v
+s:fg_bold	colors/hybrid_reverse.vim	/^    let s:fg_bold = s:fmt_none$/;"	v
+s:fg_none	colors/hybrid_material.vim	/^let s:fg_none = ' guifg=NONE ctermfg=NONE'$/;"	v
+s:fg_none	colors/hybrid_reverse.vim	/^let s:fg_none = ' guifg=NONE ctermfg=NONE'$/;"	v
+s:fg_pdef	colors/solarized.vim	/^let s:fg_pdef = s:fg_violet$/;"	v
+s:fg_phead	colors/solarized.vim	/^let s:fg_phead = s:fg_orange$/;"	v
+s:fg_ptable	colors/solarized.vim	/^let s:fg_ptable = s:fg_blue$/;"	v
+s:green	colors/solarized.vim	/^    let s:green       = "#5f8700"$/;"	v
+s:green	colors/solarized.vim	/^    let s:green       = "#719e07" "experimental$/;"	v
+s:green	colors/solarized.vim	/^    let s:green       = "2"$/;"	v
+s:green	colors/solarized.vim	/^    let s:green       = "64"$/;"	v
+s:green	colors/solarized.vim	/^    let s:green       = "DarkGreen"     " 2$/;"	v
+s:gui_background	colors/hybrid_material.vim	/^let s:gui_background = "#263238"$/;"	v
+s:gui_background	colors/hybrid_reverse.vim	/^let s:gui_background = "#1d1f21"$/;"	v
+s:gui_comment	colors/hybrid_material.vim	/^let s:gui_comment    = "#707880"$/;"	v
+s:gui_comment	colors/hybrid_reverse.vim	/^let s:gui_comment    = "#707880"$/;"	v
+s:gui_line	colors/hybrid_material.vim	/^let s:gui_line       = "#212D32"$/;"	v
+s:gui_line	colors/hybrid_reverse.vim	/^let s:gui_line       = "#282a2e"$/;"	v
+s:gui_selection	colors/hybrid_material.vim	/^let s:gui_selection  = "#455A64"$/;"	v
+s:gui_selection	colors/hybrid_reverse.vim	/^let s:gui_selection  = "#373b41"$/;"	v
+s:i	colors/hybrid_material.vim	/^let s:i      = ",italic"$/;"	v
+s:i	colors/hybrid_reverse.vim	/^let s:i      = ",italic"$/;"	v
+s:i	colors/solarized.vim	/^    let s:i           = ""$/;"	v
+s:i	colors/solarized.vim	/^    let s:i           = ",italic"$/;"	v
+s:lazycat_list	colors/solarized.vim	/^let s:lazycat_list=[$/;"	v
+s:magenta	colors/solarized.vim	/^    let s:magenta     = "#af005f"$/;"	v
+s:magenta	colors/solarized.vim	/^    let s:magenta     = "#d33682"$/;"	v
+s:magenta	colors/solarized.vim	/^    let s:magenta     = "125"$/;"	v
+s:magenta	colors/solarized.vim	/^    let s:magenta     = "5"$/;"	v
+s:magenta	colors/solarized.vim	/^    let s:magenta     = "DarkMagenta"   " 5$/;"	v
+s:molokai_original	colors/molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	colors/molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:n	colors/hybrid_material.vim	/^let s:n      = "NONE"$/;"	v
+s:n	colors/hybrid_reverse.vim	/^let s:n      = "NONE"$/;"	v
+s:n	colors/solarized.vim	/^    let s:n               = "NONE"$/;"	v
+s:none	colors/hybrid_material.vim	/^let s:none   = "NONE"$/;"	v
+s:none	colors/hybrid_reverse.vim	/^let s:none   = "NONE"$/;"	v
+s:none	colors/solarized.vim	/^    let s:none            = "NONE"$/;"	v
+s:ob	colors/solarized.vim	/^    let s:ob              = ""$/;"	v
+s:options_list	colors/solarized.vim	/^let s:options_list=[$/;"	v
+s:orange	colors/solarized.vim	/^    let s:orange      = "#cb4b16"$/;"	v
+s:orange	colors/solarized.vim	/^    let s:orange      = "#d75f00"$/;"	v
+s:orange	colors/solarized.vim	/^    let s:orange      = "166"$/;"	v
+s:orange	colors/solarized.vim	/^    let s:orange      = "9"$/;"	v
+s:orange	colors/solarized.vim	/^    let s:orange      = "LightRed"      " 1*$/;"	v
+s:ou	colors/solarized.vim	/^    let s:ou              = ""$/;"	v
+s:ou	colors/solarized.vim	/^    let s:ou          = ",underline"$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette = {'gui' : {} , 'cterm' : {}}$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.addbg      = { 'dark' : "65"               , 'light' : "194" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.addfg      = { 'dark' : "193"              , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.aqua       = { 'dark' : s:cterm_aqua       , 'light' : "23"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.background = { 'dark' : "234"              , 'light' : "254" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.blue       = { 'dark' : s:cterm_blue       , 'light' : "17"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.changebg   = { 'dark' : "60"               , 'light' : "189" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.changefg   = { 'dark' : "189"              , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.comment    = { 'dark' : s:cterm_comment    , 'light' : "59"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.darkblue   = { 'dark' : "17"               , 'light' : "194" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.darkcolumn = { 'dark' : "234"              , 'light' : "244" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.darkcyan   = { 'dark' : "24"               , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.darkpurple = { 'dark' : "53"               , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.darkred    = { 'dark' : "52"               , 'light' : "189" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.delbg      = { 'dark' : s:cterm_delbg      , 'light' : "224" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.foreground = { 'dark' : s:cterm_foreground , 'light' : "16"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.green      = { 'dark' : s:cterm_green      , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.line       = { 'dark' : s:cterm_line       , 'light' : "252" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.orange     = { 'dark' : s:cterm_orange     , 'light' : "94"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.purple     = { 'dark' : s:cterm_purple     , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.red        = { 'dark' : s:cterm_red        , 'light' : "52"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.selection  = { 'dark' : s:cterm_selection  , 'light' : "250" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.window     = { 'dark' : "236"              , 'light' : "247" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.cterm.yellow     = { 'dark' : s:cterm_yellow     , 'light' : "58"  }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.addbg      = { 'dark' : "#5F875F"        , 'light' : "#d7ffd7" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.addfg      = { 'dark' : "#d7ffaf"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.aqua       = { 'dark' : "#8abeb7"        , 'light' : "#005f5f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.background = { 'dark' : s:gui_background , 'light' : "#e4e4e4" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.blue       = { 'dark' : "#81a2be"        , 'light' : "#00005f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        , 'light' : "#d7d7ff" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.darkblue   = { 'dark' : "#00005f"        , 'light' : "#d7ffd7" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.darkcolumn = { 'dark' : "#1c1c1c"        , 'light' : "#808080" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.darkcyan   = { 'dark' : "#005f5f"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.darkred    = { 'dark' : "#5f0000"        , 'light' : "#d7d7ff" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.delbg      = { 'dark' : "#cc6666"        , 'light' : "#ffd7d7" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.foreground = { 'dark' : "#c5c8c6"        , 'light' : "#000000" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.green      = { 'dark' : "#b5bd68"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.orange     = { 'dark' : "#de935f"        , 'light' : "#875f00" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.purple     = { 'dark' : "#b294bb"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.red        = { 'dark' : "#cc6666"        , 'light' : "#5f0000" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.window     = { 'dark' : "#303030"        , 'light' : "#9e9e9e" }$/;"	v
+s:palette	colors/hybrid_material.vim	/^let s:palette.gui.yellow     = { 'dark' : "#f0c674"        , 'light' : "#5f5f00" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette = {'gui' : {} , 'cterm' : {}}$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.addbg      = { 'dark' : "65"               , 'light' : "194" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.addfg      = { 'dark' : "193"              , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.aqua       = { 'dark' : s:cterm_aqua       , 'light' : "23"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.background = { 'dark' : "234"              , 'light' : "254" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.blue       = { 'dark' : s:cterm_blue       , 'light' : "17"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.changebg   = { 'dark' : "60"               , 'light' : "189" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.changefg   = { 'dark' : "189"              , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.comment    = { 'dark' : s:cterm_comment    , 'light' : "59"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.darkblue   = { 'dark' : "17"               , 'light' : "194" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.darkcolumn = { 'dark' : "234"              , 'light' : "244" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.darkcyan   = { 'dark' : "24"               , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.darkpurple = { 'dark' : "53"               , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.darkred    = { 'dark' : "52"               , 'light' : "189" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.delbg      = { 'dark' : s:cterm_delbg      , 'light' : "224" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.foreground = { 'dark' : s:cterm_foreground , 'light' : "16"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.green      = { 'dark' : s:cterm_green      , 'light' : "22"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.line       = { 'dark' : s:cterm_line       , 'light' : "252" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.orange     = { 'dark' : s:cterm_orange     , 'light' : "94"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.purple     = { 'dark' : s:cterm_purple     , 'light' : "53"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.red        = { 'dark' : s:cterm_red        , 'light' : "52"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.selection  = { 'dark' : s:cterm_selection  , 'light' : "250" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.window     = { 'dark' : "236"              , 'light' : "247" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.cterm.yellow     = { 'dark' : s:cterm_yellow     , 'light' : "58"  }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.addbg      = { 'dark' : "#5F875F"        , 'light' : "#d7ffd7" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.addfg      = { 'dark' : "#d7ffaf"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.aqua       = { 'dark' : "#8abeb7"        , 'light' : "#005f5f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.background = { 'dark' : s:gui_background , 'light' : "#e4e4e4" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.blue       = { 'dark' : "#81a2be"        , 'light' : "#00005f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        , 'light' : "#d7d7ff" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.darkblue   = { 'dark' : "#00005f"        , 'light' : "#d7ffd7" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.darkcolumn = { 'dark' : "#1c1c1c"        , 'light' : "#808080" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.darkcyan   = { 'dark' : "#005f5f"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.darkred    = { 'dark' : "#5f0000"        , 'light' : "#d7d7ff" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.delbg      = { 'dark' : "#cc6666"        , 'light' : "#ffd7d7" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.foreground = { 'dark' : "#c5c8c6"        , 'light' : "#000000" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.green      = { 'dark' : "#b5bd68"        , 'light' : "#005f00" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.orange     = { 'dark' : "#de935f"        , 'light' : "#875f00" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.purple     = { 'dark' : "#b294bb"        , 'light' : "#5f005f" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.red        = { 'dark' : "#cc6666"        , 'light' : "#5f0000" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.window     = { 'dark' : "#303030"        , 'light' : "#9e9e9e" }$/;"	v
+s:palette	colors/hybrid_reverse.vim	/^let s:palette.gui.yellow     = { 'dark' : "#f0c674"        , 'light' : "#5f5f00" }$/;"	v
+s:r	colors/hybrid_material.vim	/^let s:r      = ",reverse"$/;"	v
+s:r	colors/hybrid_reverse.vim	/^let s:r      = ",reverse"$/;"	v
+s:r	colors/solarized.vim	/^    let s:r               = ",reverse"$/;"	v
+s:red	colors/solarized.vim	/^    let s:red         = "#af0000"$/;"	v
+s:red	colors/solarized.vim	/^    let s:red         = "#dc322f"$/;"	v
+s:red	colors/solarized.vim	/^    let s:red         = "1"$/;"	v
+s:red	colors/solarized.vim	/^    let s:red         = "124"$/;"	v
+s:red	colors/solarized.vim	/^    let s:red         = "DarkRed"       " 1$/;"	v
+s:s	colors/hybrid_material.vim	/^let s:s      = ",standout"$/;"	v
+s:s	colors/hybrid_reverse.vim	/^let s:s      = ",standout"$/;"	v
+s:s	colors/solarized.vim	/^    let s:s               = ",standout"$/;"	v
+s:solarized_termtrans_default	colors/solarized.vim	/^    let s:solarized_termtrans_default = 0$/;"	v
+s:solarized_termtrans_default	colors/solarized.vim	/^    let s:solarized_termtrans_default = 1$/;"	v
+s:sp_back	colors/solarized.vim	/^    let s:sp_back      = ""$/;"	v
+s:sp_base0	colors/solarized.vim	/^    let s:sp_base0     = ""$/;"	v
+s:sp_base00	colors/solarized.vim	/^    let s:sp_base00    = ""$/;"	v
+s:sp_base01	colors/solarized.vim	/^    let s:sp_base01    = ""$/;"	v
+s:sp_base02	colors/solarized.vim	/^    let s:sp_base02    = ""$/;"	v
+s:sp_base03	colors/solarized.vim	/^    let s:sp_base03    = ""$/;"	v
+s:sp_base1	colors/solarized.vim	/^    let s:sp_base1     = ""$/;"	v
+s:sp_base2	colors/solarized.vim	/^    let s:sp_base2     = ""$/;"	v
+s:sp_base3	colors/solarized.vim	/^    let s:sp_base3     = ""$/;"	v
+s:sp_blue	colors/solarized.vim	/^    let s:sp_blue      = ""$/;"	v
+s:sp_cyan	colors/solarized.vim	/^    let s:sp_cyan      = ""$/;"	v
+s:sp_green	colors/solarized.vim	/^    let s:sp_green     = ""$/;"	v
+s:sp_magenta	colors/solarized.vim	/^    let s:sp_magenta   = ""$/;"	v
+s:sp_none	colors/solarized.vim	/^    let s:sp_none      = ""$/;"	v
+s:sp_orange	colors/solarized.vim	/^    let s:sp_orange    = ""$/;"	v
+s:sp_red	colors/solarized.vim	/^    let s:sp_red       = ""$/;"	v
+s:sp_violet	colors/solarized.vim	/^    let s:sp_violet    = ""$/;"	v
+s:sp_yellow	colors/solarized.vim	/^    let s:sp_yellow    = ""$/;"	v
+s:style	colors/hybrid_material.vim	/^let s:style = &background$/;"	v
+s:style	colors/hybrid_reverse.vim	/^let s:style = &background$/;"	v
+s:t_none	colors/hybrid_material.vim	/^let s:t_none = "NONE"$/;"	v
+s:t_none	colors/hybrid_reverse.vim	/^let s:t_none = "NONE"$/;"	v
+s:t_none	colors/solarized.vim	/^    let s:t_none          = "NONE"$/;"	v
+s:temp00	colors/solarized.vim	/^    let s:temp00      = s:base00$/;"	v
+s:temp01	colors/solarized.vim	/^    let s:temp01      = s:base01$/;"	v
+s:temp02	colors/solarized.vim	/^    let s:temp02      = s:base02$/;"	v
+s:temp03	colors/solarized.vim	/^    let s:temp03      = s:base03$/;"	v
+s:terminal_italic	colors/solarized.vim	/^            let s:terminal_italic=1$/;"	v
+s:terminal_italic	colors/solarized.vim	/^    let s:terminal_italic=0 " terminals will be guilty until proven compatible$/;"	v
+s:terminal_italic	colors/solarized.vim	/^    let s:terminal_italic=1 " TODO: could refactor to not require this at all$/;"	v
+s:terms_italic	colors/solarized.vim	/^let s:terms_italic=[$/;"	v
+s:terms_noitalic	colors/solarized.vim	/^let s:terms_noitalic=[$/;"	v
+s:u	colors/hybrid_material.vim	/^let s:u      = ",underline"$/;"	v
+s:u	colors/hybrid_reverse.vim	/^let s:u      = ",underline"$/;"	v
+s:u	colors/solarized.vim	/^    let s:u           = ""$/;"	v
+s:u	colors/solarized.vim	/^    let s:u           = ",underline"$/;"	v
+s:violet	colors/solarized.vim	/^    let s:violet      = "#5f5faf"$/;"	v
+s:violet	colors/solarized.vim	/^    let s:violet      = "#6c71c4"$/;"	v
+s:violet	colors/solarized.vim	/^    let s:violet      = "13"$/;"	v
+s:violet	colors/solarized.vim	/^    let s:violet      = "61"$/;"	v
+s:violet	colors/solarized.vim	/^    let s:violet      = "LightMagenta"  " 5*$/;"	v
+s:vmode	colors/solarized.vim	/^    let s:vmode       = "cterm"$/;"	v
+s:vmode	colors/solarized.vim	/^    let s:vmode       = "gui"$/;"	v
+s:yellow	colors/solarized.vim	/^    let s:yellow      = "#af8700"$/;"	v
+s:yellow	colors/solarized.vim	/^    let s:yellow      = "#b58900"$/;"	v
+s:yellow	colors/solarized.vim	/^    let s:yellow      = "136"$/;"	v
+s:yellow	colors/solarized.vim	/^    let s:yellow      = "3"$/;"	v
+s:yellow	colors/solarized.vim	/^    let s:yellow      = "DarkYellow"    " 3$/;"	v
+w!!	init.vim	/^cmap w!! w !sudo tee % >\/dev\/null$/;"	m

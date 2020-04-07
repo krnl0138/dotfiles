@@ -1,0 +1,188 @@
+body,h1,h2,h3,h4,p,a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: "Shopify Sans Black", Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/************
+*  Header  *
+************/
+
+.header {
+    margin: 0 auto 150px;
+    max-width: 1600px;
+    padding: 96px 0 0 0;
+    text-align: center;
+    background-color: #FFEFD2;
+    /* margin: auto; */
+}
+.header_logo {
+    margin: 0 auto 45px;
+}
+
+@media screen and (min-width:1080px) {
+    .header_title {
+        margin: 0 0 12px;
+        font-style: normal;
+        font-size: 60px;
+        font-weight: 800;
+        color: #004c3f;
+    }
+}
+@media screen and (max-width:1079px) {
+    .header_title {
+        margin: 0 0 12px;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 800;
+        color: #004c3f;
+    }
+}
+.header_subtitle {
+    margin: 0 0 20px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212326;
+}
+.header_button_wrapper {
+    /* margin: 0 0 8px; */
+    /* padding: 16px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.header_input {
+    height: 50px;
+    /* width: 100%; */
+    border: 0;
+    border-radius: 4px;
+    font-size: 1em;
+}
+.header_button {
+    background-color: #008060;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header_text {
+    margin: 16px 90px 30px 90px;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    color: #212326;
+}
+.relative {
+    position: relative;
+    top: +100px;
+    left: +20%;
+    background-color: white;
+    width: 500px;
+}
+
+/**********
+*  Card  *
+**********/
+
+.content {
+    font-size: 0px;
+    width: 60%;
+    margin: 200px 20% 50px;
+    background-color: #FFEE55;
+}
+.card {
+    display: inline-block;
+    background-color: #cc2255;
+    width: 250px;
+    margin: 0px 90px 40px 0px;
+    padding: 45px 25px 70px;
+}
+.no-right-margin {
+  margin-right: 0;
+}
+
+.card_icon {
+    padding: 10px;
+}
+.card_title {
+    /* margin: auto; */
+    padding: 10px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212b35;
+}
+.card_text {
+    /* margin: auto; */
+    padding: 10px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7177;
+}
+
+/************
+*  Vendor  *
+************/
+
+.vendor_img {
+    display: inline-block;
+    background-color: #aaee22;
+}
+
+/************
+*  Review  *
+************/
+
+.review {
+    display: flex;
+}
+.review_text {
+    border: 2px solid  #ff0000;
+    margin: auto;
+    padding: 10px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212b35;
+}
+.review_author {
+    border: 2px solid  #ff0000;
+    margin: auto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6b7177;
+}
+
+/************
+*  Footer  *
+************/
+
+.footer {
+    border: .5em solid  #ff0000;
+    overflow: auto;
+    background-color: #FFEFD2;
+}
+.footer_logo {
+    width: 10%;
+    height: 10%;
+}
+.footer_text {
+    margin: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212b35;
+}
+.footer_links {
+    background-color: #fff;
+}

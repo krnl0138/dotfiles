@@ -1,2 +1,4 @@
 # see man 5 zathurarc for info
 #set recolor true
+map + zoom best-fit
+map = zoom in
