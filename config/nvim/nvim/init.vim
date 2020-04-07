@@ -101,9 +101,9 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     set undolevels=700
     set backup
     set undofile
-    set backupdir=~/.config/nvim/backupdir/backup
-    set directory=~/.config/nvim/backupdir/swp
-    set undodir=~/.config/nvim/backupdir/undo
+    set backupdir=~/.local/share/nvim/backupdir/backup
+    set directory=~/.local/share/nvim/backupdir/swp
+    set undodir=~/.local/share/nvim/backupdir/undo
 " Formatting strings and numbers
     set number relativenumber
     " set tw=79

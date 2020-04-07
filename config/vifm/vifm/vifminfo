@@ -15,985 +15,13 @@
 # TUI:
 ar
 q0
-v1
+v2
 ov
 m-1
-l-10,2
-r2
-
-# Left window history (oldest to newest):
-d/home/schizo/.config/vifm/scripts
-	..
-0
-d/home/schizo/.cache/yay/ttf-d2coding
-	..
-0
-d/home/schizo/tmp
-	github.com
-1
-d/home/schizo/.config
-	vifm
-41
-d/home/schizo/.config/vifm
-	vifm_devicons
-3
-d/home/schizo/.config
-	vifm
-41
-d/home
-	schizo
-2
-d/
-	usr
-17
-d/usr
-	local
-6
-d/usr/local
-	..
-0
-d/usr
-	share
-8
-d/usr/share
-	fonts
-41
-d/usr/share/fonts
-	TTF
-1
-d/usr/share/fonts/TTF
-	Inconsolata-CondensedExtraBold.ttf
-4
-d/usr/share/fonts
-	util
-8
-d/usr/share
-	fortune
-4
-d/usr
-	src
-8
-d/
-	proc
-4
-d/home/schizo/thaaszagren/assets
-	..
-0
-d/home/schizo/thaaszagren
-	assets
-1
-d/home/schizo
-	thaaszagren
-25
-d/home/schizo/test
-	test.jpg
-1
-d/home/schizo/downloads
-	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
-14
-d/home/schizo/personal
-	pictures
-5
-d/home/schizo/personal/pictures
-	thaas_1
-2
-d/home/schizo/personal/pictures/thaas_1
-	Yves-Tumor-Highlark-01-e1526669607118.jpg
-14
-d/home/schizo/personal/pictures
-	thaas_1
-2
-d/home/schizo/personal
-	pictures
-5
-d/home/schizo
-	documents
-8
-d/home/schizo/downloads
-	Sketch.app
-2
-d/home/schizo/personal
-	pictures
-5
-d/home/schizo/personal/pictures
-	thaas_1
-2
-d/home/schizo/personal/pictures/thaas_1
-	2u_nEE6Hiu0.jpg
-2
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	C4pQ_6ovFpg.jpg
-1
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	C4pQ_6ovFpg.jpg
-2
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	oxuxwiyargj41.jpg
-1
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	CallMeSlide1.png
-13
-d/home/schizo/personal/pictures
-	b8dbf9cf-db78-4d4f-8998-f6546457e904.jpeg
-12
-d/home/schizo/downloads
-	torrents
-14
-d/home/schizo
-	shopify
-4
-d/home/schizo/shopify
-	..
-0
-d/home/schizo
-	stuff
-2
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	b8dbf9cf-db78-4d4f-8998-f6546457e904.jpeg
-12
-d/home/schizo/scripts
-	..
-0
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	..
-0
-d/home/schizo/personal/pictures
-	wall
-6
-d/home/schizo/downloads
-	Desktop - 1.png
-17
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	-poPLdaCTBo.jpg
-1
-d/home/schizo/personal/pictures
-	wall
-6
-d/home/schizo/personal/pictures/wall
-	..
-0
-d/home/schizo/personal/pictures
-	thaas_1
-1
-d/home/schizo/personal/pictures/thaas_1
-	5MzK6jOkUoY.jpg
-1
-d/home/schizo/personal/pictures
-	gettyimages-89178581-2048x2048.jpg
-43
-d/home/schizo
-	..
-0
-d/home/schizo/personal
-	pictures
 l2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads/archives/games
-	Diablo II + Median XL Sigma.7z
-1
-d/home/gppk/Downloads/archives
-	study
-3
-d/home/gppk/Downloads/archives/study
-	Georges Duby.zip
-1
-d/home/gppk/Downloads/archives
-	music
-3
-d/home/gppk/Downloads/archives/music
-	Organismic - Primordial Super Fly (2019).zip
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads/archives/games
-	setup_undertale_1.08_(18328).exe.zip
-8
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	Rationality__From_AI_to_Zombies
-1
-d/home/gppk/Downloads/archives/Rationality__From_AI_to_Zombies
-	Rationality_From_AI_to_Zombies.pdf
-1
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	Rationality__From_AI_to_Zombies
-8
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	Rationality__From_AI_to_Zombies.zip
-8
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	subject2017.rar
-9
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	2671 66.rar
-4
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	Unpack-2327
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	3 модуль, Новое время
-2
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время/Семинары
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время
-	ИЗФ_лекции.docx
-4
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	3 модуль, новое время
-4
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время/Семинары
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	IV модуль, лекции.docx
-6
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/personal
-	university
-13
-d/home/gppk/personal/university
-	История зарубежной философии.zip
-5
-d/home/gppk/personal
-	university
-13
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	Unpack-5423
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	Математика
-2
-d/home/gppk/Downloads/archives/study/Unpack-5423/Математика
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	Латинский язык
-2
-d/home/gppk/Downloads/archives/study/Unpack-5423/Латинский язык
-	А.Солопов, Е.Антонец. Латинский язык.pdf
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	история
-3
-d/home/gppk/Downloads/archives/study/Unpack-5423/история
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423/история/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-5423/история
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	история
-3
-d/home/gppk/Downloads/archives/study
-	Unpack-4747
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	английский язык
-9
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	английский язык
-6
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	документы
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык/документы
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	документы
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	История
-2
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/История/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/История/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	древнегреческий язык
-3
-d/home/gppk/Downloads/archives/study/Unpack-4747/древнегреческий язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	Древнегреческий язык
-5
-d/home/gppk/Downloads/archives/study/Unpack-4747/Древнегреческий язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	Английский язык
-4
-d/home/gppk/Downloads/archives/study/Unpack-4747/Английский язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	изф
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	изф(и)
-3
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф/изф(и)
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	ИЗФ(И)
-4
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф/ИЗФ(И)
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	остальные материалы
-2
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф/остальные материалы
-	H.Diels. Die Fragmente der Vorsokratiker.pdf
-4
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	остальные материалы
-2
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф/остальные материалы
-	H.Diels. Die Fragmente der Vorsokratiker.pdf
-4
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф/дополнительная литература
-	М.Канто-Спербер. Греческая философия. Том I.djvu
-6
-d/home/gppk/Downloads/archives/study/Unpack-4747/изф
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	ИЗФ
-8
-d/home/gppk/Downloads/archives/study/Unpack-4747/ИЗФ
-	дополнительная литература
-2
-d/home/gppk/Downloads/archives/study/Unpack-4747/ИЗФ/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/ИЗФ
-	ИЗФ(И)
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/ИЗФ/ИЗФ(И)
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/ИЗФ
-	остальные материалы
-3
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	ИЗФ
-8
-d/home/gppk/Downloads/archives/study
-	IBM.SPSS.Statistics.v22.zip
-1
-d/home/gppk/personal
-	university
-13
-d/home/gppk/personal/university
-	HSE.zip
-5
-d/home/gppk/personal
-	university
-13
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads/archives/games
-	Diablo II + Median XL Sigma.7z
-1
-d/home/gppk/Downloads/archives
-	study
-1
-d/home/gppk/Downloads/archives/study
-	IBM.SPSS.Statistics.v22.zip
-1
-d/home/gppk/Downloads/archives
-	study
-1
-d/home/gppk/Downloads/archives/study
-	..
-0
-d/home/gppk/personal
-	university
-13
-d/home/gppk/personal/university
-	IBM.SPSS.Statistics.v22.zip
-6
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	KripkeModel-png
-2
-d/home/gppk/Downloads/archives/KripkeModel-png
-	models-png
-2
-d/home/gppk/Downloads/archives/KripkeModel-png/models-png
-	p-qbf-cnfSSS-K4-C10-V4-D6.8.dfg.asc.intohylo.png
-15
-d/home/gppk/Downloads/archives/KripkeModel-png
-	__MACOSX
-2
-d/home/gppk/Downloads/archives/KripkeModel-png/__MACOSX
-	models-png
-1
-d/home/gppk/Downloads/archives/KripkeModel-png/__MACOSX/models-png
-	._p-qbf-cnfSSS-K4-C10-V8-D6.8.dfg.asc.intohylo.png
-1
-d/home/gppk/Downloads/archives/KripkeModel-png/__MACOSX
-	._models-png
-2
-d/home/gppk/Downloads/archives/KripkeModel-png
-	__MACOSX
-2
-d/home/gppk/Downloads/archives
-	KripkeModel-png
-2
-d/home/gppk/Downloads/archives/KripkeModel-png
-	models-png
-1
-d/home/gppk/Downloads/archives
-	Unpack-7816
-3
-d/home/gppk/Downloads/archives/Unpack-7816
-	Beyond the Green Light
-1
-d/home/gppk/Downloads/archives/Unpack-7816/Beyond the Green Light
-	..
-0
-d/home/gppk/Downloads/archives/Unpack-7816
-	Beyond the Green Light
-1
-d/home/gppk/Downloads/archives
-	music
-1
-d/home/gppk/Downloads/archives/music
-	beyond_the_green_light.7z
-5
-d/home/gppk/Downloads/archives
-	��. �����+����� �+��+����
-3
-d/home/gppk/Downloads/archives/��. �����+����� �+��+����
-	����+����
-1
-d/home/gppk/Downloads/archives/��. �����+����� �+��+����/����+����
-	2006 - ��. �����+����� - Empire V.fb2
-7
-d/home/gppk/Downloads/archives/��. �����+����� �+��+����
-	����������
-2
-d/home/gppk/Downloads/archives/��. �����+����� �+��+����/����������
-	..
-0
-d/home/gppk/Downloads
-	..
-0
-d/home/gppk/personal
-	books
-2
-d/home/gppk/personal/books
-	running
-7
-d/home/gppk/personal/books/running
-	Позный-метод-бега-Экономичный-результативный-надежный.pdf
-5
-d/home/gppk/personal/books
-	other
-29
-d/home/gppk/personal/books/other
-	report.pdf
-1
-d/home/gppk/personal/books
-	history
-8
-d/home/gppk/personal/books/history
-	Jean Mesqui - Chateaux Forts et Fortifications en France (1997, Flammarion).pdf
-2
-d/home/gppk/personal/books
-	history
-8
-d/home/gppk/personal/books/history
-	18635_7cbb453572b0a49f4fc13889fef86788.pdf
-3
-d/home/gppk/personal/books
-	economics
-28
-d/home/gppk/personal/books/economics
-	Principles For Navigating Big Debt Crises By Ray Dalio.pdf
-1
-d/home/gppk/personal/books
-	programming
-20
-d/home/gppk/personal/books/programming
-	Эрик Фримен, Элизабет Фримен - Паттерны проектирования (Head First O'Reilly) - 2011.pdf
-1
-d/home/gppk/personal/books
-	english
-6
-d/home/gppk/personal/books/english
-	epdf.pub_advanced-grammar-in-use-with-answers.pdf
-5
-d/home/gppk/personal/books
-	statistics
-14
-d/home/gppk/personal/books/statistics
-	Книга.pdf
-2
-d/home/gppk/personal/books
-	sport
-24
-d/home/gppk/personal/books/sport
-	Ashley Kalym - Complete Calisthenics - reedited 2016.pdf
-1
-d/home/gppk/personal/books
-	latin
-8
-d/home/gppk/personal/books/latin
-	CD_Beginners_Latin_Book.pdf
-3
-d/home/gppk/personal/books
-	history
-20
-d/home/gppk/personal/books/history
-	Karr_E_g_Chto_Takoe_Istoria_Almaty_1997.pdf
-29
-d/home/gppk/personal/books
-	analytics
-32
-d/home/gppk/personal/books/analytics
-	DEL2017-18__Lecture1-2.pdf
-34
-d/home/gppk/personal/books
-	literature
-12
-d/home/gppk/personal/books/literature
-	elibrary_29708664_19204842.pdf
-1
-d/home/gppk/personal/books
-	fiction
-19
-d/home/gppk/personal/books/fiction
-	rilke_novye_stixotvorenija.pdf
-1
-d/home/gppk/personal/books
-	economics
-20
-d/home/gppk/personal/books/economics
-	Principles For Navigating Big Debt Crises By Ray Dalio.pdf
-1
-d/home/gppk/personal/books
-	music
-9
-d/home/gppk/personal/books/music
-	..
-0
-d/home/gppk/personal/books
-	nonfiction
-8
-d/home/gppk/personal/books/nonfiction
-	Даглас Р. Хофштадтер-Гедель, Эшер, Бах. Эта бесконечная гирлянда-Бахрах-М (2001).pdf
-3
-d/home/gppk/personal/books
-	other
-7
-d/home/gppk/personal/books/other
-	report.pdf
-8
-d/home/gppk/personal/books
-	philosophy
-6
-d/home/gppk/personal/books/philosophy
-	..
-0
-d/home/gppk/personal/books
-	physics
-5
-d/home/gppk/personal/books/physics
-	..
-0
-d/home/gppk/personal/books
-=======
-l2
-r-10,2
-
-# Left window history (oldest to newest):
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads/archives/games
-	Diablo II + Median XL Sigma.7z
-1
-d/home/gppk/Downloads/archives
-	study
-3
-d/home/gppk/Downloads/archives/study
-	Georges Duby.zip
-1
-d/home/gppk/Downloads/archives
-	music
-3
-d/home/gppk/Downloads/archives/music
-	Organismic - Primordial Super Fly (2019).zip
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads/archives/games
-	setup_undertale_1.08_(18328).exe.zip
-8
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	Rationality__From_AI_to_Zombies
-1
-d/home/gppk/Downloads/archives/Rationality__From_AI_to_Zombies
-	Rationality_From_AI_to_Zombies.pdf
-1
-d/home/gppk/Downloads/archives
-	games
-1
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	Rationality__From_AI_to_Zombies
-8
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	Rationality__From_AI_to_Zombies.zip
-8
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	subject2017.rar
-9
-d/home/gppk/personal
-	books
-4
-d/home/gppk/personal/books
-	..
-0
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	2671 66.rar
-4
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	Unpack-2327
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	3 модуль, Новое время
-2
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время/Семинары
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, Новое время
-	ИЗФ_лекции.docx
-4
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	3 модуль, новое время
-4
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время/Семинары
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-2327/3 модуль, новое время
-	Семинары
-1
-d/home/gppk/Downloads/archives/study/Unpack-2327
-	IV модуль, лекции.docx
-6
-d/home/gppk/Downloads/archives/study
-	GrosFichiers - Sergey Karp.zip
-4
-d/home/gppk/personal
-	university
-13
-d/home/gppk/personal/university
-	История зарубежной философии.zip
-5
-d/home/gppk/personal
-	university
-13
-d/home/gppk/Downloads
-	archives
-1
-d/home/gppk/Downloads/archives
-	study
-2
-d/home/gppk/Downloads/archives/study
-	Unpack-5423
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	Математика
-2
-d/home/gppk/Downloads/archives/study/Unpack-5423/Математика
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	Латинский язык
-2
-d/home/gppk/Downloads/archives/study/Unpack-5423/Латинский язык
-	А.Солопов, Е.Антонец. Латинский язык.pdf
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	история
-3
-d/home/gppk/Downloads/archives/study/Unpack-5423/история
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423/история/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-5423/история
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-5423
-	история
-3
-d/home/gppk/Downloads/archives/study
-	Unpack-4747
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	английский язык
-9
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	английский язык
-6
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	документы
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык/документы
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/английский язык
-	документы
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	История
-2
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/История/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747/История/дополнительная литература
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747/История
-	дополнительная литература
-1
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	древнегреческий язык
-3
-d/home/gppk/Downloads/archives/study/Unpack-4747/древнегреческий язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	Древнегреческий язык
-5
-d/home/gppk/Downloads/archives/study/Unpack-4747/Древнегреческий язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	Английский язык
-4
-d/home/gppk/Downloads/archives/study/Unpack-4747/Английский язык
-	..
-0
-d/home/gppk/Downloads/archives/study/Unpack-4747
-	изф
-1
 d/home/gppk/Downloads/archives/study/Unpack-4747/изф
 	изф(и)
 3
@@ -1290,8 +318,7 @@ d/home/gppk/personal/books
 4
 d/home/gppk/personal/books/programming
 	Эрик Фримен, Элизабет Фримен - Паттерны проектирования (Head First O'Reilly) - 2011.pdf
-<<<<<<< HEAD
-2
+0
 d/home/gppk/personal/books
 	sociology
 3
@@ -1311,11 +338,8 @@ d/home/gppk/personal
 	books
 2
 d/home/gppk/personal/books
-=======
+	=======
 2
-d/home/gppk/personal/books
-	sociology
-3
 d/home/gppk/personal/books/sociology
 	Kimlika_U_-_Sovremennaya_Politicheskaya_Filosofia.pdf
 15
@@ -1376,12 +400,6 @@ d/home/gppk/personal
 d/home/gppk
 	personal
 32
-d
-
-# Right window history (oldest to newest):
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
-1
 d/home/schizo/personal/pictures
 	screenshots
 1
@@ -1539,11 +557,77 @@ d/home
 	schizo
 1
 d/home/schizo
-	new.png
-30
+	..
+0
+d/home
+	..
+0
+d/home/schizo/personal
+	pictures
+5
+d/home/schizo/personal/pictures
+	-jXFiLq9qaU.jpg
+5
+d/home/schizo/.config
+	..
+0
+d/home/schizo
+	.steam
+14
+d/home/schizo/downloads
+	test_keyboard_libreoffice.cfg
+14
+d/home/schizo
+	dotfiles
+14
+d/home/schizo/dotfiles
+	config
+2
+d/home/schizo/dotfiles/config
+	nvim
+13
+d/home/schizo/dotfiles/config/nvim
+	nvim
+1
+d/home/schizo/dotfiles/config/nvim/nvim
+	backupdir
+1
+d/home/schizo/dotfiles/config/nvim/nvim/backupdir
+	undo
+1
+d/home/schizo/dotfiles/config/nvim/nvim/backupdir/undo
+	..
+0
+d/home/schizo/dotfiles/config/nvim/nvim/backupdir
+	undo
+1
+d/home/schizo/dotfiles/config/nvim/nvim
+	colors
+1
+d/home/schizo/dotfiles/config/nvim
+	nvim
+1
+d/home/schizo/dotfiles/config/nvim/nvim
+	backupdir
+1
+d/home/schizo/dotfiles/config/nvim/nvim/backupdir
+	undo
+3
+d/home/schizo/dotfiles/config/nvim/nvim
+	backupdir
+1
+d/home/schizo/dotfiles/config/nvim/nvim/backupdir
+	undo
+3
+d/home/schizo/dotfiles/config/nvim/nvim
+	colors
+1
 d
 
 # Right window history (oldest to newest):
+D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
+	System
+1
 D/home/schizo/personal/pictures/screenshots
 	2020-04-02-174925.png
 1
@@ -1643,25 +727,6 @@ D/home/schizo/personal/pictures/screenshots
 D/home/schizo/personal/pictures/screenshots/abs_old
 	abs.png
 1
-<<<<<<< HEAD
-D
-
-# Command line history (oldest to newest):
-:!echo %c
-:!echo %rx
-:!echo %x
-:!echo %r
-:!echo %u
-:!echo %d%f
-:filter mobi
-:filter! mobi
-:filter .pdf
-:!filter .pdf
-:filter! .pdf
-:filter! djvu
-:filter!
-:mkdir anki
-=======
 D/home/gppk/.config
 	fish
 8
@@ -1683,11 +748,55 @@ D/home/gppk/.local/share/Trash
 D/home/gppk/.local/share/Trash/files
 	Nikola_Lenivets.zip
 8
+D/home
+	..
+0
+D/home/schizo
+	thaaszagren
+11
+D/home/schizo/personal
+	university
+2
+D/home/schizo
+	personal
+14
+D/home
+	schizo
+1
+D/home/schizo
+	.local
+14
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+1
+D/home/schizo/.local/share/nvim
+	backupdir
+1
+D/home/schizo/.local/share/nvim/backupdir
+	swp
+1
+D/home/schizo/.local/share/nvim/backupdir/swp
+	vifmrc.swp
+1
+D/home/schizo/.local/share/nvim/backupdir
+	swp
+1
+D/home/schizo/.local/share/nvim
+	backupdir
+1
 D
 
 # Command line history (oldest to newest):
+:filter .pdf
+:!filter .pdf
+:filter! .pdf
+:filter! djvu
+:filter!
+:mkdir anki
 :mkdir mine
-:!imv %f
 :!cp %f /home/schizo/
 :!scp %f /home/schizo/
 :!scp schizo@gegege/%f /home/schizo/
@@ -1710,7 +819,6 @@ D
 :goto ~
 :colorscheme ph
 :filter !
-:filter
 :filter .*
 :filter! .*
 :sort size
@@ -1724,7 +832,6 @@ D
 :file &
 :set sortnumbers
 :mkdir .scripts
-:rename
 :cd Downloads/
 :cd $HOME/Downloads/
 :rm -r %f
@@ -1736,12 +843,10 @@ D
 :!simple-fb2-reader %f
 :!zathura %f
 :!rename
-:sort
 :help sort
 :set millerview
 :set viewcolumns
 :tree
-:wincmd
 :mkdir t
 :Help
 :help
@@ -1754,18 +859,7 @@ D
 :!wallpaper.sh $(echo "%f")
 :!wallpaper.sh "%f"
 :!wallpaper.sh %f
-<<<<<<< HEAD
-<<<<<<< HEAD
 :!extract %f
-:!unrar %f
-=======
-:reload
-:!extract %f
-=======
-:reload
-:!extract %f
-:!unrar e %f
-:!zathura %f &
 :mpv
 :!mpv
 :sort
@@ -1794,8 +888,6 @@ D
 :mkdir wow
 :mkdir llpp
 :/fish
-<<<<<<< HEAD
-<<<<<<< HEAD
 :chromium %f
 :!chromium %f
 :imv %f
@@ -1827,12 +919,10 @@ D
 :filter pdf
 :!atool -a %f
 :filter
-:!atool -x %f
 :mkdir hz_knijki
 :mkdir zotero_library
 :!acroread %f
 :!evince %f
-:!okular %f
 :!evince %f &
 :!okular %f &
 :!zathura %f &
@@ -1845,7 +935,6 @@ D
 :!libreoffice writer %f
 :!gimp %f
 :!firefox-nightly %f
-:!unrar -x %f
 :!unrar e %f
 :mkdir kant_sobranie_sochinenii
 :!imv %f &
@@ -1854,11 +943,9 @@ D
 :!bg_this.sh %f
 :!bg_this.sh %d
 :mkdir bash
-:wq
 :mkdir stuff
 :set hidden
 :w
-:vifmimg
 :vifmimg
 :mkdir pierro
 :!mpv %f
@@ -1876,7 +963,6 @@ D
 :mkdir games
 :mkdir study
 :mkdir music
-:wq
 :set confirm
 :!unrar %f
 :!unrar -e %f
@@ -1900,19 +986,19 @@ D
 :!convert "%f" -resize 640x480 -quality 100 "abs9.png"
 :!convert "%f" -resize 640x480 -quality 100 "abs10.png"
 :!convert "%f" -resize 640x480 -quality 100 "abs11.png"
+:wincmd
+:set history
+:local
+:wq
 
 # Search history (oldest to newest):
-<<<<<<< HEAD
-/tmp
 /font
 /vifm
 /usr
 /fon
 /960
 /Pi
-/pi
 /Do
-=======
 /2W
 /rars
 /txt
@@ -1926,7 +1012,6 @@ D
 /.init
 /.nvim
 /.config
-/nvim
 /Down
 /Drop
 /config
@@ -1960,7 +1045,6 @@ D
 /kris
 /Kris
 /yoga
-/local
 /gen
 /howd
 /torr
@@ -1971,7 +1055,6 @@ D
 /g
 /git
 /ll
-/dot
 /imv
 /fish
 /cfg_f
@@ -1988,6 +1071,9 @@ D
 /latin
 /istor
 /истор
+/dot
+/nvim
+/local
 
 # Prompt history (oldest to newest):
 pabs
@@ -1995,7 +1081,6 @@ pabs
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_2020-04-06-180324.png
 
 # Directory stack (oldest to newest):
 
@@ -2394,8 +1479,6 @@ t/home/gppk/.local/share/Trash/files/000_imv
 	/home/gppk/.config/imv
 t/home/gppk/.local/share/Trash/files/000_llpp
 	/home/gppk/dotfiles/config/llpp
-<<<<<<< HEAD
-<<<<<<< HEAD
 t/home/schizo/.local/share/vifm/Trash/000_testtexagain
 	/home/schizo/testtexagain
 t/home/schizo/.local/share/vifm/Trash/000_testfuck
@@ -2936,8 +2019,6 @@ t/home/schizo/.local/share/Trash/files/000_2020-04-06-180339.png
 	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180339.png
 t/home/schizo/.local/share/Trash/files/000_2020-04-06-180324.png
 	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180324.png
-=======
-=======
 t/home/gppk/.local/share/Trash/files/000_colors-waybar.css
 	/home/gppk/dotfiles/config/waybar/waybar/colors-waybar.css
 t/home/gppk/.local/share/Trash/files/000_000_colors-waybar.css
@@ -3080,6 +2161,10 @@ t/home/gppk/.local/share/Trash/files/000_latin.pdf
 	/home/gppk/personal/books/latin/latin.pdf
 t/home/gppk/.local/share/Trash/files/000_pics
 	/home/gppk/pics
+t/home/schizo/.local/share/Trash/files/000_backupdir
+	/home/schizo/dotfiles/config/nvim/nvim/backupdir
+t/home/schizo/.local/share/Trash/files/001_backupdir
+	/home/schizo/.local/share/nvim/backupdir
 
 # State:
 f
@@ -3088,6 +2173,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0
