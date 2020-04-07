@@ -169,16 +169,16 @@ set display=truncate " Show @@@ in the last line if it is truncated.
 
 " PLUGINS
 
-" vim fugutive
+" " vim fugutive
 " define command which will be used when "nvim" is set as a merge tool
-[mergetool "nvim"]
-  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+" [mergetool "nvim"]
+"   cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
 " set "nvim" as tool for merging
-[merge]
-  tool = nvim
-" automatically launch merge tool without displaying a prompt
-[mergetool]
-  prompt = false
+" [merge]
+"   tool = nvim
+" " automatically launch merge tool without displaying a prompt
+" [mergetool]
+"   prompt = false
 
 " Netrw
 " https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim

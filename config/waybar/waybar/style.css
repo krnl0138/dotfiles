@@ -53,20 +53,9 @@ window#waybar {
 #battery {
     background: transparent;
     border-bottom: 3px solid @foreground;
-<<<<<<< HEAD
-<<<<<<< HEAD
     /* background-color: #ffffff; */
     color: @foreground;
-=======
-    color: @foreground;
-    /* background-color: #ffffff; */
     /* color: black; */
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
-=======
-    color: @foreground;
-    /* background-color: #ffffff; */
-    /* color: black; */
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 }
 
 #battery.charging {

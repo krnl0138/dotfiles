@@ -1,14 +1,12 @@
 ###
 # SWAY CONFIG FILE
 ###
-#
+
 include "$HOME/.cache/wal/colors-sway"
 
-<<<<<<< HEAD
 # BASIC OPTIONS
 set $mod      Mod1
-    # xwayland disable
-    #
+# xwayland disable
 # set $laptop_output "LVDS-1"
 # bindswitch lid:on output $laptop_output disable
 # bindswitch lid:off output $laptop_output enable
@@ -21,24 +19,6 @@ hide_edge_borders smart
 title_align center
 # Font for window titles.
 font pango:SFNS Display 11px
-
-# OUTPUTS
-=======
-# xwayland disable
-
-<<<<<<< HEAD
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
-=======
-# xwayland disable
-
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
-# output LVDS-1 enable
-# output "*" bg $wallpaper fill
-# output * {
-#     bg $wallpaper fill
-# }
-# output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg $wallpaper fill
-#output VGA-1 pos 0 1920 res 1920x1080 scale 1.0 bg "$(find $HOME/pics/wall | shuf -n 1)" fill
 
 # KEYBOARD SETTINGS
 input "*" {
@@ -400,30 +380,3 @@ exec_always swayidle -w \
     after-resume sleep 3 && killall waybar && waybar && outputs2.sh
 exec udiskie &
 exec mako
-<<<<<<< HEAD
-exec wallp.sh
-# exec redshift -m wayland -l 51.54:46.00
-# set $img_lock "$HOME/personal/pictures/LPlEKFjp68o.jpg"
-# exec swayidle -w \
-    # timeout 600 'swaylock -f -s stretch -fli $img_lock' \
-    # timeout 700 'swaymsg "output * dpms off"' \
-        # resume 'swaymsg "output * dpms on"' \
-    # before-sleep 'swaylock -f -s stretch -fli $img_lock'
-#
-# exec swayidle -w \
-#       timeout 300 'swaylock -e -f' \
-#       timeout 340 'swaymsg "output * dpms off"' \
-#       timeout 500 'systemctl suspend' \
-#           resume 'swaymsg "output * dpms on"'""\
-#    before-sleep ''
-=======
-exec redshift -m wayland
-# exec swayidle -w \
-#     timeout 600 'swaylock -s stretch -fli $img_lock' \
-#     timeout 700 'swaymsg "output * dpms off"' \
-#         resume 'swaymsg "output * dpms on" && $wal_bg ' \
-#     before-sleep 'swaylock -s stretch -fli $img_lock'
-<<<<<<< HEAD
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
-=======
->>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a

@@ -18,6 +18,8 @@ q0
 v1
 ov
 m-1
+<<<<<<< HEAD
+<<<<<<< HEAD
 l-10,2
 r2
 
@@ -213,6 +215,7 @@ d/home/schizo
 0
 d/home/schizo/personal
 	pictures
+=======
 l2
 r-10,2
 
@@ -1286,6 +1289,7 @@ d/home/gppk/personal/books/physics
 	..
 0
 d/home/gppk/personal/books
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 	programming
 4
 d/home/gppk/personal/books/programming
@@ -1332,6 +1336,7 @@ d/home/gppk/personal
 	books
 2
 d/home/gppk/personal/books
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 	physics
 20
 d/home/gppk/personal/books/physics
@@ -1381,6 +1386,7 @@ d
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
 	System
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 1
 d/home/schizo/personal/pictures
 	screenshots
@@ -1692,13 +1698,17 @@ D
 :!scp %f /home/schizo/
 :!scp schizo@gegege/%f /home/schizo/
 :!scp schizo@gegege %f /home/schizo/
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 :mkdir rars
 :mkdir archives
 :mkdir txts
 :mkdir xlsxs
 :goto ~/pics
 :!Terminal
-:goto
+:goto 
 :goto ~/Downloads
 :colorscheme molokai
 :colorscheme zenburn
@@ -1710,7 +1720,7 @@ D
 :goto ~
 :colorscheme ph
 :filter !
-:filter
+:filter 
 :filter .*
 :filter! .*
 :sort size
@@ -1724,7 +1734,7 @@ D
 :file &
 :set sortnumbers
 :mkdir .scripts
-:rename
+:rename 
 :cd Downloads/
 :cd $HOME/Downloads/
 :rm -r %f
@@ -1736,7 +1746,7 @@ D
 :!simple-fb2-reader %f
 :!zathura %f
 :!rename
-:sort
+:sort 
 :help sort
 :set millerview
 :set viewcolumns
@@ -1764,8 +1774,10 @@ D
 =======
 :reload
 :!extract %f
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 :!unrar e %f
 :!zathura %f &
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 :mpv
 :!mpv
 :sort
@@ -1810,7 +1822,7 @@ D
 :r
 :reload
 :mkdir vids
-:mkdir
+:mkdir 
 :cd "$(xdg-user-dir PICTURES)"
 :cd $XDG_PICTURES_DIR
 :mkdir lection_1
@@ -1859,9 +1871,12 @@ D
 :set hidden
 :w
 :vifmimg
-:vifmimg
+:vifmimg 
 :mkdir pierro
 :!mpv %f
+=======
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 :!trash-restore %f
 :feh %f
 :!feh %f
@@ -1877,7 +1892,7 @@ D
 :mkdir study
 :mkdir music
 :wq
-:set confirm
+:set confirm 
 :!unrar %f
 :!unrar -e %f
 :!unrar -x %f
@@ -1888,6 +1903,10 @@ D
 :mkdir sport
 :mkdir latin
 :istor
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 :q
 :!convert "%f" -resize 640x480 -quality 100 "test.png"
 :!convert "%f" -resize 640x480 -quality 100 "abs2.png"
@@ -1988,6 +2007,10 @@ D
 /latin
 /istor
 /истор
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 
 # Prompt history (oldest to newest):
 pabs
@@ -2938,6 +2961,7 @@ t/home/schizo/.local/share/Trash/files/000_2020-04-06-180324.png
 	/home/schizo/personal/pictures/screenshots/abs_old/2020-04-06-180324.png
 =======
 =======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 t/home/gppk/.local/share/Trash/files/000_colors-waybar.css
 	/home/gppk/dotfiles/config/waybar/waybar/colors-waybar.css
 t/home/gppk/.local/share/Trash/files/000_000_colors-waybar.css
@@ -3080,6 +3104,10 @@ t/home/gppk/.local/share/Trash/files/000_latin.pdf
 	/home/gppk/personal/books/latin/latin.pdf
 t/home/gppk/.local/share/Trash/files/000_pics
 	/home/gppk/pics
+<<<<<<< HEAD
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
+=======
+>>>>>>> da2fbdc1e4cd5214724dd229e973e94adae8876a
 
 # State:
 f
