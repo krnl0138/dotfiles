@@ -15,6 +15,7 @@ bind \ce edit_command_buffer
 # bind \ce fzf_cd_category
 bind \ct fzf_finder_home
 # bind \ce fzf_finder_all
+#
 
 ## EXPORTS
 ### Do i need -U flag??
@@ -44,6 +45,7 @@ set -x PLAYER mpv
 set -x VISUAL nvim
 set -x PAGER less
 set -x LESSHISTFILE -
+set -x MYVIMRC "$XDG_CONFIG_HOME/nvim/init.vim"
 
 # set -x WWW_HOME "$XDG_CONFIG_HOME"/w3m
 # set -x WWW_HOME "$XDG_CONFIG_HOME"/w3m
@@ -80,9 +82,12 @@ abbr ydcmd ydcmd --config="$HOME/.config/ydcmd.conf"
 abbr touchpad swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled
 abbr notes nvim $HOME/notes.md
 abbr monolith monolith -i -j
-abbr cd pushd
+# abbr cd pushd
 abbr vim nvim
 abbr firefox-nightly env MOZ_WEBRENDER=1 firefox-nightly
+abbr v f -e nvim # quick opening files with vim
+abbr m f -e mplayer # quick opening files with mplayer
+abbr o a -e xdg-open # quick opening files with xdg-open
 #
 abbr n nnn
 abbr e exit
@@ -100,6 +105,7 @@ abbr ytmp3 youtube-dl --extract-audio --audio-format mp3
 abbr ytaudio youtube-dl --extract-audio
 abbr ytallbest youtube-dl --audio-format "best" --video-format "best"
 #
+abbr crow crow -s en -t ru
 abbr wifi nmtui-connect
 abbr tree tree -aCuhL 1
 abbr paclog pacolog
