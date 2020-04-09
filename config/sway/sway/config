@@ -372,9 +372,9 @@ bindsym --to-code {
 ##exec_always "pgrep -x unclutter || (unclutter &)"
 # exec transmission-daemon
 ## exec wal -R
-# exec_always $wal_bg
 # exec pactl load-module module-jack-sink
 # exec pactl load-module module-jack-source
+exec_always wallp.sh
 exec_always pgrep -x waybar || waybar &
 exec_always swayidle -w \
     after-resume sleep 3 && killall waybar && waybar && outputs2.sh
