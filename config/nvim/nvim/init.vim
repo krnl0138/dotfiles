@@ -1,16 +1,21 @@
 " Begin .vimrc
 
-set nocompatible
-filetype indent plugin on
 syntax on
+filetype indent plugin on
 let mapleader=" "
 
 "" PLUGINGS
 " Make sure you use single quotes
 call plug#begin('~/.config/nvim/plugins')
+" https://github.com/dense-analysis/ale
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'ycm-core/YouCompleteMe'
+" Plug 'ervandew/supertab'
+Plug 'sheerun/vim-polyglot'
+Plug 'vifm/vifm.vim'
+Plug 'bling/vim-bufferline'
+Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-Plug 'morhetz/gruvbox'
-Plug 'tomasiser/vim-code-dark'
 Plug 'majutsushi/tagbar'
 Plug 'lervag/vimtex'
 Plug 'SirVer/ultisnips'
@@ -18,6 +23,7 @@ Plug 'honza/vim-snippets'
 Plug '907th/vim-auto-save'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-vinegar'
@@ -26,8 +32,10 @@ Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'conornewton/vim-pandoc-markdown-preview',
 Plug 'itchyny/lightline.vim'
-Plug 'junegunn/vim-easy-align'
+Plug 'morhetz/gruvbox'
 Plug 'caksoylar/vim-mysticaltutor'
+Plug 'tomasiser/vim-code-dark'
+
 "Plug 'tpope/vim-markdown'
 "Plug 'dylanaraps/wal.vim'
 "Plug 'machakann/vim-sandwich'
@@ -36,28 +44,24 @@ Plug 'caksoylar/vim-mysticaltutor'
 "Plug 'RRethy/vim-hexokinase'
 call plug#end()
 
-" F-key Bindings
-" F2 -- Relative numbers
-    nnoremap <F2> :set relativenumber!<CR>
-" F4 -- Toggle highlight in search mode by F4
-    noremap <F4> :set invhls<CR>
-" F5 -- UndoTreee
-    nnoremap <F5> :UndotreeToggle<cr>
-" F6 -- SpellCheckers
-    nnoremap <F6> :setlocal spell! <CR>
-    set spelllang=ru,en_gb
-" F7 -- PasteToggle
-    set pastetoggle=<F7> " to stop intending while pasting " Copy/paste options
-" F8 -- TagBar
-    nnoremap <F8> :TagbarToggle<CR>
-" F9 -- Shellcheck
-    nnoremap <F9> :!clear && shellcheck %<CR>
-" F12 -- Preview in browser
-    nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
+" Set options "
+"""""""""""""""
+set cmdheight=2 " More space for messages
+set bs=2 " Enable deleting by backspace
+set clipboard=unnamedplus
+set complete-=t " disable searching tags
+set cursorline
+set encoding=utf-8
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+set modeline
+set mouse=a "using mouse
+set noerrorbells    " don't beep
+set noshowmode
+set novisualbell    " don't beep
+set title   " change the terminal's title
 
-" Colors
+" COLORS
 set termguicolors
-" colorscheme gruvbox
 colorscheme mysticaltutor
 set bg=dark
 hi Normal ctermbg=none
@@ -65,35 +69,42 @@ hi Terminal ctermbg=none
 hi Terminal guibg=none
 hi Normal guibg=none
 
-" Set options
-set mouse=a "using mouse
-set bs=2 " Enable deleting by backspace
-set encoding=utf-8
-set title   " change the terminal's title
-set noshowmode
-set novisualbell    " don't beep
-set noerrorbells    " don't beep
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-set complete-=i " disable scanning included files
-set complete-=t " disable searching tags
-set incsearch " show next match while enter string search
-set laststatus=2
-set clipboard=unnamedplus
-set showcmd " display incomplete commands
-set modeline
-set cursorline
+" F-KEY BINDINGS
+    " F2 -- Relative numbers
+    nnoremap <F2> :set relativenumber!<CR>
+    " F4 -- Toggle highlight in search mode by F4
+    noremap <F4> :set invhls<CR>
+    " F5 -- UndoTreee
+    nnoremap <F5> :UndotreeToggle<cr>
+    " F6 -- SpellCheckers
+    nnoremap <F6> :setlocal spell! <CR>
+    set spelllang=ru,en_gb
+    " F7 -- PasteToggle
+    set pastetoggle=<F7> " to stop intending while pasting " Copy/paste options
+    " F8 -- TagBar
+    nnoremap <F8> :TagbarToggle<CR>
+    " F9 -- Shellcheck
+    nnoremap <F9> :!clear && shellcheck %<CR>
+    " F12 -- Preview in browser
+    nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
 
-" Vimrc Source
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
+" MOVE VISUAL RANGE AROUND
+    vnoremap <c-j> :m '>+1<CR>gv=gv
+    vnoremap <c-k> :m '<-2<CR>gv=gv
+    vnoremap <c-h> <gv
+    vnoremap <c-l> >gv
 
-" File Find
-set path+=**
-set wildmenu
-set wildignore+=**/node_modules/**
-set hidden " Hide not close buffers e.g. open files wo/ saving changes
+" VIMRC SOURCE
+    nnoremap <leader>ev :vsp $MYVIMRC<CR>
+    nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
 
-" Tabs
+" FILE FIND
+    set path+=**
+    set wildmenu
+    set wildignore+=**/node_modules/**
+    set hidden " Hide not close buffers e.g. open files wo/ saving changes
+
+" TABS
     set autoindent  " always set autoindenting on
     set copyindent  " copy the previous indentation on autoindenting
     set tabstop=4
@@ -105,22 +116,30 @@ set hidden " Hide not close buffers e.g. open files wo/ saving changes
 " switch through tabs with ctrl-tab
     nnoremap <C-h> gT
     nnoremap <C-l> gt
-    nnoremap <S-Tab> gt
-    nnoremap <Tab> gt
-    nnoremap <C-t> :tabnew<CR>
-" Move around splits with <c-hjkl>
-    noremap <S-k> <C-w><Up>
-    noremap <S-j> <C-w><Down>
-    noremap <S-l> <C-w><Right>
-    noremap <S-h> <C-w><Left>
+    " nnoremap <s-tab> gt
+    nnoremap <c-t> :tabnew<cr>
+" move around splits with <c-hjkl>
+    noremap <s-k> <c-w><up>
+    noremap <s-j> <c-w><down>
+    noremap <s-l> <c-w><right>
+    noremap <s-h> <c-w><left>
+" resize splits
+    nnoremap <silent> <Leader>+ :vertical resize +5<CR>
+    nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
-" Search
+" SEARCH
     set hlsearch
     set incsearch
     set ignorecase
     set smartcase
 
-" History
+" EASIER NAVIGATION
+    " noremap K {
+    " noremap J }
+    " noremap H g^
+    " noremap L g_
+
+" history
     set history=700
     set undolevels=700
     set backup
@@ -129,33 +148,37 @@ set hidden " Hide not close buffers e.g. open files wo/ saving changes
     set directory=~/.local/share/nvim/backupdir/swp
     set undodir=~/.local/share/nvim/backupdir/undo
 
-" Formatting strings and numbers
+" FORMATTING STRINGS AND NUMBERS
     set number relativenumber
     " set tw=79
     set nowrap
     set colorcolumn=80
     set textwidth=0 wrapmargin=0
-    highlight ColorColumn ctermbg=0 guibg=#141414
+    highlight colorcolumn ctermbg=0 guibg=#141414
 
-" Exit from edit mode
-    nnoremap qq :wq<CR>
-    nnoremap QQ :q!<CR>
-    inoremap jk <ESC>
-    inoremap jj <ESC>
-    inoremap 11 <ESC>
-    inoremap kj <ESC>
+" EXIT FROM EDIT MODE
+    " nnoremap qq :wq<cr>
+    nnoremap qq :qa!<cr>
+    inoremap jk <esc>
+    inoremap jj <esc>
+    inoremap 11 <esc>
+    vnoremap 11 <esc>
+    inoremap kj <esc>
+    inoremap ii <ESC>
     nnoremap ; :
     nnoremap : ;
 
-" better indentation
+" BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
+    nnoremap > >>
+    nnoremap < <<
 
-" pararagraphs formatting
+" PARARAGRAPHS FORMATTING
     vmap Q gq
     nmap Q gqap
 
-" n to always search forward and N backward:
+" N TO SEARCH FORWARD AND N BACKWARD
     nnoremap <expr> n  'Nn'[v:searchforward]
     xnoremap <expr> n  'Nn'[v:searchforward]
     onoremap <expr> n  'Nn'[v:searchforward]
@@ -168,13 +191,13 @@ autocmd BufWritePre * %s/\s\+$//e " Automatically deletes all trailing whitespac
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disables automatic commenting on newline:
 set display=truncate " Show @@@ in the last line if it is truncated.
 
-" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy
+" Y like D
     map Y y$
 
 " VIM-Terminal
     nnoremap <c-s> :terminal<CR>i
 
-" Create newline with enter in normal mode
+" Enter for newline
     nmap <S-Enter> O<Esc>
     nmap <CR> o<Esc>
 
@@ -185,20 +208,75 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     autocmd BufWrite * mkview " Save folds
     autocmd BufRead * silent! loadview
 
-"BIB
+" BIB
     autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
     autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
     autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
 
-""""""""""""""
-""" PLUGINS "
-""""""""""""""
+" PLUGINS "
+"""""""""""
 
-" EasyAlign
-" Start interactive EasyAlign in visual mode (e.g. vipga)
-xmap ga <Plug>(EasyAlign)
-" Start interactive EasyAlign for a motion/text object (e.g. gaip)
-nmap ga <Plug>(EasyAlign)
+" YCM functions
+    function! GoYCM()
+        nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
+        nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+        nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
+    endfunction
+
+" " COC settings
+"     function! s:check_back_space() abort
+"         let col = col('.') - 1
+"         return !col || getline('.')[col - 1]  =~# '\s'
+"     endfunction
+
+"     function! GoCoc()
+"         inoremap <buffer> <silent><expr> <TAB>
+"                     \ pumvisible() ? "\<C-n>" :
+"                     \ <SID>check_back_space() ? "\<TAB>" :
+"                     \ coc#refresh()
+
+"         inoremap <buffer> <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+"         inoremap <buffer> <silent><expr> <C-space> coc#refresh()
+
+"         " GoTo code navigation.
+"         nmap <buffer> <leader>gd <Plug>(coc-definition)
+"         nmap <buffer> <leader>gy <Plug>(coc-type-definition)
+"         nmap <buffer> <leader>gi <Plug>(coc-implementation)
+"         nmap <buffer> <leader>gr <Plug>(coc-references)
+"         nnoremap <buffer> <leader>cr :CocRestart
+"     endfunction
+"     " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+"     " delays and poor user experience.
+"         set updatetime=300
+
+"     " Don't pass messages to |ins-completion-menu|.
+"         set shortmess+=c
+
+"     "  Lightline integration
+"     "   let g:lightline = {
+"     " 	\ 'colorscheme': 'wombat',
+"     " 	\ 'active': {
+"     " 	\   'left': [ [ 'mode', 'paste' ],
+"     " 	\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
+"     " 	\ },
+"     " 	\ 'component_function': {
+"     " 	\   'cocstatus': 'coc#status'
+"     " 	\ },
+"     " 	\ }
+
+"     " Use auocmd to force lightline update.
+"     " autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
+
+"     " Where to use YCM & COC
+"     " autocmd FileType typescript :call GoYCM()
+"     " autocmd FileType cpp,cxx,h,hpp,c :call GoCoc()
+"     " autocmd FileType sh,bash :call GoCoc()
+
+" EASYALIGN
+    " Start interactive EasyAlign in visual mode (e.g. vipga)
+    xmap ga <Plug>(EasyAlign)
+    " Start interactive EasyAlign for a motion/text object (e.g. gaip)
+    nmap ga <Plug>(EasyAlign)
 
 " " Netrw
 " " https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim
@@ -234,8 +312,8 @@ nmap ga <Plug>(EasyAlign)
 " endfunction
 
 " augroup netrw_mappings
-"     autocmd!
-"     autocmd filetype netrw call NetrwMappings()
+    " autocmd!
+    " autocmd filetype netrw call NetrwMappings()
 " augroup END
 
 " " Allow for netrw to be toggled
@@ -260,24 +338,59 @@ nmap ga <Plug>(EasyAlign)
 
 " " Make netrw act like a project Draw
 " " augroup ProjectDrawer
-" "   autocmd!
-" "   autocmd VimEnter * :call ToggleNetrw()
+"    autocmd!
+"    autocmd VimEnter * :call ToggleNetrw()
 " " augroup END
 
 " let g:NetrwIsOpen=0
 
-" Markdown Preview
-" specify browser to open preview page
-" default: ''
-    let g:mkdp_browser = 'chromium'
-    nnoremap <c-p> <Plug>MarkdownPreviewToggle
+" " VIM FZF
+"     command! Fd call fzf#run(fzf#wrap({'source': 'fd -t f -H . /'}))
+"     command! Fd call fzf#run(fzf#wrap({'source': 'locate /'}))
+"     noremap <leader>f :Fd<CR>
 
-" VIM FZF
-    " command! Fd call fzf#run(fzf#wrap({'source': 'fd -t f -H . /'}))
-    command! Fd call fzf#run(fzf#wrap({'source': 'locate /'}))
-    noremap <leader>f :Fd<CR>
+" FZF{{{
+    nnoremap <c-t> :Tags<cr>
+    nnoremap <c-g> :RG<cr>
+    nnoremap <silent><c-f> :Files<CR>
+    nnoremap <c-b> :Buffers<cr>
 
-" Vim-Auto-Save
+    let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git}"'
+    let $FZF_DEFAULT_OPTS    = ' --color=dark --color=fg:15,bg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
+
+    " let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
+    let g:fzf_action = {
+          \ 'ctrl-s': 'split',
+          \ 'ctrl-v': 'vsplit',
+          \ 'ctrl-t': 'tab split' }
+
+    let g:fzf_colors = {
+          \ 'fg':      ['fg', 'Normal'],
+          \ 'bg':      ['bg', 'Normal'],
+          \ 'hl':      ['fg', 'Keyword'],
+          \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'PreProc'],
+          \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+          \ 'hl+':     ['fg', 'Keyword'],
+          \ 'info':    ['fg', 'Statement'],
+          \ 'border':  ['fg', 'Comment'],
+          \ 'prompt':  ['fg', 'Conditional'],
+          \ 'pointer': ['fg', 'Statement'],
+          \ 'marker':  ['fg', 'Keyword'],
+          \ 'spinner': ['fg', 'Label'],
+          \ 'header':  ['fg', 'Keyword'] }
+
+    function! RipgrepFzf(query, fullscreen)
+      let command_fmt     = 'rg --column --line-number --no-heading --color=always --smart-case %s || true'
+      let initial_command = printf(command_fmt, shellescape(a:query))
+      let reload_command  = printf(command_fmt, '{q}')
+      let spec            = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
+      call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
+    endfunction
+    command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+  "}}}
+
+
+" VIM-AUTO-SAVE
     let g:auto_save = 0
     augroup ft_tex
         au!
@@ -286,16 +399,20 @@ nmap ga <Plug>(EasyAlign)
     let g:auto_save_silent = 1
     let g:auto_save_events = ["InsertLeave", "TextChanged"]
 
-    " Function to combine vim-auto-save & vim-pandoc-markdown-preview
+" VIM-AUTO-SAVE & VIM-PANDOC-MARKDOWN-PREVIEW
     function Autosave_markdown_preview()
         :StartMdPreview
         let g:auto_save = 1
         let g:auto_save_silent = 1
         let g:auto_save_events = ["InsertLeave", "TextChanged"]
     endfunction
-    nnoremap <leader>p :call Autosave_markdown_preview()<CR>
+    nnoremap <leader>P :call Autosave_markdown_preview()<CR>
 
-" Goyo Settings
+" MARKDOWN PREVIEW
+    let g:mkdp_browser = 'brave'
+    nnoremap <leader>p :MarkdownPreview<CR>
+
+" GOYO SETTINGS
 	noremap <silent> <leader>g :Goyo \| set wrap linebreak<CR>
 
 " VIMTEX
@@ -305,11 +422,11 @@ nmap ga <Plug>(EasyAlign)
     set conceallevel=2
     let g:tex_conceal='abdmgs'
 
-" Ultisnips
-    let g:UltiSnipsExpandTrigger = '<tab>'
-    let g:UltiSnipsJumpForwardTrigger = '<tab>'
-    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
-    let g:UltiSnipsEditSplit = 'vertical'
+" ULTISNIPS
+    " let g:UltiSnipsExpandTrigger = '<tab>'
+    " let g:UltiSnipsJumpForwardTrigger = '<tab>'
+    " let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+    " let g:UltiSnipsEditSplit = 'vertical'
 
 if has('nvim')
         tnoremap <Esc> <C-\><C-n>

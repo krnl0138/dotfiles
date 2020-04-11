@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -22,123 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/personal/books/economics
-	Principles For Navigating Big Debt Crises By Ray Dalio.pdf
-1
-d/home/gppk/personal/books
-	programming
-20
-d/home/gppk/personal/books/programming
-	Эрик Фримен, Элизабет Фримен - Паттерны проектирования (Head First O'Reilly) - 2011.pdf
-1
-d/home/gppk/personal/books
-	english
-6
-d/home/gppk/personal/books/english
-	epdf.pub_advanced-grammar-in-use-with-answers.pdf
-5
-d/home/gppk/personal/books
-	statistics
-14
-d/home/gppk/personal/books/statistics
-	Книга.pdf
-2
-d/home/gppk/personal/books
-	sport
-24
-d/home/gppk/personal/books/sport
-	Ashley Kalym - Complete Calisthenics - reedited 2016.pdf
-1
-d/home/gppk/personal/books
-	latin
-8
-d/home/gppk/personal/books/latin
-	CD_Beginners_Latin_Book.pdf
-3
-d/home/gppk/personal/books
-	history
-20
-d/home/gppk/personal/books/history
-	Karr_E_g_Chto_Takoe_Istoria_Almaty_1997.pdf
-29
-d/home/gppk/personal/books
-	analytics
-32
-d/home/gppk/personal/books/analytics
-	DEL2017-18__Lecture1-2.pdf
-34
-d/home/gppk/personal/books
-	literature
-12
-d/home/gppk/personal/books/literature
-	elibrary_29708664_19204842.pdf
-1
-d/home/gppk/personal/books
-	fiction
-19
-d/home/gppk/personal/books/fiction
-	rilke_novye_stixotvorenija.pdf
-1
-d/home/gppk/personal/books
-	economics
-20
-d/home/gppk/personal/books/economics
-	Principles For Navigating Big Debt Crises By Ray Dalio.pdf
-1
-d/home/gppk/personal/books
-	music
-9
-d/home/gppk/personal/books/music
-	..
-0
-d/home/gppk/personal/books
-	nonfiction
-8
-d/home/gppk/personal/books/nonfiction
-	Даглас Р. Хофштадтер-Гедель, Эшер, Бах. Эта бесконечная гирлянда-Бахрах-М (2001).pdf
-3
-d/home/gppk/personal/books
-	other
-7
-d/home/gppk/personal/books/other
-	report.pdf
-8
-d/home/gppk/personal/books
-	philosophy
-6
-d/home/gppk/personal/books/philosophy
-	..
-0
-d/home/gppk/personal/books
-	physics
-5
-d/home/gppk/personal/books/physics
-	..
-0
-d/home/gppk/personal/books
-	programming
-4
-d/home/gppk/personal/books/programming
-	Эрик Фримен, Элизабет Фримен - Паттерны проектирования (Head First O'Reilly) - 2011.pdf
-0
-d/home/gppk/personal/books
-	sociology
-3
-d/home/gppk/personal/books/sociology
-	Kimlika_U_-_Sovremennaya_Politicheskaya_Filosofia.pdf
-15
-d/home/gppk/personal/books
-	statistics
-2
-d/home/gppk/personal/books/statistics
-	1mkhitaryan_v_s_statistika.pdf
-1
-d/home/gppk/personal/books
-	sociology
-18
-d/home/gppk/personal
-	books
-2
 d/home/gppk/personal/books
 	=======
 2
@@ -622,7 +505,123 @@ d/home/schizo/downloads
 d/home/schizo/downloads/books/epub
 	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
 3
-d
+d/home/schizo/voidrice
+	.config
+2
+d/home/schizo/voidrice/.config
+	bspwm
+1
+d/home/schizo/voidrice
+	.config
+2
+d/home/schizo/voidrice/.config
+	calcurse
+2
+d/home/schizo/voidrice/.config/calcurse
+	conf
+2
+d/home/schizo/voidrice/.config
+	dunst
+3
+d/home/schizo/voidrice/.config/dunst
+	dunstrc
+1
+d/home/schizo/voidrice/.config
+	fontconfig
+4
+d/home/schizo/voidrice/.config/fontconfig
+	fonts.conf
+1
+d/home/schizo/voidrice/.config
+	gtk-3.0
+6
+d/home/schizo/voidrice/.config/gtk-3.0
+	settings.ini
+1
+d/home/schizo/voidrice/.config
+	i3
+7
+d/home/schizo/voidrice/.config/i3
+	config
+1
+d/home/schizo
+	dotfiles
+13
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	2020-04-07-20-19-10.png
+10
+d/home/schizo
+	dotfiles
+13
+d/home/schizo/.config/alacritty
+	alacritty.yml
+1
+d/home/schizo/dotfiles/config/nvim/nvim
+	plugins
+1
+d/home/schizo/dotfiles/config/nvim
+	nvim
+1
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	Rodin_Jardin_des_supplices.jpg
+5
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo
+	node_modules
+10
+d/home/schizo/downloads
+	ppt
+5
+d/home/schizo/dotfiles/config/nvim/nvim
+	plugins
+1
+d/home/schizo/dotfiles/config/nvim
+	nvim
+1
+d/home/schizo/dotfiles/config
+	polybar
+14
+d/home/schizo/dotfiles
+	config
+4
+d/home/schizo
+	.cron.bash
+34
+d/home/schizo/dotfiles/config/nvim/nvim
+	plugins
+1
+d/home/schizo/dotfiles/config/nvim/nvim/plugins
+	supertab
+1
+d/home/schizo
+	notes
+1
+d/home/schizo/notes
+	c.txt
+10
+d/home/schizo
+	notes
+5
+d/home/schizo/.config
+	nvim
+11
+d/home/schizo/.config/nvim
+	plugins
+1
+d/home/schizo/.config/nvim/plugins
+	coc.nvim
+1
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -793,7 +792,12 @@ D/home/schizo/personal
 D/home/schizo/personal/pictures
 	true_love_be_like.png
 6
-D
+D/home/schizo/voidrice
+	..
+0
+D/home/schizo
+	.cargo
+5
 
 # Command line history (oldest to newest):
 :filter .pdf
@@ -900,7 +904,6 @@ D
 :!imv %f
 :mupdf-
 :!mpv %file
-:e
 :!atool %f
 :rename
 :mkdir srv
@@ -980,7 +983,6 @@ D
 :mkdir sport
 :mkdir latin
 :istor
-:q
 :!convert "%f" -resize 640x480 -quality 100 "test.png"
 :!convert "%f" -resize 640x480 -quality 100 "abs2.png"
 :!convert "%f" -resize 640x480 -quality 100 "abs3.png"
@@ -996,6 +998,8 @@ D
 :set history
 :local
 :wq
+:e
+:q
 
 # Search history (oldest to newest):
 /font
@@ -1078,11 +1082,13 @@ D
 /istor
 /истор
 /dot
-/nvim
 /local
+/light
+/nvim
 
 # Prompt history (oldest to newest):
 pabs
+pYouCompleteMe_old
 
 # Local filter history (oldest to newest):
 

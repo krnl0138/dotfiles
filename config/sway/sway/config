@@ -33,12 +33,11 @@ input "*" {
     bindsym $mod+z exec "makoctl dismiss -a"
     bindsym $mod+v split toggle
     bindsym $mod+Shift+d border toggle
-    # bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="'"bemenu -i -n -w -f --fn 'D2Coding for Powerline' --nb '#0269A4' --tb '#0269A4' --sb '#000000' --fb '#0269A4' --tf '#ffffff' --hf '#ffffff'"'" --term="alacritty"'
-    bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="bemenu -i"'
+    bindsym $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="bemenu -p "Launch" -i -w --fn "D2Coding 14""'
     bindsym $mod+Return exec alacritty
     bindsym $mod+q kill
     bindsym $mod+f fullscreen toggle
-    bindsym $mod+Shift+r reload
+    bindsym $mod+Shift+t reload
     #bindsym $mod+Shift+c restart
     bindsym $mod+Tab focus right
 # Screenshots
@@ -219,60 +218,9 @@ bindsym $mod+i resize shrink height $shrink_size px or $shrink_size ppt
 bindsym $mod+o resize grow   width  $shrink_size px or $shrink_size ppt
 
 # LAUNCHER MODE
-set $mode_launcher Launcher
-set $n_time 5000
-set $apps "[A]nki \n[F]irefox \n[V]ifm \n[N]otion \n[H]top \nnc[P]amixer \n[C]hromium \n[Z]otero \n[B]rave \n[T]elegram \nv[M]pk \n[G]imp \n[Q]bittorent \n[D]ocear \nb[I]b"
-bindsym $mod+space mode "$mode_launcher" ; exec notify-send -a "launch" -t 5000 "Launcher" $apps
-mode "$mode_launcher" {
-
-    #bindsym r exec notify-send -t $n_time "Ranger has been started"       && $TERMINAL -e ranger       ; mode "default"
-    bindsym --to-code {
-        a exec notify-send -t $n_time "Anki has been started"          && anki                      ; mode "default"
-        f exec notify-send -t $n_time "Firefox has been started"       && env MOZ_WEBRENDER=1 firefox-nightly; mode "default"
-        v exec notify-send -t $n_time "VIFM has been started"          && $TERMINAL -e vifm         ; mode "default"
-        n exec notify-send -t $n_time "Notion has been started"        && notion-app                ; mode "default"
-        h exec notify-send -t $n_time "HTop has been started"          && $TERMINAL -e htop         ; mode "default"
-        p exec notify-send -t $n_time "ncPamixer has been started"     && $TERMINAL -e ncpamixer    ; mode "default"
-        c exec notify-send -t $n_time "Chromium has been started"      && chromium                  ; mode "default"
-        z exec notify-send -t $n_time "Zotero has been started"        && zotero                    ; mode "default"
-        # b exec notify-send -t $n_time "Newsboat has been started"      && $TERMINAL -e newsboat     ; mode "default"
-        t exec notify-send -t $n_time "Telegram has been started"      && telegram-desktop          ; mode "default"
-        m exec notify-send -t $n_time "VMPK has been started"          && qsynth & vmpk             ; mode "default"
-        g exec notify-send -t $n_time "GIMP has been started"          && gimp                      ; mode "default"
-        q exec notify-send -t $n_time "Qbittorrent has been started"   && qbittorrent               ; mode "default"
-        d exec notify-send -t $n_time "Docear has been started"        && docear                    ; mode "default"
-        i exec notify-send -t $n_time "BIB file has been opened"       && $TERMINAL -e $EDITOR $BIB ; mode "default"
-        b exec notify-send -t $n_time "Brave has been started"         && brave                     ; mode "default"
-
-        Escape     mode "default"
-        Return     mode "default"
-        $mod+space mode "default"
-        space      mode "default"
-        }
-
-    }
-
+bindsym $mod+space exec dmenu_apps.sh
 # FUNCTION MODE
-set $mode_function Function
-set $notify_time 5000
-set $functions "[T]ouchpad \n[S]uspend \n[W]ifi \n[M]onitor \n[R]eboot"
-bindsym $mod+backslash mode "$mode_function" ; exec notify-send -a "launch" -t 5000 "What to execute?" $functions
-mode "$mode_function" {
-
-    bindsym --to-code {
-        t exec notify-send -t $notify_time "Touchpad was turned on/off" && swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled ; mode "default"
-        s exec notify-send -t $notify_time "System was suspended" && systemctl suspend ; mode "default"
-        r exec notify-send -t $notify_time "System was rebooted" && systemctl reboot ; mode "default"
-        w exec notify-send -t $notify_time "Wifi dialog was opened" && $TERMINAL -e nmtui-connect ; mode "default"
-        m exec notify-send -t $notify_time "Second monitor was toggled" && swaymsg output LVDS-1 toggle ; mode "default"
-
-        Escape     mode "default"
-        Return     mode "default"
-        $mod+space mode "default"
-        space      mode "default"
-        }
-
-    }
+bindsym $mod+backslash exec dmenu_launcher.sh
 
 # COLORS
 # Defaults colors

@@ -214,6 +214,13 @@ command! reload :write | restart
 " You can also add %CLEAR if you want to clear screen before running FUSE
 " program.
 
+
+" Preview with Viu for images
+fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm catimg -w 100 -t %c:p
+
+" Preview with Highlight for syntax
+fileviewer *.html,*.go,*.css,*.sh,*.bash,*.js,*.md highlight -O xterm256 -s andes %c
+
 " Pdf
 filextype *.pdf okular %f 2>/dev/null &, zathura %c %i &, apvlv %c, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
@@ -443,9 +450,11 @@ filextype */
 " Like in previous versions of vifm
 " set vifminfo=options,filetypes,commands,bookmarks,dhistory,state,cs
 " Like in vi
-set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
-    \phistory,fhistory,dirstack,registers,bookmarks,bmarks
+" set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
+"     \phistory,fhistory,dirstack,registers,bookmarks,bmarks
 
+set vifminfo=dhistory,chistory,state,tui,shistory,
+    \phistory,fhistory,dirstack,registers,bookmarks,bmarks
 " ------------------------------------------------------------------------------
 
 " Examples of configuring both panels
