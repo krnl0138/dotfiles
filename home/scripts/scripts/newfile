@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo -e "WOW" | bemenu -p "" -l 50 -f -i -w --fn 'D2Coding 14'

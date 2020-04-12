@@ -4,13 +4,15 @@ syntax on
 filetype indent plugin on
 let mapleader=" "
 
-"" PLUGINGS
+" PLUGINGS "
+""""""""""""
 " Make sure you use single quotes
+
 call plug#begin('~/.config/nvim/plugins')
-" https://github.com/dense-analysis/ale
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'dense-analysis/ale'
 " Plug 'ycm-core/YouCompleteMe'
 " Plug 'ervandew/supertab'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'vifm/vifm.vim'
 Plug 'bling/vim-bufferline'
@@ -44,21 +46,23 @@ Plug 'tomasiser/vim-code-dark'
 "Plug 'RRethy/vim-hexokinase'
 call plug#end()
 
-" Set options "
+" SET OPTIONS "
 """""""""""""""
-set cmdheight=2 " More space for messages
-set bs=2 " Enable deleting by backspace
-set clipboard=unnamedplus
-set complete-=t " disable searching tags
-set cursorline
-set encoding=utf-8
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-set modeline
-set mouse=a "using mouse
-set noerrorbells    " don't beep
-set noshowmode
-set novisualbell    " don't beep
-set title   " change the terminal's title
+" look at :help nvim-defaults
+
+    set cmdheight=2 " More space for messages
+    set clipboard=unnamedplus
+    set cursorline
+    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+    set modeline
+    set mouse=a
+    set noshowmode
+    set title   " change the terminal's title
+" set pum background visibility to 20 percent
+    set pumblend=20
+" Open new split panes to right and bottom, which feels more natural
+    set splitbelow
+    set splitright
 
 " COLORS
 set termguicolors
@@ -69,6 +73,93 @@ hi Terminal ctermbg=none
 hi Terminal guibg=none
 hi Normal guibg=none
 
+" SEARCH & FIND
+    set ignorecase
+    set smartcase
+    set path+=**
+    set wildignore+=**/node_modules/**
+    set hidden " Hide not close buffers e.g. open files wo/ saving changes
+
+" TABS & SPLITS
+    " set copyindent  " copy the previous indentation on autoindenting
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
+    set shiftround
+    set expandtab
+" switch through tabs with ctrl
+    nnoremap <C-h> gT
+    nnoremap <C-l> gt
+    " nnoremap <s-tab> gt
+    nnoremap <c-t> :tabnew<cr>
+" move around splits with shift-hjkl
+    noremap <silent><s-k> <c-w><up>
+    noremap <silent><s-j> <c-w><down>
+    noremap <silent><s-l> <c-w><right>
+    noremap <silent><s-h> <c-w><left>
+    tnoremap <silent><s-h> <C-\><C-n><C-w>h
+    tnoremap <silent><s-j> <C-\><C-n><C-w>j
+    tnoremap <silent><s-k> <C-\><C-n><C-w>k
+    tnoremap <silent><s-l> <C-\><C-n><C-w>l
+  " easily escape terminal
+    tnoremap <leader><esc> <C-\><C-n><esc><cr>
+    tnoremap <C-o> <C-\><C-n><esc><cr>
+" resize splits
+    nnoremap <silent> <Leader>= :vertical resize +5<CR>
+    nnoremap <silent> <Leader>- :vertical resize -5<CR>
+
+" HISTORY
+    set backup
+    set undofile
+    set backupdir=~/.local/share/nvim/backupdir/backup
+    set directory=~/.local/share/nvim/backupdir/swp
+    set undodir=~/.local/share/nvim/backupdir/undo
+
+" FORMATTING STRINGS AND NUMBERS
+    set number relativenumber
+    set nowrap
+    set textwidth=0 wrapmargin=0
+    set colorcolumn=80
+    highlight colorcolumn ctermbg=0 guibg=#141414
+
+" PARARAGRAPHS FORMATTING
+    vmap Q gq
+    nmap Q gqap
+
+" MISC
+autocmd BufWritePre * %s/\s\+$//e " Automatically deletes all trailing whitespace on save.
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disables automatic commenting on newline:
+" set display=truncate " Show @@@ in the last line if it is truncated.
+
+" MAPPINGS "
+""""""""""""
+
+" Y like D
+    map Y y$
+" VIM-Terminal
+    nnoremap <c-s> :terminal<CR>i
+" Enter for newline
+    nmap <S-Enter> O<Esc>
+    nmap <CR> o<Esc>
+" VIMRC SOURCE
+    nnoremap <leader>ev :vsp $MYVIMRC<CR>
+    nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
+" MOVE VISUAL RANGE AROUND
+    vnoremap <c-j> :m '>+1<CR>gv=gv
+    vnoremap <c-k> :m '<-2<CR>gv=gv
+    vnoremap <c-h> <gv
+    vnoremap <c-l> >gv
+" N TO SEARCH FORWARD AND N BACKWARD
+    nnoremap <expr> n  'Nn'[v:searchforward]
+    xnoremap <expr> n  'Nn'[v:searchforward]
+    onoremap <expr> n  'Nn'[v:searchforward]
+    nnoremap <expr> N  'nN'[v:searchforward]
+    xnoremap <expr> N  'nN'[v:searchforward]
+    onoremap <expr> N  'nN'[v:searchforward]
+" VimPlug
+    nnoremap <leader>pi :PlugInstall<CR>
+    nnoremap <leader>pu :PlugUpdate<CR>
+    nnoremap <leader>pc :PlugClean<CR>
 " F-KEY BINDINGS
     " F2 -- Relative numbers
     nnoremap <F2> :set relativenumber!<CR>
@@ -87,75 +178,6 @@ hi Normal guibg=none
     nnoremap <F9> :!clear && shellcheck %<CR>
     " F12 -- Preview in browser
     nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
-
-" MOVE VISUAL RANGE AROUND
-    vnoremap <c-j> :m '>+1<CR>gv=gv
-    vnoremap <c-k> :m '<-2<CR>gv=gv
-    vnoremap <c-h> <gv
-    vnoremap <c-l> >gv
-
-" VIMRC SOURCE
-    nnoremap <leader>ev :vsp $MYVIMRC<CR>
-    nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
-
-" FILE FIND
-    set path+=**
-    set wildmenu
-    set wildignore+=**/node_modules/**
-    set hidden " Hide not close buffers e.g. open files wo/ saving changes
-
-" TABS
-    set autoindent  " always set autoindenting on
-    set copyindent  " copy the previous indentation on autoindenting
-    set tabstop=4
-    set softtabstop=4
-    set shiftwidth=4
-    set shiftround
-    set expandtab
-    set smarttab " insert tabs on the start of a line according to shiftwidth, not tabstop
-" switch through tabs with ctrl-tab
-    nnoremap <C-h> gT
-    nnoremap <C-l> gt
-    " nnoremap <s-tab> gt
-    nnoremap <c-t> :tabnew<cr>
-" move around splits with <c-hjkl>
-    noremap <s-k> <c-w><up>
-    noremap <s-j> <c-w><down>
-    noremap <s-l> <c-w><right>
-    noremap <s-h> <c-w><left>
-" resize splits
-    nnoremap <silent> <Leader>+ :vertical resize +5<CR>
-    nnoremap <silent> <Leader>- :vertical resize -5<CR>
-
-" SEARCH
-    set hlsearch
-    set incsearch
-    set ignorecase
-    set smartcase
-
-" EASIER NAVIGATION
-    " noremap K {
-    " noremap J }
-    " noremap H g^
-    " noremap L g_
-
-" history
-    set history=700
-    set undolevels=700
-    set backup
-    set undofile
-    set backupdir=~/.local/share/nvim/backupdir/backup
-    set directory=~/.local/share/nvim/backupdir/swp
-    set undodir=~/.local/share/nvim/backupdir/undo
-
-" FORMATTING STRINGS AND NUMBERS
-    set number relativenumber
-    " set tw=79
-    set nowrap
-    set colorcolumn=80
-    set textwidth=0 wrapmargin=0
-    highlight colorcolumn ctermbg=0 guibg=#141414
-
 " EXIT FROM EDIT MODE
     " nnoremap qq :wq<cr>
     nnoremap qq :qa!<cr>
@@ -167,39 +189,22 @@ hi Normal guibg=none
     inoremap ii <ESC>
     nnoremap ; :
     nnoremap : ;
-
 " BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
     nnoremap > >>
     nnoremap < <<
-
-" PARARAGRAPHS FORMATTING
-    vmap Q gq
-    nmap Q gqap
-
-" N TO SEARCH FORWARD AND N BACKWARD
-    nnoremap <expr> n  'Nn'[v:searchforward]
-    xnoremap <expr> n  'Nn'[v:searchforward]
-    onoremap <expr> n  'Nn'[v:searchforward]
-    nnoremap <expr> N  'nN'[v:searchforward]
-    xnoremap <expr> N  'nN'[v:searchforward]
-    onoremap <expr> N  'nN'[v:searchforward]
-
-" MISC
-autocmd BufWritePre * %s/\s\+$//e " Automatically deletes all trailing whitespace on save.
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disables automatic commenting on newline:
-set display=truncate " Show @@@ in the last line if it is truncated.
-
-" Y like D
-    map Y y$
-
-" VIM-Terminal
-    nnoremap <c-s> :terminal<CR>i
-
-" Enter for newline
-    nmap <S-Enter> O<Esc>
-    nmap <CR> o<Esc>
+" EASIER NAVIGATION
+    " noremap K {
+    " noremap J }
+    " noremap H g^
+    " noremap L g_
+" BIB
+    autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
+    autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
+    autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
+" TERMINAL
+    tnoremap <Esc> <C-\><C-n>
 
 " FOLDS
 " Toggle open/close on spacebar
@@ -207,11 +212,6 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     vnoremap , zf
     autocmd BufWrite * mkview " Save folds
     autocmd BufRead * silent! loadview
-
-" BIB
-    autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
-    autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
-    autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
 
 " PLUGINS "
 """""""""""
@@ -278,7 +278,7 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     " Start interactive EasyAlign for a motion/text object (e.g. gaip)
     nmap ga <Plug>(EasyAlign)
 
-" " Netrw
+" " NETRW
 " " https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim
 " let g:netrw_banner = 0
 " let g:netrw_liststyle = 3
@@ -427,7 +427,3 @@ set display=truncate " Show @@@ in the last line if it is truncated.
     " let g:UltiSnipsJumpForwardTrigger = '<tab>'
     " let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
     " let g:UltiSnipsEditSplit = 'vertical'
-
-if has('nvim')
-        tnoremap <Esc> <C-\><C-n>
-endif

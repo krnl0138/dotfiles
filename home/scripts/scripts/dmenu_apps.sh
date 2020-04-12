@@ -8,10 +8,10 @@ Docear
 Firefox
 Gimp
 Htop
-Ncpamixer
 Notion
-Torrent
+Pulsemixer
 Telegram
+Torrent
 Vifm
 Vmpk
 Zotero"
@@ -43,8 +43,8 @@ case "$chosen" in
     Htop)
         $TERMINAL -e htop
         ;;
-    Ncpamixer)
-        $TERMINAL -e ncpamixer
+    Pulsemixer)
+        $TERMINAL -e pulsemixer
         ;;
     Notion)
         notion-app
@@ -65,5 +65,3 @@ case "$chosen" in
         zotero
         ;;
 esac
-
-

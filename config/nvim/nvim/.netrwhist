@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/schizo/dotfiles/config/nvim/nvim'
+let g:netrw_dirhist_2='/home/schizo/scripts'
 let g:netrw_dirhist_1='/home/schizo/stuff'
 let g:netrw_dirhist_0='/home/schizo/dotfiles/other'
 let g:netrw_dirhist_9='/home/schizo/dotfiles'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/home/schizo/dotfiles'
 let g:netrw_dirhist_6='/home/schizo/dotfiles/home'
 let g:netrw_dirhist_5='/home/schizo/dotfiles/home/scripts'
 let g:netrw_dirhist_4='/home/schizo/dotfiles/home/scripts/scripts'
-let g:netrw_dirhist_3='/home/schizo/dotfiles/config/redshift'
-let g:netrw_dirhist_2='/home/schizo/dotfiles/config'

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-choices="Touchpad\nSuspend\nWifi\nMonitor\nReboot"
+choices="Touchpad\nSuspend\nWifi\nMonitorToggle\nReboot"
 
 chosen=$(echo -e "$choices" | bemenu -p "" -l 50 -f -i -w --fn 'D2Coding 14')
 
@@ -11,7 +11,7 @@ case "$chosen" in
     Wifi)
         $TERMINAL -e nmtui-connect
         ;;
-    Monitor)
+    MoniorToggle)
         swaymsg output LVDS-1 toggle
         ;;
     Reboot)
