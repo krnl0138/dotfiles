@@ -1,6 +1,6 @@
 #!/bin/sh
 
-choices="Touchpad\nSuspend\nWifi\nMonitorToggle\nReboot"
+choices="Touchpad\nSuspend\nWifi\nMonitorToggle\nReboot\nSound"
 
 chosen=$(echo -e "$choices" | bemenu -p "" -l 50 -f -i -w --fn 'D2Coding 14')
 
@@ -19,5 +19,8 @@ case "$chosen" in
         ;;
     Suspend)
         systemctl suspend
+        ;;
+    Sound)
+        $TERMINAL -e pulsemixer
         ;;
 esac

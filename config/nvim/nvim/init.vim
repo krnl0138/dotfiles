@@ -9,60 +9,63 @@ let mapleader=" "
 " Make sure you use single quotes
 
 call plug#begin('~/.config/nvim/plugins')
-" Plug 'dense-analysis/ale'
-" Plug 'ycm-core/YouCompleteMe'
-" Plug 'ervandew/supertab'
+" CODE COMPLETION
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
-Plug 'vifm/vifm.vim'
+" STATUSLINE
 Plug 'bling/vim-bufferline'
+Plug 'itchyny/lightline.vim'
+" NAVIGATION
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'majutsushi/tagbar'
+Plug 'tpope/vim-vinegar'
+Plug 'vifm/vifm.vim'
+" EXTENTIONS
 Plug 'lervag/vimtex'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
+Plug 'conornewton/vim-pandoc-markdown-preview',
+" SNIPPETS
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+" FILE EDITING
 Plug '907th/vim-auto-save'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-vinegar'
-Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine' " add vertical lines at indentation level
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
-Plug 'conornewton/vim-pandoc-markdown-preview',
-Plug 'itchyny/lightline.vim'
+" COLORSCHEMES
 Plug 'morhetz/gruvbox'
 Plug 'caksoylar/vim-mysticaltutor'
 Plug 'tomasiser/vim-code-dark'
 
+"Plug 'dense-analysis/ale'
+"Plug 'ycm-core/YouCompleteMe'
+"Plug 'ervandew/supertab'
 "Plug 'tpope/vim-markdown'
 "Plug 'dylanaraps/wal.vim'
 "Plug 'machakann/vim-sandwich'
-"Plug 'mileszs/ack.vim'
 "Plug 'whiteinge/diffconflicts'
-"Plug 'RRethy/vim-hexokinase'
 call plug#end()
 
 " SET OPTIONS "
 """""""""""""""
 " look at :help nvim-defaults
 
-    set cmdheight=2 " More space for messages
-    set clipboard=unnamedplus
-    set cursorline
-    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-    set modeline
-    set mouse=a
-    set noshowmode
-    set title   " change the terminal's title
-" set pum background visibility to 20 percent
-    set pumblend=20
-" Open new split panes to right and bottom, which feels more natural
-    set splitbelow
-    set splitright
+set cmdheight=2           " More space for messages
+set clipboard=unnamedplus
+set cursorline
+set modeline
+set mouse=a
+set noshowmode
+set title                 " change the terminal's title
+set pumblend=20           " set pum background visibility to 20 percent
+set splitbelow            " Open new split panes to right and bottom, which feels more natural
+set splitright
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 " COLORS
 set termguicolors
@@ -74,14 +77,14 @@ hi Terminal guibg=none
 hi Normal guibg=none
 
 " SEARCH & FIND
-    set ignorecase
-    set smartcase
-    set path+=**
-    set wildignore+=**/node_modules/**
-    set hidden " Hide not close buffers e.g. open files wo/ saving changes
+set ignorecase
+set smartcase
+set path+=**
+set wildignore+=**/node_modules/**
+set hidden " Hide not close buffers e.g. open files wo/ saving changes
 
 " TABS & SPLITS
-    " set copyindent  " copy the previous indentation on autoindenting
+    set copyindent  " copy the previous indentation on autoindenting
     set tabstop=4
     set softtabstop=4
     set shiftwidth=4
@@ -122,10 +125,6 @@ hi Normal guibg=none
     set colorcolumn=80
     highlight colorcolumn ctermbg=0 guibg=#141414
 
-" PARARAGRAPHS FORMATTING
-    vmap Q gq
-    nmap Q gqap
-
 " MISC
 autocmd BufWritePre * %s/\s\+$//e " Automatically deletes all trailing whitespace on save.
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disables automatic commenting on newline:
@@ -138,6 +137,9 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
     map Y y$
 " VIM-Terminal
     nnoremap <c-s> :terminal<CR>i
+" PARARAGRAPHS FORMATTING
+    vmap Q gq
+    nmap Q gqap
 " Enter for newline
     nmap <S-Enter> O<Esc>
     nmap <CR> o<Esc>
@@ -147,8 +149,8 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
 " MOVE VISUAL RANGE AROUND
     vnoremap <c-j> :m '>+1<CR>gv=gv
     vnoremap <c-k> :m '<-2<CR>gv=gv
-    vnoremap <c-h> <gv
-    vnoremap <c-l> >gv
+    " vnoremap <c-h> <gv
+    " vnoremap <c-l> >gv
 " N TO SEARCH FORWARD AND N BACKWARD
     nnoremap <expr> n  'Nn'[v:searchforward]
     xnoremap <expr> n  'Nn'[v:searchforward]
@@ -180,7 +182,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
     nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
 " EXIT FROM EDIT MODE
     " nnoremap qq :wq<cr>
-    nnoremap qq :qa!<cr>
+    " nnoremap qq :qa!<cr>
     inoremap jk <esc>
     inoremap jj <esc>
     inoremap 11 <esc>
@@ -223,54 +225,77 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
         nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
     endfunction
 
-" " COC settings
-"     function! s:check_back_space() abort
-"         let col = col('.') - 1
-"         return !col || getline('.')[col - 1]  =~# '\s'
-"     endfunction
+" COC settings
 
-"     function! GoCoc()
-"         inoremap <buffer> <silent><expr> <TAB>
-"                     \ pumvisible() ? "\<C-n>" :
-"                     \ <SID>check_back_space() ? "\<TAB>" :
-"                     \ coc#refresh()
+" use <tab> for trigger completion and navigate to the next complete item
+function! s:check_back_space() abort
+    let col = col('.') - 1
+    return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
 
-"         inoremap <buffer> <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-"         inoremap <buffer> <silent><expr> <C-space> coc#refresh()
+" GoTo code navigation.
+    nmap <buffer> <leader>gd <Plug>(coc-definition)
+    nmap <buffer> <leader>gy <Plug>(coc-type-definition)
+    nmap <buffer> <leader>gi <Plug>(coc-implementation)
+    nmap <buffer> <leader>gr <Plug>(coc-references)
+    nnoremap <buffer> <leader>cr :CocRestart<CR>
 
-"         " GoTo code navigation.
-"         nmap <buffer> <leader>gd <Plug>(coc-definition)
-"         nmap <buffer> <leader>gy <Plug>(coc-type-definition)
-"         nmap <buffer> <leader>gi <Plug>(coc-implementation)
-"         nmap <buffer> <leader>gr <Plug>(coc-references)
-"         nnoremap <buffer> <leader>cr :CocRestart
-"     endfunction
-"     " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-"     " delays and poor user experience.
-"         set updatetime=300
+" use <c-space>for trigger completion
+    inoremap <silent><expr> <c-space> coc#refresh()
+" use <Tab> and <S-Tab> to navigate the completion list:
+    inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+    inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" use <cr> to confirm completion
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" Close the preview window when completion is done.
+    " autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+"To make <cr> select the first completion item and confirm the completion when no item has been selected:
+    inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
-"     " Don't pass messages to |ins-completion-menu|.
-"         set shortmess+=c
+    " function! GoCoc()
+    "     inoremap <buffer> <silent><expr> <Tab>
+    "                 \ pumvisible() ? "\<C-n>" :
+    "                 \ <SID>check_back_space() ? "\<TAB>" :
+    "                 \ coc#refresh()
+    "     inoremap <buffer> <expr><S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
+    "     inoremap <buffer> <silent><expr> <C-space> coc#refresh()
 
-"     "  Lightline integration
-"     "   let g:lightline = {
-"     " 	\ 'colorscheme': 'wombat',
-"     " 	\ 'active': {
-"     " 	\   'left': [ [ 'mode', 'paste' ],
-"     " 	\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
-"     " 	\ },
-"     " 	\ 'component_function': {
-"     " 	\   'cocstatus': 'coc#status'
-"     " 	\ },
-"     " 	\ }
+    " endfunction
 
-"     " Use auocmd to force lightline update.
-"     " autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
+    " " Where to use YCM & COC
+    " autocmd FileType typescript :call GoYCM()
+    " autocmd FileType cpp,cxx,h,hpp,c :call GoCoc()
+    " autocmd FileType sh,bash :call GoCoc()
 
-"     " Where to use YCM & COC
-"     " autocmd FileType typescript :call GoYCM()
-"     " autocmd FileType cpp,cxx,h,hpp,c :call GoCoc()
-"     " autocmd FileType sh,bash :call GoCoc()
+    " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+    " delays and poor user experience.
+        set updatetime=300
+
+    " Don't pass messages to |ins-completion-menu|.
+        set shortmess+=c
+
+    " Lightline integration
+      let g:lightline = {
+    	\ 'colorscheme': 'wombat',
+    	\ 'active': {
+    	\   'left': [ [ 'mode', 'paste' ],
+    	\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
+    	\ },
+    	\ 'component_function': {
+    	\   'cocstatus': 'coc#status'
+    	\ },
+    	\ }
+
+    " Use auocmd to force lightline update.
+    autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
+
+" ULTISNIPS
+" needs to jump around coc completions
+" tab for jumping and ^n,^p for menu selection
+    let g:UltiSnipsExpandTrigger ="<tab>"
+    let g:UltiSnipsJumpForwardTrigger ="<tab>"
+    let g:UltiSnipsJumpBackwardTrigger ="<s-tab>"
+    let g:UltiSnipsEditSplit ="<vertical>"
 
 " EASYALIGN
     " Start interactive EasyAlign in visual mode (e.g. vipga)
@@ -389,7 +414,6 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
     command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
   "}}}
 
-
 " VIM-AUTO-SAVE
     let g:auto_save = 0
     augroup ft_tex
@@ -413,7 +437,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
     nnoremap <leader>p :MarkdownPreview<CR>
 
 " GOYO SETTINGS
-	noremap <silent> <leader>g :Goyo \| set wrap linebreak<CR>
+    noremap <silent> <leader>g :Goyo \| set wrap linebreak<CR>
 
 " VIMTEX
     let g:tex_flavor='latex'
@@ -422,8 +446,3 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o "
     set conceallevel=2
     let g:tex_conceal='abdmgs'
 
-" ULTISNIPS
-    " let g:UltiSnipsExpandTrigger = '<tab>'
-    " let g:UltiSnipsJumpForwardTrigger = '<tab>'
-    " let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
-    " let g:UltiSnipsEditSplit = 'vertical'
