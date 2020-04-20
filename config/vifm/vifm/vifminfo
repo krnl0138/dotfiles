@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -22,156 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/gppk/personal/books
-	=======
-2
-d/home/gppk/personal/books/sociology
-	Kimlika_U_-_Sovremennaya_Politicheskaya_Filosofia.pdf
-15
-d/home/gppk/personal/books
-	statistics
-2
-d/home/gppk/personal/books/statistics
-	1mkhitaryan_v_s_statistika.pdf
-1
-d/home/gppk/personal/books
-	sociology
-18
-d/home/gppk/personal
-	books
-2
-d/home/gppk/personal/books
-	physics
-20
-d/home/gppk/personal/books/physics
-	..
-0
-d/home/gppk/personal/books
-	kursovaya
-19
-d/home/gppk/personal/books/kursovaya
-	William_James_Lectures_Michael_Dummett_-_The_Logical_Basis_of_Metaphysics__1991_Harvard_University_Press.pdf
-6
-d/home/gppk/personal/books
-	kursovaya
-19
-d/home/gppk/personal
-	university
-6
-d/home/gppk/personal/university
-	lections
-3
-d/home/gppk/personal
-	university
-1
-d/home/gppk/personal/university
-	lections
-3
-d/home/gppk/personal
-	university
-6
-d/home/gppk
-	personal
-48
-d/home/gppk/personal
-	university
-6
-d/home/gppk
-	personal
-32
-d/home/gppk/personal
-	university
-6
-d/home/gppk
-	personal
-32
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	orlando
-1
-d/home/schizo/personal/pictures/screenshots/orlando
-	2020-04-05-20-22-44.png
-15
-d/home/schizo/personal/pictures/screenshots
-	orlando
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	2020-04-06-002551.png
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/downloads
-	djvu
-5
-d/home/schizo/downloads/djvu
-	..
-0
-d/home/schizo/downloads
-	fb2
-5
-d/home/schizo/downloads/fb2
-	..
-0
-d/home/schizo/downloads
-	flac
-5
-d/home/schizo/downloads/flac
-	..
-0
-d/home/schizo/downloads
-	mp3
-5
-d/home/schizo/downloads/mp3
-	..
-0
-d/home/schizo/downloads
-	pdf
-5
-d/home/schizo/downloads/pdf
-	..
-0
-d/home/schizo/downloads
-	txt
-6
-d/home/schizo/downloads/txt
-	..
-0
-d/home/schizo/downloads
-	xlsx
-6
-d/home/schizo/downloads/xlsx
-	..
-0
-d/home/schizo/downloads
-	archives
-6
-d/home/schizo/downloads/archives
-	..
-0
-d/home/schizo/downloads
-	xlsxs
-7
-d/home/schizo/downloads/xlsxs
-	..
-0
-d/home/schizo/downloads
-	xlsxs
-7
-d/home/schizo/downloads/xlsxs
-	..
-0
-d/home/schizo/downloads
-	zoom
-7
-d/home/schizo/downloads/zoom
-	..
-0
 d/home/schizo/downloads
 	Sketch.app
 8
@@ -622,6 +472,156 @@ d/home/schizo/.config/nvim
 d/home/schizo/.config/nvim/plugins
 	coc.nvim
 1
+d/home/schizo/udemy
+	js_udemy.md
+5
+d/home/schizo
+	udemy
+1
+d/home/schizo/udemy
+	complete-javascript-course
+1
+d/home/schizo/udemy/complete-javascript-course
+	4-DOM-pig-game
+4
+d/home/schizo/udemy/complete-javascript-course/4-DOM-pig-game
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/4-DOM-pig-game/starter
+	index.html
+9
+d/home/schizo
+	udemy
+1
+d/home/schizo/udemy
+	complete-javascript-course
+1
+d/home/schizo/udemy/complete-javascript-course
+	9-forkify
+9
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	dist
+1
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/dist
+	..
+0
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
+	index.html
+3
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course
+	9-forkify
+9
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	final
+1
+d/home/schizo/udemy/complete-javascript-course/9-forkify/final
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/final/src
+	..
+0
+d/home/schizo/udemy/complete-javascript-course/9-forkify/final
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/final/src
+	index.html
+3
+d/home/schizo/udemy/complete-javascript-course/9-forkify/final
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	final
+1
+d/home/schizo/udemy/complete-javascript-course
+	4-DOM-pig-game
+4
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	01_lesson.html
+1
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	4-DOM-pig-game
+1
+d/home/schizo/udemy/myFiles/4-DOM-pig-game
+	starter
+2
+d/home/schizo/udemy/myFiles/4-DOM-pig-game/starter
+	back.jpg
+4
+d/home/schizo
+	udemy
+1
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	03_lesson.html
+4
+d/home/schizo/udemy
+	04_lesson.html
+3
+d/home/schizo
+	notes
+7
+d/home/schizo/downloads
+	linux-capt-drv-v271-uken.tar.gz
+34
+d/home/schizo/downloads/books/epub
+	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
+5
+d/home/schizo
+	.local
+43
+d/home/schizo/.local
+	share
+1
+d/home/schizo/.local/share
+	nvim
+7
+d/home/schizo/.local/share/nvim
+	swap
+4
+d/home/schizo/.local/share/nvim/swap
+	..
+0
+d/home/schizo/.local/share/nvim
+	backupdir
+5
+d/home/schizo/.local/share/nvim/backupdir
+	undo
+2
+d/home/schizo/.local/share/nvim
+	backupdir
+5
+d/home/schizo/.local/share
+	nvim
+7
+d/home/schizo/.local/share/nvim
+	backupdir
+4
+d/home/schizo/.local/share/nvim/backupdir
+	swp
+3
+d/home/schizo/.local/share/nvim/backupdir/swp
+	script4.js.swo
+3
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -798,13 +798,17 @@ D/home/schizo/voidrice
 D/home/schizo
 	.cargo
 5
+D/home/schizo/udemy
+	
+0
+D/home/schizo
+	..
+0
 
 # Command line history (oldest to newest):
-:filter .pdf
 :!filter .pdf
 :filter! .pdf
 :filter! djvu
-:filter!
 :mkdir anki
 :mkdir mine
 :!cp %f /home/schizo/
@@ -999,7 +1003,9 @@ D/home/schizo
 :local
 :wq
 :e
+:mkdir myFiles
 :q
+:filter!
 
 # Search history (oldest to newest):
 /font
@@ -1082,17 +1088,19 @@ D/home/schizo
 /istor
 /истор
 /dot
-/local
 /light
 /nvim
+/local
 
 # Prompt history (oldest to newest):
 pabs
 pYouCompleteMe_old
+p04_lesson
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/schizo/.local/share/Trash/files/000_swap
 
 # Directory stack (oldest to newest):
 
@@ -2211,6 +2219,8 @@ t/home/schizo/.local/share/Trash/files/000_txts
 	/home/schizo/downloads/books/txts
 t/home/schizo/.local/share/Trash/files/000_docxs
 	/home/schizo/downloads/docxs
+t/home/schizo/.local/share/Trash/files/000_swap
+	/home/schizo/.local/share/nvim/swap
 
 # State:
 f

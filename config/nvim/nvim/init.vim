@@ -33,7 +33,6 @@ Plug '907th/vim-auto-save'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
-Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine' " add vert lines at indent
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
@@ -41,7 +40,14 @@ Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 Plug 'morhetz/gruvbox'
 Plug 'caksoylar/vim-mysticaltutor'
 Plug 'tomasiser/vim-code-dark'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'rakr/vim-one'
+Plug 'mhartington/oceanic-next'
+Plug 'joshdick/onedark.vim'
 
+"Plug 'tpope/vim-eunuch'
 "Plug 'dense-analysis/ale'
 "Plug 'ycm-core/YouCompleteMe'
 "Plug 'janko/vim-test'
@@ -129,10 +135,10 @@ hi Normal guibg=none
     set undodir=~/.local/share/nvim/backupdir/undo
     set directory=~/.local/share/nvim/backupdir/swp
 
-
 " MISC
 autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
 autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
+
 
 
 " MAPPINGS
@@ -140,7 +146,7 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
 
 " Substitute easy
     nnoremap S :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
-    vnoremap S :s///gc<Left><Left><Left><Left>
+    vnoremap s :s///gc<Left><Left><Left><Left>
 " Y like D
     map Y y$
 " TERMINAL
