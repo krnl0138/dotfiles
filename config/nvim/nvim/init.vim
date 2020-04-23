@@ -59,6 +59,25 @@ Plug 'joshdick/onedark.vim'
 "Plug 'whiteinge/diffconflicts'
 call plug#end()
 
+
+" HJKL; with JKL:'
+noremap h h
+noremap j j
+noremap k k
+noremap l l
+noremap ; :
+noremap ; :
+" noremap j h
+" noremap k j
+" noremap l k
+" noremap ; l
+" noremap : '
+
+" noremap ' :
+" nnoremap ; :
+" nnoremap : ;
+
+
 " SET OPTIONS
 """""""""""""
 " look at :help nvim-defaults
@@ -80,17 +99,32 @@ set lazyredraw            " do not redraw screen while macro is working
 set number relativenumber
 set nowrap
 set colorcolumn=80
+" center after goto bookmark
+" May want to put in <nowait>
+nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"
+nnoremap <expr> ` "`" . nr2char(getchar()) . "zz"
+" Delete in insert mode
+" inoremap <C-d> <Del>
+inoremap <C-d> <Esc>xa
+" Center screen on next/previous selection.
+nnoremap n nzz
+nnoremap N Nzz
+" Last and next jump should center too.
+nnoremap <C-o> <C-o>zz
+nnoremap <C-i> <C-i>zz
+
+" set scrolloff=999        " center everything
 highlight colorcolumn ctermbg=0 guibg=#141414
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 " COLORS
 set termguicolors
-colorscheme mysticaltutor
+colorscheme onedark
 set bg=dark
-hi Normal ctermbg=none
-hi Terminal ctermbg=none
-hi Terminal guibg=none
-hi Normal guibg=none
+" hi Normal ctermbg=none
+" hi Terminal ctermbg=none
+" hi Terminal guibg=none
+" hi Normal guibg=none
 
 " SEARCH & FIND
     set ignorecase
@@ -100,6 +134,23 @@ hi Normal guibg=none
     set hidden " Hide not close buffers
 
 " TABS & SPLITS
+
+    " Go to tab by number
+    noremap <leader>1 1gt
+    noremap <leader>2 2gt
+    noremap <leader>3 3gt
+    noremap <leader>4 4gt
+    noremap <leader>5 5gt
+    noremap <leader>6 6gt
+    noremap <leader>7 7gt
+    noremap <leader>8 8gt
+    noremap <leader>9 9gt
+    noremap <leader>0 :tablast<cr>
+    " Go to last active tab
+    au TabLeave * let g:lasttab = tabpagenr()
+    nnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
+    vnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
+
     set autoindent
     set copyindent  " copy the previous indentation on autoindenting
     set tabstop=4
@@ -108,19 +159,30 @@ hi Normal guibg=none
     set shiftround
     set expandtab
 " switch through tabs with ctrl
-    nnoremap <C-h> gT
-    nnoremap <C-l> gt
+    noremap <C-h> gT
+    noremap <C-l> gt
+    " noremap <C-j> gt
+    " nnoremap <C-;> gT
     " nnoremap <s-tab> gt
-    nnoremap <c-t> :tabnew<cr>
+    nnoremap <C-t> :tabnew<cr>
 " move around splits with shift-hjkl
     noremap <silent><s-k> <c-w><up>
     noremap <silent><s-j> <c-w><down>
     noremap <silent><s-l> <c-w><right>
     noremap <silent><s-h> <c-w><left>
-    tnoremap <silent><s-h> <C-\><C-n><C-w>h
-    tnoremap <silent><s-j> <C-\><C-n><C-w>j
-    tnoremap <silent><s-k> <C-\><C-n><C-w>k
-    tnoremap <silent><s-l> <C-\><C-n><C-w>l
+    tnoremap <silent><s-h> <c-\><c-n><c-w>h
+    tnoremap <silent><s-j> <c-\><c-n><c-w>j
+    tnoremap <silent><s-k> <c-\><c-n><c-w>k
+    tnoremap <silent><s-l> <c-\><c-n><c-w>l
+    " " jkl: version
+    " nnoremap <silent><s-j> <c-w><left>
+    " nnoremap <silent><s-k> <c-w><down>
+    " nnoremap <silent><s-l> <c-w><up>
+    " nnoremap <silent>: <c-w><right>
+    " tnoremap <silent><s-j> <c-\><c-n><c-w>j
+    " tnoremap <silent><s-k> <c-\><c-n><c-w>k
+    " tnoremap <silent><s-l> <c-\><c-n><c-w>l
+    " tnoremap <silent>: <c-\><c-n><c-w>;
   " easily escape terminal
     tnoremap <leader><esc> <C-\><C-n><esc><cr>
     tnoremap <C-o> <C-\><C-n><esc><cr>
@@ -139,10 +201,7 @@ hi Normal guibg=none
 autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
 autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
 
-
-
 " MAPPINGS
-""""""""""
 
 " Substitute easy
     nnoremap S :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
@@ -162,17 +221,20 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     nnoremap <leader>ev :vsp $MYVIMRC<CR>
     nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
 " MOVE VISUAL RANGE AROUND
-    vnoremap <c-j> :m '>+1<CR>gv=gv
-    vnoremap <c-k> :m '<-2<CR>gv=gv
+    " vnoremap <c-j> :m '>+1<CR>gv=gv
+    " vnoremap <c-k> :m '<-2<CR>gv=gv
+    " jkl; version
+    vnoremap <c-k> :m '>+1<CR>gv=gv
+    vnoremap <c-l> :m '<-2<CR>gv=gv
     " vnoremap <c-h> <gv
     " vnoremap <c-l> >gv
 " N TO SEARCH FORWARD AND N BACKWARD
-    nnoremap <expr> n  'Nn'[v:searchforward]
-    xnoremap <expr> n  'Nn'[v:searchforward]
-    onoremap <expr> n  'Nn'[v:searchforward]
-    nnoremap <expr> N  'nN'[v:searchforward]
-    xnoremap <expr> N  'nN'[v:searchforward]
-    onoremap <expr> N  'nN'[v:searchforward]
+    " nnoremap <expr> n  'Nn'[v:searchforward]
+    " xnoremap <expr> n  'Nn'[v:searchforward]
+    " onoremap <expr> n  'Nn'[v:searchforward]
+    " nnoremap <expr> N  'nN'[v:searchforward]
+    " xnoremap <expr> N  'nN'[v:searchforward]
+    " onoremap <expr> N  'nN'[v:searchforward]
 " VimPlug
     nnoremap <leader>pi :PlugInstall<CR>
     nnoremap <leader>pu :PlugUpdate<CR>
@@ -200,8 +262,6 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     vnoremap 11 <esc>
     inoremap kj <esc>
     inoremap ii <ESC>
-    nnoremap ; :
-    nnoremap : ;
 " BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
@@ -212,6 +272,7 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     " noremap J }
     " noremap H g^
     " noremap L g_
+
 " BIB
     autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
     autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
