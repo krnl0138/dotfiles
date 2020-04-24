@@ -22,21 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads
-	Sketch.app
-8
-d/home/schizo/downloads/Sketch.app
-	..
-0
-d/home/schizo/downloads
-	video
-8
-d/home/schizo/downloads/video
-	..
-0
-d/home/schizo/downloads
-	docx
-1
 d/home/schizo/downloads/docx
 	..
 0
@@ -622,6 +607,21 @@ d/home/schizo/.local/share/nvim/backupdir
 d/home/schizo/.local/share/nvim/backupdir/swp
 	script4.js.swo
 3
+d/home/schizo
+	yura2.m4a
+14
+d/home/schizo/.config
+	nvim
+23
+d/home/schizo/.config/nvim
+	plugins
+1
+d/home/schizo/.config/nvim/plugins
+	coc.nvim
+1
+d/home/schizo/.config/nvim
+	ftplugin
+1
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -806,7 +806,6 @@ D/home/schizo
 0
 
 # Command line history (oldest to newest):
-:!filter .pdf
 :filter! .pdf
 :filter! djvu
 :mkdir anki
@@ -1006,6 +1005,7 @@ D/home/schizo
 :mkdir myFiles
 :q
 :filter!
+:mkdir ftplugin
 
 # Search history (oldest to newest):
 /font
@@ -1100,7 +1100,7 @@ p04_lesson
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_swap
+""/home/schizo/.local/share/Trash/files/000_ftplugin
 
 # Directory stack (oldest to newest):
 
@@ -2221,6 +2221,8 @@ t/home/schizo/.local/share/Trash/files/000_docxs
 	/home/schizo/downloads/docxs
 t/home/schizo/.local/share/Trash/files/000_swap
 	/home/schizo/.local/share/nvim/swap
+t/home/schizo/.local/share/Trash/files/000_ftplugin
+	/home/schizo/.config/nvim/ftplugin
 
 # State:
 f

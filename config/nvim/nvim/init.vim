@@ -47,6 +47,8 @@ Plug 'rakr/vim-one'
 Plug 'mhartington/oceanic-next'
 Plug 'joshdick/onedark.vim'
 
+Plug 'aserebryakov/vim-todo-lists'
+
 "Plug 'tpope/vim-eunuch'
 "Plug 'dense-analysis/ale'
 "Plug 'ycm-core/YouCompleteMe'
@@ -112,6 +114,14 @@ nnoremap N Nzz
 " Last and next jump should center too.
 nnoremap <C-o> <C-o>zz
 nnoremap <C-i> <C-i>zz
+
+autocmd FileType javascript inoremap <buffer> ( ()
+autocmd FileType javascript inoremap <buffer> { {}<Esc>i
+autocmd FileType javascript inoremap <buffer> {<CR> {<CR>}<Esc>O
+autocmd FileType javascript inoremap <buffer> [ []<Esc>i
+autocmd FileType javascript inoremap <buffer> < <><Esc>i
+autocmd FileType javascript inoremap <buffer> ' ''<Esc>i
+autocmd FileType javascript inoremap <buffer> " ""<Esc>i
 
 " set scrolloff=999        " center everything
 highlight colorcolumn ctermbg=0 guibg=#141414
