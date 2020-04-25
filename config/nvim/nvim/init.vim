@@ -114,8 +114,13 @@ nnoremap N Nzz
 " Last and next jump should center too.
 nnoremap <C-o> <C-o>zz
 nnoremap <C-i> <C-i>zz
+" Move in INSERT mode
+imap <C-h> <esc>ha
+imap <C-j> <esc>ja
+imap <C-k> <esc>ka
+imap <C-l> <esc>la
 
-autocmd FileType javascript inoremap <buffer> ( ()
+autocmd FileType javascript inoremap <buffer> ( ()<Esc>i
 autocmd FileType javascript inoremap <buffer> { {}<Esc>i
 autocmd FileType javascript inoremap <buffer> {<CR> {<CR>}<Esc>O
 autocmd FileType javascript inoremap <buffer> [ []<Esc>i
@@ -271,7 +276,7 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     inoremap 11 <esc>
     vnoremap 11 <esc>
     inoremap kj <esc>
-    inoremap ii <ESC>
+    " inoremap ii <ESC>
 " BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
