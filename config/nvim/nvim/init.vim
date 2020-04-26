@@ -107,7 +107,7 @@ nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"
 nnoremap <expr> ` "`" . nr2char(getchar()) . "zz"
 " Delete in insert mode
 " inoremap <C-d> <Del>
-inoremap <C-d> <Esc>xa
+inoremap <C-d> <Esc>xi
 " Center screen on next/previous selection.
 nnoremap n nzz
 nnoremap N Nzz
@@ -127,6 +127,15 @@ autocmd FileType javascript inoremap <buffer> [ []<Esc>i
 autocmd FileType javascript inoremap <buffer> < <><Esc>i
 autocmd FileType javascript inoremap <buffer> ' ''<Esc>i
 autocmd FileType javascript inoremap <buffer> " ""<Esc>i
+autocmd FileType javascript inoremap <buffer> ` ``<Esc>i
+autocmd FileType html inoremap <buffer> ( ()<Esc>i
+autocmd FileType html inoremap <buffer> { {}<Esc>i
+autocmd FileType html inoremap <buffer> {<CR> {<CR>}<Esc>O
+autocmd FileType html inoremap <buffer> [ []<Esc>i
+autocmd FileType html inoremap <buffer> < <><Esc>i
+autocmd FileType html inoremap <buffer> ' ''<Esc>i
+autocmd FileType html inoremap <buffer> " ""<Esc>i
+autocmd FileType html inoremap <buffer> ` ``<Esc>i
 
 " set scrolloff=999        " center everything
 highlight colorcolumn ctermbg=0 guibg=#141414
