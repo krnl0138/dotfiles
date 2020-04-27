@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/schizo/udemy/myFiles/forkify/src/js'
 let g:netrw_dirhist_1='/home/schizo/udemy/myFiles/6-budgety/starter'
 let g:netrw_dirhist_0='/home/schizo/udemy/myFiles/4-DOM-pig-game/starter'
 let g:netrw_dirhist_9='/home/schizo/udemy/myFiles/4-DOM-pig-game'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/schizo/udemy/complete-javascript-course/4-DOM-pig-g
 let g:netrw_dirhist_5='/home/schizo/udemy/complete-javascript-course/4-DOM-pig-game'
 let g:netrw_dirhist_4='/home/schizo/udemy/complete-javascript-course'
 let g:netrw_dirhist_3='/home/schizo/udemy'
-let g:netrw_dirhist_2='/home/schizo'

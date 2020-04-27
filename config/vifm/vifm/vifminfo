@@ -22,150 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads/docx
-	..
-0
-d/home/schizo/downloads
-	docx
-1
-d/home/schizo/downloads/docx
-	..
-0
-d/home/schizo/downloads
-	docxs
-1
-d/home/schizo/downloads/docxs
-	..
-0
-d/home/schizo/downloads
-	docx
-1
-d/home/schizo/downloads/docx
-	..
-0
-d/home/schizo/downloads
-	ppt
-6
-d/home/schizo/downloads/ppt
-	..
-0
-d/home/schizo/downloads
-	ppts
-9
-d/home/schizo/downloads/ppts
-	..
-0
-d/home/schizo/downloads
-	ppt
-1
-d/home/schizo/downloads/ppt
-	..
-0
-d/home/schizo/downloads
-	ppt
-1
-d/home/schizo/downloads/ppt
-	..
-0
-d/home/schizo/downloads
-	test_keyboard_libreoffice.cfg
-24
-d/home/schizo
-	downloads
-1
-d/home
-	schizo
-1
-d/home/schizo
-	..
-0
-d/home
-	..
-0
-d/home/schizo/personal
-	pictures
-5
-d/home/schizo/personal/pictures
-	-jXFiLq9qaU.jpg
-5
-d/home/schizo/.config
-	..
-0
-d/home/schizo
-	.steam
-14
-d/home/schizo/downloads
-	test_keyboard_libreoffice.cfg
-14
-d/home/schizo
-	dotfiles
-14
-d/home/schizo/dotfiles
-	config
-2
-d/home/schizo/dotfiles/config
-	nvim
-13
-d/home/schizo/dotfiles/config/nvim
-	nvim
-1
-d/home/schizo/dotfiles/config/nvim/nvim
-	backupdir
-1
-d/home/schizo/dotfiles/config/nvim/nvim/backupdir
-	undo
-1
-d/home/schizo/dotfiles/config/nvim/nvim/backupdir/undo
-	..
-0
-d/home/schizo/dotfiles/config/nvim/nvim/backupdir
-	undo
-1
-d/home/schizo/dotfiles/config/nvim/nvim
-	colors
-1
-d/home/schizo/dotfiles/config/nvim
-	nvim
-1
-d/home/schizo/dotfiles/config/nvim/nvim
-	backupdir
-1
-d/home/schizo/dotfiles/config/nvim/nvim/backupdir
-	undo
-3
-d/home/schizo/dotfiles/config/nvim/nvim
-	backupdir
-1
-d/home/schizo/dotfiles/config/nvim/nvim/backupdir
-	undo
-3
-d/home/schizo/dotfiles/config/nvim/nvim
-	colors
-1
-d/home/schizo/downloads
-	Piano
-1
-d/home/schizo/downloads/Piano
-	..
-0
-d/home/schizo/downloads
-	audio
-6
-d/home/schizo/downloads/audio
-	..
-0
-d/home/schizo/downloads
-	books
-7
-d/home/schizo/downloads/books
-	djvus
-2
-d/home/schizo/downloads/books/djvus
-	..
-0
-d/home/schizo/downloads/books
-	djvu
-1
 d/home/schizo/downloads/books/djvu
 	..
 0
@@ -622,6 +478,150 @@ d/home/schizo/.config/nvim/plugins
 d/home/schizo/.config/nvim
 	ftplugin
 1
+d/home/schizo
+	udemy
+3
+d/home/schizo/udemy
+	complete-javascript-course
+3
+d/home/schizo/udemy/complete-javascript-course
+	9-forkify
+9
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
+	index.html
+3
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course
+	9-forkify
+9
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
+	index.html
+3
+d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
+	src
+2
+d/home/schizo/udemy/complete-javascript-course/9-forkify
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course
+	9-forkify
+9
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/scripts
+	..
+0
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	2020-04-27-10-53-32.png
+3
+d/home/schizo
+	udemy
+3
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	src
+1
+d/home/schizo/udemy/myFiles/forkify/src
+	index.html
+2
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles/forkify/dist
+	js
+1
+d/home/schizo/udemy/myFiles/forkify/dist/js
+	..
+0
+d/home/schizo/udemy/myFiles/forkify/dist
+	js
+1
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	src
+1
+d/home/schizo/udemy/myFiles/forkify/src
+	index.html
+2
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles/forkify/dist
+	js
+1
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles/forkify/dist
+	img
+3
+d/home/schizo/udemy/myFiles/forkify
+	src
+2
+d/home/schizo/udemy/myFiles/forkify/src
+	js
+1
+d/home/schizo/udemy/myFiles/forkify/src/js
+	test.js
+1
+d/home/schizo/udemy/myFiles/forkify/src
+	index.html
+3
+d/home/schizo/udemy/myFiles/forkify
+	src
+1
+d/home/schizo/udemy/myFiles/forkify/src
+	webpack.config.js
+2
+d/home/schizo/udemy/myFiles/forkify
+	src
+1
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -804,9 +804,11 @@ D/home/schizo/udemy
 D/home/schizo
 	..
 0
+D/home/schizo/udemy/myFiles/forkify
+	..
+0
 
 # Command line history (oldest to newest):
-:filter! .pdf
 :filter! djvu
 :mkdir anki
 :mkdir mine
@@ -957,7 +959,6 @@ D/home/schizo
 :mkdir bash
 :mkdir stuff
 :set hidden
-:w
 :vifmimg
 :mkdir pierro
 :!mpv %f
@@ -1003,9 +1004,11 @@ D/home/schizo
 :wq
 :e
 :mkdir myFiles
-:q
 :filter!
 :mkdir ftplugin
+:mkdir forkify
+:w
+:q
 
 # Search history (oldest to newest):
 /font
@@ -1100,7 +1103,7 @@ p04_lesson
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_ftplugin
+""/home/schizo/.local/share/Trash/files/000_bundle.js
 
 # Directory stack (oldest to newest):
 
@@ -2223,6 +2226,8 @@ t/home/schizo/.local/share/Trash/files/000_swap
 	/home/schizo/.local/share/nvim/swap
 t/home/schizo/.local/share/Trash/files/000_ftplugin
 	/home/schizo/.config/nvim/ftplugin
+t/home/schizo/.local/share/Trash/files/000_bundle.js
+	/home/schizo/udemy/myFiles/forkify/dist/js/bundle.js
 
 # State:
 f
