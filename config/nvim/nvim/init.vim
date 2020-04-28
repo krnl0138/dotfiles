@@ -248,8 +248,8 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     " vnoremap <c-j> :m '>+1<CR>gv=gv
     " vnoremap <c-k> :m '<-2<CR>gv=gv
     " jkl; version
-    vnoremap <c-k> :m '>+1<CR>gv=gv
-    vnoremap <c-l> :m '<-2<CR>gv=gv
+    vnoremap <c-j> :m '>+1<CR>gv=gv
+    vnoremap <c-k> :m '<-2<CR>gv=gv
     " vnoremap <c-h> <gv
     " vnoremap <c-l> >gv
 " N TO SEARCH FORWARD AND N BACKWARD

@@ -22,78 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads/books/djvu
-	..
-0
-d/home/schizo/downloads/books
-	djvus
-2
-d/home/schizo/downloads/books/djvus
-	..
-0
-d/home/schizo/downloads/books
-	djvu
-1
-d/home/schizo/downloads/books/djvu
-	Fragmenty_rannikh_grecheskikh_filosofov_Chast_I_Pamyatniki_filosofskoy_mysli_-_1989.djvu
-1
-d/home/schizo/downloads/books
-	epubs
-3
-d/home/schizo/downloads/books/epubs
-	..
-0
-d/home/schizo/downloads/books
-	epub
-2
-d/home/schizo/downloads/books/epub
-	Ryder Carroll - The Bullet Journal Method_ Track the Past, Order the Present, Design the Future (2018).epub
-1
-d/home/schizo/downloads/books
-	fb2s
-4
-d/home/schizo/downloads/books/fb2s
-	..
-0
-d/home/schizo/downloads/books
-	fb2
-3
-d/home/schizo/downloads/books/fb2
-	..
-0
-d/home/schizo/downloads/books
-	hz_knijki
-4
-d/home/schizo/downloads/books/hz_knijki
-	..
-0
-d/home/schizo/downloads/books
-	mobi
-5
-d/home/schizo/downloads/books/mobi
-	..
-0
-d/home/schizo/downloads/books
-	pdfs
-7
-d/home/schizo/downloads/books/pdfs
-	..
-0
-d/home/schizo/downloads/books
-	pdf
-6
-d/home/schizo/downloads/books/pdf
-	pdfs
-1
-d/home/schizo/downloads/books/pdf/pdfs
-	..
-0
-d/home/schizo/downloads/books/pdf
-	pdfs
-1
-d/home/schizo/downloads/books
-	pdfs
-7
 d/home/schizo/downloads/books/pdfs
 	..
 0
@@ -622,6 +550,78 @@ d/home/schizo/udemy/myFiles/forkify/src
 d/home/schizo/udemy/myFiles/forkify
 	src
 1
+d/home/schizo
+	udemy
+4
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	src
+2
+d/home/schizo/udemy/myFiles/forkify/src
+	..
+0
+d/home/schizo/udemy/myFiles/forkify
+	src
+2
+d/home/schizo/udemy/myFiles/forkify/src
+	..
+0
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles/forkify/dist
+	img
+3
+d/home/schizo/udemy/myFiles/forkify
+	node_modules
+1
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	src
+2
+d/home/schizo/udemy/myFiles/forkify/src
+	..
+0
+d/home/schizo/udemy/myFiles/forkify
+	dist
+3
+d/home/schizo/udemy/myFiles
+	forkify
+1
+d/home/schizo/udemy/myFiles/forkify
+	src
+2
+d/home/schizo/udemy/myFiles/forkify/src
+	js
+1
+d/home/schizo/udemy/myFiles/forkify/src/js
+	views
+1
+d/home/schizo/udemy/myFiles/forkify/src/js/views
+	searchView.js
+1
+d/home/schizo/udemy/myFiles/forkify/src/js
+	models
+2
+d/home/schizo/udemy/myFiles/forkify/src/js/models
+	..
+0
+d/home/schizo/udemy/myFiles/forkify/src/js
+	index.js
+3
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -805,6 +805,9 @@ D/home/schizo
 	..
 0
 D/home/schizo/udemy/myFiles/forkify
+	..
+0
+D/home/schizo
 	..
 0
 
@@ -1103,7 +1106,7 @@ p04_lesson
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_bundle.js
+""/home/schizo/.local/share/Trash/files/000_test.js
 
 # Directory stack (oldest to newest):
 
@@ -2228,6 +2231,8 @@ t/home/schizo/.local/share/Trash/files/000_ftplugin
 	/home/schizo/.config/nvim/ftplugin
 t/home/schizo/.local/share/Trash/files/000_bundle.js
 	/home/schizo/udemy/myFiles/forkify/dist/js/bundle.js
+t/home/schizo/.local/share/Trash/files/000_test.js
+	/home/schizo/udemy/myFiles/forkify/src/js/test.js
 
 # State:
 f
