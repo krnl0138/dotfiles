@@ -13,7 +13,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -22,63 +22,6 @@ l-10,2
 r-10,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads/books/pdfs
-	..
-0
-d/home/schizo/downloads/books
-	pdf
-6
-d/home/schizo/downloads/books/pdf
-	(Античное наследие) Гесиод - Полное собрание текстов. Теогония. Труды и дни. Щит Геракла. Фрагменты-Лабиринт (2001).pdf
-1
-d/home/schizo/downloads/books
-	txts
-9
-d/home/schizo/downloads/books/txts
-	..
-0
-d/home/schizo/downloads/books
-	txt
-8
-d/home/schizo/downloads
-	docxs
-9
-d/home/schizo/downloads/docxs
-	..
-0
-d/home/schizo/downloads
-	docx
-8
-d/home/schizo/downloads/docx
-	38509253.doc
-2
-d/home/schizo/downloads
-	french_files
-9
-d/home/schizo/downloads/french_files
-	..
-0
-d/home/schizo/downloads
-	video
-14
-d/home/schizo/downloads/video
-	P09iWgQQ6_9ArC5HazrAUQ.webp
-1
-d/home/schizo/downloads
-	video
-9
-d/home/schizo/downloads/video
-	n-y6TT6T-4XDXbo5N7GY5Q.webp
-2
-d/home/schizo/downloads
-	video
-12
-d/home/schizo/downloads/video
-	P09iWgQQ6_9ArC5HazrAUQ.webp
-2
-d/home/schizo/downloads
-	video
-11
 d/home/schizo/downloads/video
 	n-y6TT6T-4XDXbo5N7GY5Q.webp
 2
@@ -622,6 +565,63 @@ d/home/schizo/udemy/myFiles/forkify/src/js/models
 d/home/schizo/udemy/myFiles/forkify/src/js
 	index.js
 3
+d/home/schizo
+	udemy
+5
+d/home/schizo/udemy
+	myFiles
+1
+d/home/schizo/udemy/myFiles
+	forkify
+2
+d/home/schizo/udemy
+	complete-javascript-course
+3
+d/home/schizo/udemy/complete-javascript-course
+	99-bonus-1
+10
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
+	..
+0
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
+	..
+0
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
+	overview.html
+3
+d/home/schizo
+	udemy
+5
+d/home/schizo/udemy
+	complete-javascript-course
+3
+d/home/schizo/udemy/complete-javascript-course
+	99-bonus-1
+10
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
+	overview.html
+3
+d/home/schizo/udemy/complete-javascript-course/99-bonus-1
+	starter
+2
+d/home/schizo/udemy/complete-javascript-course
+	99-bonus-1
+10
+d/home/schizo
+	udemy
+5
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -808,8 +808,47 @@ D/home/schizo/udemy/myFiles/forkify
 	..
 0
 D/home/schizo
-	..
-0
+	udemy
+5
+D/home/schizo/udemy
+	myFiles
+1
+D/home/schizo/udemy/myFiles
+	nodeJSCrashCourse
+1
+D/home/schizo/udemy/myFiles/nodeJSCrashCourse
+	data
+1
+D/home/schizo
+	udemy
+5
+D/home/schizo/udemy
+	myFiles
+1
+D/home/schizo/udemy/myFiles
+	nodeJSCrashCourse
+1
+D/home/schizo/udemy/myFiles/nodeJSCrashCourse
+	templates
+1
+D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
+	laptop.html
+1
+D/home/schizo
+	udemy
+5
+D/home/schizo/udemy
+	myFiles
+1
+D/home/schizo/udemy/myFiles
+	nodeJSCrashCourse
+1
+D/home/schizo/udemy/myFiles/nodeJSCrashCourse
+	templates
+1
+D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
+	template-overview.html
+1
 
 # Command line history (oldest to newest):
 :filter! djvu
@@ -927,7 +966,6 @@ D/home/schizo
 :S
 :mkdir dump
 :mkdir desktop
-:mkdir templates
 :mkdir public
 :mkdir documents
 :!filter pdf
@@ -1007,10 +1045,11 @@ D/home/schizo
 :wq
 :e
 :mkdir myFiles
-:filter!
 :mkdir ftplugin
 :mkdir forkify
 :w
+:filter!
+:mkdir templates
 :q
 
 # Search history (oldest to newest):
@@ -1102,11 +1141,12 @@ D/home/schizo
 pabs
 pYouCompleteMe_old
 p04_lesson
+ptemplate-laptop
+ptemplate-overview
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_test.js
 
 # Directory stack (oldest to newest):
 
