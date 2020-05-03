@@ -621,7 +621,7 @@ d/home/schizo/udemy/complete-javascript-course
 10
 d/home/schizo
 	udemy
-5
+8
 
 # Right window history (oldest to newest):
 D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
@@ -849,9 +849,23 @@ D/home/schizo/udemy/myFiles/nodeJSCrashCourse
 D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
 	template-overview.html
 1
+D/home/schizo
+	.npm
+4
+D/home
+	schizo
+1
+D/home/schizo
+	downloads
+2
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	pdf
+2
 
 # Command line history (oldest to newest):
-:filter! djvu
 :mkdir anki
 :mkdir mine
 :!cp %f /home/schizo/
@@ -1051,6 +1065,7 @@ D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
 :filter!
 :mkdir templates
 :q
+:mkdir docs
 
 # Search history (oldest to newest):
 /font

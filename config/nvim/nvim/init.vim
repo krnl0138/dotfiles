@@ -46,9 +46,13 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'rakr/vim-one'
 Plug 'mhartington/oceanic-next'
 Plug 'joshdick/onedark.vim'
-
+" OTHER
 Plug 'aserebryakov/vim-todo-lists'
 
+" LATER
+" https://github.com/nkzawa/js-inspector.vim
+" https://github.com/dstein64/vim-win
+" https://github.com/dstein64/vim-startuptime
 "Plug 'tpope/vim-eunuch'
 "Plug 'dense-analysis/ale'
 "Plug 'ycm-core/YouCompleteMe'
