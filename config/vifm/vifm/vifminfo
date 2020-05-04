@@ -864,6 +864,48 @@ D/home/schizo/downloads
 D/home/schizo/downloads/books
 	pdf
 2
+D/home/schizo
+	downloads
+3
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
+11
+D/home/schizo
+	stuff
+1
+D/home/schizo/stuff
+	programming.md
+2
+D/home/schizo
+	stuff
+2
+D/home/schizo/personal
+	pictures
+1
+D/home/schizo/personal/pictures
+	..
+0
+D/home/schizo/personal
+	pictures
+1
+D/home/schizo
+	dump
+26
+D/home/schizo/dump
+	..
+0
+D/home/schizo/personal
+	pictures
+1
+D/home/schizo/personal/pictures
+	screenshots
+1
+D/home/schizo/personal/pictures/screenshots
+	2020-05-04-18-17-30.png
+3
 
 # Command line history (oldest to newest):
 :mkdir anki
