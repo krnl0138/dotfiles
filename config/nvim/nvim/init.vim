@@ -105,6 +105,12 @@ set lazyredraw            " do not redraw screen while macro is working
 set number relativenumber
 set nowrap
 set colorcolumn=80
+
+" COC jump do definition
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
+
+nnoremap <C-p> :GFiles<CR>
 " center after goto bookmark
 " May want to put in <nowait>
 nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"

@@ -906,6 +906,30 @@ D/home/schizo/personal/pictures
 D/home/schizo/personal/pictures/screenshots
 	2020-05-04-18-17-30.png
 3
+D/home/schizo
+	..
+0
+D/home/schizo/downloads
+	t_voice5292011316309919356.ogg
+24
+D/home/schizo
+	downloads
+1
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
+15
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Нил Стивенсон - Криптономикон 1.pdf
+10
+D/home/schizo/downloads
+	avidreaders.ru__anafem.pdf
+24
 
 # Command line history (oldest to newest):
 :mkdir anki
@@ -1204,6 +1228,7 @@ ptemplate-overview
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/schizo/.local/share/Trash/files/000_avidreaders.ru__anafem.pdf.zip
 
 # Directory stack (oldest to newest):
 
@@ -2330,6 +2355,8 @@ t/home/schizo/.local/share/Trash/files/000_bundle.js
 	/home/schizo/udemy/myFiles/forkify/dist/js/bundle.js
 t/home/schizo/.local/share/Trash/files/000_test.js
 	/home/schizo/udemy/myFiles/forkify/src/js/test.js
+t/home/schizo/.local/share/Trash/files/000_avidreaders.ru__anafem.pdf.zip
+	/home/schizo/downloads/avidreaders.ru__anafem.pdf.zip
 
 # State:
 f
