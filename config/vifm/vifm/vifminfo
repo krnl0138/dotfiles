@@ -930,6 +930,18 @@ D/home/schizo/downloads/books
 D/home/schizo/downloads
 	avidreaders.ru__anafem.pdf
 24
+D/home/schizo
+	downloads
+2
+D/home/schizo/personal
+	pictures
+1
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	William Gibson - Neuromancer (Remembering Tomorrow) (1984).pdf
+15
 
 # Command line history (oldest to newest):
 :mkdir anki
@@ -1228,7 +1240,7 @@ ptemplate-overview
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_avidreaders.ru__anafem.pdf.zip
+""/home/schizo/.local/share/Trash/files/000_Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
 
 # Directory stack (oldest to newest):
 
@@ -2357,6 +2369,14 @@ t/home/schizo/.local/share/Trash/files/000_test.js
 	/home/schizo/udemy/myFiles/forkify/src/js/test.js
 t/home/schizo/.local/share/Trash/files/000_avidreaders.ru__anafem.pdf.zip
 	/home/schizo/downloads/avidreaders.ru__anafem.pdf.zip
+t/home/schizo/.local/share/Trash/files/000_Кратенко М.В. - Злоупотребление свободой договора_ частноправовые и публично-правовые аспекты  .pdf
+	/home/schizo/downloads/books/Кратенко М.В. - Злоупотребление свободой договора_ частноправовые и публично-правовые аспекты  .pdf
+t/home/schizo/.local/share/Trash/files/000_j.pdf
+	/home/schizo/downloads/books/j.pdf
+t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil__Lavina_www.Litmir.net_26048_ltr.epub
+	/home/schizo/downloads/books/Stivenson_Nil__Lavina_www.Litmir.net_26048_ltr.epub
+t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
+	/home/schizo/downloads/books/Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
 
 # State:
 f

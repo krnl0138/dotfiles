@@ -25,6 +25,7 @@ Plug 'vifm/vifm.vim'
 Plug 'lervag/vimtex'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'conornewton/vim-pandoc-markdown-preview',
+Plug 'aserebryakov/vim-todo-lists'
 " SNIPPETS
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -47,7 +48,8 @@ Plug 'rakr/vim-one'
 Plug 'mhartington/oceanic-next'
 Plug 'joshdick/onedark.vim'
 " OTHER
-Plug 'aserebryakov/vim-todo-lists'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 " LATER
 " https://github.com/nkzawa/js-inspector.vim
@@ -59,7 +61,7 @@ Plug 'aserebryakov/vim-todo-lists'
 "Plug 'janko/vim-test'
 
 "Plug 'ervandew/supertab'
-"Plug 'tpope/vim-markdown'
+" Plug 'tpope/vim-markdown'
 "Plug 'dylanaraps/wal.vim'
 "Plug 'machakann/vim-sandwich'
 "Plug 'whiteinge/diffconflicts'
@@ -150,6 +152,18 @@ autocmd FileType html inoremap <buffer> ` ``<Esc>i
 " set scrolloff=999        " center everything
 highlight colorcolumn ctermbg=0 guibg=#141414
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+" set foldmethod=manual
+" set foldcolumn=1
+" highlight Folded ctermbg=NONE
+" highlight FoldColumn ctermbg=NONE
+" let g:markdown_folding=1
+" let g:markdown_enable_folding=1
+let g:vim_markdown_folding_level = 2
+" let g:vim_markdown_conceal = 0
+" let g:vim_markdown_fenced_languages = ['javascript=js']
+let g:vim_markdown_fenced_languages = ['js=javascript']
+let g:vim_markdown_new_list_item_indent = 2
 
 " COLORS
 set termguicolors
