@@ -113,6 +113,7 @@ nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 
 nnoremap <C-p> :GFiles<CR>
+
 " center after goto bookmark
 " May want to put in <nowait>
 nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"
@@ -153,17 +154,13 @@ autocmd FileType html inoremap <buffer> ` ``<Esc>i
 highlight colorcolumn ctermbg=0 guibg=#141414
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
-" set foldmethod=manual
-" set foldcolumn=1
-" highlight Folded ctermbg=NONE
-" highlight FoldColumn ctermbg=NONE
-" let g:markdown_folding=1
-" let g:markdown_enable_folding=1
-let g:vim_markdown_folding_level = 2
-" let g:vim_markdown_conceal = 0
-" let g:vim_markdown_fenced_languages = ['javascript=js']
+" settings for vim-markdown
+let g:vim_markdown_folding_level = 3
+let g:vim_markdown_override_foldtext = 1
+let g:vim_markdown_folding_style_pythonic = 1
 let g:vim_markdown_fenced_languages = ['js=javascript']
 let g:vim_markdown_new_list_item_indent = 2
+
 
 " COLORS
 set termguicolors
