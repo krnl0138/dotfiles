@@ -17,9 +17,9 @@ Plug 'bling/vim-bufferline'
 Plug 'itchyny/lightline.vim'
 " NAVIGATION
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-vinegar'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'majutsushi/tagbar'
-Plug 'tpope/vim-vinegar'
 Plug 'vifm/vifm.vim'
 " EXTENTIONS
 Plug 'lervag/vimtex'
@@ -30,11 +30,12 @@ Plug 'aserebryakov/vim-todo-lists'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 " FILE EDITING
-Plug '907th/vim-auto-save'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'junegunn/vim-easy-align'
+Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
+Plug '907th/vim-auto-save'
+Plug 'junegunn/vim-easy-align'
 Plug 'Yggdroot/indentLine' " add vert lines at indent
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 " COLORSCHEMES
@@ -55,36 +56,20 @@ Plug 'plasticboy/vim-markdown'
 " https://github.com/nkzawa/js-inspector.vim
 " https://github.com/dstein64/vim-win
 " https://github.com/dstein64/vim-startuptime
-"Plug 'tpope/vim-eunuch'
 "Plug 'dense-analysis/ale'
 "Plug 'ycm-core/YouCompleteMe'
 "Plug 'janko/vim-test'
 
+" REMOVED
 "Plug 'ervandew/supertab'
-" Plug 'tpope/vim-markdown'
+"Plug 'tpope/vim-markdown'
 "Plug 'dylanaraps/wal.vim'
 "Plug 'machakann/vim-sandwich'
 "Plug 'whiteinge/diffconflicts'
 call plug#end()
 
-
-" HJKL; with JKL:'
-noremap h h
-noremap j j
-noremap k k
-noremap l l
 noremap ; :
 noremap ; :
-" noremap j h
-" noremap k j
-" noremap l k
-" noremap ; l
-" noremap : '
-
-" noremap ' :
-" nnoremap ; :
-" nnoremap : ;
-
 
 " SET OPTIONS
 """""""""""""
@@ -306,7 +291,6 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     inoremap 11 <esc>
     vnoremap 11 <esc>
     inoremap kj <esc>
-    " inoremap ii <ESC>
 " BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
