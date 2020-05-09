@@ -1074,6 +1074,42 @@ D/home/schizo/udemy/myFiles/react_course/react-complete-guide/public
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 	package.json
 7
+D/home/schizo
+	udemy
+12
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Eric Elliott - Composing Software (2019, Leanpub).pdf
+18
+D/home/schizo
+	udemy
+12
+D/home/schizo/.config
+	fish
+10
+D/home/schizo/.config/fish
+	completions
+1
+D/home/schizo/.config/fish/completions
+	..
+0
+D/home/schizo/.config/fish
+	functions
+3
+D/home/schizo/.config/fish/functions
+	blog_trash.fish
+17
+D/home/schizo
+	udemy
+12
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
+19
 
 # Command line history (oldest to newest):
 :mkdir anki
@@ -1278,6 +1314,7 @@ D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 :mkdir docs
 
 # Search history (oldest to newest):
+/fi
 /font
 /vifm
 /usr
@@ -1342,7 +1379,6 @@ D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 /git
 /ll
 /imv
-/fish
 /cfg_f
 /scrip
 /dotfi
@@ -1362,6 +1398,7 @@ D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 /nvim
 /local
 /ude
+/fish
 
 # Prompt history (oldest to newest):
 pabs
