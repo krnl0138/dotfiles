@@ -27,18 +27,6 @@ d/home/schizo/downloads/video
 2
 d/home/schizo/downloads
 	video
-13
-d/home/schizo/downloads/video
-	P09iWgQQ6_9ArC5HazrAUQ.webp
-2
-d/home/schizo/downloads
-	video
-12
-d/home/schizo/downloads/video
-	n-y6TT6T-4XDXbo5N7GY5Q.webp
-2
-d/home/schizo/downloads
-	video
 12
 d/home/schizo/downloads/video
 	P09iWgQQ6_9ArC5HazrAUQ.webp
@@ -622,86 +610,20 @@ d/home/schizo/udemy/complete-javascript-course
 d/home/schizo
 	udemy
 8
+d/home/schizo/dotfiles/config/nvim/nvim
+	plugins
+2
+d/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	..
+0
+d/home/schizo/dotfiles/config/nvim/nvim
+	plugins
+2
+d/home/schizo
+	udemy
+8
 
 # Right window history (oldest to newest):
-D/home/gppk/Downloads/zips/Deus Ex: GOTY [x86] [Wine] [ENG  RUS]/DeusEx/prefix/dosdevices/c:/users/gppk/My Documents/Deus Ex
-	System
-1
-D/home/schizo/personal/pictures/screenshots
-	2020-04-02-174925.png
-1
-D/home/schizo
-	thaaszagren
-14
-D/home/schizo/.config
-	fontconfig
-14
-D/home/schizo/.config/fontconfig
-	fonts
-1
-D/home/schizo/.config/fontconfig/fonts
-	..
-0
-D/home/schizo/.config/fontconfig
-	fonts
-1
-D/home/schizo/.config
-	fontconfig
-14
-D/home/schizo/.config/fontconfig
-	fonts
-1
-D/home/schizo/.config/fontconfig/fonts
-	..
-0
-D/home/schizo/thaaszagren/assets
-	thaaszagren2x.jpg
-3
-D/home/schizo/thaaszagren
-	assets
-1
-D/home/schizo/thaaszagren/assets
-	thaaszagren2x.jpg
-3
-D/home/schizo/personal
-	pictures
-5
-D/home/schizo/personal/pictures
-	thaas_1
-2
-D/home/schizo/personal/pictures/thaas_1
-	960.png
-9
-D/home/schizo/personal/pictures
-	thaas_1
-2
-D/home/schizo/personal/pictures/thaas_1
-	960.png
-9
-D/home/schizo/personal/pictures
-	thaas_1
-2
-D/home/schizo/personal/pictures/thaas_1
-	960.png
-14
-D/home/schizo/personal/pictures
-	pierro
-1
-D/home/schizo/personal/pictures/pierro
-	..
-0
-D/home/schizo/personal/pictures
-	screenshots
-4
-D/home/schizo/personal/pictures/screenshots
-	orlando
-1
-D/home/schizo/personal/pictures/screenshots/orlando
-	1
-1
-D/home/schizo/personal/pictures/screenshots/orlando/1
-	2020-04-05-20-26-28.png
-9
 D/home/schizo/personal/pictures/screenshots
 	..
 0
@@ -1110,15 +1032,200 @@ D/home/schizo/downloads
 D/home/schizo/downloads/books
 	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
 19
+D/home/schizo
+	udemy
+13
+D/home/schizo/udemy
+	myFiles
+1
+D/home/schizo/udemy/myFiles
+	react_course
+1
+D/home/schizo/udemy/myFiles/react_course
+	react-complete-guide
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	src
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+3
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	containers
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
+	App.css
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	assets
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/assets
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+3
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	src
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	containers
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
+	App.js
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	containers
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	public
+5
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/public
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	scripts
+4
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/scripts
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	node_modules
+3
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/node_modules
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	config
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config
+	jest
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config/jest
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config
+	jest
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	src
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons/Person
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons/Person
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
+	Person
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Persons
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Cockpit
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Cockpit
+	..
+0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Cockpit
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	containers
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
+	App.css
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
+	components
+2
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
+	Cockpit
+1
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Cockpit
+	Cockpit.css
+2
+D/home/schizo
+	udemy
+13
+D/home/schizo/downloads
+	video
+2
+D/home/schizo/downloads/video
+	..
+0
+D/home/schizo/downloads
+	books
+1
+D/home/schizo/downloads/books
+	Marie Kondo - Spark Joy_ An Illustrated Master Class on the Art of Organizing and Tidying Up-Ten Speed Press (2016).epub
+9
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	src
+1
+D/home/schizo
+	stuff
+2
+D/home/schizo/stuff
+	programming.md
+4
 
 # Command line history (oldest to newest):
-:mkdir anki
-:mkdir mine
-:!cp %f /home/schizo/
-:!scp %f /home/schizo/
-:!scp schizo@gegege/%f /home/schizo/
-:!scp schizo@gegege %f /home/schizo/
-:mkdir rars
 :mkdir archives
 :mkdir txts
 :mkdir xlsxs
@@ -1310,8 +1417,15 @@ D/home/schizo/downloads/books
 :w
 :filter!
 :mkdir templates
-:q
 :mkdir docs
+:mkdir components
+:mkdir assets
+:mkdir containers
+:mkdir Persons
+:!touch Persons.js
+:mkdir Cockpit
+:!touch Cockpit.js
+:q
 
 # Search history (oldest to newest):
 /fi
@@ -1410,6 +1524,7 @@ ptemplate-overview
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/schizo/.local/share/Trash/files/000_hangman.js
 
 # Directory stack (oldest to newest):
 
@@ -2546,6 +2661,8 @@ t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil__Lavina_www.Litmir.net_
 	/home/schizo/downloads/books/Stivenson_Nil__Lavina_www.Litmir.net_26048_ltr.epub
 t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
 	/home/schizo/downloads/books/Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
+t/home/schizo/.local/share/Trash/files/000_hangman.js
+	/home/schizo/udemy/myFiles/react_course/react-complete-guide/hangman.js
 
 # State:
 f

@@ -13,44 +13,35 @@ call plug#begin('~/.config/nvim/plugins')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 " STATUSLINE
-Plug 'bling/vim-bufferline'
 Plug 'itchyny/lightline.vim'
 " NAVIGATION
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-vinegar'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'majutsushi/tagbar'
-Plug 'vifm/vifm.vim'
+Plug 'bling/vim-bufferline'
 " EXTENTIONS
-Plug 'lervag/vimtex'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
-Plug 'conornewton/vim-pandoc-markdown-preview',
 Plug 'aserebryakov/vim-todo-lists'
+Plug 'lervag/vimtex' " compiling .tex
+Plug 'plasticboy/vim-markdown' " folding, fenced syntax, etc.
+Plug 'godlygeek/tabular' "needed for above
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } " browser
+Plug 'conornewton/vim-pandoc-markdown-preview' " no russian
 " SNIPPETS
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 " FILE EDITING
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
+Plug 'machakann/vim-sandwich'
 Plug '907th/vim-auto-save'
 Plug 'junegunn/vim-easy-align'
 Plug 'Yggdroot/indentLine' " add vert lines at indent
-Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 " COLORSCHEMES
 Plug 'morhetz/gruvbox'
-Plug 'caksoylar/vim-mysticaltutor'
-Plug 'tomasiser/vim-code-dark'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'ayu-theme/ayu-vim'
-Plug 'arcticicestudio/nord-vim'
-Plug 'rakr/vim-one'
-Plug 'mhartington/oceanic-next'
 Plug 'joshdick/onedark.vim'
 " OTHER
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
 
 " LATER
 " https://github.com/nkzawa/js-inspector.vim
@@ -61,15 +52,11 @@ Plug 'plasticboy/vim-markdown'
 "Plug 'janko/vim-test'
 
 " REMOVED
-"Plug 'ervandew/supertab'
-"Plug 'tpope/vim-markdown'
-"Plug 'dylanaraps/wal.vim'
-"Plug 'machakann/vim-sandwich'
-"Plug 'whiteinge/diffconflicts'
+" Plug 'tpope/vim-surround'
 call plug#end()
 
 noremap ; :
-noremap ; :
+noremap : ;
 
 " SET OPTIONS
 """""""""""""
@@ -87,7 +74,7 @@ set foldcolumn=2          " visible level of folds in sidebar
 set title                 " change the terminal's title
 set pumblend=20           " set pum background visibility to 20 percent
 set splitbelow            " Open new split panes to right and bottom, which feels more natural
-set splitright
+" set splitright
 set lazyredraw            " do not redraw screen while macro is working
 set number relativenumber
 set nowrap
@@ -104,8 +91,7 @@ nnoremap <C-p> :GFiles<CR>
 nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"
 nnoremap <expr> ` "`" . nr2char(getchar()) . "zz"
 " Delete in insert mode
-" inoremap <C-d> <Del>
-inoremap <C-d> <Esc>xi
+inoremap <C-d> <BS>
 " Center screen on next/previous selection.
 nnoremap n nzz
 nnoremap N Nzz
@@ -146,11 +132,11 @@ let g:vim_markdown_folding_style_pythonic = 1
 let g:vim_markdown_fenced_languages = ['js=javascript']
 let g:vim_markdown_new_list_item_indent = 2
 
-
 " COLORS
 set termguicolors
 colorscheme onedark
 set bg=dark
+" for transparent bg
 " hi Normal ctermbg=none
 " hi Terminal ctermbg=none
 " hi Terminal guibg=none
@@ -191,9 +177,6 @@ set bg=dark
 " switch through tabs with ctrl
     noremap <C-h> gT
     noremap <C-l> gt
-    " noremap <C-j> gt
-    " nnoremap <C-;> gT
-    " nnoremap <s-tab> gt
     nnoremap <C-t> :tabnew<cr>
 " move around splits with shift-hjkl
     noremap <silent><s-k> <c-w><up>
@@ -204,15 +187,6 @@ set bg=dark
     tnoremap <silent><s-j> <c-\><c-n><c-w>j
     tnoremap <silent><s-k> <c-\><c-n><c-w>k
     tnoremap <silent><s-l> <c-\><c-n><c-w>l
-    " " jkl: version
-    " nnoremap <silent><s-j> <c-w><left>
-    " nnoremap <silent><s-k> <c-w><down>
-    " nnoremap <silent><s-l> <c-w><up>
-    " nnoremap <silent>: <c-w><right>
-    " tnoremap <silent><s-j> <c-\><c-n><c-w>j
-    " tnoremap <silent><s-k> <c-\><c-n><c-w>k
-    " tnoremap <silent><s-l> <c-\><c-n><c-w>l
-    " tnoremap <silent>: <c-\><c-n><c-w>;
   " easily escape terminal
     tnoremap <leader><esc> <C-\><C-n><esc><cr>
     tnoremap <C-o> <C-\><C-n><esc><cr>
@@ -245,19 +219,14 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     vmap Q gq
     nmap Q gqap
 " Enter for newline
-    nmap <S-Enter> O<Esc>
+    nmap <s-CR> O<Esc>
     nmap <CR> o<Esc>
 " VIMRC SOURCE
     nnoremap <leader>ev :vsp $MYVIMRC<CR>
     nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
 " MOVE VISUAL RANGE AROUND
-    " vnoremap <c-j> :m '>+1<CR>gv=gv
-    " vnoremap <c-k> :m '<-2<CR>gv=gv
-    " jkl; version
     vnoremap <c-j> :m '>+1<CR>gv=gv
     vnoremap <c-k> :m '<-2<CR>gv=gv
-    " vnoremap <c-h> <gv
-    " vnoremap <c-l> >gv
 " N TO SEARCH FORWARD AND N BACKWARD
     " nnoremap <expr> n  'Nn'[v:searchforward]
     " xnoremap <expr> n  'Nn'[v:searchforward]
@@ -284,23 +253,15 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
     nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
 
 " EXIT FROM EDIT MODE
-    " nnoremap qq :wq<cr>
-    " nnoremap qq :qa!<cr>
-    inoremap jk <esc>
-    inoremap jj <esc>
+    inoremap ;; <esc>
+    vnoremap ;; <esc>
     inoremap 11 <esc>
     vnoremap 11 <esc>
-    inoremap kj <esc>
 " BETTER INDENTATION
     vnoremap < <gv
     vnoremap > >gv
     nnoremap > >>
     nnoremap < <<
-" EASIER NAVIGATION
-    " noremap K {
-    " noremap J }
-    " noremap H g^
-    " noremap L g_
 
 " BIB
     autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
@@ -309,8 +270,8 @@ autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trai
 
 " FOLDS
 " Toggle open/close on spacebar
-    nnoremap , zA
-    vnoremap , zf
+    nnoremap <leader>, za
+    vnoremap <leader>, zf
     autocmd BufWrite * mkview " Save folds
     autocmd BufRead * silent! loadview
 
@@ -409,81 +370,71 @@ endfunction
     let g:UltiSnipsEditSplit ="<vertical>"
 
 " EASYALIGN
-    " Start interactive EasyAlign in visual mode (e.g. vipga)
+    " start in visual (e.g. vipga) & for a motion/text object (e.g. gaip)
     xmap ga <Plug>(EasyAlign)
-    " Start interactive EasyAlign for a motion/text object (e.g. gaip)
     nmap ga <Plug>(EasyAlign)
 
-" " NETRW
-" " https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim
-" let g:netrw_banner = 0
-" let g:netrw_liststyle = 3
-" let g:netrw_browse_split = 4
-" let g:netrw_winsize = 20
+" NETRW
+" https://github.com/BrodieRobertson/dotfiles/blob/master/config/nvim/init.vim
+" https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f
+let g:netrw_banner = 0
+let g:netrw_browse_split = 2
+let g:netrw_winsize = 25
+let g:netrw_liststyle = 3
 
-" function! OpenToRight()
-"   :normal v
-"   let g:path=expand('%:p')
-"   :q!
-"   execute 'belowright vnew' g:path
-"   :normal <C-l>
-" endfunction
+  nnoremap <silent> <leader>f :call ToggleNetrw()<CR>
+  " Allow for netrw to be toggled
+  let g:NetrwIsOpen=0
+  function! ToggleNetrw()
+      if g:NetrwIsOpen
+          let i = bufnr("$")
+          while (i >= 1)
+              if (getbufvar(i, "&filetype") == "netrw")
+                  silent exe "bwipeout " . i
+              endif
+              let i-=1
+          endwhile
+          let g:NetrwIsOpen=0
+      else
+          let g:NetrwIsOpen=1
+          silent Lexplore
+      endif
+  endfunction
 
-" function! OpenBelow()
-"   :normal v
-"   let g:path=expand('%:p')
-"   :q!
-"   execute 'belowright new' g:path
-"   :normal <C-l>
-" endfunction
+  function! NetrwMappings()
+      nnoremap <silent> <leader>f :call ToggleNetrw()<CR>
+      nnoremap <buffer> V :call OpenToRight()<cr>
+      nnoremap <buffer> H :call OpenBelow()<cr>
+  endfunction
 
+  augroup netrw_mappings
+      autocmd filetype netrw call NetrwMappings()
+  augroup END
 
-" noremap <S-f> :call ToggleNetrw()<CR>
-" function! NetrwMappings()
-"     " Hack fix to make ctrl-l work properly
-"     noremap <buffer> <C-l> <C-w>l
-"     noremap <S-f> :call ToggleNetrw()<CR>
-"     noremap <buffer> V :call OpenToRight()<cr>
-"     noremap <buffer> H :call OpenBelow()<cr>
-" endfunction
+ " Check before opening buffer on any file
+  function! NetrwOnBufferOpen()
+    if exists('b:noNetrw')
+        return
+    endif
+    call ToggleNetrw()
+  endfun
 
-" augroup netrw_mappings
-    " autocmd!
-    " autocmd filetype netrw call NetrwMappings()
-" augroup END
+  function! OpenToRight()
+    :normal v
+    let g:path=expand('%:p')
+    :q!
+    execute 'belowright vnew' g:path
+  endfunction
 
-" " Allow for netrw to be toggled
-" function! ToggleNetrw()
-"     if g:NetrwIsOpen
-"         let i = bufnr("$")
-"         while (i >= 1)
-"             if (getbufvar(i, "&filetype") == "netrw")
-"                 silent exe "bwipeout " . i
-"             endif
-"             let i-=1
-"         endwhile
-"         let g:NetrwIsOpen=0
-"     else
-"         let g:NetrwIsOpen=1
-"         silent Lexplore
-"     endif
-" endfunction
+  function! OpenBelow()
+    :normal v
+    let g:path=expand('%:p')
+    :q!
+    execute 'belowright new' g:path
+  endfunction
 
-" " Close Netrw if it's the only buffer open
-" autocmd WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "netrw" || &buftype == 'quickfix' |q|endif
-
-" " Make netrw act like a project Draw
-" " augroup ProjectDrawer
-"    autocmd!
-"    autocmd VimEnter * :call ToggleNetrw()
-" " augroup END
-
-" let g:NetrwIsOpen=0
-
-" " VIM FZF
-"     command! Fd call fzf#run(fzf#wrap({'source': 'fd -t f -H . /'}))
-"     command! Fd call fzf#run(fzf#wrap({'source': 'locate /'}))
-"     noremap <leader>f :Fd<CR>
+  " Close Netrw if it's the only buffer open
+  autocmd WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "netrw" || &buftype == 'quickfix' |q|endif
 
 " FZF{{{
     nnoremap <c-t> :Tags<cr>
@@ -491,7 +442,7 @@ endfunction
     nnoremap <silent><c-f> :Files ~<CR>
     nnoremap <c-b> :Buffers<cr>
 
-    let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git}"'
+    let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git,backupdir}"'
     let $FZF_DEFAULT_OPTS    = ' --color=dark --color=fg:15,bg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
 
     " let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
@@ -534,7 +485,7 @@ endfunction
     let g:auto_save_silent = 1
     let g:auto_save_events = ["InsertLeave", "TextChanged"]
 
-" VIM-AUTO-SAVE & VIM-PANDOC-MARKDOWN-PREVIEW
+" VIM-PANDOC-MARKDOWN-PREVIEW (PDF + vim-auto_save)
     function Autosave_markdown_preview()
         :StartMdPreview
         let g:auto_save = 1
@@ -543,7 +494,7 @@ endfunction
     endfunction
     nnoremap <leader>P :call Autosave_markdown_preview()<CR>
 
-" MARKDOWN PREVIEW
+" MARKDOWN PREVIEW (browser)
     let g:mkdp_browser = 'brave'
     nnoremap <leader>p :MarkdownPreview<CR>
 
