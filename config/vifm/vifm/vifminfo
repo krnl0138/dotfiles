@@ -19,12 +19,9 @@ v2
 ov
 m-1
 l-10,2
-r-10,2
+r2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads/video
-	n-y6TT6T-4XDXbo5N7GY5Q.webp
-2
 d/home/schizo/downloads
 	video
 12
@@ -622,89 +619,11 @@ d/home/schizo/dotfiles/config/nvim/nvim
 d/home/schizo
 	udemy
 8
+d/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	..
+0
 
 # Right window history (oldest to newest):
-D/home/schizo/personal/pictures/screenshots
-	..
-0
-D/home/schizo/personal/pictures
-	FdV22_cKYXY.jpg
-14
-D/home/schizo/personal
-	pictures
-5
-D/home/schizo/personal/pictures
-	screenshots
-2
-D/home/schizo/personal/pictures/screenshots
-	abs
-1
-D/home/schizo/personal/pictures/screenshots/abs
-	2020-04-06-180324.png
-1
-D/home/schizo/personal/pictures/screenshots
-	abs_old
-2
-D/home/schizo/personal/pictures/screenshots/abs_old
-	abs.png
-1
-D/home/gppk/.config
-	fish
-8
-D/home/gppk
-	scripts
-19
-D/home/gppk/scripts
-	trash_notification.sh
-1
-D/home/gppk
-	scripts
-16
-D/home/gppk/.local/share/Trash/files
-	000_000_colors-waybar.css
-6
-D/home/gppk/.local/share/Trash
-	files
-1
-D/home/gppk/.local/share/Trash/files
-	Nikola_Lenivets.zip
-8
-D/home
-	..
-0
-D/home/schizo
-	thaaszagren
-11
-D/home/schizo/personal
-	university
-2
-D/home/schizo
-	personal
-14
-D/home
-	schizo
-1
-D/home/schizo
-	.local
-14
-D/home/schizo/.local
-	share
-1
-D/home/schizo/.local/share
-	nvim
-1
-D/home/schizo/.local/share/nvim
-	backupdir
-1
-D/home/schizo/.local/share/nvim/backupdir
-	swp
-1
-D/home/schizo/.local/share/nvim/backupdir/swp
-	vifmrc.swp
-1
-D/home/schizo/.local/share/nvim/backupdir
-	swp
-1
 D/home/schizo/.local/share/nvim
 	backupdir
 3
@@ -1224,6 +1143,87 @@ D/home/schizo
 D/home/schizo/stuff
 	programming.md
 4
+D/home/schizo
+	stuff
+2
+D/home/schizo/.config
+	fish
+10
+D/home/schizo/.config/fish
+	functions
+3
+D/home/schizo/.config
+	nvim
+22
+D/home/schizo/.config/nvim
+	plugins
+3
+D/home/schizo/.config
+	nvim
+22
+D/home/schizo
+	.local
+12
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+24
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+24
+D/home/schizo/.local/share/nvim
+	backupdir
+1
+D/home/schizo/.local/share/nvim/backupdir
+	swp
+2
+D/home/schizo/.local/share/nvim
+	shada
+2
+D/home/schizo/.local/share/nvim/shada
+	..
+0
+D/home/schizo/.local/share/nvim
+	backupdir
+1
+D/home/schizo
+	.local
+12
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	fish
+15
+D/home/schizo/.local/share/fish
+	..
+0
+D/home/schizo/.local/share
+	data
+13
+D/home/schizo/.local/share/data
+	..
+0
+D/home/schizo/.local/share
+	vlc
+29
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	node_modules
+2
+D/home/schizo/udemy/myFiles/react_course
+	react-complete-guide
+4
+D/home/schizo/udemy/myFiles
+	react_course
+2
+D/home/schizo/udemy
+	challenge7.js
+5
 
 # Command line history (oldest to newest):
 :mkdir archives
@@ -1509,10 +1509,11 @@ D/home/schizo/stuff
 /истор
 /dot
 /light
-/nvim
 /local
 /ude
 /fish
+/nvim
+/.local
 
 # Prompt history (oldest to newest):
 pabs
