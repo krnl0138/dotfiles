@@ -7,14 +7,18 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +53 dotfiles/config/nvim/nvim/init.vim
-badd +13 stuff/vim_tips.md
-badd +58 linux.todo
-badd +184 stuff/programming.md
+badd +13 dotfiles/config/nvim/nvim/init.vim
+badd +30 stuff/vim_tips.md
+badd +57 linux.todo
+badd +520 stuff/programming.md
+badd +248 stuff/eloquent_js_haverbeke.md
+badd +427 stuff/composing_software_elliot.md
+badd +190 playground.js
+badd +586 udemy/myFiles/react_course/notes.md
 argglobal
 %argdel
 $argadd dotfiles/config/nvim/nvim/init.vim
-edit stuff/programming.md
+edit udemy/myFiles/react_course/notes.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -26,43 +30,17 @@ setlocal fdm=expr
 setlocal fde=Foldexpr_markdown(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=3
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
 1
 normal! zo
-57
-normal! zo
-155
-normal! zo
-205
-normal! zo
-205
-normal! zc
-243
-normal! zo
-245
-normal! zo
-320
-normal! zo
-324
-normal! zo
-372
-normal! zo
-414
-normal! zo
-431
-normal! zo
-439
-normal! zo
-320
-normal! zc
-let s:l = 1 - ((0 * winheight(0) + 18) / 36)
+let s:l = 590 - ((34 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+590
 normal! 0
 lcd ~/udemy/myFiles/react_course/react-complete-guide
 tabnext 1

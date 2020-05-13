@@ -42,6 +42,7 @@ Plug 'Yggdroot/indentLine' " add vert lines at indent
 " COLORSCHEMES
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
+Plug 'drewtempelmeyer/palenight.vim'
 " OTHER
 
 " LATER
@@ -74,7 +75,7 @@ call plug#end()
     set lazyredraw            " do not redraw screen while macro is working
     set number relativenumber
     set nowrap
-    set colorcolumn="80,121"
+    set colorcolumn=80
     highlight colorcolumn ctermbg=0 guibg=#141414
     set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 

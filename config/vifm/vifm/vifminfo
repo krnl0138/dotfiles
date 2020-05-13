@@ -624,42 +624,6 @@ d/home/schizo/udemy/myFiles/react_course/react-complete-guide
 0
 
 # Right window history (oldest to newest):
-D/home/schizo/.local/share/nvim
-	backupdir
-3
-D/home/schizo/personal
-	pictures
-1
-D/home/schizo/personal/pictures
-	true_love_be_like.png
-6
-D/home/schizo/voidrice
-	..
-0
-D/home/schizo
-	.cargo
-5
-D/home/schizo/udemy
-	
-0
-D/home/schizo
-	..
-0
-D/home/schizo/udemy/myFiles/forkify
-	..
-0
-D/home/schizo
-	udemy
-5
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	nodeJSCrashCourse
-1
-D/home/schizo/udemy/myFiles/nodeJSCrashCourse
-	data
-1
 D/home/schizo
 	udemy
 5
@@ -1224,6 +1188,42 @@ D/home/schizo/udemy/myFiles
 D/home/schizo/udemy
 	challenge7.js
 5
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	node_modules
+2
+D/home/schizo/.config
+	obs-studio
+23
+D/home/schizo
+	.config
+5
+D/home
+	schizo
+2
+D/home/schizo
+	.local
+12
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+21
+D/home/schizo/.local/share/nvim
+	backupdir
+1
+D/home/schizo/.local/share/nvim/backupdir
+	swp
+2
+D/home/schizo/.local/share/nvim/backupdir/swp
+	timer.sh.swp
+29
+D/home/schizo/.local/share/nvim/backupdir
+	undo
+3
+D/home/schizo/.local/share/nvim/backupdir/undo
+	..
+0
 
 # Command line history (oldest to newest):
 :mkdir archives
@@ -1466,7 +1466,6 @@ D/home/schizo/udemy
 /fzf
 /pics
 /note
-/loca
 /deter
 /al
 /dente
@@ -1514,6 +1513,9 @@ D/home/schizo/udemy
 /fish
 /nvim
 /.local
+/loca
+/nv
+/jon
 
 # Prompt history (oldest to newest):
 pabs
