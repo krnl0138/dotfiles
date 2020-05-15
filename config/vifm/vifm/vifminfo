@@ -22,9 +22,6 @@ l-10,2
 r2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads
-	video
-12
 d/home/schizo/downloads/video
 	P09iWgQQ6_9ArC5HazrAUQ.webp
 2
@@ -622,131 +619,11 @@ d/home/schizo
 d/home/schizo/udemy/myFiles/react_course/react-complete-guide
 	..
 0
+d/home/schizo
+	udemy
+5
 
 # Right window history (oldest to newest):
-D/home/schizo
-	udemy
-5
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	nodeJSCrashCourse
-1
-D/home/schizo/udemy/myFiles/nodeJSCrashCourse
-	templates
-1
-D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
-	laptop.html
-1
-D/home/schizo
-	udemy
-5
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	nodeJSCrashCourse
-1
-D/home/schizo/udemy/myFiles/nodeJSCrashCourse
-	templates
-1
-D/home/schizo/udemy/myFiles/nodeJSCrashCourse/templates
-	template-overview.html
-1
-D/home/schizo
-	.npm
-4
-D/home
-	schizo
-1
-D/home/schizo
-	downloads
-2
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	pdf
-2
-D/home/schizo
-	downloads
-3
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
-11
-D/home/schizo
-	stuff
-1
-D/home/schizo/stuff
-	programming.md
-2
-D/home/schizo
-	stuff
-2
-D/home/schizo/personal
-	pictures
-1
-D/home/schizo/personal/pictures
-	..
-0
-D/home/schizo/personal
-	pictures
-1
-D/home/schizo
-	dump
-26
-D/home/schizo/dump
-	..
-0
-D/home/schizo/personal
-	pictures
-1
-D/home/schizo/personal/pictures
-	screenshots
-1
-D/home/schizo/personal/pictures/screenshots
-	2020-05-04-18-17-30.png
-3
-D/home/schizo
-	..
-0
-D/home/schizo/downloads
-	t_voice5292011316309919356.ogg
-24
-D/home/schizo
-	downloads
-1
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
-15
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Нил Стивенсон - Криптономикон 1.pdf
-10
-D/home/schizo/downloads
-	avidreaders.ru__anafem.pdf
-24
-D/home/schizo
-	downloads
-2
-D/home/schizo/personal
-	pictures
-1
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	William Gibson - Neuromancer (Remembering Tomorrow) (1984).pdf
-15
 D/home/schizo
 	downloads
 2
@@ -1224,9 +1101,131 @@ D/home/schizo/.local/share/nvim/backupdir
 D/home/schizo/.local/share/nvim/backupdir/undo
 	..
 0
+D/home/schizo/udemy/myFiles/react_course/react-complete-guide
+	node_modules
+2
+D/home/schizo/udemy/myFiles/react_course
+	react-complete-guide
+4
+D/home/schizo/udemy/myFiles
+	react_course
+2
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+4
+D/home/schizo/udemy/steele_webdev_bootcamp
+	..
+0
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+4
+D/home/schizo/udemy/steele_webdev_bootcamp
+	2015-10-28_18-26-05__pokemondata
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/2015-10-28_18-26-05__pokemondata
+	pokemondata.txt
+1
+D/home/schizo
+	.local
+12
+D/home/schizo/downloads
+	..
+0
+D/home/schizo
+	udemy
+26
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+4
+D/home/schizo/udemy/steele_webdev_bootcamp
+	ex1
+3
+D/home/schizo/udemy/steele_webdev_bootcamp/ex1
+	__MACOSX
+2
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	assignment_1.html
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	ex1
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	ex1
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	selectors.css
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	__MACOSX
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	ex1
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	ex1
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	09_Selector_Exercise_Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	ex1
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
+	selectors.css
+1
 
 # Command line history (oldest to newest):
-:mkdir archives
 :mkdir txts
 :mkdir xlsxs
 :goto ~/pics
@@ -1426,6 +1425,7 @@ D/home/schizo/.local/share/nvim/backupdir/undo
 :mkdir Cockpit
 :!touch Cockpit.js
 :q
+:mkdir assignments
 
 # Search history (oldest to newest):
 /fi
@@ -1516,6 +1516,7 @@ D/home/schizo/.local/share/nvim/backupdir/undo
 /loca
 /nv
 /jon
+/udem
 
 # Prompt history (oldest to newest):
 pabs
@@ -1527,7 +1528,8 @@ ptemplate-overview
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_hangman.js
+""/home/schizo/.local/share/Trash/files/000_09_Selector_Exercise_Starter
+""/home/schizo/.local/share/Trash/files/000___MACOSX
 
 # Directory stack (oldest to newest):
 
@@ -2665,7 +2667,17 @@ t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil__Lavina_www.Litmir.net_
 t/home/schizo/.local/share/Trash/files/000_Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
 	/home/schizo/downloads/books/Stivenson_Nil_Virus_Reamde_Litmir.net_bid196067_original_84f75_ltr.epub
 t/home/schizo/.local/share/Trash/files/000_hangman.js
-	/home/schizo/udemy/myFiles/react_course/react-complete-guide/hangman.js
+	/home/schizo/downloads/hangman.js
+t/home/schizo/.local/share/Trash/files/000_2015-10-28_18-26-05__pokemondata.zip
+	/home/schizo/udemy/steele_webdev_bootcamp/2015-10-28_18-26-05__pokemondata.zip
+t/home/schizo/.local/share/Trash/files/000_2015-10-28_18-26-05__pokemondata
+	/home/schizo/udemy/steele_webdev_bootcamp/2015-10-28_18-26-05__pokemondata
+t/home/schizo/.local/share/Trash/files/000_ex1.zip
+	/home/schizo/udemy/steele_webdev_bootcamp/ex1.zip
+t/home/schizo/.local/share/Trash/files/000_09_Selector_Exercise_Starter
+	/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
+t/home/schizo/.local/share/Trash/files/000___MACOSX
+	/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/__MACOSX
 
 # State:
 f

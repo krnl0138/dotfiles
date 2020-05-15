@@ -60,44 +60,37 @@ call plug#end()
 " SET OPTIONS
 """""""""""""
 " look at :help nvim-defaults
-    set cmdheight=2           " More space for messages
-    set conceallevel=2        " Determine what to conceal
-    set concealcursor=""
     set clipboard=unnamedplus
+    set cmdheight=2           " More space for messages
+    set colorcolumn=80
+    set concealcursor=""
+    set conceallevel=2        " Determine what to conceal
     set cursorline
+    set foldcolumn=2          " visible level of folds in sidebar
+    set inccommand=split
+    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+    set lazyredraw            " do not redraw screen while macro is working
     set modeline
     set mouse=a
     set noshowmode
-    set foldcolumn=2          " visible level of folds in sidebar
-    set title                 " change the terminal's title
-    set pumblend=20           " set pum background visibility to 20 percent
-    set splitbelow splitright " Open new split panes to right and bottom, which feels more natural
-    set lazyredraw            " do not redraw screen while macro is working
-    set number relativenumber
     set nowrap
-    set colorcolumn=80
+    set number relativenumber
+    set pumblend=20           " set pum background visibility to 20 percent
+    set splitbelow splitright " Open new split panes to right and bottom
+    set title                 " change the terminal's title
     highlight colorcolumn ctermbg=0 guibg=#141414
-    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 " JS & HTML SETTINGS
-    autocmd FileType javascript, html set tabstop=2
-    autocmd FileType javascript, html set shiftwidth=2
-    autocmd FileType javascript inoremap <buffer> ( ()<Esc>i
-    autocmd FileType javascript inoremap <buffer> { {}<Esc>i
-    autocmd FileType javascript inoremap <buffer> {<CR> {<CR>}<Esc>O
-    autocmd FileType javascript inoremap <buffer> [ []<Esc>i
-    autocmd FileType javascript inoremap <buffer> < <><Esc>i
-    autocmd FileType javascript inoremap <buffer> ' ''<Esc>i
-    autocmd FileType javascript inoremap <buffer> " ""<Esc>i
-    autocmd FileType javascript inoremap <buffer> ` ``<Esc>i
-    autocmd FileType html inoremap <buffer> ( ()<Esc>i
-    autocmd FileType html inoremap <buffer> { {}<Esc>i
-    autocmd FileType html inoremap <buffer> {<CR> {<CR>}<Esc>O
-    autocmd FileType html inoremap <buffer> [ []<Esc>i
-    autocmd FileType html inoremap <buffer> < <><Esc>i
-    autocmd FileType html inoremap <buffer> ' ''<Esc>i
-    autocmd FileType html inoremap <buffer> " ""<Esc>i
-    autocmd FileType html inoremap <buffer> ` ``<Esc>i
+    autocmd FileType javascript,html set tabstop=2
+    autocmd FileType javascript,html set shiftwidth=2
+    autocmd FileType javascript,html,css inoremap <buffer> ( ()<Left>
+    autocmd FileType javascript,html,css inoremap <buffer> { {}<Left>
+    autocmd FileType javascript,html,css inoremap <buffer> {<CR> {<CR>}<Esc>O
+    autocmd FileType javascript,html,css inoremap <buffer> [ []<Left>
+    autocmd FileType javascript,html,css inoremap <buffer> < <><Left>
+    autocmd FileType javascript,html,css inoremap <buffer> ' ''<Left>
+    autocmd FileType javascript,html,css inoremap <buffer> " ""<Left>
+    autocmd FileType javascript,html,css inoremap <buffer> ` ``<Left>
 
 " COLORS
     set termguicolors
@@ -109,27 +102,27 @@ call plug#end()
     " hi Normal guibg=none
 
 " SEARCH & FIND
-    set ignorecase
-    set smartcase
-    set path+=**
-    set wildignore+=**/node_modules/**
     set hidden " Hide not close buffers
+    set ignorecase
+    set path+=**
+    set smartcase
+    set wildignore+=**/node_modules/**
 
 " TABS & SPLITS
     set autoindent
     set copyindent  " copy the previous indentation on autoindenting
-    set tabstop=4
-    set softtabstop=4
-    set shiftwidth=4
-    set shiftround
     set expandtab
+    set shiftround
+    set shiftwidth=4
+    set softtabstop=4
+    set tabstop=4
 
 " HISTORY
     set backup
-    set undofile
     set backupdir=~/.local/share/nvim/backupdir/backup
-    set undodir=~/.local/share/nvim/backupdir/undo
     set directory=~/.local/share/nvim/backupdir/swp
+    set undodir=~/.local/share/nvim/backupdir/undo
+    set undofile
 
 " MISC
     autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
