@@ -1,13 +1,6 @@
-" Begin .vimrc
-
-syntax on
-filetype indent plugin on
 let mapleader=" "
-
 " VIM_PLUG
 """"""""""
-" Make sure you use single quotes
-
 call plug#begin('~/.config/nvim/plugins')
 " CODE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -25,7 +18,7 @@ Plug 'tpope/vim-obsession'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'lervag/vimtex' " compiling .tex
 Plug 'plasticboy/vim-markdown' " folding, fenced syntax, etc.
-Plug 'godlygeek/tabular' "needed for above
+Plug 'godlygeek/tabular' " needed for above
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } " browser
 Plug 'conornewton/vim-pandoc-markdown-preview' " don't need really
 " SNIPPETS
@@ -38,187 +31,126 @@ Plug 'tpope/vim-fugitive'
 Plug 'machakann/vim-sandwich'
 Plug '907th/vim-auto-save'
 Plug 'junegunn/vim-easy-align'
-Plug 'Yggdroot/indentLine' " add vert lines at indent
+Plug 'Yggdroot/indentLine' " lines @ indent
 " COLORSCHEMES
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'drewtempelmeyer/palenight.vim'
-" OTHER
-
-" LATER
-" https://github.com/Xuyuanp/nerdtree-git-plugin
-" https://github.com/nkzawa/js-inspector.vim
-" https://github.com/dstein64/vim-win
-" https://github.com/dstein64/vim-startuptime
-" https://github.com/dhruvasagar/vim-prosession
-"Plug 'dense-analysis/ale'
-"Plug 'ycm-core/YouCompleteMe'
-"Plug 'janko/vim-test'
-" https://github.com/mengelbrecht/lightline-bufferline // was overwritten by COC
 call plug#end()
-
 " SET OPTIONS
 """""""""""""
-" look at :help nvim-defaults
+" see :help nvim-defaults
+    autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
+    autocmd BufRead * silent! loadview
+    autocmd BufWrite * mkview " Save folds
+    autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
+    autocmd VimResized * execute "normal! \<c-w>="
+    autocmd FocusGained,BufEnter * :checktime " reload buffer on outside change
+
     set clipboard=unnamedplus
     set cmdheight=2           " More space for messages
     set colorcolumn=80
-    set concealcursor=""
     set conceallevel=2        " Determine what to conceal
     set cursorline
     set foldcolumn=2          " visible level of folds in sidebar
+    set hidden
     set inccommand=split
-    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
     set lazyredraw            " do not redraw screen while macro is working
-    set modeline
     set mouse=a
+    set nomodeline
     set noshowmode
     set nowrap
-    set number relativenumber
+    set number rnu
     set pumblend=20           " set pum background visibility to 20 percent
     set splitbelow splitright " Open new split panes to right and bottom
-    set title                 " change the terminal's title
-    highlight colorcolumn ctermbg=0 guibg=#141414
-
-" JS & HTML SETTINGS
-    autocmd FileType javascript,html set tabstop=2
-    autocmd FileType javascript,html set shiftwidth=2
-    autocmd FileType javascript,html,css inoremap <buffer> ( ()<Left>
-    autocmd FileType javascript,html,css inoremap <buffer> { {}<Left>
-    autocmd FileType javascript,html,css inoremap <buffer> {<CR> {<CR>}<Esc>O
-    autocmd FileType javascript,html,css inoremap <buffer> [ []<Left>
-    autocmd FileType javascript,html,css inoremap <buffer> < <><Left>
-    autocmd FileType javascript,html,css inoremap <buffer> ' ''<Left>
-    autocmd FileType javascript,html,css inoremap <buffer> " ""<Left>
-    autocmd FileType javascript,html,css inoremap <buffer> ` ``<Left>
-
-" COLORS
+    set title
+    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+" colors
     set termguicolors
+    set bg=dark
     colorscheme onedark
-    set background=dark
-    " hi Normal ctermbg=none
-    " hi Terminal ctermbg=none
-    " hi Terminal guibg=none
-    " hi Normal guibg=none
-
-" SEARCH & FIND
-    set hidden " Hide not close buffers
+" search & find
     set ignorecase
-    set path+=**
     set smartcase
+    set path+=**
     set wildignore+=**/node_modules/**
-
-" TABS & SPLITS
-    set autoindent
-    set copyindent  " copy the previous indentation on autoindenting
-    set expandtab
-    set shiftround
-    set shiftwidth=4
-    set softtabstop=4
-    set tabstop=4
-
-" HISTORY
+" tabs
+    set smartindent
+    set ts=4 sts=4 sw=4 expandtab
+" history
     set backup
+    set undofile
     set backupdir=~/.local/share/nvim/backupdir/backup
     set directory=~/.local/share/nvim/backupdir/swp
     set undodir=~/.local/share/nvim/backupdir/undo
-    set undofile
-
-" MISC
-    autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
-    autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
-
+" language settings
+    autocmd FileType javascript,html,css,scss set ts=2 sts=2 sw=2
+    autocmd FileType javascript,html,css,scss ino <buffer> ( ()<Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> { {}<Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> {<CR> {<CR>}<Esc>O
+    autocmd FileType javascript,html,css,scss ino <buffer> [ []<Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> < <><Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> ' ''<Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> " ""<Left>
+    autocmd FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " MAPPINGS
 " ========
-
-noremap <leader>b :Buffers
-nnoremap <leader><leader> :Buffers<CR>
-
-
-    noremap ; :
-    noremap : ;
-" Center after goto bookmark
-    nnoremap <expr> ' "'" . nr2char(getchar()) . "zz"
-    nnoremap <expr> ` "`" . nr2char(getchar()) . "zz"
+    nn ; :
+    nn : ;
+    nn Y y$
+    nn <leader>a za
+    nn <CR> o<Esc>
+    nn <leader>pi :PlugInstall<CR>
+    nn <leader>pu :PlugUpdate<CR>
+    nn <leader>pc :PlugClean<CR>
+    nn <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
 " Center jumps
-    nnoremap <C-o> <C-o>zz
-    nnoremap <C-i> <C-i>zz
-" Center on selections. Ruins `gn` object
-    " nnoremap n nzz
-    " nnoremap N Nzz
-" INSERT mode moves
-    inoremap <C-d> <BS>
-    inoremap <C-h> <Left>
-    inoremap <C-j> <Down>
-    inoremap <C-k> <Up>
-    inoremap <C-l> <Right>
-" MOVE VISUAL RANGE AROUND
-    vnoremap <C-j> :m '>+1<CR>gv=gv
-    vnoremap <C-k> :m '<-2<CR>gv=gv
-" Substitute easy
-    nnoremap S :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
-    vnoremap s :s///gc<Left><Left><Left><Left>
-" Y like D
-    nnoremap Y y$
-" TERMINAL
-    tnoremap <Esc> <C-\><C-n>
-    nnoremap <C-s> :terminal<CR>i
-" PARARAGRAPHS FORMATTING
-    vnoremap Q gq
-    nnoremap Q gqap
-" Enter for newline
-    nnoremap <CR> o<Esc>
-    nnoremap <S-CR> O<Esc>
-" VIMRC SOURCE
-    nnoremap <leader>ev :vsp $MYVIMRC<CR>
-    nnoremap <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
-" VimPlug
-    nnoremap <leader>pi :PlugInstall<CR>
-    nnoremap <leader>pu :PlugUpdate<CR>
-    nnoremap <leader>pc :PlugClean<CR>
-" F-KEY BINDINGS
-    " nnoremap <F1>
-    nnoremap <F2> :set relativenumber!<CR>
-    " nnoremap <F3>
-    nnoremap <F4> :set invhls<CR> " disable hightlight for search
-    nnoremap <F5> :UndotreeToggle<CR>
-    nnoremap <F6> :setlocal spell! spelllang=ru,en_gb<CR>
+    nn <expr> ' "'" . nr2char(getchar()) . "zz"
+    nn <C-o> <C-o>zz
+    nn <C-i> <C-i>zz
+" Insert mode moves
+    ino <C-d> <BS>
+    ino <C-h> <Left>
+    ino <C-j> <Down>
+    ino <C-k> <Up>
+    ino <C-l> <Right>
+" Move visual range
+    vn <C-j> :m '>+1<CR>gv=gv
+    vn <C-k> :m '<-2<CR>gv=gv
+" Substitute ease
+    nn S :%s/\<<C-r><C-w>\>//gc<Left><Left><Left>
+    vn S :s///gc<Left><Left><Left><Left>
+" Terminal
+    tno <Esc> <C-\><C-n>
+    nn <C-s> :sp <bar> terminal<CR>i
+" Better formatting
+    vn Q gq
+    nn Q gqap
+" Better indentation
+    vn < <gv
+    vn > >gv
+    nn > >>
+    nn < <<
+" F-keys bindings
+    nn <F2> :set relativenumber!<CR>
+    nn <F4> :set invhls<CR>
+    nn <F5> :UndotreeToggle<CR>
+    nn <F6> :setlocal spell! spelllang=ru,en_gb<CR>
     set pastetoggle=<F7> " to stop intending while pasting
-    nnoremap <F8> :TagbarToggle<CR>
-    nnoremap <F9> :!clear && shellcheck %<CR>
-    " nnoremap <F10>
-    " nnoremap <F11>
-    nnoremap <F12> :exe '!$BROWSER %'<CR><CR>
+    nn <F8> :TagbarToggle<CR>
+    nn <F9> :!clear && shellcheck %<CR>
+    nn <F12> :exe '!$BROWSER %'<CR><CR>
 " Move around windows with Shift-HJKL
-    noremap <silent><s-h> <C-w><left>
-    noremap <silent><s-j> <C-w><down>
-    noremap <silent><s-k> <C-w><up>
-    noremap <silent><s-l> <C-w><right>
-    tnoremap <silent><s-h> <C-\><C-n><C-w>h
-    tnoremap <silent><s-j> <C-\><C-n><C-w>j
-    tnoremap <silent><s-k> <C-\><C-n><C-w>k
-    tnoremap <silent><s-l> <C-\><C-n><C-w>l
-" Windows resize
-    nnoremap <silent> <Leader>- :vertical resize -5<CR>
-    nnoremap <silent> <Leader>= :vertical resize +5<CR>
-" EXIT FROM EDIT MODE
-    inoremap ;; <esc>
-    vnoremap ;; <esc>
-" BETTER INDENTATION
-    vnoremap < <gv
-    vnoremap > >gv
-    nnoremap > >>
-    nnoremap < <<
-" FOLDS
-    nnoremap <leader>, za
-    vnoremap <leader>, zf
-    autocmd BufWrite * mkview " Save folds
-    autocmd BufRead * silent! loadview
-
+    nn <silent><S-h> <C-w><left>
+    nn <silent><S-j> <C-w><down>
+    nn <silent><S-k> <C-w><up>
+    nn <silent><S-l> <C-w><right>
+    tno <silent><S-h> <C-\><C-n><C-w>h
+    tno <silent><S-j> <C-\><C-n><C-w>j
+    tno <silent><S-k> <C-\><C-n><C-w>k
+    tno <silent><S-l> <C-\><C-n><C-w>l
 " PLUGINS
 " =======
-
-
 " LIGHTLINE
 function! LightlineObsession()
     return '%{ObsessionStatus()}'
@@ -241,10 +173,9 @@ let g:lightline = {
 " Use auocmd to force lightline update.
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
-
 " NERDTree
-nnoremap <leader>f :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+nn <leader>f :NERDTreeToggle<CR>
+nn <silent> <Leader>v :NERDTreeFind<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeShowHidden=1
 " let g:NERDTreeQuitOnOpen=1
@@ -268,9 +199,9 @@ let g:indentLine_concealcursor = ""
 
 " YCM
     function! GoYCM()
-        nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
-        nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
-        nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
+        nn <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
+        nn <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+        nn <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
     endfunction
 
 " COC
@@ -286,27 +217,26 @@ endfunction
     nmap <buffer> <leader>gy <Plug>(coc-type-definition)
     nmap <buffer> <leader>gi <Plug>(coc-implementation)
     nmap <buffer> <leader>gr <Plug>(coc-references)
-    nnoremap <buffer> <leader>cr :CocRestart<CR>
 
 " use <C-space>for trigger completion
-    inoremap <silent><expr> <C-space> coc#refresh()
+    ino <silent><expr> <C-space> coc#refresh()
 " use <Tab> and <S-Tab> to navigate the completion list:
-    inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-    inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+    ino <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+    ino <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " use <CR> to confirm completion
-" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" ino <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Close the preview window when completion is done.
     " autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 "To make <CR> select the first completion item and confirm the completion when no item has been selected:
-    inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+    ino <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
     " function! GoCoc()
-    "     inoremap <buffer> <silent><expr> <Tab>
+    "     ino <buffer> <silent><expr> <Tab>
     "                 \ pumvisible() ? "\<C-n>" :
     "                 \ <SID>check_back_space() ? "\<TAB>" :
     "                 \ coc#refresh()
-    "     inoremap <buffer> <expr><S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
-    "     inoremap <buffer> <silent><expr> <C-space> coc#refresh()
+    "     ino <buffer> <expr><S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
+    "     ino <buffer> <silent><expr> <C-space> coc#refresh()
 
     " endfunction
 
@@ -329,24 +259,23 @@ endfunction
 " ULTISNIPS
 " needs to jump around coc completions
 " tab for jumping and ^n,^p for menu selection
-    let g:UltiSnipsExpandTrigger ="<tab>"
-    let g:UltiSnipsJumpForwardTrigger ="<tab>"
-    let g:UltiSnipsJumpBackwardTrigger ="<s-tab>"
-    let g:UltiSnipsEditSplit ="<vertical>"
+    let g:UltiSnipsExpandTrigger       = "<tab>"
+    let g:UltiSnipsJumpForwardTrigger  = "<tab>"
+    let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+    let g:UltiSnipsEditSplit           = "<vertical>"
 
 " EASYALIGN
-    " start in visual (e.g. vipga) & for a motion/text object (e.g. gaip)
+    " vipga or gaip
     xmap ga <Plug>(EasyAlign)
     nmap ga <Plug>(EasyAlign)
 
 " FZF{{{
 
-    nnoremap <C-p> :GFiles<CR>
-    nnoremap <C-t> :Tags<CR>
-    nnoremap <C-g> :RG<CR>
-    nnoremap <silent><C-f> :Files ~<CR>
-    nnoremap <C-b> :Buffers<CR>
-    nnoremap <leader>b :Buffers<CR>
+    nn <C-p> :GFiles<CR>
+    nn <C-t> :Tags<CR>
+    nn <C-g> :RG<CR>
+    nn <silent><C-f> :Files ~<CR>
+    nn <leader><leader> :Buffers<CR>
 
     let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git,.local}"'
     let $FZF_DEFAULT_OPTS    = ' --color=dark --color=fg:15,bg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
@@ -398,14 +327,10 @@ endfunction
         let g:auto_save_silent = 1
         let g:auto_save_events = ["InsertLeave", "TextChanged"]
     endfunction
-    nnoremap <leader>P :call Autosave_markdown_preview()<CR>
+    nn <leader>P :call Autosave_markdown_preview()<CR>
 
 " MARKDOWN PREVIEW (browser)
     let g:mkdp_browser = 'brave'
-    nnoremap <leader>p :MarkdownPreview<CR>
-
-" GOYO SETTINGS
-    noremap <silent> <leader>g :Goyo \| set wrap linebreak<CR>
 
 " VIMTEX
     let g:tex_flavor='latex'

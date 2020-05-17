@@ -19,12 +19,9 @@ v2
 ov
 m-1
 l-10,2
-r2
+r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads/video
-	P09iWgQQ6_9ArC5HazrAUQ.webp
-2
 d/home/schizo/downloads
 	video
 9
@@ -621,66 +618,12 @@ d/home/schizo/udemy/myFiles/react_course/react-complete-guide
 0
 d/home/schizo
 	udemy
-5
+0
+d/home/schizo/udemy/advanced-css-course/Natours/starter
+	..
+0
 
 # Right window history (oldest to newest):
-D/home/schizo
-	downloads
-2
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Eric Elliott - Composing Software (2019, Leanpub).pdf
-18
-D/home/schizo
-	udemy
-12
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	react_course
-1
-D/home/schizo/udemy/myFiles/react_course
-	section_2
-6
-D/home/schizo/udemy/myFiles/react_course/section_2
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	section_2
-6
-D/home/schizo/udemy/myFiles/react_course/section_2
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	guides
-5
-D/home/schizo/udemy/myFiles/react_course/guides
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	section_1
-1
-D/home/schizo/udemy/myFiles/react_course/section_1
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	materials
-4
-D/home/schizo/udemy/myFiles/react_course/materials
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	guides
-5
 D/home/schizo/udemy/myFiles/react_course/guides
 	..
 0
@@ -1224,20 +1167,65 @@ D/home/schizo/udemy/steele_webdev_bootcamp/assignments
 D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
 	selectors.css
 1
+D/home/schizo
+	udemy
+7
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+4
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	assignment_6_photos
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments/assignment_6_photos
+	Ys-DBJeX0nE.jpeg
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	assignment_6_photos
+1
+D/home/schizo
+	udemy
+9
+D/home/schizo/personal
+	pictures
+5
+D/home/schizo/personal/pictures
+	screenshots
+2
+D/home/schizo/personal/pictures/screenshots
+	2020-05-17-06-19-15.png
+3
+D/home/schizo
+	speed-coder
+0
+D/home/schizo/udemy/advanced-css-course/Natours/starter
+	sass
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
+	base
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass/base
+	_utilities.scss
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
+	abstracts
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass/abstracts
+	_functions.scss
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
+	pages
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass/pages
+	_home.scss
+1
+D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
+	vendors
+1
 
 # Command line history (oldest to newest):
-:mkdir txts
-:mkdir xlsxs
-:goto ~/pics
-:!Terminal
-:goto
-:goto ~/Downloads
-:colorscheme molokai
-:colorscheme zenburn
-:colorscheme g80
-:colorscheme near-default
-:colorscheme zenburn-1
-:colorscheme solarized-dark
 :colorscheme Default
 :goto ~
 :colorscheme ph
@@ -1417,15 +1405,27 @@ D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
 :filter!
 :mkdir templates
 :mkdir docs
-:mkdir components
 :mkdir assets
 :mkdir containers
 :mkdir Persons
 :!touch Persons.js
 :mkdir Cockpit
 :!touch Cockpit.js
-:q
 :mkdir assignments
+:nvim %d
+:!nvim %d
+:touch _animations.scss
+:touch _typography.scss
+:touch _utilities.scss
+:mkdir abstracts
+:touch _variables.scss _mixins.scss _functions.scss
+:mkdir components
+:mkdir layout
+:mkdir pages
+:touch _home.scss
+:mkdir themes
+:mkdir vendors
+:q
 
 # Search history (oldest to newest):
 /fi
@@ -1509,7 +1509,6 @@ D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
 /dot
 /light
 /local
-/ude
 /fish
 /nvim
 /.local
@@ -1517,8 +1516,11 @@ D/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1
 /nv
 /jon
 /udem
+/ude
 
 # Prompt history (oldest to newest):
+p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
+p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013).pdf
 pabs
 pYouCompleteMe_old
 p04_lesson
@@ -2678,6 +2680,8 @@ t/home/schizo/.local/share/Trash/files/000_09_Selector_Exercise_Starter
 	/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/09_Selector_Exercise_Starter
 t/home/schizo/.local/share/Trash/files/000___MACOSX
 	/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/__MACOSX
+t/home/schizo/.local/share/Trash/files/000_voidrice
+	/home/schizo/voidrice
 
 # State:
 f
