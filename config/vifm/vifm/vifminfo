@@ -22,108 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads
-	video
-9
-d/home/schizo/downloads/video
-	n-y6TT6T-4XDXbo5N7GY5Q.webp
-2
-d/home/schizo/downloads
-	Французский язык в 2 ч. Часть 1. 3-е изд., пер. и доп. Учебник и практикум для академического бакалавриата_files
-8
-d/home/schizo/personal
-	pictures
-5
-d/home/schizo/personal/pictures
-	screenshots
-2
-d/home/schizo/personal/pictures/screenshots
-	2020-04-08-00-12-03.png
-3
-d/home/schizo/downloads
-	linux-capt-drv-v271-uken.tar.gz
-26
-d/home/schizo/downloads/books/epub
-	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
-3
-d/home/schizo/voidrice
-	.config
-2
-d/home/schizo/voidrice/.config
-	bspwm
-1
-d/home/schizo/voidrice
-	.config
-2
-d/home/schizo/voidrice/.config
-	calcurse
-2
-d/home/schizo/voidrice/.config/calcurse
-	conf
-2
-d/home/schizo/voidrice/.config
-	dunst
-3
-d/home/schizo/voidrice/.config/dunst
-	dunstrc
-1
-d/home/schizo/voidrice/.config
-	fontconfig
-4
-d/home/schizo/voidrice/.config/fontconfig
-	fonts.conf
-1
-d/home/schizo/voidrice/.config
-	gtk-3.0
-6
-d/home/schizo/voidrice/.config/gtk-3.0
-	settings.ini
-1
-d/home/schizo/voidrice/.config
-	i3
-7
-d/home/schizo/voidrice/.config/i3
-	config
-1
-d/home/schizo
-	dotfiles
-13
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	2020-04-07-20-19-10.png
-10
-d/home/schizo
-	dotfiles
-13
-d/home/schizo/.config/alacritty
-	alacritty.yml
-1
-d/home/schizo/dotfiles/config/nvim/nvim
-	plugins
-1
-d/home/schizo/dotfiles/config/nvim
-	nvim
-1
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	Rodin_Jardin_des_supplices.jpg
-5
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo
-	node_modules
-10
-d/home/schizo/downloads
-	ppt
-5
 d/home/schizo/dotfiles/config/nvim/nvim
 	plugins
 1
@@ -622,119 +520,110 @@ d/home/schizo
 d/home/schizo/udemy/advanced-css-course/Natours/starter
 	..
 0
+d/home/schizo
+	udemy
+8
+d/home/schizo/udemy
+	advanced-css-course
+1
+d/home/schizo/udemy/advanced-css-course
+	Natours
+2
+d/home/schizo/udemy/advanced-css-course/Natours
+	starter
+1
+d/home/schizo/udemy/advanced-css-course/Natours/starter
+	css
+3
+d/home/schizo/udemy/advanced-css-course/Natours/starter/css
+	icon-font.css
+3
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	2020-05-18-12-15-18.png
+3
+d/home/schizo
+	udemy
+8
+d/home/schizo/udemy
+	advanced-css-course
+1
+d/home/schizo/udemy/advanced-css-course
+	Natours
+2
+d/home/schizo/udemy/advanced-css-course/Natours
+	final-after-S06
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
+	css
+1
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/css
+	..
+0
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
+	sass
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	abstracts
+1
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/abstracts
+	_mixins.scss
+2
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	abstracts
+1
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/abstracts
+	_functions.scss
+1
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	base
+2
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/base
+	_utilities.scss
+4
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	pages
+5
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/pages
+	..
+0
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	pages
+5
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/pages
+	_home.scss
+1
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	layout
+4
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/layout
+	_navigation.scss
+4
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	layout
+4
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
+	img
+2
+d/home/schizo/downloads
+	linux-capt-drv-v271-uken.tar.gz
+32
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo
+	udemy
+8
 
 # Right window history (oldest to newest):
-D/home/schizo/udemy/myFiles/react_course/guides
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	section_2
-6
-D/home/schizo/udemy/myFiles/react_course/section_2
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	guides
-6
-D/home/schizo/udemy/myFiles/react_course/guides
-	es6_ref.pdf
-1
-D/home/schizo/udemy/myFiles/react_course
-	section_2
-2
-D/home/schizo/udemy/myFiles/react_course/section_2
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	section_1
-3
-D/home/schizo/udemy/myFiles/react_course/section_1
-	..
-0
-D/home/schizo/udemy/myFiles/react_course
-	guides
-1
-D/home/schizo/udemy/myFiles/react_course/guides
-	es6_ref.pdf
-1
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-4
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	index.js
-6
-D/home/schizo
-	speed-coder
-10
-D/home/schizo/speed-coder
-	..
-0
-D/home/schizo
-	udemy
-12
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	react_course
-1
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-4
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	public
-3
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/public
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	package.json
-7
-D/home/schizo
-	udemy
-12
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Eric Elliott - Composing Software (2019, Leanpub).pdf
-18
-D/home/schizo
-	udemy
-12
-D/home/schizo/.config
-	fish
-10
-D/home/schizo/.config/fish
-	completions
-1
-D/home/schizo/.config/fish/completions
-	..
-0
-D/home/schizo/.config/fish
-	functions
-3
-D/home/schizo/.config/fish/functions
-	blog_trash.fish
-17
-D/home/schizo
-	udemy
-12
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Marijn Haverbeke - Eloquent Javascript_ A Modern Introduction to Programming-No Starch Press (2018).pdf
-19
 D/home/schizo
 	udemy
 13
@@ -1224,9 +1113,119 @@ D/home/schizo/udemy/advanced-css-course/Natours/starter/sass/pages
 D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
 	vendors
 1
+D/home/schizo
+	speed-coder
+8
+D/home/schizo/downloads
+	linea_complete_1.0
+1
+D/home/schizo/downloads/linea_complete_1.0
+	_basic_elaboration
+3
+D/home/schizo/downloads/linea_complete_1.0/_basic_elaboration
+	linea_basic_elaboration_1.0.jpg
+6
+D/home/schizo/downloads/linea_complete_1.0
+	_basic
+5
+D/home/schizo/downloads/linea_complete_1.0/_basic
+	_ICONFONT
+1
+D/home/schizo/downloads/linea_complete_1.0/_basic/_ICONFONT
+	fonts
+1
+D/home/schizo/downloads/linea_complete_1.0/_basic/_ICONFONT/fonts
+	..
+0
+D/home/schizo/downloads/linea_complete_1.0/_basic/_ICONFONT
+	icons-reference.html
+3
+D/home/schizo
+	speed-coder
+8
+D/home/schizo/scripts
+	scripts_diff
+1
+D/home/schizo/scripts/scripts_diff
+	.launcher_fzf.sh
+1
+D/home/schizo/scripts
+	swaybg.sh
+24
+D/home/schizo
+	speed-coder
+8
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo/.config/nvim
+	plugins
+1
+D/home/schizo/.config/nvim/plugins
+	vim-markdown
+1
+D/home/schizo/.config/nvim/plugins/vim-markdown
+	Gemfile
+14
+D/home/schizo/.config/nvim/plugins
+	fzf.vim
+12
+D/home/schizo
+	.viminfo
+24
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo/.config/nvim
+	colors
+4
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo
+	.local
+24
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+6
+D/home/schizo/.local/share/nvim
+	view
+2
+D/home/schizo/.local/share/nvim/view
+	..
+0
+D/home/schizo
+	.local
+24
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo/.config/nvim
+	plugins
+1
+D/home/schizo/.config/nvim/plugins
+	vim-eunuch
+14
+D/home/schizo
+	.local
+41
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	nvim
+6
+D/home/schizo/.local/share/nvim
+	view
+2
+D/home/schizo/.local/share/nvim/view
+	..
+0
 
 # Command line history (oldest to newest):
-:colorscheme Default
 :goto ~
 :colorscheme ph
 :filter !
@@ -1426,6 +1425,7 @@ D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
 :mkdir themes
 :mkdir vendors
 :q
+:!brave %f
 
 # Search history (oldest to newest):
 /fi
@@ -1460,7 +1460,6 @@ D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
 /ala
 /sway
 /dotfiles
-/vim
 /cropped
 /t
 /fzf
@@ -1510,13 +1509,17 @@ D/home/schizo/udemy/advanced-css-course/Natours/starter/sass
 /light
 /local
 /fish
-/nvim
-/.local
 /loca
 /nv
 /jon
 /udem
+/linea
 /ude
+/nvim
+/vim
+/.local
+/ult
+/loc
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1526,12 +1529,12 @@ pYouCompleteMe_old
 p04_lesson
 ptemplate-laptop
 ptemplate-overview
+picon-font
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_09_Selector_Exercise_Starter
-""/home/schizo/.local/share/Trash/files/000___MACOSX
+""/home/schizo/.local/share/Trash/files/003_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_navigation.scss=
 
 # Directory stack (oldest to newest):
 
@@ -2682,6 +2685,784 @@ t/home/schizo/.local/share/Trash/files/000___MACOSX
 	/home/schizo/udemy/steele_webdev_bootcamp/assignments/ex1/__MACOSX
 t/home/schizo/.local/share/Trash/files/000_voidrice
 	/home/schizo/voidrice
+t/home/schizo/.local/share/Trash/files/000_wallpaper_new.sh
+	/home/schizo/scripts/wallpaper_new.sh
+t/home/schizo/.local/share/Trash/files/000_wallpaper.sh
+	/home/schizo/scripts/wallpaper.sh
+t/home/schizo/.local/share/Trash/files/000_wallpaper_this.sh
+	/home/schizo/scripts/wallpaper_this.sh
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+init.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+init.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+programming.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+programming.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+containers=+App.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+containers=+App.js=
+t/home/schizo/.local/share/Trash/files/000_~=+linux.todo=
+	/home/schizo/.local/share/nvim/view/~=+linux.todo=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_footer.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_footer.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+vim_tips.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+vim_tips.md=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+wallp.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+wallp.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+bash_tips.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+bash_tips.md=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+css_jonas_course.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+css_jonas_course.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_variables.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_variables.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+main.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+main.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_utilities.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_utilities.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_button.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_button.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_form.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_form.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_header.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_header.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_card.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_card.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+pages=+_home.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+pages=+_home.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_feature-box.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_feature-box.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_bg-video.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_bg-video.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_story.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_story.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+sway=+sway=+config=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+sway=+sway=+config=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_composition.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_composition.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_typography.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_typography.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_grid.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_grid.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_mixins.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_mixins.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_base.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_base.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_animations.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_animations.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+package.json=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+package.json=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+css=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+css=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+fish=+config.fish=
+	/home/schizo/.local/share/nvim/view/~=+.config=+fish=+config.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+webdev_bootcamp_steele.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+webdev_bootcamp_steele.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_7.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_7.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_7.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_7.html=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+webdesign_course_jonas.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+webdesign_course_jonas.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_6.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_6.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_6.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_6.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_5.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_5.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_5.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+assignment_5.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+ex1=+selectors.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+ex1=+selectors.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignment_4.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignment_4.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignment_3.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignment_3.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignment_2.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignment_2.html=
+t/home/schizo/.local/share/Trash/files/000_~=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignment_1.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignment_1.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+notes.md=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+notes.md=
+t/home/schizo/.local/share/Trash/files/000_~=+playground.js=
+	/home/schizo/.local/share/nvim/view/~=+playground.js=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+eloquent_js_haverbeke.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+eloquent_js_haverbeke.md=
+t/home/schizo/.local/share/Trash/files/000_~=+prog.sh=
+	/home/schizo/.local/share/nvim/view/~=+prog.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+prog.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+prog.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+books.txt=
+	/home/schizo/.local/share/nvim/view/~=+books.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+okularf.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+okularf.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+okular.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+okular.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+alacritty=+alacritty=+alacritty.yml=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+alacritty=+alacritty=+alacritty.yml=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+script4.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+script4.js=
+t/home/schizo/.local/share/Trash/files/000_~=+.gitignore=
+	/home/schizo/.local/share/nvim/view/~=+.gitignore=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Persons=+Persons.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Persons=+Persons.js=
+t/home/schizo/.local/share/Trash/files/000_~=+test.md=
+	/home/schizo/.local/share/nvim/view/~=+test.md=
+t/home/schizo/.local/share/Trash/files/000_~=+my.latex=
+	/home/schizo/.local/share/nvim/view/~=+my.latex=
+t/home/schizo/.local/share/Trash/files/000_~=+personal=+diary=+notes=+analisys.md=
+	/home/schizo/.local/share/nvim/view/~=+personal=+diary=+notes=+analisys.md=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+making_capitalism_fit_for_society_crouch.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+making_capitalism_fit_for_society_crouch.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Persons=+Person=+Person.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Persons=+Person=+Person.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Cockpit=+Cockpit.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Cockpit=+Cockpit.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+index.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+index.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+ErrorBoundary=+Cockpit.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+ErrorBoundary=+Cockpit.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+notes.md=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+notes.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+containers=+App.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+containers=+App.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Cockpit=+Cockpit.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+components=+Cockpit=+Cockpit.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+App.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+App.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+ErrorBoundary=+ErrorBoundary.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+ErrorBoundary=+ErrorBoundary.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+Person=+Person.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+Person=+Person.js=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+js_allonge_braithwaite.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+js_allonge_braithwaite.md=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+js_allonge_braithwaite=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+js_allonge_braithwaite=
+t/home/schizo/.local/share/Trash/files/000_stuff=+js_allonge_braithwaite=
+	/home/schizo/.local/share/nvim/view/stuff=+js_allonge_braithwaite=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+composing_software_elliot.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+composing_software_elliot.md=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+composition_Software_Elliot.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+composition_Software_Elliot.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+section_1=+notes.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+section_1=+notes.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+App.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+App.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+Person=+Person.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+src=+Person=+Person.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+config=+webpack.config.prod.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+config=+webpack.config.prod.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+config=+webpack.config.dev.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+config=+webpack.config.dev.js=
+t/home/schizo/.local/share/Trash/files/000_~=+index.js=
+	/home/schizo/.local/share/nvim/view/~=+index.js=
+t/home/schizo/.local/share/Trash/files/000_~=+weresquirrel=+index.js=
+	/home/schizo/.local/share/nvim/view/~=+weresquirrel=+index.js=
+t/home/schizo/.local/share/Trash/files/000_~=+weresquirrel=+journal.js=
+	/home/schizo/.local/share/nvim/view/~=+weresquirrel=+journal.js=
+t/home/schizo/.local/share/Trash/files/000_~=+weresquirrel=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+weresquirrel=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+hangman.js=
+	/home/schizo/.local/share/nvim/view/~=+hangman.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+react-complete-guide=+hangman.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+react-complete-guide=+hangman.js=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+collector.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+collector.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+App.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+App.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+CharComponent=+CharComponent.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+CharComponent=+CharComponent.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+ValidationComponent=+ValidationComponent.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+ValidationComponent=+ValidationComponent.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+CharComponent=+CharComponent.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_2=+src=+CharComponent=+CharComponent.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+App.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+App.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserOutput=+UserOutput.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserOutput=+UserOutput.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserOutput=+UserOutput.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserOutput=+UserOutput.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserInput=+UserInput.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+react_course=+challenges=+challenge_1=+src=+UserInput=+UserInput.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+nodeJSCrashCourse=+index.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+nodeJSCrashCourse=+index.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-card.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-card.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-laptop.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-laptop.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+nodeJSCrashCourse=+notesNodeJS.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+nodeJSCrashCourse=+notesNodeJS.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-overview.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+nodeJSCrashCourse=+templates=+template-overview.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+section9_notes.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+section9_notes.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+views=+recipeView.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+views=+recipeView.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+index.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+index.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+views=+likesView.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+views=+likesView.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+models=+Likes.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+models=+Likes.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+views=+searchView.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+views=+searchView.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+views=+base.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+views=+base.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+views=+listView.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+views=+listView.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+models=+List.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+models=+List.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+models=+Recipe.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+models=+Recipe.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+models=+Search.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+models=+Search.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+webpack.config.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+webpack.config.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+js=+test.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+js=+test.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+src=+webpack.config.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+src=+webpack.config.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+.babelrc=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+.babelrc=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+package.json=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+package.json=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+forkify=+dist=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+forkify=+dist=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+js.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+js.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+8_asynchronous_JS=+asynchronous.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+8_asynchronous_JS=+asynchronous.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+8_asynchronous_JS=+script.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+8_asynchronous_JS=+script.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+ES6_section=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+ES6_section=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+complete-javascript-course=+7-ES6=+final=+script.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+complete-javascript-course=+7-ES6=+final=+script.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+ES6_section=+script.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+ES6_section=+script.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+script5.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+script5.js=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+nvim_tips.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+nvim_tips.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+index5.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+index5.html=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_mine=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+budget_mine=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+6-budgety=+starter=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+6-budgety=+starter=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+test2.js=
+	/home/schizo/.local/share/nvim/view/~=+test2.js=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_mine=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+budget_mine=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_mine=+todo.todo=
+	/home/schizo/.local/share/nvim/view/~=+budget_mine=+todo.todo=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+ftplugin=+javascript.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+ftplugin=+javascript.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+test.js=
+	/home/schizo/.local/share/nvim/view/~=+test.js=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+ftplugin=+js.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+ftplugin=+js.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+ftplugin=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+ftplugin=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_mine=+notes.todo=
+	/home/schizo/.local/share/nvim/view/~=+budget_mine=+notes.todo=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_mine=+notes.md=
+	/home/schizo/.local/share/nvim/view/~=+budget_mine=+notes.md=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_git=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+budget_git=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+budget_git=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+budget_git=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+6-budgety=+starter=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+6-budgety=+starter=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+6-budgety=+starter=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+6-budgety=+starter=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+challenge7.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+challenge7.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+complete-javascript-course=+5-advanced-JS=+final=+script.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+complete-javascript-course=+5-advanced-JS=+final=+script.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+coding7.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+coding7.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+04_lesson.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+04_lesson.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+js_udemy.md=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+js_udemy.md=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+oop.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+oop.md=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+starter=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+starter=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+starter=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+starter=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+pig_game_git=+starter=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+pig_game_git=+starter=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+4-DOM-pig-game=+starter=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+yura.md=
+	/home/schizo/.local/share/nvim/view/~=+yura.md=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+script3.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+script3.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+complete-javascript-course=+4-DOM-pig-game=+starter=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+complete-javascript-course=+4-DOM-pig-game=+starter=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+03_lesson.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+03_lesson.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+script2.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+script2.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+script.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+script.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+02_lesson.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+02_lesson.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+01_lesson.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+01_lesson.html=
+t/home/schizo/.local/share/Trash/files/000_~=+js_udemy.md=
+	/home/schizo/.local/share/nvim/view/~=+js_udemy.md=
+t/home/schizo/.local/share/Trash/files/000_~=+test.pl=
+	/home/schizo/.local/share/nvim/view/~=+test.pl=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+plugins=+indentLine=+after=+plugin=+indentLine.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+plugins=+indentLine=+after=+plugin=+indentLine.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+html.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+html.md=
+t/home/schizo/.local/share/Trash/files/000_~=+col.bash=
+	/home/schizo/.local/share/nvim/view/~=+col.bash=
+t/home/schizo/.local/share/Trash/files/000_~=+col.sh=
+	/home/schizo/.local/share/nvim/view/~=+col.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+thaaszagren=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+thaaszagren=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+notes=+nvim-lsp.md=
+	/home/schizo/.local/share/nvim/view/~=+notes=+nvim-lsp.md=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+dmenu_launcher.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+dmenu_launcher.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+system.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+system.md=
+t/home/schizo/.local/share/Trash/files/000_~=+newfile=
+	/home/schizo/.local/share/nvim/view/~=+newfile=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+dmenu_monitor.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+dmenu_monitor.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+dmenu_apps.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+dmenu_apps.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+shopify=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+shopify=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+test.go=
+	/home/schizo/.local/share/nvim/view/~=+test.go=
+t/home/schizo/.local/share/Trash/files/000_~=+test.proto=
+	/home/schizo/.local/share/nvim/view/~=+test.proto=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+frontend.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+frontend.md=
+t/home/schizo/.local/share/Trash/files/000_~=+f=
+	/home/schizo/.local/share/nvim/view/~=+f=
+t/home/schizo/.local/share/Trash/files/000_~=+nf=
+	/home/schizo/.local/share/nvim/view/~=+nf=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+stuff.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+stuff.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+fzfimg.sh=
+	/home/schizo/.local/share/nvim/view/~=+fzfimg.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+.dmenu_launcher.sh=
+	/home/schizo/.local/share/nvim/view/~=+.dmenu_launcher.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dmenu_launcher.sh=
+	/home/schizo/.local/share/nvim/view/~=+dmenu_launcher.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+tsh.sh=
+	/home/schizo/.local/share/nvim/view/~=+tsh.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+vifm=+vifm=+vifmrc=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+vifm=+vifm=+vifmrc=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+cdd.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+cdd.fish=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.iMcKn9h1cp.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.iMcKn9h1cp.fish=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.0p9xAbrpZz.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.0p9xAbrpZz.fish=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.Cm2NELwhst.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.Cm2NELwhst.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+other=+applist_2020-04-08=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+other=+applist_2020-04-08=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+install_packages.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+install_packages.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+applist_2020-04-08=
+	/home/schizo/.local/share/nvim/view/~=+applist_2020-04-08=
+t/home/schizo/.local/share/Trash/files/000_~=+install_packages.sh=
+	/home/schizo/.local/share/nvim/view/~=+install_packages.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+applist.sh=
+	/home/schizo/.local/share/nvim/view/~=+applist.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+applist=
+	/home/schizo/.local/share/nvim/view/~=+applist=
+t/home/schizo/.local/share/Trash/files/000_~=+test.sh=
+	/home/schizo/.local/share/nvim/view/~=+test.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+.bash_profile=
+	/home/schizo/.local/share/nvim/view/~=+.bash_profile=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+gitdots.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+gitdots.sh=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.NNPGs6=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.NNPGs6=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.h5S4Cx=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.h5S4Cx=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.UUZcJ4=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.UUZcJ4=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.PRUnqN=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.PRUnqN=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.EzdnDf=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.EzdnDf=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.E8P9zX=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.E8P9zX=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.AYb3Og=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.AYb3Og=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.sKEPdK=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.sKEPdK=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.OwAmwu=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.OwAmwu=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.H3BNkU=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.H3BNkU=
+t/home/schizo/.local/share/Trash/files/000_~=+.cron.bash=
+	/home/schizo/.local/share/nvim/view/~=+.cron.bash=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.vYygh3=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.vYygh3=
+t/home/schizo/.local/share/Trash/files/000_~=+.bashrc=
+	/home/schizo/.local/share/nvim/view/~=+.bashrc=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.3Wt7dY=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.3Wt7dY=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.6Izi8Q=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.6Izi8Q=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.4eXFn1=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.4eXFn1=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.czolgg=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.czolgg=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.QSAu2t=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.QSAu2t=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.x5iXgb=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.x5iXgb=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.49DOKR=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.49DOKR=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.fv9JV7=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.fv9JV7=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.2OBIT0=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.2OBIT0=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.QFlxsG=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.QFlxsG=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.cVRSxI=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.cVRSxI=
+t/home/schizo/.local/share/Trash/files/000_~=+t.sh=
+	/home/schizo/.local/share/nvim/view/~=+t.sh=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.XmJZfe=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.XmJZfe=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.AfZKr3=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.AfZKr3=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.sUfxUm=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.sUfxUm=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.zJ9fmE=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.zJ9fmE=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.2fE1u8=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.2fE1u8=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.ejxuPf=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.ejxuPf=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.UpUE9w=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.UpUE9w=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.xZpvZr=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.xZpvZr=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.36vMBZ=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.36vMBZ=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.J363l9=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.J363l9=
+t/home/schizo/.local/share/Trash/files/000_~=+.gitconfig=
+	/home/schizo/.local/share/nvim/view/~=+.gitconfig=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+vifm=+vifm=+vifminfo=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+vifm=+vifm=+vifminfo=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+htop=+htop=+htoprc=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+htop=+htop=+htoprc=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+config.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+config.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+waybar=+waybar=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+waybar=+waybar=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+waybar=+waybar=+config=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+waybar=+waybar=+config=
+t/home/schizo/.local/share/Trash/files/000_~=+new.png=
+	/home/schizo/.local/share/nvim/view/~=+new.png=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.AEMv4T=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.AEMv4T=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+sink_move.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+sink_move.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+sink_move.sh=
+	/home/schizo/.local/share/nvim/view/~=+sink_move.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+sink_move=
+	/home/schizo/.local/share/nvim/view/~=+sink_move=
+t/home/schizo/.local/share/Trash/files/000_~=+shopify=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+shopify=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+shopify=+ypraktikum=+style.css=
+	/home/schizo/.local/share/nvim/view/~=+shopify=+ypraktikum=+style.css=
+t/home/schizo/.local/share/Trash/files/000_~=+shopify=+ypraktikum=+index.html=
+	/home/schizo/.local/share/nvim/view/~=+shopify=+ypraktikum=+index.html=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+html=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+html=
+t/home/schizo/.local/share/Trash/files/000_=+etc=+ly=+config.ini=
+	/home/schizo/.local/share/nvim/view/=+etc=+ly=+config.ini=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+vifm=+vifm=+scripts=+play_images=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+vifm=+vifm=+scripts=+play_images=
+t/home/schizo/.local/share/Trash/files/000_~=+.Xresources=
+	/home/schizo/.local/share/nvim/view/~=+.Xresources=
+t/home/schizo/.local/share/Trash/files/000_~=+wallpaper.sh=
+	/home/schizo/.local/share/nvim/view/~=+wallpaper.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+thaaszagren=+posts.html=
+	/home/schizo/.local/share/nvim/view/~=+thaaszagren=+posts.html=
+t/home/schizo/.local/share/Trash/files/000_~=+thaaszagren=+movies.html=
+	/home/schizo/.local/share/nvim/view/~=+thaaszagren=+movies.html=
+t/home/schizo/.local/share/Trash/files/000_~=+thaaszagren=+tg.html=
+	/home/schizo/.local/share/nvim/view/~=+thaaszagren=+tg.html=
+t/home/schizo/.local/share/Trash/files/000_~=+thaas_old.html=
+	/home/schizo/.local/share/nvim/view/~=+thaas_old.html=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+nocss_web.html=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+nocss_web.html=
+t/home/schizo/.local/share/Trash/files/000_~=+thaas.html=
+	/home/schizo/.local/share/nvim/view/~=+thaas.html=
+t/home/schizo/.local/share/Trash/files/000_~=+nocss_web.html=
+	/home/schizo/.local/share/nvim/view/~=+nocss_web.html=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+t.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+t.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+starter.sh=
+	/home/schizo/.local/share/nvim/view/~=+starter.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+timer.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+timer.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+timer.sh=
+	/home/schizo/.local/share/nvim/view/~=+timer.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+new=
+	/home/schizo/.local/share/nvim/view/~=+new=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.2KD2bhT8pg.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.2KD2bhT8pg.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+cards=+card3=
+	/home/schizo/.local/share/nvim/view/~=+cards=+card3=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+npm=+npmrc=
+	/home/schizo/.local/share/nvim/view/~=+.config=+npm=+npmrc=
+t/home/schizo/.local/share/Trash/files/000_.config=+npm=+npmrc=
+	/home/schizo/.local/share/nvim/view/.config=+npm=+npmrc=
+t/home/schizo/.local/share/Trash/files/000_~=+d=+даша ставкина on Twitter_ _thank you, i’ll try… _.html=
+	/home/schizo/.local/share/nvim/view/~=+d=+даша ставкина on Twitter_ _thank you, i’ll try… _.html=
+t/home/schizo/.local/share/Trash/files/000_~=+bash_tips.md=
+	/home/schizo/.local/share/nvim/view/~=+bash_tips.md=
+t/home/schizo/.local/share/Trash/files/000_~=+helpful_stuff.md=
+	/home/schizo/.local/share/nvim/view/~=+helpful_stuff.md=
+t/home/schizo/.local/share/Trash/files/000_~=+w.md=
+	/home/schizo/.local/share/nvim/view/~=+w.md=
+t/home/schizo/.local/share/Trash/files/000_~=+ppp.md=
+	/home/schizo/.local/share/nvim/view/~=+ppp.md=
+t/home/schizo/.local/share/Trash/files/000_~=+e.md=
+	/home/schizo/.local/share/nvim/view/~=+e.md=
+t/home/schizo/.local/share/Trash/files/000_~=+a.md=
+	/home/schizo/.local/share/nvim/view/~=+a.md=
+t/home/schizo/.local/share/Trash/files/000_~=+f.md=
+	/home/schizo/.local/share/nvim/view/~=+f.md=
+t/home/schizo/.local/share/Trash/files/000_~=+g.md=
+	/home/schizo/.local/share/nvim/view/~=+g.md=
+t/home/schizo/.local/share/Trash/files/000_~=+help.md=
+	/home/schizo/.local/share/nvim/view/~=+help.md=
+t/home/schizo/.local/share/Trash/files/000_~=+p.md=
+	/home/schizo/.local/share/nvim/view/~=+p.md=
+t/home/schizo/.local/share/Trash/files/000_~=+t.md=
+	/home/schizo/.local/share/nvim/view/~=+t.md=
+t/home/schizo/.local/share/Trash/files/000_~=+bash_cheatsheet.md=
+	/home/schizo/.local/share/nvim/view/~=+bash_cheatsheet.md=
+t/home/schizo/.local/share/Trash/files/000_~=+nvim_tips.md=
+	/home/schizo/.local/share/nvim/view/~=+nvim_tips.md=
+t/home/schizo/.local/share/Trash/files/000_~=+23123=
+	/home/schizo/.local/share/nvim/view/~=+23123=
+t/home/schizo/.local/share/Trash/files/000_~=+personal=+university=+filosofiya_istorii=+Rorty=+Rorty_4_Genres.tex=
+	/home/schizo/.local/share/nvim/view/~=+personal=+university=+filosofiya_istorii=+Rorty=+Rorty_4_Genres.tex=
+t/home/schizo/.local/share/Trash/files/000_~=+new2.md=
+	/home/schizo/.local/share/nvim/view/~=+new2.md=
+t/home/schizo/.local/share/Trash/files/000_~=+hello.tex=
+	/home/schizo/.local/share/nvim/view/~=+hello.tex=
+t/home/schizo/.local/share/Trash/files/000_~=+new1.md=
+	/home/schizo/.local/share/nvim/view/~=+new1.md=
+t/home/schizo/.local/share/Trash/files/000_~=+new.md=
+	/home/schizo/.local/share/nvim/view/~=+new.md=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+sudo!!.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+sudo!!.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+!!.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+!!.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+Makefile=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+Makefile=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+t.makefile=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+t.makefile=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.7Wp8iUbEp5.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.7Wp8iUbEp5.fish=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.Gfr2JeFvj8.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.Gfr2JeFvj8.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+corona.sh=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+corona.sh=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.Sj9amJ9DwA.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.Sj9amJ9DwA.fish=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.aTkUsmv8eW=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.aTkUsmv8eW=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+edit_cmd.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+edit_cmd.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+stdin_while.sh=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+stdin_while.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+norm.txt=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+norm.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+tmp=+txt.txt=
+	/home/schizo/.local/share/nvim/view/~=+tmp=+txt.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+exercism=+bash=+error-handling=+error_handling.sh=
+	/home/schizo/.local/share/nvim/view/~=+exercism=+bash=+error-handling=+error_handling.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+exercism=+bash=+error-handling=+error_handling_test.sh=
+	/home/schizo/.local/share/nvim/view/~=+exercism=+bash=+error-handling=+error_handling_test.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+bash_ex.sh=
+	/home/schizo/.local/share/nvim/view/~=+bash_ex.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+exercism=+bash=+two-fer=+two_fer_test.sh=
+	/home/schizo/.local/share/nvim/view/~=+exercism=+bash=+two-fer=+two_fer_test.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+exercism=+bash=+two-fer=+two_fer.sh=
+	/home/schizo/.local/share/nvim/view/~=+exercism=+bash=+two-fer=+two_fer.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+exercism=+bash=+hello-world=+hello_world.sh=
+	/home/schizo/.local/share/nvim/view/~=+exercism=+bash=+hello-world=+hello_world.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+bg_this.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+bg_this.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+file01=
+	/home/schizo/.local/share/nvim/view/~=+file01=
+t/home/schizo/.local/share/Trash/files/000_~=+derek.sh=
+	/home/schizo/.local/share/nvim/view/~=+derek.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+cfg_vim.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+cfg_vim.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+index.markdown=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+index.markdown=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+Again.markdown=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+Again.markdown=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+Another one.markdown=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+Another one.markdown=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+Second.markdown=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+Second.markdown=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+index.md=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+index.md=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+first.md=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+first.md=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+index.wiki=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+index.wiki=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+yeah.wiki=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+yeah.wiki=
+t/home/schizo/.local/share/Trash/files/000_~=+vimwiki=+Tasks.md=
+	/home/schizo/.local/share/nvim/view/~=+vimwiki=+Tasks.md=
+t/home/schizo/.local/share/Trash/files/000_~=+.vimrc=
+	/home/schizo/.local/share/nvim/view/~=+.vimrc=
+t/home/schizo/.local/share/Trash/files/000_~=+bg_this.sh=
+	/home/schizo/.local/share/nvim/view/~=+bg_this.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+bg.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+bg.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+du.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+du.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+init_new.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+init_new.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+outputs2.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+outputs2.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+h1.sh=
+	/home/schizo/.local/share/nvim/view/~=+h1.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+outputs.sh=
+	/home/schizo/.local/share/nvim/view/~=+outputs.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+test_sway_outputs.txt=
+	/home/schizo/.local/share/nvim/view/~=+test_sway_outputs.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+wallpaper.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+wallpaper.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+wallpaper_this.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+wallpaper_this.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+todos.md=
+	/home/schizo/.local/share/nvim/view/~=+todos.md=
+t/home/schizo/.local/share/Trash/files/000_~=+.xinitrc=
+	/home/schizo/.local/share/nvim/view/~=+.xinitrc=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka=+zheka.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka=+zheka.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+eng_phrases=
+	/home/schizo/.local/share/nvim/view/~=+eng_phrases=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka=+slava.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka=+slava.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka=+test.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka=+test.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+wow.sh=
+	/home/schizo/.local/share/nvim/view/~=+wow.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+wow2.sh=
+	/home/schizo/.local/share/nvim/view/~=+wow2.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+pop=+fifo_reader.sh=
+	/home/schizo/.local/share/nvim/view/~=+pop=+fifo_reader.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+pop=+fifo_write.sh=
+	/home/schizo/.local/share/nvim/view/~=+pop=+fifo_write.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka=+zheka_reader.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka=+zheka_reader.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka=+zheka_writer.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka=+zheka_writer.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+zheka.sh=
+	/home/schizo/.local/share/nvim/view/~=+zheka.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+qop=+a.sh=
+	/home/schizo/.local/share/nvim/view/~=+qop=+a.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+pop=+pop_a.sh=
+	/home/schizo/.local/share/nvim/view/~=+pop=+pop_a.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+qop=+b.sh=
+	/home/schizo/.local/share/nvim/view/~=+qop=+b.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+Bourdieu_Corporatism=
+	/home/schizo/.local/share/nvim/view/~=+Bourdieu_Corporatism=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+pulse_jack.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+pulse_jack.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+pulse_jack=
+	/home/schizo/.local/share/nvim/view/~=+pulse_jack=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+home=+scripts=+scripts=+screenshot.sh=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+home=+scripts=+scripts=+screenshot.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+user-dirs.dirs=
+	/home/schizo/.local/share/nvim/view/~=+.config=+user-dirs.dirs=
+t/home/schizo/.local/share/Trash/files/000_=+etc=+pacman.d=+hooks=+zzz-99-paccache-old.hook=
+	/home/schizo/.local/share/nvim/view/=+etc=+pacman.d=+hooks=+zzz-99-paccache-old.hook=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.8QZ3qV=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.8QZ3qV=
+t/home/schizo/.local/share/Trash/files/000_~=+yd.sh=
+	/home/schizo/.local/share/nvim/view/~=+yd.sh=
+t/home/schizo/.local/share/Trash/files/000_~=+hello.txt=
+	/home/schizo/.local/share/nvim/view/~=+hello.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+ydcmd.conf=
+	/home/schizo/.local/share/nvim/view/~=+.config=+ydcmd.conf=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+ydcmd=
+	/home/schizo/.local/share/nvim/view/~=+.config=+ydcmd=
+t/home/schizo/.local/share/Trash/files/000_~=+dupes_books.txt=
+	/home/schizo/.local/share/nvim/view/~=+dupes_books.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+.cargo=+config=
+	/home/schizo/.local/share/nvim/view/~=+.cargo=+config=
+t/home/schizo/.local/share/Trash/files/000_!#^=+new=
+	/home/schizo/.local/share/nvim/view/!#^=+new=
+t/home/schizo/.local/share/Trash/files/000_!#=+new=
+	/home/schizo/.local/share/nvim/view/!#=+new=
+t/home/schizo/.local/share/Trash/files/000_~=+wheaton_college_philosophy_course=+lection_1=+the_beginning_of_Greek_philosophy.tex=
+	/home/schizo/.local/share/nvim/view/~=+wheaton_college_philosophy_course=+lection_1=+the_beginning_of_Greek_philosophy.tex=
+t/home/schizo/.local/share/Trash/files/000_~=+masha.md=
+	/home/schizo/.local/share/nvim/view/~=+masha.md=
+t/home/schizo/.local/share/Trash/files/000_~=+wow=+new=
+	/home/schizo/.local/share/nvim/view/~=+wow=+new=
+t/home/schizo/.local/share/Trash/files/000_..=+new=+new=
+	/home/schizo/.local/share/nvim/view/..=+new=+new=
+t/home/schizo/.local/share/Trash/files/000_=+home=+new=
+	/home/schizo/.local/share/nvim/view/=+home=+new=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+crontab.bd2i11=
+	/home/schizo/.local/share/nvim/view/=+tmp=+crontab.bd2i11=
+t/home/schizo/.local/share/Trash/files/000_~-=+newfile.txt=
+	/home/schizo/.local/share/nvim/view/~-=+newfile.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+newfile.txt=
+	/home/schizo/.local/share/nvim/view/~=+newfile.txt=
+t/home/schizo/.local/share/Trash/files/000_~+=+newfile.txt=
+	/home/schizo/.local/share/nvim/view/~+=+newfile.txt=
+t/home/schizo/.local/share/Trash/files/000_~=+.mozilla=+firefox=+x2dv0xfy.default-nightly=+chrome=+userChrome.css=
+	/home/schizo/.local/share/nvim/view/~=+.mozilla=+firefox=+x2dv0xfy.default-nightly=+chrome=+userChrome.css=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+zathura=+zathura=+zathurarc=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+zathura=+zathura=+zathurarc=
+t/home/schizo/.local/share/Trash/files/000_~=+.config=+swaylock=+config=
+	/home/schizo/.local/share/nvim/view/~=+.config=+swaylock=+config=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+fish=+fish=+functions=+cfg_swaylock.fish=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+fish=+fish=+functions=+cfg_swaylock.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+config=
+	/home/schizo/.local/share/nvim/view/~=+config=
+t/home/schizo/.local/share/Trash/files/000_.config=+swaylock=+config=
+	/home/schizo/.local/share/nvim/view/.config=+swaylock=+config=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_navigation.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_navigation.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+coc-settings.json=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+coc-settings.json=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+js_course=+6-budgety=+final=+app.js=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+js_course=+6-budgety=+final=+app.js=
 
 # State:
 f

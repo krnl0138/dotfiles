@@ -131,7 +131,7 @@ set {
     $default_inner 15
     $default_outer 0
 }
-smart_gaps on
+smart_gaps off
 smart_borders on
 gaps inner $default_inner
 gaps outer $default_outer

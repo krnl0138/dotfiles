@@ -4,7 +4,9 @@ let mapleader=" "
 call plug#begin('~/.config/nvim/plugins')
 " CODE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets' " default snippets pack
 Plug 'sheerun/vim-polyglot'
+Plug 'SirVer/ultisnips'
 " STATUSLINE
 Plug 'itchyny/lightline.vim'
 Plug 'bling/vim-bufferline'
@@ -13,97 +15,111 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'majutsushi/tagbar'
+" Plug 'tpope/vim-unimpaired'
 " EXTENTIONS
 Plug 'tpope/vim-obsession'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'lervag/vimtex' " compiling .tex
-Plug 'plasticboy/vim-markdown' " folding, fenced syntax, etc.
+Plug 'plasticboy/vim-markdown' " folding, fenced syntax, etc. POLYGLOT disabled
 Plug 'godlygeek/tabular' " needed for above
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } " browser
 Plug 'conornewton/vim-pandoc-markdown-preview' " don't need really
-" SNIPPETS
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+Plug 'junegunn/goyo.vim'
 " FILE EDITING
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'machakann/vim-sandwich'
-Plug '907th/vim-auto-save'
+Plug '907th/vim-auto-save' " mb replace w :autoread ?
 Plug 'junegunn/vim-easy-align'
-Plug 'Yggdroot/indentLine' " lines @ indent
+Plug 'Yggdroot/indentLine' " indent@lines WARN: MESS `Concealcursor` OPT
 " COLORSCHEMES
-Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
-Plug 'drewtempelmeyer/palenight.vim'
 call plug#end()
 " SET OPTIONS
 """""""""""""
-" see :help nvim-defaults
-    autocmd BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
-    autocmd BufRead * silent! loadview
-    autocmd BufWrite * mkview " Save folds
-    autocmd BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
-    autocmd VimResized * execute "normal! \<c-w>="
-    autocmd FocusGained,BufEnter * :checktime " reload buffer on outside change
+" See :help nvim-defaults
+set clipboard=unnamedplus
+set cmdheight=2      " More space for messages
+set colorcolumn=80
+set conceallevel=2   " Determine what to conceal
+set cursorline
+" set cursorcolumn " Slow!
+set foldcolumn=2     " visible level of folds in sidebar
+set hidden
+set inccommand=split " highlight & open ref window on substitute
+set lazyredraw       " do not redraw screen while macro is working
+set mouse=a
+set nomodeline
+set noshowmode
+set nowrap
+set number rnu
+set pumblend=20      " set pum background visibility to 20%
+set splitbelow splitright " Open new split to right and bottom
+set title
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
-    set clipboard=unnamedplus
-    set cmdheight=2           " More space for messages
-    set colorcolumn=80
-    set conceallevel=2        " Determine what to conceal
-    set cursorline
-    set foldcolumn=2          " visible level of folds in sidebar
-    set hidden
-    set inccommand=split
-    set lazyredraw            " do not redraw screen while macro is working
-    set mouse=a
-    set nomodeline
-    set noshowmode
-    set nowrap
-    set number rnu
-    set pumblend=20           " set pum background visibility to 20 percent
-    set splitbelow splitright " Open new split panes to right and bottom
-    set title
-    set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-" colors
-    set termguicolors
-    set bg=dark
-    colorscheme onedark
-" search & find
-    set ignorecase
-    set smartcase
-    set path+=**
-    set wildignore+=**/node_modules/**
+" Colors
+set termguicolors
+set bg=dark
+colorscheme onedark
+
+" Search & find
+set ignorecase
+set smartcase
+set path+=**
+set wildignore+=**/node_modules/**
+
 " tabs
-    set smartindent
-    set ts=4 sts=4 sw=4 expandtab
-" history
-    set backup
-    set undofile
-    set backupdir=~/.local/share/nvim/backupdir/backup
-    set directory=~/.local/share/nvim/backupdir/swp
-    set undodir=~/.local/share/nvim/backupdir/undo
-" language settings
-    autocmd FileType javascript,html,css,scss set ts=2 sts=2 sw=2
-    autocmd FileType javascript,html,css,scss ino <buffer> ( ()<Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> { {}<Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> {<CR> {<CR>}<Esc>O
-    autocmd FileType javascript,html,css,scss ino <buffer> [ []<Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> < <><Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> ' ''<Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> " ""<Left>
-    autocmd FileType javascript,html,css,scss ino <buffer> ` ``<Left>
+set smartindent
+set ts=4 sts=4 sw=4 expandtab
+
+" History
+set backup
+set undofile
+set backupdir=~/.local/share/nvim/backupdir/backup
+set directory=~/.local/share/nvim/backupdir/swp
+set undodir=~/.local/share/nvim/backupdir/undo
+
+" Auto commands
+au BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
+au BufRead * silent! loadview
+au BufWrite * mkview " Save folds
+au BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
+au VimResized * execute "normal! \<c-w>="
+au FocusGained,BufEnter * :checktime " reload buffer on outside change
+
+" File extensions settings
+au BufRead,BufNewFile *.md setlocal tw=79
+" au FileType javascript,html,css,scss set ts=2 sts=2 sw=2
+" au InsertLeave *.js,*.html,*.css,*.scss,*.md silent! Prettier
+au FileType javascript,html,css,scss ino <buffer> ( ()<Left>
+au FileType javascript,html,css,scss ino <buffer> { {}<Left>
+au FileType javascript,html,css,scss ino <buffer> {<CR> {<CR>}<Esc>O
+au FileType javascript,html,css,scss ino <buffer> [ []<Left>
+au FileType javascript,html,css,scss ino <buffer> < <><Left>
+au FileType javascript,html,css,scss ino <buffer> ' ''<Left>
+au FileType javascript,html,css,scss ino <buffer> " ""<Left>
+au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " MAPPINGS
 " ========
-    nn ; :
-    nn : ;
+
+    " %% to expand current buffer path in commandline
+    cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+    " nn ; : " Novices remap it, wizards use vim `f{char}`
+    " nn : ;
     nn Y y$
+    nn <leader>gp :Prettier<CR>
+    vn <leader>gp :Prettier<CR>
     nn <leader>a za
     nn <CR> o<Esc>
     nn <leader>pi :PlugInstall<CR>
     nn <leader>pu :PlugUpdate<CR>
     nn <leader>pc :PlugClean<CR>
-    nn <leader>sv :source $MYVIMRC <bar> :doautocmd BufRead<CR>
+    nn <leader>sv :source $MYVIMRC <bar> :doau BufRead<CR>
+" Open window in a new tab
+    nn <leader>tt :tab sp<CR>
+    nn <leader>tc :tabclose<CR>
 " Center jumps
     nn <expr> ' "'" . nr2char(getchar()) . "zz"
     nn <C-o> <C-o>zz
@@ -145,16 +161,46 @@ call plug#end()
     nn <silent><S-j> <C-w><down>
     nn <silent><S-k> <C-w><up>
     nn <silent><S-l> <C-w><right>
-    tno <silent><S-h> <C-\><C-n><C-w>h
-    tno <silent><S-j> <C-\><C-n><C-w>j
-    tno <silent><S-k> <C-\><C-n><C-w>k
-    tno <silent><S-l> <C-\><C-n><C-w>l
+" PLUGINS MAPPINGS
+" ========
+" FZF plug
+    nn <silent><C-p> :GFiles<CR>
+    nn <silent><C-t> :Tags<CR>
+    nn <silent><C-g> :RG<CR>
+    nn <silent><C-h> :Hist<CR>
+    nn <silent><C-f> :Files ~<CR>
+    nn <silent><leader>d :BD<CR>
+    nn <silent><leader><leader> :Buffers<CR>
+" VimPandocMarkdown + autosave plug
+    " nn <leader>P :call Autosave_markdown_preview()<CR>
+" Easyalign plug (vipga or gaip)
+    xmap ga <Plug>(EasyAlign)
+    nmap ga <Plug>(EasyAlign)
+" NERDTree
+    nn <leader>f :NERDTreeToggle<CR>
+    nn <silent> <leader>v :NERDTreeFind<CR>
+" Goyo
+    nn <leader>go :Goyo<CR>
 " PLUGINS
 " =======
+" GOYO
+" let g:goyo_height " (default: 85%)
+let g:goyo_width = 85 " (default: 80)
+let g:goyo_linenr = 1 " (default: 0)
+
+" Indentline
+let g:indentLine_setConceal = 0 " to prevent overwriting my settings
+
+" POLYGLOT
+let g:polyglot_disabled = ['md']
+
 " LIGHTLINE
 function! LightlineObsession()
     return '%{ObsessionStatus()}'
 endfunction
+
+    " Lightline + coc
+au User CocStatusChange,CocDiagnosticChange call lightline#update()
 
 let g:lightline = {
 \ 'colorscheme': 'wombat',
@@ -170,117 +216,140 @@ let g:lightline = {
 \ },
 \ }
 
-" Use auocmd to force lightline update.
-autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
-
 " NERDTree
-nn <leader>f :NERDTreeToggle<CR>
-nn <silent> <Leader>v :NERDTreeFind<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+au bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeShowHidden=1
-" let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeDirArrows = 1
 
 " VIM-MARKDOWN
-let g:vim_markdown_folding_level = 3
-let g:vim_markdown_override_foldtext = 1
+let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_folding_style_pythonic = 1
+let g:vim_markdown_folding_level = 3
+let g:vim_markdown_override_foldtext = 0
 let g:vim_markdown_fenced_languages = ['js=javascript']
 let g:vim_markdown_new_list_item_indent = 2
 
-" POLYGLOT
-" ~/.vimrc, declare this variable before polyglot is loaded
-" let g:polyglot_disabled = ['markdown']
-
-" INDENTLINE
-let g:indentLine_concealcursor = ""
+" ULTISNIPS
+let g:UltiSnipsExpandTrigger = '<nop>'
+let g:UltiSnipsJumpForwardTrigger = '<c-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+let g:UltiSnipsRemoveSelectModeMappings = 0
+" let g:UltiSnipsSnippetDirectories = [vimrc#path('UltiSnips')]
+nnoremap <leader>es :UltiSnipsEdit!<cr>
 
 " YCM
-    function! GoYCM()
-        nn <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
-        nn <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
-        nn <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
-    endfunction
-
-" COC
-
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
-    let col = col('.') - 1
-    return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-" GoTo code navigation.
-    nmap <buffer> <leader>gd <Plug>(coc-definition)
-    nmap <buffer> <leader>gy <Plug>(coc-type-definition)
-    nmap <buffer> <leader>gi <Plug>(coc-implementation)
-    nmap <buffer> <leader>gr <Plug>(coc-references)
-
-" use <C-space>for trigger completion
-    ino <silent><expr> <C-space> coc#refresh()
-" use <Tab> and <S-Tab> to navigate the completion list:
-    ino <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-    ino <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-" use <CR> to confirm completion
-" ino <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-" Close the preview window when completion is done.
-    " autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
-"To make <CR> select the first completion item and confirm the completion when no item has been selected:
-    ino <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
-
-    " function! GoCoc()
-    "     ino <buffer> <silent><expr> <Tab>
-    "                 \ pumvisible() ? "\<C-n>" :
-    "                 \ <SID>check_back_space() ? "\<TAB>" :
-    "                 \ coc#refresh()
-    "     ino <buffer> <expr><S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
-    "     ino <buffer> <silent><expr> <C-space> coc#refresh()
-
+    " function! GoYCM()
+    "     nn <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
+    "     nn <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+    "     nn <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
     " endfunction
 
-    " " Where to use YCM & COC
-    " autocmd FileType typescript :call GoYCM()
-    " autocmd FileType cpp,cxx,h,hpp,c :call GoCoc()
-    " autocmd FileType sh,bash :call GoCoc()
+" COC
+" See YT primegean
+" :CocInstall coc-snippets, for general snippets support
+" :CocInstall coc-ultisnips, for support the snippets from ultisnips
 
     " default is 4000ms = 4s leads to delays and poor user experience.
-        set updatetime=300
+    set updatetime=300
 
     " Don't pass messages to |ins-completion-menu|.
-        set shortmess+=c
+    set shortmess+=c
+
+    " Always show the signcolumn, otherwise it would shift the text each time
+    " diagnostics appear/become resolved.
+    set signcolumn=yes
+
+    " Use tab for trigger completion with characters ahead and navigate.
+    " NOTE Use command ':verbose imap <tab>' to make sure tab is not mapped by
+    " other plugin before putting this into your config.
+    inoremap <silent><expr> <TAB>
+          \ pumvisible() ? "\<C-n>" :
+          \ <SID>check_back_space() ? "\<TAB>" :
+          \ coc#refresh()
+    inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+    function! s:check_back_space() abort
+      let col = col('.') - 1
+      return !col || getline('.')[col - 1]  =~# '\s'
+    endfunction
+
+    " Use <c-space> to trigger completion.
+    " DON'T KNOW WHAT IS IT
+    inoremap <silent><expr> <c-space> coc#refresh()
+
+    " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
+    " position. Coc only does snippet and additional edit on confirm.
+    " <cr> could be remapped by other vim plugin, try `:verbose imap <CR>`.
+    if exists('*complete_info')
+      inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+    else
+      inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+    endif
+
+    " Use <C-l> for trigger snippet expand.
+    imap <C-l> <Plug>(coc-snippets-expand)
+
+    " Use <C-j> for select text for visual placeholder of snippet.
+    vmap <C-j> <Plug>(coc-snippets-select)
+
+    let g:coc_snippet_next = '<tab>'
+    let g:coc_snippet_prev = '<s-tab>'
+
+    " Use `[g` and `]g` to navigate diagnostics
+    nmap <silent> [g <Plug>(coc-diagnostic-prev)
+    nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+    " GoTo code navigation.
+    nmap <silent> gd <Plug>(coc-definition)
+    nmap <silent> gy <Plug>(coc-type-definition)
+    nmap <silent> gi <Plug>(coc-implementation)
+    nmap <silent> gr <Plug>(coc-references)
+
+    " Highlight the symbol and its references when holding the cursor.
+    " TODO make brighter
+    autocmd CursorHold * silent call CocActionAsync('highlight')
 
     " Prettier
     " https://github.com/neoclide/coc-prettier
-    " Use :Prettier to format current buffer.
+    " :Prettier to format current buffer.
     command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-" ULTISNIPS
-" needs to jump around coc completions
-" tab for jumping and ^n,^p for menu selection
-    let g:UltiSnipsExpandTrigger       = "<tab>"
-    let g:UltiSnipsJumpForwardTrigger  = "<tab>"
-    let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-    let g:UltiSnipsEditSplit           = "<vertical>"
+    " Formatting selected code, as Prettier.
+    xmap <leader>p  <Plug>(coc-format-selected)
+    nmap <leader>p  <Plug>(coc-format-selected)
 
-" EASYALIGN
-    " vipga or gaip
-    xmap ga <Plug>(EasyAlign)
-    nmap ga <Plug>(EasyAlign)
+    " Symbol renaming, rename all occurrences intelligently.
+    nmap <leader>rn <Plug>(coc-rename)
+
+    " Applying codeAction to the selected region.
+    " Example `<leader>aap` for current paragraph
+    xmap <leader>z  <Plug>(coc-codeaction-selected)
+    nmap <leader>z  <Plug>(coc-codeaction-selected)
+    " Remap keys for applying codeAction to the current line.
+    nmap <leader>zc  <Plug>(coc-codeaction)
+    " Apply AutoFix to problem on the current line.
+    nmap <leader>qf  <Plug>(coc-fix-current)
+
+    " Use CTRL-S to intelligently select code area. Press again to enlarge.
+    " Requires 'textDocument/selectionRange' support of LS, ex: coc-tsserver
+    nmap <silent> <C-s> <Plug>(coc-range-select)
+    xmap <silent> <C-s> <Plug>(coc-range-select)
+
+    " Add `:Format` command to format current buffer, as Prettier.
+    command! -nargs=0 Format :call CocAction('format')
+
+    " Add `:Fold` command to fold current buffer.
+    command! -nargs=? Fold :call CocAction('fold', <f-args>)
+
+    " Add `:OR` command for organize imports of the current buffer.
+    command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
 " FZF{{{
-
-    nn <C-p> :GFiles<CR>
-    nn <C-t> :Tags<CR>
-    nn <C-g> :RG<CR>
-    nn <silent><C-f> :Files ~<CR>
-    nn <leader><leader> :Buffers<CR>
-
     let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git,.local}"'
     let $FZF_DEFAULT_OPTS    = ' --color=dark --color=fg:15,bg:-1,hl:1,fg+:#ffffff,bg+:0,hl+:1 --color=info:0,prompt:0,pointer:12,marker:4,spinner:11,header:-1 --layout=reverse  --margin=1,4'
 
-    " let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
     let g:fzf_action = {
           \ 'ctrl-s': 'split',
           \ 'ctrl-v': 'vsplit',
@@ -309,7 +378,31 @@ endfunction
       call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
     endfunction
     command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+
+    function! s:list_buffers()
+      redir => list
+      silent ls
+      redir END
+      return split(list, "\n")
+    endfunction
+
+    function! s:delete_buffers(lines)
+      execute 'bwipeout' join(map(a:lines, {_, line -> split(line)[0]}))
+    endfunction
+
+    command! BD call fzf#run(fzf#wrap({
+      \ 'source': s:list_buffers(),
+      \ 'sink*': { lines -> s:delete_buffers(lines) },
+      \ 'options': '--multi --reverse --bind ctrl-a:select-all+accept'
+    \ }))
+
   "}}}
+
+" VIMTEX
+    let g:tex_flavor='latex'
+    let g:vimtex_view_method='mupdf'
+    let g:vimtex_quickfix_mode=0
+    let g:tex_conceal='abdmgs'
 
 " VIM-AUTO-SAVE
     let g:auto_save = 0
@@ -327,13 +420,6 @@ endfunction
         let g:auto_save_silent = 1
         let g:auto_save_events = ["InsertLeave", "TextChanged"]
     endfunction
-    nn <leader>P :call Autosave_markdown_preview()<CR>
 
 " MARKDOWN PREVIEW (browser)
     let g:mkdp_browser = 'brave'
-
-" VIMTEX
-    let g:tex_flavor='latex'
-    let g:vimtex_view_method='mupdf'
-    let g:vimtex_quickfix_mode=0
-    let g:tex_conceal='abdmgs'
