@@ -624,54 +624,6 @@ d/home/schizo
 8
 
 # Right window history (oldest to newest):
-D/home/schizo
-	udemy
-13
-D/home/schizo/udemy
-	myFiles
-1
-D/home/schizo/udemy/myFiles
-	react_course
-1
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-3
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	containers
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
-	App.css
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	assets
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/assets
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-3
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-1
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 	src
 1
@@ -1224,6 +1176,54 @@ D/home/schizo/.local/share/nvim
 D/home/schizo/.local/share/nvim/view
 	..
 0
+D/home/schizo
+	.local
+41
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo/.config/nvim
+	plugins
+2
+D/home/schizo/.config/nvim/plugins
+	vim-sandwich
+15
+D/home/schizo/.config/nvim/plugins/vim-sandwich
+	plugin
+6
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin
+	operator
+1
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin/operator
+	sandwich.vim
+1
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin
+	textobj
+2
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin/textobj
+	sandwich.vim
+1
+D/home/schizo
+	.fasd
+41
+D/home/schizo/.config
+	nvim
+24
+D/home/schizo/.config/nvim
+	plugins
+2
+D/home/schizo/.config/nvim/plugins
+	vim-sandwich
+15
+D/home/schizo/.config/nvim/plugins/vim-sandwich
+	plugin
+6
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin
+	textobj
+1
+D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin/textobj
+	sandwich.vim
+1
 
 # Command line history (oldest to newest):
 :goto ~
@@ -1520,6 +1520,7 @@ D/home/schizo/.local/share/nvim/view
 /.local
 /ult
 /loc
+/sa
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)

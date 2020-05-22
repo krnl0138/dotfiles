@@ -39,6 +39,7 @@ call plug#end()
 " SET OPTIONS
 """""""""""""
 " See :help nvim-defaults
+set nohlsearch
 set clipboard=unnamedplus
 set cmdheight=2      " More space for messages
 set colorcolumn=80
@@ -103,6 +104,7 @@ au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " MAPPINGS
 " ========
+
 
     " %% to expand current buffer path in commandline
     cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
