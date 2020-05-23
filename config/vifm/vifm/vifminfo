@@ -625,18 +625,6 @@ d/home/schizo
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	containers
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
-	App.js
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	containers
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 	public
 5
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide/public
@@ -1224,6 +1212,18 @@ D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin
 D/home/schizo/.config/nvim/plugins/vim-sandwich/plugin/textobj
 	sandwich.vim
 1
+D/home/schizo
+	.fasd
+41
+D/home/schizo/scripts
+	swaybg.sh
+24
+D/home/schizo
+	stuff
+1
+D/home/schizo/stuff
+	eng_phrases
+20
 
 # Command line history (oldest to newest):
 :goto ~
