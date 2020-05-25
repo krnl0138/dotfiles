@@ -61,6 +61,7 @@ nnoremap O :file &<CR>
 nnoremap o :file &<CR>l
 
 nnoremap gd :cd $XDG_DOWNLOAD_DIR <CR>
+nnoremap gl :cd $XDG_DATA_HOME <CR>
 nnoremap gP :cd $XDG_PICTURES_DIR <CR>
 nnoremap gp :cd $HOME/personal <CR>
 nnoremap gh :cd $HOME <CR>

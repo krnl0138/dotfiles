@@ -625,24 +625,6 @@ d/home/schizo
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	public
-5
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/public
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	scripts
-4
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/scripts
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	node_modules
-3
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/node_modules
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
 	config
 2
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config
@@ -1224,6 +1206,24 @@ D/home/schizo
 D/home/schizo/stuff
 	eng_phrases
 20
+D/home/schizo
+	stuff
+2
+D/home/schizo/downloads
+	Piano
+19
+D/home/schizo
+	stuff
+1
+D/home/schizo/.local/share
+	nvim
+1
+D/home/schizo/.local/share/nvim
+	view
+2
+D/home/schizo/.local/share/nvim/view
+	..
+0
 
 # Command line history (oldest to newest):
 :goto ~
@@ -1535,7 +1535,44 @@ picon-font
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/003_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_navigation.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+dotfiles=+config=+vifm=+vifm=+vifmrc=
+""/home/schizo/.local/share/Trash/files/008_~=+dotfiles=+config=+nvim=+nvim=+init.vim=
+""/home/schizo/.local/share/Trash/files/002_~=+stuff=+vim_tips.md=
+""/home/schizo/.local/share/Trash/files/001_~=+dotfiles=+config=+sway=+sway=+config=
+""/home/schizo/.local/share/Trash/files/002_~=+stuff=+css_jonas_course.md=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+index.html=
+""/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_popup.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+stuff=+composing_software_elliot.md=
+""/home/schizo/.local/share/Trash/files/000_~=+stuff=+journal=+22052020.md=
+""/home/schizo/.local/share/Trash/files/002_~=+linux.todo=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_form.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+pages=+_home.scss=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_story.scss=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_card.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_feature-box.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_composition.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_utilities.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_footer.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_grid.scss=
+""/home/schizo/.local/share/Trash/files/004_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_navigation.scss=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_header.scss=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_mixins.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_typography.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+abstracts=+_variables.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+base=+_base.scss=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+css=+style.css=
+""/home/schizo/.local/share/Trash/files/001_~=+stuff=+webdev_bootcamp_steele.md=
+""/home/schizo/.local/share/Trash/files/001_~=+stuff=+eloquent_js_haverbeke.md=
+""/home/schizo/.local/share/Trash/files/002_~=+stuff=+programming.md=
+""/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.z1IXtLpJ3V.fish=
+""/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.css=
+""/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.html=
+""/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap.html=
+""/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+plugins=+vim-sandwich=+plugin=+textobj=+sandwich.vim=
+""/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+UltiSnips=+markdown.snippets=
+""/home/schizo/.local/share/Trash/files/001_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_button.scss=
+""/home/schizo/.local/share/Trash/files/002_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+main.scss=
+""/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_popup.scss=
 
 # Directory stack (oldest to newest):
 
@@ -3464,6 +3501,24 @@ t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+coc-
 	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+coc-settings.json=
 t/home/schizo/.local/share/Trash/files/000_~=+udemy=+myFiles=+js_course=+6-budgety=+final=+app.js=
 	/home/schizo/.local/share/nvim/view/~=+udemy=+myFiles=+js_course=+6-budgety=+final=+app.js=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_popup.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+components=+_popup.scss=
+t/home/schizo/.local/share/Trash/files/000_~=+stuff=+journal=+22052020.md=
+	/home/schizo/.local/share/nvim/view/~=+stuff=+journal=+22052020.md=
+t/home/schizo/.local/share/Trash/files/000_=+tmp=+tmp.z1IXtLpJ3V.fish=
+	/home/schizo/.local/share/nvim/view/=+tmp=+tmp.z1IXtLpJ3V.fish=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.css=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.css=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap2.html=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap.html=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+steele_webdev_bootcamp=+assignments=+bootstap.html=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+plugins=+vim-sandwich=+plugin=+textobj=+sandwich.vim=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+plugins=+vim-sandwich=+plugin=+textobj=+sandwich.vim=
+t/home/schizo/.local/share/Trash/files/000_~=+dotfiles=+config=+nvim=+nvim=+UltiSnips=+markdown.snippets=
+	/home/schizo/.local/share/nvim/view/~=+dotfiles=+config=+nvim=+nvim=+UltiSnips=+markdown.snippets=
+t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_popup.scss=
+	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_popup.scss=
 
 # State:
 f

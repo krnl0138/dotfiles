@@ -13,8 +13,6 @@ titlebar_border_thickness 0
 hide_edge_borders smart
 title_align center
 font pango:SFNS Display 11px
-
-# KEYBOARD SETTINGS
 input "*" {
     repeat_delay 200
     repeat_rate 80
@@ -24,23 +22,22 @@ input "*" {
 
 # BINDINGS
 bindsym {
-    $mod+z exec "makoctl dismiss -a"
-    $mod+v split toggle
-    $mod+Shift+d border toggle
-    $mod+space exec dmenu_apps.sh
+    $mod+a focus parent
     $mod+backslash exec dmenu_launcher.sh
+    $mod+d focus child
+    $mod+f fullscreen toggle
+    $mod+shift+grave focus mode_toggle
+    $mod+q kill
+    $mod+grave floating toggle
+    $mod+space exec dmenu_apps.sh
+    $mod+v split toggle
+    $mod+w layout toggle tabbed stacking split
+    $mod+z exec "makoctl dismiss -a"
     $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="bemenu -p "Launch" -i -w --fn "D2Coding 14""'
     $mod+Return exec alacritty
-    $mod+q kill
-    $mod+f fullscreen toggle
-    $mod+Shift+t reload
+    $mod+Shift+d border toggle
     $mod+Shift+m exec i3-msg sticky toggle
-    $mod+w layout toggle tabbed stacking split
-    $mod+a focus parent
-    $mod+d focus child
-    $mod+shift+grave floating toggle
-    $mod+grave focus mode_toggle
-    control+grave focus mode_toggle
+    $mod+Shift+t reload
 
     Print exec grim -t png "$(xdg-user-dir SCREENSHOTS)"/"$(date +%Y-%m-%d-%H-%M-%S)".png
     $mod+Print exec sh "$HOME/scripts/screenshot.sh"
@@ -63,13 +60,15 @@ bindsym {
     # $mod+F12 exec --no-startup-id systemctl suspend
 }
 
-## SCRATCHPAD
+# SCRATCHPAD
 exec $TERMINAL -t dropdown
 bindsym $mod+Tab [title="dropdown"] scratchpad show; move position center
-for_window [title="dropdown"] floating enable
-for_window [title="dropdown"] resize set 800 600
-for_window [title="dropdown"] move position center
-for_window [title="dropdown"] move scratchpad
+for_window {
+    [title="dropdown"] floating enable
+    [title="dropdown"] resize set 800 600
+    [title="dropdown"] move position center
+    [title="dropdown"] move scratchpad
+}
 
 # WINDOWS
 for_window {
@@ -208,9 +207,7 @@ bindsym {
     $mod+8 workspace $ws8
     $mod+9 workspace $ws9
     $mod+0 workspace $ws10
-}
 
-bindsym {
     $mod+Shift+1 move container to workspace $ws1
     $mod+Shift+2 move container to workspace $ws2
     $mod+Shift+3 move container to workspace $ws3

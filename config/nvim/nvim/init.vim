@@ -46,7 +46,8 @@ set colorcolumn=80
 set conceallevel=2   " Determine what to conceal
 set cursorline
 " set cursorcolumn " Slow!
-set foldcolumn=2     " visible level of folds in sidebar
+set signcolumn=no    " Delete vert space on the left side (plugin ?)
+set foldcolumn=1     " visible level of folds in sidebar
 set hidden
 set inccommand=split " highlight & open ref window on substitute
 set lazyredraw       " do not redraw screen while macro is working
@@ -89,6 +90,9 @@ au BufWrite * mkview " Save folds
 au BufWritePre * %s/\s\+$//e              "  Automatically deletes all trailing whitespace on save.
 au VimResized * execute "normal! \<c-w>="
 au FocusGained,BufEnter * :checktime " reload buffer on outside change
+" if exists('##TextYankPost')
+"     au TextYankPost * silent! lua require'vim.highlight'.on_yank('Substitute', 200)
+" endif
 
 " File extensions settings
 au BufRead,BufNewFile *.md setlocal tw=79
@@ -104,10 +108,6 @@ au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " MAPPINGS
 " ========
-
-
-    " %% to expand current buffer path in commandline
-    cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
     " nn ; : " Novices remap it, wizards use vim `f{char}`
     " nn : ;
     nn Y y$
@@ -119,6 +119,8 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
     nn <leader>pu :PlugUpdate<CR>
     nn <leader>pc :PlugClean<CR>
     nn <leader>sv :source $MYVIMRC <bar> :doau BufRead<CR>
+" %% to expand current buffer path in commandline
+    cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Open window in a new tab
     nn <leader>tt :tab sp<CR>
     nn <leader>tc :tabclose<CR>
