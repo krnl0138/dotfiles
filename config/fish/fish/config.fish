@@ -91,8 +91,6 @@ abbr paclog pacolog
 abbr mutt neomutt
 abbr starwars telnet towel.blinkenlights.nl
 abbr mkdir mkdir -pv
-abbr calc wcalc
-abbr calculator wcalc
 abbr wifi-menu sudo wifi-menu
 abbr df df -h
 abbr weather-saratov curl wttr.in/saratov
