@@ -7,6 +7,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets' " default snippets pack
 Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips'
+Plug 'mattn/emmet-vim'
 " STATUSLINE
 Plug 'itchyny/lightline.vim'
 Plug 'bling/vim-bufferline'
@@ -108,8 +109,8 @@ au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " MAPPINGS
 " ========
-    " nn ; : " Novices remap it, wizards use vim `f{char}`
-    " nn : ;
+    nn ; :
+    nn : ;
     nn Y y$
     nn <leader>gp :Prettier<CR>
     vn <leader>gp :Prettier<CR>
@@ -131,8 +132,8 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " Insert mode moves
     ino <C-d> <BS>
     ino <C-h> <Left>
-    ino <C-j> <Down>
-    ino <C-k> <Up>
+    " ino <C-j> <Down>
+    " ino <C-k> <Up>
     ino <C-l> <Right>
 " Move visual range
     vn <C-j> :m '>+1<CR>gv=gv
@@ -187,6 +188,12 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
     nn <leader>go :Goyo<CR>
 " PLUGINS
 " =======
+" Emmet
+" default <C-y>,
+let g:user_emmet_mode='i'
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
 " GOYO
 " let g:goyo_height " (default: 85%)
 let g:goyo_width = 85 " (default: 80)
@@ -236,9 +243,9 @@ let g:vim_markdown_fenced_languages = ['js=javascript']
 let g:vim_markdown_new_list_item_indent = 2
 
 " ULTISNIPS
-let g:UltiSnipsExpandTrigger = '<nop>'
-let g:UltiSnipsJumpForwardTrigger = '<c-j>'
-let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+let g:UltiSnipsExpandTrigger = '<C-e>'
+let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 let g:UltiSnipsRemoveSelectModeMappings = 0
 " let g:UltiSnipsSnippetDirectories = [vimrc#path('UltiSnips')]
 nnoremap <leader>es :UltiSnipsEdit!<cr>

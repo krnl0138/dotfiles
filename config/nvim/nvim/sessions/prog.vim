@@ -8,7 +8,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +4 ~/linux.todo
-badd +63 ~/dotfiles/config/nvim/nvim/init.vim
+badd +246 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
 badd +246 ~/stuff/webdev_bootcamp_steele.md
@@ -17,20 +17,29 @@ badd +220 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
 badd +48 ~/stuff/journal/22052020.md
 badd +447 ~/stuff/eloquent_js_haverbeke.md
-badd +275 ~/stuff/css_jonas_course_2.md
+badd +379 ~/stuff/css_jonas_course_2.md
 badd +20 ~/stuff/cv.md
 badd +8 ~/udemy/advanced-css-course/Nexter/starter/package.json
-badd +17 ~/udemy/advanced-css-course/Nexter/starter/index.html
+badd +43 ~/udemy/advanced-css-course/Nexter/starter/index.html
 badd +1 ~/udemy/advanced-css-course/Nexter/starter/sass/main.scss
-badd +40 ~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss
-badd +5 ~/udemy/advanced-css-course/Nexter/starter/sass/_sidebar.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_header.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_features.scss
-badd +9 ~/udemy/advanced-css-course/Nexter/starter/sass/_story.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_homes.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_footer.scss
-badd +3 ~/udemy/advanced-css-course/Nexter/starter/sass/_gallery.scss
+badd +21 ~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss
+badd +15 ~/udemy/advanced-css-course/Nexter/starter/sass/_sidebar.scss
+badd +23 ~/udemy/advanced-css-course/Nexter/starter/sass/_header.scss
+badd +30 ~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss
+badd +8 ~/udemy/advanced-css-course/Nexter/starter/sass/_features.scss
+badd +29 ~/udemy/advanced-css-course/Nexter/starter/sass/_story.scss
+badd +66 ~/udemy/advanced-css-course/Nexter/starter/sass/_homes.scss
+badd +45 ~/udemy/advanced-css-course/Nexter/starter/sass/_footer.scss
+badd +25 ~/udemy/advanced-css-course/Nexter/starter/sass/_gallery.scss
+badd +356 ~/dotfiles/config/nvim/nvim/plugins/vim-snippets/UltiSnips/html.snippets
+badd +9 ~/udemy/advanced-css-course/Nexter/starter/sass/_typography.scss
+badd +11 ~/dotfiles/config/nvim/nvim/UltiSnips/scss.snippets
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_button.scss
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_card.scss
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_composition.scss
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_feature-box.scss
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_form.scss
+badd +0 ~/udemy/advanced-css-course/Natours/starter/sass/components/_story.scss
 argglobal
 %argdel
 $argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_bg-video.scss
@@ -40,7 +49,7 @@ $argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_composition
 $argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_feature-box.scss
 $argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_form.scss
 $argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_story.scss
-edit ~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss
+edit ~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -55,9 +64,13 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-wincmd =
+exe 'vert 1resize ' . ((&columns * 116 + 117) / 234)
+exe '2resize ' . ((&lines * 24 + 25) / 51)
+exe 'vert 2resize ' . ((&columns * 117 + 117) / 234)
+exe '3resize ' . ((&lines * 23 + 25) / 51)
+exe 'vert 3resize ' . ((&columns * 117 + 117) / 234)
 argglobal
-if bufexists("~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss") | buffer ~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss | else | edit ~/udemy/advanced-css-course/Nexter/starter/sass/_base.scss | endif
+if bufexists("~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss") | buffer ~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss | else | edit ~/udemy/advanced-css-course/Nexter/starter/sass/_realtors.scss | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -67,17 +80,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 42 - ((41 * winheight(0) + 24) / 49)
+let s:l = 30 - ((28 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-42
-let s:c = 39 - ((28 * winwidth(0) + 42) / 85)
-if s:c > 0
-  exe 'normal! ' . s:c . '|zs' . 39 . '|'
-else
-  normal! 039|
-endif
+30
+normal! 059|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 argglobal
@@ -94,12 +102,14 @@ setlocal fen
 normal! zo
 3
 normal! zo
-let s:l = 274 - ((13 * winheight(0) + 7) / 15)
+258
+normal! zo
+let s:l = 379 - ((21 * winheight(0) + 12) / 24)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-274
-normal! 045|
+379
+normal! 0
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 argglobal
@@ -113,16 +123,20 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 15 - ((3 * winheight(0) + 16) / 33)
+let s:l = 50 - ((22 * winheight(0) + 11) / 23)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-15
-normal! 09|
+50
+normal! 049|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w
-wincmd =
+exe 'vert 1resize ' . ((&columns * 116 + 117) / 234)
+exe '2resize ' . ((&lines * 24 + 25) / 51)
+exe 'vert 2resize ' . ((&columns * 117 + 117) / 234)
+exe '3resize ' . ((&lines * 23 + 25) / 51)
+exe 'vert 3resize ' . ((&columns * 117 + 117) / 234)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
