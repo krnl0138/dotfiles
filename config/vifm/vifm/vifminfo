@@ -22,9 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/dotfiles/config/nvim/nvim
-	plugins
-1
 d/home/schizo/dotfiles/config/nvim
 	nvim
 1
@@ -622,17 +619,11 @@ d/home/schizo/personal/pictures
 d/home/schizo
 	udemy
 8
-
-# Right window history (oldest to newest):
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config/jest
+d/home/schizo/udemy/steele_webdev_bootcamp/scoreKeeper
 	..
 0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/config
-	jest
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
+
+# Right window history (oldest to newest):
 D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
 	components
 2
@@ -1224,6 +1215,15 @@ D/home/schizo
 D/home/schizo/downloads
 	stellaris_2_5_1_33517.sh
 25
+D/home/schizo/udemy/steele_webdev_bootcamp/scoreKeeper
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp
+	todoListDemo
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/todoListDemo
+	style.css
+3
 
 # Command line history (oldest to newest):
 :goto ~
