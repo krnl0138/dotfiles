@@ -2,7 +2,7 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/udemy/steele_webdev_bootcamp/scoreKeeper
+cd ~/udemy/steele_webdev_bootcamp/colorGame
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -11,42 +11,25 @@ badd +71 ~/linux.todo
 badd +246 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +441 ~/stuff/webdev_bootcamp_steele.md
+badd +526 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
-badd +161 ~/stuff/programming.md
+badd +163 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
 badd +48 ~/stuff/journal/22052020.md
 badd +447 ~/stuff/eloquent_js_haverbeke.md
 badd +375 ~/stuff/css_jonas_course_2.md
 badd +20 ~/stuff/cv.md
-badd +43 ~/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/13_Museum_Of_Candy/Starter/index.html
-badd +38 ~/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/13_Museum_Of_Candy/Starter/app.css
-badd +317 ~/stuff/vim_tips.md
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_button.scss
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_card.scss
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_composition.scss
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_feature-box.scss
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_form.scss
-badd +1 ~/udemy/advanced-css-course/Natours/starter/sass/components/_story.scss
-badd +49 ~/test.html
-badd +11 scoreKeeper.html
-badd +2 scorekeeper.js
-badd +2 scorekeeper.css
-badd +2 ~/dotfiles/config/nvim/nvim/UltiSnips/javascript.snippets
-badd +1 ~/udemy/steele_webdev_bootcamp/todoListDemo/index.js
-badd +11 ~/udemy/steele_webdev_bootcamp/todoListDemo/index.html
-badd +1 term://.//214464:/usr/bin/fish
-badd +2 ~/udemy/steele_webdev_bootcamp/todoListDemo/style.css
+badd +88 ~/stuff/vim_tips.md
+badd +16 index.html
+badd +74 index.js
+badd +64 style.css
+badd +12 ~/udemy/steele_webdev_bootcamp/jQuery/jquery.html
 argglobal
 %argdel
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_bg-video.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_button.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_card.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_composition.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_feature-box.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_form.scss
-$argadd ~/udemy/advanced-css-course/Natours/starter/sass/components/_story.scss
-edit ~/stuff/programming.md
+$argadd index.html
+$argadd index.js
+$argadd style.css
+edit ~/stuff/webdev_bootcamp_steele.md
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -67,6 +50,57 @@ exe 'vert 2resize ' . ((&columns * 109 + 109) / 219)
 exe '3resize ' . ((&lines * 21 + 23) / 46)
 exe 'vert 3resize ' . ((&columns * 109 + 109) / 219)
 argglobal
+if bufexists("~/stuff/webdev_bootcamp_steele.md") | buffer ~/stuff/webdev_bootcamp_steele.md | else | edit ~/stuff/webdev_bootcamp_steele.md | endif
+setlocal fdm=expr
+setlocal fde=Foldexpr_markdown(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=3
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+1
+normal! zo
+53
+normal! zo
+213
+normal! zo
+240
+normal! zo
+257
+normal! zo
+274
+normal! zo
+357
+normal! zo
+let s:l = 526 - ((30 * winheight(0) + 21) / 43)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+526
+normal! 016|
+lcd ~/udemy/advanced-css-course/Natours/starter
+wincmd w
+argglobal
+if bufexists("~/udemy/steele_webdev_bootcamp/jQuery/jquery.html") | buffer ~/udemy/steele_webdev_bootcamp/jQuery/jquery.html | else | edit ~/udemy/steele_webdev_bootcamp/jQuery/jquery.html | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 1 - ((0 * winheight(0) + 10) / 21)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 015|
+lcd ~/udemy/advanced-css-course/Natours/starter
+wincmd w
+argglobal
 if bufexists("~/stuff/programming.md") | buffer ~/stuff/programming.md | else | edit ~/stuff/programming.md | endif
 setlocal fdm=expr
 setlocal fde=Foldexpr_markdown(v:lnum)
@@ -80,63 +114,24 @@ setlocal fen
 normal! zo
 142
 normal! zo
-205
+206
 normal! zo
-221
+222
 normal! zo
-261
+262
 normal! zo
-377
+378
 normal! zo
-381
+382
 normal! zo
-let s:l = 392 - ((21 * winheight(0) + 21) / 43)
+let s:l = 163 - ((15 * winheight(0) + 10) / 21)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-392
-normal! 011|
-lcd ~/udemy/advanced-css-course/Natours/starter
-wincmd w
-argglobal
-if bufexists("~/udemy/steele_webdev_bootcamp/todoListDemo/index.js") | buffer ~/udemy/steele_webdev_bootcamp/todoListDemo/index.js | else | edit ~/udemy/steele_webdev_bootcamp/todoListDemo/index.js | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 10) / 21)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-2
+163
 normal! 0
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
-argglobal
-if bufexists("~/udemy/steele_webdev_bootcamp/todoListDemo/style.css") | buffer ~/udemy/steele_webdev_bootcamp/todoListDemo/style.css | else | edit ~/udemy/steele_webdev_bootcamp/todoListDemo/style.css | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 10) / 21)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-2
-normal! 021|
-lcd ~/udemy/advanced-css-course/Natours/starter
-wincmd w
-2wincmd w
 exe 'vert 1resize ' . ((&columns * 109 + 109) / 219)
 exe '2resize ' . ((&lines * 21 + 23) / 46)
 exe 'vert 2resize ' . ((&columns * 109 + 109) / 219)
