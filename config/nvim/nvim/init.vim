@@ -154,6 +154,7 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
     nn < <<
 " F-keys bindings
     nn <F2> :set relativenumber!<CR>
+    nn <F3> :AutoSaveToggle<CR>
     nn <F4> :set invhls<CR>
     nn <F5> :UndotreeToggle<CR>
     nn <F6> :setlocal spell! spelllang=ru,en_gb<CR>
@@ -300,7 +301,7 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
     endif
 
     " Use <C-l> for trigger snippet expand.
-    imap <C-l> <Plug>(coc-snippets-expand)
+    " imap <C-l> <Plug>(coc-snippets-expand)
 
     " Use <C-j> for select text for visual placeholder of snippet.
     vmap <C-j> <Plug>(coc-snippets-select)
