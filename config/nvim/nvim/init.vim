@@ -97,6 +97,7 @@ au FocusGained,BufEnter * :checktime " reload buffer on outside change
 
 " File extensions settings
 au BufRead,BufNewFile *.md setlocal tw=79
+au BufNewFile,BufRead *.ejs set filetype=html
 " au FileType javascript,html,css,scss set ts=2 sts=2 sw=2
 " au InsertLeave *.js,*.html,*.css,*.scss,*.md silent! Prettier
 au FileType javascript,html,css,scss ino <buffer> ( ()<Left>
@@ -263,45 +264,34 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
 " :CocInstall coc-snippets, for general snippets support
 " :CocInstall coc-ultisnips, for support the snippets from ultisnips
 
-    " default is 4000ms = 4s leads to delays and poor user experience.
-    set updatetime=300
+    set updatetime=300 " default is 4000ms = 4s leads to delays and poor user experience.
+    set shortmess+=c " Don't pass messages to ins-completion-menu.
+    set signcolumn=yes " wo would shift the text when diagnostics appear/become resolved.
 
-    " Don't pass messages to |ins-completion-menu|.
-    set shortmess+=c
-
-    " Always show the signcolumn, otherwise it would shift the text each time
-    " diagnostics appear/become resolved.
-    set signcolumn=yes
-
-    " Use tab for trigger completion with characters ahead and navigate.
-    " NOTE Use command ':verbose imap <tab>' to make sure tab is not mapped by
-    " other plugin before putting this into your config.
-    inoremap <silent><expr> <TAB>
+    " tab for trigger completion w chars ahead & navigate, check ':verbose imap <tab>'
+    ino <silent><expr> <TAB>
           \ pumvisible() ? "\<C-n>" :
           \ <SID>check_back_space() ? "\<TAB>" :
           \ coc#refresh()
-    inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+    ino <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
     function! s:check_back_space() abort
       let col = col('.') - 1
       return !col || getline('.')[col - 1]  =~# '\s'
     endfunction
 
-    " Use <c-space> to trigger completion.
-    " DON'T KNOW WHAT IS IT
-    inoremap <silent><expr> <c-space> coc#refresh()
+    ino <silent><expr> <c-space> coc#refresh()
+    " Use <c-space> to trigger completion. DONT KNOW WHAT IS IT
 
-    " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
-    " position. Coc only does snippet and additional edit on confirm.
-    " <cr> could be remapped by other vim plugin, try `:verbose imap <CR>`.
+    " <cr> to confirm completion, `<C-g>u` to break undo chain @ current position.
+    " Coc only does snippet and additional edit on confirm. Check `:verbose imap <CR>`.
     if exists('*complete_info')
-      inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+      ino <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
     else
-      inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+      ino <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
     endif
 
-    " Use <C-l> for trigger snippet expand.
-    " imap <C-l> <Plug>(coc-snippets-expand)
+    " imap <C-l> <Plug>(coc-snippets-expand) " Use <C-l> for trigger snippet expand.
 
     " Use <C-j> for select text for visual placeholder of snippet.
     vmap <C-j> <Plug>(coc-snippets-select)
@@ -319,14 +309,17 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
     nmap <silent> gi <Plug>(coc-implementation)
     nmap <silent> gr <Plug>(coc-references)
 
-    " Highlight the symbol and its references when holding the cursor.
-    " TODO make brighter
-    autocmd CursorHold * silent call CocActionAsync('highlight')
+    " Highlight the symbol and its refs when holding the cursor. TODO make brighter
+    au CursorHold * silent call CocActionAsync('highlight')
 
-    " Prettier
-    " https://github.com/neoclide/coc-prettier
-    " :Prettier to format current buffer.
-    command! -nargs=0 Prettier :CocCommand prettier.formatFile
+    " Prettier, https://github.com/neoclide/coc-prettier, :Prettier for buffer
+    com! -nargs=0 Prettier :CocCommand prettier.formatFile
+    " `:Format` to format current buffer, as Prettier.
+    com! -nargs=0 Format :call CocAction('format')
+    " `:Fold` to fold current buffer.
+    com! -nargs=? Fold :call CocAction('fold', <f-args>)
+    " `:OR` to organize imports of the current buffer.
+    com! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
     " Formatting selected code, as Prettier.
     xmap <leader>p  <Plug>(coc-format-selected)
@@ -348,15 +341,6 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
     " Requires 'textDocument/selectionRange' support of LS, ex: coc-tsserver
     nmap <silent> <C-s> <Plug>(coc-range-select)
     xmap <silent> <C-s> <Plug>(coc-range-select)
-
-    " Add `:Format` command to format current buffer, as Prettier.
-    command! -nargs=0 Format :call CocAction('format')
-
-    " Add `:Fold` command to fold current buffer.
-    command! -nargs=? Fold :call CocAction('fold', <f-args>)
-
-    " Add `:OR` command for organize imports of the current buffer.
-    command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
 " FZF{{{
     let $FZF_DEFAULT_COMMAND = 'rg --files --no-ignore-vcs --hidden -g "!{node_modules,.git,.local}"'
