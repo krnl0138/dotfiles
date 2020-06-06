@@ -10,3 +10,10 @@ snippet %- "EJS <%- %>" w
 <%- ${1:${VISUAL}} %> $0
 endsnippet
 
+snippet %header "EJS header" w
+<%-include('partials/header.ejs')%> $0
+endsnippet
+
+snippet %footer "EJS footer" w
+<%-include('partials/footer.ejs')%> $0
+endsnippet

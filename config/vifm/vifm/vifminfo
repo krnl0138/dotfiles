@@ -13,7 +13,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -22,135 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/dotfiles/config/nvim
-	nvim
-1
-d/home/schizo/dotfiles/config
-	polybar
-14
-d/home/schizo/dotfiles
-	config
-4
-d/home/schizo
-	.cron.bash
-34
-d/home/schizo/dotfiles/config/nvim/nvim
-	plugins
-1
-d/home/schizo/dotfiles/config/nvim/nvim/plugins
-	supertab
-1
-d/home/schizo
-	notes
-1
-d/home/schizo/notes
-	c.txt
-10
-d/home/schizo
-	notes
-5
-d/home/schizo/.config
-	nvim
-11
-d/home/schizo/.config/nvim
-	plugins
-1
-d/home/schizo/.config/nvim/plugins
-	coc.nvim
-1
-d/home/schizo/udemy
-	js_udemy.md
-5
-d/home/schizo
-	udemy
-1
-d/home/schizo/udemy
-	complete-javascript-course
-1
-d/home/schizo/udemy/complete-javascript-course
-	4-DOM-pig-game
-4
-d/home/schizo/udemy/complete-javascript-course/4-DOM-pig-game
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/4-DOM-pig-game/starter
-	index.html
-9
-d/home/schizo
-	udemy
-1
-d/home/schizo/udemy
-	complete-javascript-course
-1
-d/home/schizo/udemy/complete-javascript-course
-	9-forkify
-9
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	dist
-1
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/dist
-	..
-0
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
-	index.html
-3
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course
-	9-forkify
-9
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	final
-1
-d/home/schizo/udemy/complete-javascript-course/9-forkify/final
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/final/src
-	..
-0
-d/home/schizo/udemy/complete-javascript-course/9-forkify/final
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/final/src
-	index.html
-3
-d/home/schizo/udemy/complete-javascript-course/9-forkify/final
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	final
-1
-d/home/schizo/udemy/complete-javascript-course
-	4-DOM-pig-game
-4
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	01_lesson.html
-1
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	4-DOM-pig-game
-1
-d/home/schizo/udemy/myFiles/4-DOM-pig-game
-	starter
-2
-d/home/schizo/udemy/myFiles/4-DOM-pig-game/starter
-	back.jpg
-4
 d/home/schizo
 	udemy
 1
@@ -618,144 +489,141 @@ d/home/schizo/personal/pictures
 1
 d/home/schizo
 	udemy
-8
-d/home/schizo/udemy/steele_webdev_bootcamp/scoreKeeper
+5
+d/home/schizo/udemy
+	steele_webdev_bootcamp
+1
+d/home/schizo/udemy/steele_webdev_bootcamp
+	todoListProject
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
+	assets
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
+	css
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets/css
 	..
 0
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
+	js
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
+	assets
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
+	js
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets/js
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
+	js
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
+	assets
+1
+d/home/schizo/udemy/steele_webdev_bootcamp
+	pataponClone
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	paperjs-v0.12.7
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7
+	dist
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist
+	node
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist/node
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist
+	paper-full.js
+5
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7
+	dist
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	lib
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/lib
+	paper-full.js
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	finalCode
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode
+	CodeAlong 4
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode/CodeAlong 4
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode
+	CodeAlong 4
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	finalCode
+2
+d/home/schizo/udemy/steele_webdev_bootcamp
+	backendSection
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	demoApp
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	demoApp
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp
+	app.js
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	demoApp2
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2
+	app.js
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2/app.js
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2
+	app.js
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	expressAppTemplates
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/expressAppTemplates
+	app.js
+4
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	expressPostRequests
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/expressPostRequests
+	app.js
+3
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	APIs
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs
+	movieAPI
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs/movieAPI
+	app.js
+4
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs
+	movieAPI
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	YelpCamp
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/YelpCamp
+	app.js
+4
 
 # Right window history (oldest to newest):
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons/Person
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons/Person
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Persons
-	Person
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Persons
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Cockpit
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Cockpit
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Cockpit
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	containers
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/containers
-	App.css
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src
-	components
-2
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components
-	Cockpit
-1
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide/src/components/Cockpit
-	Cockpit.css
-2
-D/home/schizo
-	udemy
-13
-D/home/schizo/downloads
-	video
-2
-D/home/schizo/downloads/video
-	..
-0
-D/home/schizo/downloads
-	books
-1
-D/home/schizo/downloads/books
-	Marie Kondo - Spark Joy_ An Illustrated Master Class on the Art of Organizing and Tidying Up-Ten Speed Press (2016).epub
-9
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	src
-1
-D/home/schizo
-	stuff
-2
-D/home/schizo/stuff
-	programming.md
-4
-D/home/schizo
-	stuff
-2
-D/home/schizo/.config
-	fish
-10
-D/home/schizo/.config/fish
-	functions
-3
-D/home/schizo/.config
-	nvim
-22
-D/home/schizo/.config/nvim
-	plugins
-3
-D/home/schizo/.config
-	nvim
-22
-D/home/schizo
-	.local
-12
-D/home/schizo/.local
-	share
-1
-D/home/schizo/.local/share
-	nvim
-24
-D/home/schizo/.local
-	share
-1
-D/home/schizo/.local/share
-	nvim
-24
 D/home/schizo/.local/share/nvim
 	backupdir
 1
@@ -1215,21 +1083,150 @@ D/home/schizo
 D/home/schizo/downloads
 	stellaris_2_5_1_33517.sh
 25
-D/home/schizo/udemy/steele_webdev_bootcamp/scoreKeeper
+D/home/schizo
+	udemy
+3
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	bootstap_section
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section
 	..
 0
 D/home/schizo/udemy/steele_webdev_bootcamp
-	todoListDemo
+	bootstap_section
 1
-D/home/schizo/udemy/steele_webdev_bootcamp/todoListDemo
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section
+	bootstrap4_data.zip
+2
+D/home/schizo/udemy/steele_webdev_bootcamp
+	assignments
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/assignments
+	assignment_6_photos
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	bootstap_section
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section
+	bootstrap4_data_pattern_project
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project
+	Bootstrap4_Code
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code
+	11_Pattern_Project
+3
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/11_Pattern_Project
+	Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/11_Pattern_Project/Starter
+	imgs
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/11_Pattern_Project/Starter/imgs
+	..
+0
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/11_Pattern_Project/Starter
+	imgs
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code/11_Pattern_Project
+	Starter
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project/Bootstrap4_Code
+	11_Pattern_Project
+3
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section/bootstrap4_data_pattern_project
+	Bootstrap4_Code
+2
+D/home/schizo/udemy/steele_webdev_bootcamp/bootstap_section
+	bootstrap4_data_pattern_project
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	bootstap_section
+4
+D/home/schizo/udemy
+	advanced-css-course
+3
+D/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+D/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+D/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+D/home/schizo/udemy/advanced-css-course/Nexter/starter/sass
+	_base.scss
+3
+D/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+D/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+D/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+D/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+D/home/schizo/udemy/advanced-css-course/Nexter/starter
+	css
+2
+D/home/schizo/udemy/advanced-css-course/Nexter/starter/css
 	style.css
+1
+D/home/schizo/udemy/advanced-css-course/Nexter/starter
+	css
+2
+D/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+D/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+1
+D/home/schizo/udemy/steele_webdev_bootcamp
+	pataponClone
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	sounds
+4
+D/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/sounds
+	__MACOSX
+1
+D/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
+	sounds
+4
+D/home/schizo/udemy/steele_webdev_bootcamp
+	pataponClone
+2
+D/home/schizo/udemy
+	steele_webdev_bootcamp
+1
+D/home/schizo
+	node_modules
+2
+D/home/schizo/node_modules
+	cat-me
+2
+D/home/schizo/node_modules/cat-me
+	.travis.yml
+3
+D/home/schizo/node_modules
+	cat-me
+3
+D/home/schizo/node_modules/cat-me
+	.travis.yml
 3
 
 # Command line history (oldest to newest):
 :goto ~
-:colorscheme ph
-:filter !
-:filter .*
 :filter! .*
 :sort size
 :open sxiv
@@ -1426,6 +1423,10 @@ D/home/schizo/udemy/steele_webdev_bootcamp/todoListDemo
 :mkdir vendors
 :q
 :!brave %f
+:mkdir lib
+:mkdir demoApp2
+:mkdir app.js
+:touch app.js
 
 # Search history (oldest to newest):
 /fi
@@ -1521,6 +1522,8 @@ D/home/schizo/udemy/steele_webdev_bootcamp/todoListDemo
 /ult
 /loc
 /sa
+/ud
+/st
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1531,11 +1534,12 @@ p04_lesson
 ptemplate-laptop
 ptemplate-overview
 picon-font
+pcourse_content
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_t_voice5292011316309919356.ogg
+""/home/schizo/.local/share/Trash/files/000_app.js
 
 # Directory stack (oldest to newest):
 
@@ -3484,6 +3488,12 @@ t/home/schizo/.local/share/Trash/files/000_~=+udemy=+advanced-css-course=+Natour
 	/home/schizo/.local/share/nvim/view/~=+udemy=+advanced-css-course=+Natours=+starter=+sass=+layout=+_popup.scss=
 t/home/schizo/.local/share/Trash/files/000_t_voice5292011316309919356.ogg
 	/home/schizo/downloads/t_voice5292011316309919356.ogg
+t/home/schizo/.local/share/Trash/files/000_paperjs-v0.12.7.zip
+	/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7.zip
+t/home/schizo/.local/share/Trash/files/000_sounds.zip
+	/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
+t/home/schizo/.local/share/Trash/files/000_app.js
+	/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2/app.js
 
 # State:
 f

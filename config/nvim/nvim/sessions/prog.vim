@@ -8,10 +8,10 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +8 ~/linux.todo
-badd +342 ~/dotfiles/config/nvim/nvim/init.vim
+badd +100 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +1017 ~/stuff/webdev_bootcamp_steele.md
+badd +1169 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
 badd +160 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
@@ -23,6 +23,9 @@ badd +88 ~/stuff/vim_tips.md
 badd +17 ~/udemy/steele_webdev_bootcamp/backendSection/echo.js
 badd +37 ~/stuff/oop.md
 badd +10 ~/udemy/steele_webdev_bootcamp/backendSection/demoApp/app.js
+badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/index.js
+badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
+badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/style.css
 argglobal
 %argdel
 $argadd ~/udemy/steele_webdev_bootcamp/pataponClone/index.html
@@ -40,8 +43,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 112 + 112) / 225)
-exe 'vert 2resize ' . ((&columns * 112 + 112) / 225)
+wincmd =
 argglobal
 if bufexists("~/dotfiles/config/nvim/nvim/init.vim") | buffer ~/dotfiles/config/nvim/nvim/init.vim | else | edit ~/dotfiles/config/nvim/nvim/init.vim | endif
 setlocal fdm=manual
@@ -71,17 +73,16 @@ setlocal fdl=3
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 891 - ((21 * winheight(0) + 22) / 44)
+let s:l = 1169 - ((43 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-891
-normal! 02|
+1169
+normal! 0
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 112 + 112) / 225)
-exe 'vert 2resize ' . ((&columns * 112 + 112) / 225)
+wincmd =
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
