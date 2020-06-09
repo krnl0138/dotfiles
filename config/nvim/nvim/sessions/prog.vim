@@ -11,7 +11,7 @@ badd +8 ~/linux.todo
 badd +100 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +1169 ~/stuff/webdev_bootcamp_steele.md
+badd +1203 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
 badd +160 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
@@ -55,7 +55,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 93 - ((14 * winheight(0) + 22) / 44)
+let s:l = 93 - ((15 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -73,12 +73,12 @@ setlocal fdl=3
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1169 - ((43 * winheight(0) + 22) / 44)
+let s:l = 1203 - ((18 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1169
-normal! 0
+1203
+normal! 042|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w

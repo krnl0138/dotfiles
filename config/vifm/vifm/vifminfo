@@ -22,87 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo
-	udemy
-1
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	03_lesson.html
-4
-d/home/schizo/udemy
-	04_lesson.html
-3
-d/home/schizo
-	notes
-7
-d/home/schizo/downloads
-	linux-capt-drv-v271-uken.tar.gz
-34
-d/home/schizo/downloads/books/epub
-	Berns_Terapiya-nastroeniya-Klinicheski-dokazannyy-sposob-pobedit-depressiyu-bez-tabletok.MopF4A_RuLit_Me_571252.epub
-5
-d/home/schizo
-	.local
-43
-d/home/schizo/.local
-	share
-1
-d/home/schizo/.local/share
-	nvim
-7
-d/home/schizo/.local/share/nvim
-	swap
-4
-d/home/schizo/.local/share/nvim/swap
-	..
-0
-d/home/schizo/.local/share/nvim
-	backupdir
-5
-d/home/schizo/.local/share/nvim/backupdir
-	undo
-2
-d/home/schizo/.local/share/nvim
-	backupdir
-5
-d/home/schizo/.local/share
-	nvim
-7
-d/home/schizo/.local/share/nvim
-	backupdir
-4
-d/home/schizo/.local/share/nvim/backupdir
-	swp
-3
-d/home/schizo/.local/share/nvim/backupdir/swp
-	script4.js.swo
-3
-d/home/schizo
-	yura2.m4a
-14
-d/home/schizo/.config
-	nvim
-23
-d/home/schizo/.config/nvim
-	plugins
-1
-d/home/schizo/.config/nvim/plugins
-	coc.nvim
-1
-d/home/schizo/.config/nvim
-	ftplugin
-1
-d/home/schizo
-	udemy
-3
-d/home/schizo/udemy
-	complete-javascript-course
-3
-d/home/schizo/udemy/complete-javascript-course
-	9-forkify
-9
 d/home/schizo/udemy/complete-javascript-course/9-forkify
 	starter
 2
@@ -622,11 +541,89 @@ d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
 d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/YelpCamp
 	app.js
 4
+d/home/schizo
+	udemy
+8
+d/home/schizo/personal
+	diary
+5
+d/home/schizo/personal/diary
+	archive
+2
+d/home/schizo/personal/diary/archive
+	pics
+1
+d/home/schizo/personal/diary/archive/pics
+	pics_carbontrade_notebook
+2
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	mine
+6
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
+	telegram
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine/telegram
+	photo_9@19-08-2015_19-48-35.jpg
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
+	telegram
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	screenshots_asus
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/screenshots_asus
+	2019-09-16-06-03-52.jpeg
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	wall
+2
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/wall
+	test3.png
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	pics14
+3
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics14
+	wallhaven-99906.jpg
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	pics15
+4
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics15
+	..
+0
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	desktops
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/desktops
+	qe56qvnpkijy.png
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	mine
+6
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
+	telegram
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	mine
+6
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
+	telegram
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	desktops
+5
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/desktops
+	qe56qvnpkijy.png
+1
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
+	pics15
+4
+d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics15
+	r3QywQ7Hfu0.jpg
+1
 
 # Right window history (oldest to newest):
-D/home/schizo/.local/share/nvim
-	backupdir
-1
 D/home/schizo/.local/share/nvim/backupdir
 	swp
 2
@@ -1224,9 +1221,11 @@ D/home/schizo/node_modules
 D/home/schizo/node_modules/cat-me
 	.travis.yml
 3
+D/home/schizo
+	node_modules
+4
 
 # Command line history (oldest to newest):
-:goto ~
 :filter! .*
 :sort size
 :open sxiv
