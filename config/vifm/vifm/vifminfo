@@ -28,12 +28,6 @@ d/home/schizo/udemy/complete-javascript-course/9-forkify
 d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
 	src
 2
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
 d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
 	index.html
 3
@@ -544,84 +538,90 @@ d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/YelpCamp
 d/home/schizo
 	udemy
 8
-d/home/schizo/personal
-	diary
-5
-d/home/schizo/personal/diary
-	archive
-2
-d/home/schizo/personal/diary/archive
-	pics
+d/home/schizo/udemy
+	steele_webdev_bootcamp
 1
-d/home/schizo/personal/diary/archive/pics
-	pics_carbontrade_notebook
-2
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	mine
-6
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
-	telegram
-5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine/telegram
-	photo_9@19-08-2015_19-48-35.jpg
+d/home/schizo/udemy/steele_webdev_bootcamp
+	YelpCamp
 1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
-	telegram
-5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	screenshots_asus
-1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/screenshots_asus
-	2019-09-16-06-03-52.jpeg
-1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	wall
-2
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/wall
-	test3.png
-1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	pics14
-3
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics14
-	wallhaven-99906.jpg
-1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	pics15
-4
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics15
+d/home/schizo/udemy/steele_webdev_bootcamp/YelpCamp
 	..
 0
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	desktops
-5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/desktops
-	qe56qvnpkijy.png
+d/home/schizo/udemy/steele_webdev_bootcamp
+	YelpCamp
 1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	mine
-6
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
-	telegram
+d/home/schizo/udemy/steele_webdev_bootcamp/YelpCamp
+	app.js
 5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	mine
-6
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/mine
-	telegram
-5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	desktops
-5
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/desktops
-	qe56qvnpkijy.png
+d/home/schizo/udemy/steele_webdev_bootcamp
+	backendSection
 1
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook
-	pics15
-4
-d/home/schizo/personal/diary/archive/pics/pics_carbontrade_notebook/pics15
-	r3QywQ7Hfu0.jpg
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	RESTroutes
 1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
+	app.js
+5
+d/home/schizo
+	udemy
+8
+d/home/schizo/udemy
+	steele_webdev_bootcamp
+1
+d/home/schizo/udemy/steele_webdev_bootcamp
+	backendSection
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
+	RESTroutes
+1
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
+	views
+2
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes/views
+	..
+0
+d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
+	app.js
+5
+d/home/schizo
+	udemy
+8
+d/home/schizo/downloads
+	books
+2
+d/home/schizo/downloads/books
+	hz_knijki
+7
+d/home/schizo/downloads/books/hz_knijki
+	Солопов, Антонец. Латинский [300dpi,tq,OCR,cropped].pdf.pdf
+16
+d/home/schizo
+	udemy
+8
+d/home/schizo/downloads
+	books
+2
+d/home/schizo/downloads/books
+	hz_knijki
+7
+d/home/schizo/downloads/books/hz_knijki
+	Солопов, Антонец. Латинский [300dpi,tq,OCR,cropped].pdf.pdf
+16
+d/home/schizo
+	udemy
+8
+d/home/schizo/downloads
+	Solopov_Latinsky_Yazyk.pdf
+24
+d/home/schizo
+	udemy
+8
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Solopov_Latinsky_Yazyk.pdf
+9
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
@@ -1223,11 +1223,9 @@ D/home/schizo/node_modules/cat-me
 3
 D/home/schizo
 	node_modules
-4
+5
 
 # Command line history (oldest to newest):
-:filter! .*
-:sort size
 :open sxiv
 :sxiv
 :jobs
@@ -1426,6 +1424,8 @@ D/home/schizo
 :mkdir demoApp2
 :mkdir app.js
 :touch app.js
+:!touch app.js
+:!mupdf %f
 
 # Search history (oldest to newest):
 /fi
@@ -1523,6 +1523,9 @@ D/home/schizo
 /sa
 /ud
 /st
+/books
+/латинс
+/лат
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)

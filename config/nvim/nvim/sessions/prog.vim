@@ -7,11 +7,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +8 ~/linux.todo
-badd +100 ~/dotfiles/config/nvim/nvim/init.vim
+badd +45 ~/linux.todo
+badd +93 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +1203 ~/stuff/webdev_bootcamp_steele.md
+badd +1348 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
 badd +160 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
@@ -23,16 +23,16 @@ badd +88 ~/stuff/vim_tips.md
 badd +17 ~/udemy/steele_webdev_bootcamp/backendSection/echo.js
 badd +37 ~/stuff/oop.md
 badd +10 ~/udemy/steele_webdev_bootcamp/backendSection/demoApp/app.js
-badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/index.js
-badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
-badd +0 ~/udemy/steele_webdev_bootcamp/pataponClone/style.css
+badd +1 ~/udemy/steele_webdev_bootcamp/pataponClone/index.js
+badd +1 ~/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
+badd +1 ~/udemy/steele_webdev_bootcamp/pataponClone/style.css
 argglobal
 %argdel
 $argadd ~/udemy/steele_webdev_bootcamp/pataponClone/index.html
 $argadd ~/udemy/steele_webdev_bootcamp/pataponClone/index.js
 $argadd ~/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
 $argadd ~/udemy/steele_webdev_bootcamp/pataponClone/style.css
-edit ~/dotfiles/config/nvim/nvim/init.vim
+edit ~/linux.todo
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -43,24 +43,24 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-wincmd =
+exe 'vert 1resize ' . ((&columns * 66 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 103 + 85) / 170)
 argglobal
-if bufexists("~/dotfiles/config/nvim/nvim/init.vim") | buffer ~/dotfiles/config/nvim/nvim/init.vim | else | edit ~/dotfiles/config/nvim/nvim/init.vim | endif
-setlocal fdm=manual
-setlocal fde=0
+if bufexists("~/linux.todo") | buffer ~/linux.todo | else | edit ~/linux.todo | endif
+setlocal fdm=expr
+setlocal fde=Foldexpr_markdown(v:lnum)
 setlocal fmr={{{,}}}
 setlocal fdi=#
 setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let s:l = 93 - ((15 * winheight(0) + 23) / 47)
+let s:l = 45 - ((33 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-93
-normal! 045|
+45
+normal! 042|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 argglobal
@@ -73,16 +73,67 @@ setlocal fdl=3
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1203 - ((18 * winheight(0) + 23) / 47)
+1
+normal! zo
+121
+normal! zo
+213
+normal! zo
+240
+normal! zo
+257
+normal! zo
+274
+normal! zo
+310
+normal! zo
+312
+normal! zo
+357
+normal! zo
+673
+normal! zo
+730
+normal! zo
+730
+normal! zo
+751
+normal! zo
+751
+normal! zo
+751
+normal! zo
+751
+normal! zo
+759
+normal! zo
+966
+normal! zo
+1059
+normal! zo
+1068
+normal! zo
+1113
+normal! zo
+1176
+normal! zo
+1204
+normal! zo
+1222
+normal! zo
+1264
+normal! zo
+let s:l = 1345 - ((32 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1203
-normal! 042|
+1345
+normal! 02|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w
-wincmd =
+exe 'vert 1resize ' . ((&columns * 66 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 103 + 85) / 170)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
