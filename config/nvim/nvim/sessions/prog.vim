@@ -11,7 +11,7 @@ badd +45 ~/linux.todo
 badd +93 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +1348 ~/stuff/webdev_bootcamp_steele.md
+badd +1437 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
 badd +160 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
@@ -43,8 +43,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 66 + 85) / 170)
-exe 'vert 2resize ' . ((&columns * 103 + 85) / 170)
+exe 'vert 1resize ' . ((&columns * 71 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 98 + 85) / 170)
 argglobal
 if bufexists("~/linux.todo") | buffer ~/linux.todo | else | edit ~/linux.todo | endif
 setlocal fdm=expr
@@ -97,43 +97,43 @@ normal! zo
 normal! zo
 730
 normal! zo
-751
+755
 normal! zo
-751
+755
 normal! zo
-751
+755
 normal! zo
-751
+755
 normal! zo
-759
+763
 normal! zo
-966
+970
 normal! zo
-1059
+1063
 normal! zo
-1068
+1072
 normal! zo
-1113
+1117
 normal! zo
-1176
+1180
 normal! zo
-1204
+1208
 normal! zo
-1222
+1226
 normal! zo
-1264
+1354
 normal! zo
-let s:l = 1345 - ((32 * winheight(0) + 18) / 36)
+let s:l = 1437 - ((35 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1345
-normal! 02|
+1437
+normal! 012|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 66 + 85) / 170)
-exe 'vert 2resize ' . ((&columns * 103 + 85) / 170)
+exe 'vert 1resize ' . ((&columns * 71 + 85) / 170)
+exe 'vert 2resize ' . ((&columns * 98 + 85) / 170)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
