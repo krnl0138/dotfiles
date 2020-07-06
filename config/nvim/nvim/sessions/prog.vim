@@ -11,7 +11,7 @@ badd +45 ~/linux.todo
 badd +93 ~/dotfiles/config/nvim/nvim/init.vim
 badd +28 ~/udemy/myFiles/react_course/react-complete-guide/src/containers/App.js
 badd +589 ~/udemy/myFiles/react_course/notes.md
-badd +1437 ~/stuff/webdev_bootcamp_steele.md
+badd +1483 ~/stuff/webdev_bootcamp_steele.md
 badd +1333 ~/stuff/css_jonas_course.md
 badd +160 ~/stuff/programming.md
 badd +1030 ~/stuff/composing_software_elliot.md
@@ -123,12 +123,16 @@ normal! zo
 normal! zo
 1354
 normal! zo
-let s:l = 1437 - ((35 * winheight(0) + 18) / 36)
+1442
+normal! zo
+1478
+normal! zo
+let s:l = 1506 - ((13 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1437
-normal! 012|
+1506
+normal! 0
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 2wincmd w

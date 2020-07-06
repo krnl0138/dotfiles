@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -22,120 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
-	index.html
-3
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course
-	9-forkify
-9
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter/src
-	index.html
-3
-d/home/schizo/udemy/complete-javascript-course/9-forkify/starter
-	src
-2
-d/home/schizo/udemy/complete-javascript-course/9-forkify
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course
-	9-forkify
-9
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/scripts
-	..
-0
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	2020-04-27-10-53-32.png
-3
-d/home/schizo
-	udemy
-3
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	src
-1
-d/home/schizo/udemy/myFiles/forkify/src
-	index.html
-2
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/udemy/myFiles/forkify/dist
-	js
-1
-d/home/schizo/udemy/myFiles/forkify/dist/js
-	..
-0
-d/home/schizo/udemy/myFiles/forkify/dist
-	js
-1
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	src
-1
-d/home/schizo/udemy/myFiles/forkify/src
-	index.html
-2
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/udemy/myFiles/forkify/dist
-	js
-1
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/udemy/myFiles/forkify/dist
-	img
-3
-d/home/schizo/udemy/myFiles/forkify
-	src
-2
-d/home/schizo/udemy/myFiles/forkify/src
-	js
-1
 d/home/schizo/udemy/myFiles/forkify/src/js
 	test.js
 1
@@ -622,6 +508,120 @@ d/home/schizo/downloads
 d/home/schizo/downloads/books
 	Solopov_Latinsky_Yazyk.pdf
 9
+d/home/schizo
+	udemy
+8
+d/home/schizo/udemy
+	advanced-css-course
+3
+d/home/schizo/udemy/advanced-css-course
+	Trillo
+2
+d/home/schizo/udemy/advanced-css-course/Trillo
+	starter_mine
+1
+d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine/sass
+	_base.scss
+3
+d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Trillo
+	starter_mine
+1
+d/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+d/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+d/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Nexter/starter/sass
+	_base.scss
+3
+d/home/schizo/udemy/advanced-css-course/Nexter/starter
+	css
+2
+d/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+d/home/schizo/udemy/advanced-css-course
+	Trillo
+2
+d/home/schizo/udemy/advanced-css-course/Trillo
+	starter_mine
+1
+d/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+d/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+d/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Nexter/starter/sass
+	_typography.scss
+6
+d/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Nexter/starter/sass
+	_story.scss
+4
+d/home/schizo/udemy/advanced-css-course/Nexter/starter
+	sass
+1
+d/home/schizo/udemy/advanced-css-course/Nexter
+	starter
+1
+d/home/schizo/udemy/advanced-css-course
+	Natours
+3
+d/home/schizo/udemy/advanced-css-course/Natours
+	final-after-S06
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
+	sass
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	components
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/components
+	_card.scss
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
+	components
+3
+d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
+	sass
+3
+d/home/schizo/udemy/advanced-css-course/Natours
+	final-after-S06
+3
+d/home/schizo/udemy/advanced-css-course
+	Nexter
+4
+d/home/schizo/udemy/advanced-css-course/Nexter
+	final
+2
+d/home/schizo/udemy/advanced-css-course/Nexter/final
+	..
+0
+d/home/schizo/udemy/advanced-css-course/Nexter
+	final
+2
+d/home/schizo/udemy/advanced-css-course/Nexter/final
+	sass
+3
+d/home/schizo/udemy/advanced-css-course/Nexter/final/sass
+	_header.scss
+5
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
