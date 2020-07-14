@@ -23,30 +23,6 @@ r-11,2
 
 # Left window history (oldest to newest):
 d/home/schizo/udemy/myFiles/forkify/src
-	webpack.config.js
-2
-d/home/schizo/udemy/myFiles/forkify
-	src
-1
-d/home/schizo
-	udemy
-4
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	src
-2
-d/home/schizo/udemy/myFiles/forkify/src
-	..
-0
-d/home/schizo/udemy/myFiles/forkify
-	src
-2
-d/home/schizo/udemy/myFiles/forkify/src
 	..
 0
 d/home/schizo/udemy/myFiles/forkify
@@ -622,6 +598,30 @@ d/home/schizo/downloads
 d/home/schizo/downloads/Настоящий детектив
 	1x05 - Тайный рок всей жизни.mp4
 1
+d/home/schizo
+	udemy
+8
+d/home/schizo/downloads
+	docs
+1
+d/home/schizo/downloads/docs
+	рейтинги THE QS.docx
+2
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Новая таблица - Лист1
+1
+d/home/schizo/downloads/Новая таблица - Лист1
+	resources
+1
+d/home/schizo/downloads/Новая таблица - Лист1/resources
+	sheet.css
+1
+d/home/schizo/downloads/Новая таблица - Лист1
+	������� �����+���� - �������1.html
+2
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
@@ -1226,8 +1226,6 @@ D/home/schizo
 5
 
 # Command line history (oldest to newest):
-:open sxiv
-:sxiv
 :jobs
 :lstrash
 :!swayr
@@ -1419,13 +1417,15 @@ D/home/schizo
 :mkdir themes
 :mkdir vendors
 :q
-:!brave %f
 :mkdir lib
 :mkdir demoApp2
 :mkdir app.js
 :touch app.js
 :!touch app.js
 :!mupdf %f
+:brave %f
+:brave %
+:!brave %f
 
 # Search history (oldest to newest):
 /fi
