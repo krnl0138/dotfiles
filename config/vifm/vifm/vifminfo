@@ -22,12 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/myFiles/forkify/src
-	..
-0
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
 d/home/schizo/udemy/myFiles/forkify/dist
 	img
 3
@@ -622,6 +616,12 @@ d/home/schizo/downloads/Новая таблица - Лист1/resources
 d/home/schizo/downloads/Новая таблица - Лист1
 	������� �����+���� - �������1.html
 2
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Новая таблица - Лист1.csv
+23
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
