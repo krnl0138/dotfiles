@@ -22,18 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/myFiles/forkify/dist
-	img
-3
-d/home/schizo/udemy/myFiles/forkify
-	node_modules
-1
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy
-	myFiles
-1
 d/home/schizo/udemy/myFiles
 	forkify
 1
@@ -622,6 +610,18 @@ d/home/schizo
 d/home/schizo/downloads
 	Новая таблица - Лист1.csv
 23
+d/home/schizo
+	downloads
+3
+d/home/schizo/downloads
+	Новая таблица - Лист1.csv
+25
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	C2wXUDrN5y4.jpg
+6
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
