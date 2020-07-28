@@ -29,18 +29,6 @@ d/home/schizo/udemy/myFiles/forkify
 	src
 2
 d/home/schizo/udemy/myFiles/forkify/src
-	..
-0
-d/home/schizo/udemy/myFiles/forkify
-	dist
-3
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	src
-2
-d/home/schizo/udemy/myFiles/forkify/src
 	js
 1
 d/home/schizo/udemy/myFiles/forkify/src/js
@@ -622,6 +610,18 @@ d/home/schizo/personal
 d/home/schizo/personal/pictures
 	C2wXUDrN5y4.jpg
 6
+d/home/schizo
+	downloads
+1
+d/home/schizo/personal
+	pictures
+1
+d/home/schizo/personal/pictures
+	screenshots
+1
+d/home/schizo/personal/pictures/screenshots
+	2020-07-26-15-33-02.png
+4
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
