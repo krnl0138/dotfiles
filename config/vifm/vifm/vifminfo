@@ -22,30 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/myFiles
-	forkify
-1
-d/home/schizo/udemy/myFiles/forkify
-	src
-2
-d/home/schizo/udemy/myFiles/forkify/src
-	js
-1
-d/home/schizo/udemy/myFiles/forkify/src/js
-	views
-1
-d/home/schizo/udemy/myFiles/forkify/src/js/views
-	searchView.js
-1
-d/home/schizo/udemy/myFiles/forkify/src/js
-	models
-2
-d/home/schizo/udemy/myFiles/forkify/src/js/models
-	..
-0
-d/home/schizo/udemy/myFiles/forkify/src/js
-	index.js
-3
 d/home/schizo
 	udemy
 5
@@ -622,6 +598,30 @@ d/home/schizo/personal/pictures
 d/home/schizo/personal/pictures/screenshots
 	2020-07-26-15-33-02.png
 4
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	audio
+1
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+1
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+1
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
 
 # Right window history (oldest to newest):
 D/home/schizo/.local/share/nvim/backupdir
@@ -1226,7 +1226,6 @@ D/home/schizo
 5
 
 # Command line history (oldest to newest):
-:jobs
 :lstrash
 :!swayr
 :file &<CR>
@@ -1426,8 +1425,11 @@ D/home/schizo
 :brave %f
 :brave %
 :!brave %f
+:!sh %f
 
 # Search history (oldest to newest):
+/minecr
+/brave
 /fi
 /font
 /vifm
@@ -1541,7 +1543,7 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_app.js
+""/home/schizo/.local/share/Trash/files/000_.minecraft
 
 # Directory stack (oldest to newest):
 
@@ -3496,6 +3498,8 @@ t/home/schizo/.local/share/Trash/files/000_sounds.zip
 	/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/sounds.zip
 t/home/schizo/.local/share/Trash/files/000_app.js
 	/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2/app.js
+t/home/schizo/.local/share/Trash/files/000_.minecraft
+	/home/schizo/.minecraft
 
 # State:
 f
