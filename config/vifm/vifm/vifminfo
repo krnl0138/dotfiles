@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -22,144 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo
-	udemy
-5
-d/home/schizo/udemy
-	myFiles
-1
-d/home/schizo/udemy/myFiles
-	forkify
-2
-d/home/schizo/udemy
-	complete-javascript-course
-3
-d/home/schizo/udemy/complete-javascript-course
-	99-bonus-1
-10
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
-	..
-0
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
-	..
-0
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
-	overview.html
-3
-d/home/schizo
-	udemy
-5
-d/home/schizo/udemy
-	complete-javascript-course
-3
-d/home/schizo/udemy/complete-javascript-course
-	99-bonus-1
-10
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1/starter
-	overview.html
-3
-d/home/schizo/udemy/complete-javascript-course/99-bonus-1
-	starter
-2
-d/home/schizo/udemy/complete-javascript-course
-	99-bonus-1
-10
-d/home/schizo
-	udemy
-8
-d/home/schizo/dotfiles/config/nvim/nvim
-	plugins
-2
-d/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	..
-0
-d/home/schizo/dotfiles/config/nvim/nvim
-	plugins
-2
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	..
-0
-d/home/schizo
-	udemy
-0
-d/home/schizo/udemy/advanced-css-course/Natours/starter
-	..
-0
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy
-	advanced-css-course
-1
-d/home/schizo/udemy/advanced-css-course
-	Natours
-2
-d/home/schizo/udemy/advanced-css-course/Natours
-	starter
-1
-d/home/schizo/udemy/advanced-css-course/Natours/starter
-	css
-3
-d/home/schizo/udemy/advanced-css-course/Natours/starter/css
-	icon-font.css
-3
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo/personal/pictures/screenshots
-	2020-05-18-12-15-18.png
-3
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy
-	advanced-css-course
-1
-d/home/schizo/udemy/advanced-css-course
-	Natours
-2
-d/home/schizo/udemy/advanced-css-course/Natours
-	final-after-S06
-3
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
-	css
-1
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/css
-	..
-0
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
-	sass
-3
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
-	abstracts
-1
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/abstracts
-	_mixins.scss
-2
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
-	abstracts
-1
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/abstracts
-	_functions.scss
-1
 d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
 	base
 2
@@ -622,56 +484,146 @@ d/home/schizo/downloads
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo/downloads/HeartsOfIronIV
+	start.sh
+4
+d/home/schizo
+	downloads
+2
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo/downloads/HeartsOfIronIV
+	game
+2
+d/home/schizo/downloads/HeartsOfIronIV/game
+	..
+0
+d/home/schizo/downloads/HeartsOfIronIV
+	start.sh
+4
+d/home/schizo
+	downloads
+2
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+1
+d/home/schizo
+	downloads
+1
+d/home
+	schizo
+1
+d/
+	tmp
+0
+d/tmp
+	HeartsOfIronIV
+1
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo
+	downloads
+1
+d/home
+	schizo
+1
+d/
+	dev
+1
+d/dev
+	..
+0
+d/
+	tmp
+0
+d/tmp
+	HeartsOfIronIV
+1
+d/tmp/HeartsOfIronIV
+	start.sh
+4
+d/home/schizo
+	downloads
+1
+d/home
+	schizo
+1
+d/
+	tmp
+0
+d/tmp
+	HeartsOfIronIV
+1
+d/tmp/HeartsOfIronIV
+	game
+2
+d/tmp/HeartsOfIronIV/game
+	get_latest_osx_build.sh
+33
+d/tmp/HeartsOfIronIV
+	start.sh
+4
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo
+	downloads
+1
+d/home
+	schizo
+1
+d/
+	tmp
+0
+d/tmp
+	HeartsOfIronIV
+1
+d/tmp/HeartsOfIronIV
+	steam-runtime
+1
+d/tmp/HeartsOfIronIV/steam-runtime
+	run.sh
+14
+d/tmp/HeartsOfIronIV
+	start.sh
+4
+d/home/schizo
+	downloads
+2
+d/home
+	schizo
+1
+d/
+	tmp
+1
+d/tmp
+	.font-unix
+6
+d/home/schizo/downloads
+	HeartsOfIronIV
+1
+d/home/schizo/downloads/HeartsOfIronIV
+	start.sh
+4
 
 # Right window history (oldest to newest):
-D/home/schizo/.local/share/nvim/backupdir
-	swp
-2
-D/home/schizo/.local/share/nvim
-	shada
-2
-D/home/schizo/.local/share/nvim/shada
-	..
-0
-D/home/schizo/.local/share/nvim
-	backupdir
-1
-D/home/schizo
-	.local
-12
-D/home/schizo/.local
-	share
-1
-D/home/schizo/.local/share
-	fish
-15
-D/home/schizo/.local/share/fish
-	..
-0
-D/home/schizo/.local/share
-	data
-13
-D/home/schizo/.local/share/data
-	..
-0
-D/home/schizo/.local/share
-	vlc
-29
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	node_modules
-2
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-4
-D/home/schizo/udemy/myFiles
-	react_course
-2
-D/home/schizo/udemy
-	challenge7.js
-5
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	node_modules
-2
 D/home/schizo/.config
 	obs-studio
 23
@@ -1222,8 +1174,56 @@ D/home/schizo/node_modules/cat-me
 	.travis.yml
 3
 D/home/schizo
-	node_modules
-5
+	..
+0
+D/home
+	schizo
+1
+D/home/schizo
+	.local
+39
+D/home/schizo/.local
+	share
+1
+D/home/schizo/.local/share
+	Paradox Interactive
+2
+D/home/schizo/.local/share/Paradox Interactive
+	Stellaris
+3
+D/home/schizo/.local/share/Paradox Interactive/Stellaris
+	..
+0
+D/home/schizo/.local/share/Paradox Interactive
+	launcher-v2
+2
+D/home/schizo/.local/share/Paradox Interactive/launcher-v2
+	..
+0
+D/home/schizo/.local/share/Paradox Interactive
+	Hearts of Iron IV
+1
+D/home/schizo/.local/share/Paradox Interactive/Hearts of Iron IV
+	dlc_signature
+7
+D/home/schizo/.local/share/Paradox Interactive
+	launcher-v2
+1
+D/home/schizo/.local/share/Paradox Interactive/launcher-v2
+	..
+0
+D/home/schizo/.local/share/Paradox Interactive
+	launcher-v2
+1
+D/home/schizo/.local/share
+	Paradox Interactive
+1
+D/home/schizo/.local
+	share
+1
+D/home/schizo
+	..
+0
 
 # Command line history (oldest to newest):
 :lstrash
@@ -1509,7 +1509,6 @@ D/home/schizo
 /истор
 /dot
 /light
-/local
 /fish
 /loca
 /nv
@@ -1528,6 +1527,8 @@ D/home/schizo
 /books
 /латинс
 /лат
+/local
+/stell
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1543,7 +1544,7 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_.minecraft
+""/home/schizo/.local/share/Trash/files/000_launcherpath
 
 # Directory stack (oldest to newest):
 
@@ -3500,6 +3501,12 @@ t/home/schizo/.local/share/Trash/files/000_app.js
 	/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2/app.js
 t/home/schizo/.local/share/Trash/files/000_.minecraft
 	/home/schizo/.minecraft
+t/home/schizo/.local/share/Trash/files/000_.paradoxlauncher
+	/home/schizo/.paradoxlauncher
+t/home/schizo/.local/share/Trash/files/000_Hearts of Iron IV
+	/home/schizo/.local/share/Paradox Interactive/Hearts of Iron IV
+t/home/schizo/.local/share/Trash/files/000_launcherpath
+	/home/schizo/.local/share/Paradox Interactive/launcherpath
 
 # State:
 f
