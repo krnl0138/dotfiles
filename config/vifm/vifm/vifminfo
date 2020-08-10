@@ -22,81 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
-	pages
-5
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/pages
-	_home.scss
-1
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
-	layout
-4
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass/layout
-	_navigation.scss
-4
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
-	layout
-4
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
-	img
-2
-d/home/schizo/downloads
-	linux-capt-drv-v271-uken.tar.gz
-32
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
-d/home/schizo
-	udemy
-5
-d/home/schizo/udemy
-	steele_webdev_bootcamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp
-	todoListProject
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
-	assets
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
-	css
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets/css
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
-	js
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
-	assets
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
-	js
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets/js
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject/assets
-	js
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/todoListProject
-	assets
-1
-d/home/schizo/udemy/steele_webdev_bootcamp
-	pataponClone
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
-	paperjs-v0.12.7
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7
-	dist
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist
-	node
-1
 d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist/node
 	..
 0
@@ -622,14 +547,83 @@ d/home/schizo/downloads/Minecraft_1.16
 d/home/schizo/downloads
 	John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
 28
+d/home/schizo
+	.minecraft
+2
+d/home/schizo/.minecraft
+	minecraft launcher
+7
+d/home/schizo/.minecraft/minecraft launcher
+	..
+0
+d/home/schizo/.minecraft
+	versions
+6
+d/home/schizo/.minecraft/versions
+	..
+0
+d/home/schizo/.minecraft
+	versions
+6
+d/home/schizo/.minecraft/versions
+	1.12.2
+1
+d/home/schizo/.minecraft/versions/1.12.2
+	..
+0
+d/home/schizo/.minecraft/versions
+	1.12.2
+1
+d/home/schizo/.minecraft
+	mods
+1
+d/home/schizo/.minecraft/mods
+	OptiFine_1.12.2_HD_U_E3.jar
+2
+d/home/schizo
+	.minecraft
+2
+d/home/schizo/.minecraft
+	mods
+9
+d/home/schizo/.minecraft/mods
+	..
+0
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo/downloads/Minecraft_1.16
+	logs
+1
+d/home/schizo/downloads/Minecraft_1.16/logs
+	..
+0
+d/home/schizo/downloads/Minecraft_1.16
+	saves
+2
+d/home/schizo/downloads/Minecraft_1.16/saves
+	..
+0
+d/home/schizo/downloads/Minecraft_1.16
+	resourcepacks
+3
+d/home/schizo/downloads/Minecraft_1.16/resourcepacks
+	..
+0
+d/home/schizo/downloads/Minecraft_1.16
+	libraries
+4
+d/home/schizo/downloads/Minecraft_1.16/libraries
+	..
+0
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
 
 # Right window history (oldest to newest):
-D/home/schizo/.config
-	obs-studio
-23
-D/home/schizo
-	.config
-5
 D/home
 	schizo
 2
@@ -1222,11 +1216,16 @@ D/home/schizo/.local
 	share
 1
 D/home/schizo
-	..
-0
+	downloads
+1
+D/home/schizo/downloads
+	Minecraft 1.12.2 Cracked [Full, Cracked, Online, Server List].exe
+9
+D/home/schizo
+	downloads
+1
 
 # Command line history (oldest to newest):
-:lstrash
 :!swayr
 :file &<CR>
 :file &<cr>l
@@ -1415,7 +1414,6 @@ D/home/schizo
 :touch _home.scss
 :mkdir themes
 :mkdir vendors
-:q
 :mkdir lib
 :mkdir demoApp2
 :mkdir app.js
@@ -1425,9 +1423,12 @@ D/home/schizo
 :brave %f
 :brave %
 :!brave %f
+:!java -jar %f
+:q
 :!sh %f
 
 # Search history (oldest to newest):
+/win
 /minecr
 /brave
 /fi
@@ -1544,7 +1545,6 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_launcherpath
 
 # Directory stack (oldest to newest):
 
