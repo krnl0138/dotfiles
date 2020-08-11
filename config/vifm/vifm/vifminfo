@@ -22,63 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist/node
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7/dist
-	paper-full.js
-5
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/paperjs-v0.12.7
-	dist
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
-	lib
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/lib
-	paper-full.js
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
-	finalCode
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode
-	CodeAlong 4
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode/CodeAlong 4
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone/finalCode
-	CodeAlong 4
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/pataponClone
-	finalCode
-2
-d/home/schizo/udemy/steele_webdev_bootcamp
-	backendSection
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	demoApp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	demoApp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp
-	app.js
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	demoApp2
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2
-	app.js
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2/app.js
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/demoApp2
-	app.js
-2
 d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
 	expressAppTemplates
 1
@@ -619,6 +562,63 @@ d/home/schizo/downloads/Minecraft_1.16
 d/home/schizo/downloads/Minecraft_1.16/libraries
 	..
 0
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16_backup
+2
+d/home/schizo
+	.local
+42
+d/home/schizo/.local
+	share
+1
+d/home/schizo/.local/share
+	wineprefixes
+5
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+6
+d/home/schizo
+	.local
+42
+d/home/schizo/.local
+	share
+1
+d/home/schizo/.local/share
+	wineprefixes
+5
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+6
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+8
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
@@ -1423,8 +1423,8 @@ D/home/schizo
 :brave %f
 :brave %
 :!brave %f
-:!java -jar %f
 :q
+:!java -jar %f
 :!sh %f
 
 # Search history (oldest to newest):
@@ -1521,7 +1521,6 @@ D/home/schizo
 /vim
 /.local
 /ult
-/loc
 /sa
 /ud
 /st
@@ -1530,6 +1529,7 @@ D/home/schizo
 /лат
 /local
 /stell
+/loc
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
