@@ -22,27 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	expressAppTemplates
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/expressAppTemplates
-	app.js
-4
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	expressPostRequests
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/expressPostRequests
-	app.js
-3
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	APIs
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs
-	movieAPI
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs/movieAPI
-	app.js
-4
 d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs
 	movieAPI
 1
@@ -622,6 +601,27 @@ d/home/schizo/downloads
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
+d/home/schizo
+	.local
+42
+d/home/schizo/.local
+	share
+1
+d/home/schizo/.local/share
+	wineprefixes
+5
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+6
 
 # Right window history (oldest to newest):
 D/home
@@ -1424,8 +1424,8 @@ D/home/schizo
 :brave %
 :!brave %f
 :q
-:!java -jar %f
 :!sh %f
+:!java -jar %f
 
 # Search history (oldest to newest):
 /win
