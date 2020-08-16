@@ -13,7 +13,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -22,33 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/APIs
-	movieAPI
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	YelpCamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/YelpCamp
-	app.js
-4
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy
-	steele_webdev_bootcamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp
-	YelpCamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/YelpCamp
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp
-	YelpCamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/YelpCamp
-	app.js
-5
 d/home/schizo/udemy/steele_webdev_bootcamp
 	backendSection
 1
@@ -622,38 +595,35 @@ d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
 d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 	Minecraft Launcher.jar
 6
-
-# Right window history (oldest to newest):
-D/home
-	schizo
-2
-D/home/schizo
+d/home/schizo
 	.local
-12
-D/home/schizo/.local
+42
+d/home/schizo/.local
 	share
 1
-D/home/schizo/.local/share
-	nvim
-21
-D/home/schizo/.local/share/nvim
-	backupdir
+d/home/schizo/.local/share
+	wineprefixes
+5
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
 1
-D/home/schizo/.local/share/nvim/backupdir
-	swp
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
 2
-D/home/schizo/.local/share/nvim/backupdir/swp
-	timer.sh.swp
-29
-D/home/schizo/.local/share/nvim/backupdir
-	undo
-3
-D/home/schizo/.local/share/nvim/backupdir/undo
-	..
-0
-D/home/schizo/udemy/myFiles/react_course/react-complete-guide
-	node_modules
-2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+7
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+
+# Right window history (oldest to newest):
 D/home/schizo/udemy/myFiles/react_course
 	react-complete-guide
 4
@@ -1222,8 +1192,38 @@ D/home/schizo/downloads
 	Minecraft 1.12.2 Cracked [Full, Cracked, Online, Server List].exe
 9
 D/home/schizo
-	downloads
+	.local
+41
+D/home/schizo/.local
+	share
 1
+D/home/schizo/.local/share
+	Paradox Interactive
+7
+D/home/schizo/.local/share/Paradox Interactive
+	launcher-v2
+2
+D/home/schizo/.local/share/Paradox Interactive/launcher-v2
+	..
+0
+D/home/schizo/.local/share/Paradox Interactive
+	launcher-v2
+2
+D/home/schizo/.local/share
+	wineprefixes
+5
+D/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+6
 
 # Command line history (oldest to newest):
 :!swayr
