@@ -13,7 +13,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -22,96 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/steele_webdev_bootcamp
-	backendSection
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	RESTroutes
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
-	app.js
-5
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy
-	steele_webdev_bootcamp
-1
-d/home/schizo/udemy/steele_webdev_bootcamp
-	backendSection
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection
-	RESTroutes
-1
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
-	views
-2
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes/views
-	..
-0
-d/home/schizo/udemy/steele_webdev_bootcamp/backendSection/RESTroutes
-	app.js
-5
-d/home/schizo
-	udemy
-8
-d/home/schizo/downloads
-	books
-2
-d/home/schizo/downloads/books
-	hz_knijki
-7
-d/home/schizo/downloads/books/hz_knijki
-	Солопов, Антонец. Латинский [300dpi,tq,OCR,cropped].pdf.pdf
-16
-d/home/schizo
-	udemy
-8
-d/home/schizo/downloads
-	books
-2
-d/home/schizo/downloads/books
-	hz_knijki
-7
-d/home/schizo/downloads/books/hz_knijki
-	Солопов, Антонец. Латинский [300dpi,tq,OCR,cropped].pdf.pdf
-16
-d/home/schizo
-	udemy
-8
-d/home/schizo/downloads
-	Solopov_Latinsky_Yazyk.pdf
-24
-d/home/schizo
-	udemy
-8
-d/home/schizo/downloads
-	books
-1
-d/home/schizo/downloads/books
-	Solopov_Latinsky_Yazyk.pdf
-9
-d/home/schizo
-	udemy
-8
-d/home/schizo/udemy
-	advanced-css-course
-3
-d/home/schizo/udemy/advanced-css-course
-	Trillo
-2
-d/home/schizo/udemy/advanced-css-course/Trillo
-	starter_mine
-1
-d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine
-	sass
-1
-d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine/sass
-	_base.scss
-3
-d/home/schizo/udemy/advanced-css-course/Trillo/starter_mine
-	sass
-1
 d/home/schizo/udemy/advanced-css-course/Trillo
 	starter_mine
 1
@@ -598,6 +508,54 @@ d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 d/home/schizo
 	.local
 42
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo/downloads/Minecraft_1.16
+	saves
+2
+d/home/schizo/downloads/Minecraft_1.16/saves
+	Первая игра Марии
+1
+d/home/schizo/downloads/Minecraft_1.16/saves/Первая игра Марии
+	..
+0
+d/home/schizo/downloads/Minecraft_1.16/saves
+	Первая игра Марии
+1
+d/home/schizo/downloads/Minecraft_1.16
+	saves
+2
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo
+	.minecraft
+3
+d/home/schizo/.minecraft
+	saves
+4
+d/home/schizo/.minecraft/saves
+	Первая игра Марии
+3
+d/home/schizo
+	.minecraft
+3
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo/downloads/Minecraft_1.16
+	saves
+2
+d/home/schizo/downloads/Minecraft_1.16/saves
+	Первая игра Марии
+1
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+d/home/schizo
+	.local
+41
 d/home/schizo/.local
 	share
 1
@@ -616,20 +574,56 @@ d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
 d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 	Minecraft Launcher.jar
 7
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+7
 d/home/schizo/downloads
 	Minecraft_1.16
 8
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo
+	.local
+41
+d/home/schizo/.local
+	share
+1
+d/home/schizo/.local/share
+	wineprefixes
+6
+d/home/schizo/.local/share/wineprefixes
+	minecraft_1_12_2
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
+	drive_c
+2
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
+	mc_installer
+1
+d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
+	Minecraft Launcher.jar
+6
 
 # Right window history (oldest to newest):
-D/home/schizo/udemy/myFiles/react_course
-	react-complete-guide
-4
-D/home/schizo/udemy/myFiles
-	react_course
-2
 D/home/schizo/udemy
 	steele_webdev_bootcamp
 4
@@ -1223,7 +1217,13 @@ D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
 1
 D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 	Minecraft Launcher.jar
-6
+5
+D/home/schizo/downloads
+	Minecraft_1.16
+5
+D/home/schizo/downloads/Minecraft_1.16
+	start.sh
+9
 
 # Command line history (oldest to newest):
 :!swayr
@@ -1511,7 +1511,6 @@ D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 /dot
 /light
 /fish
-/loca
 /nv
 /jon
 /udem
@@ -1527,9 +1526,11 @@ D/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 /books
 /латинс
 /лат
-/local
 /stell
 /loc
+/lo
+/loca
+/local
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1545,6 +1546,7 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/schizo/.local/share/Trash/files/000_Unpack-1605
 
 # Directory stack (oldest to newest):
 
@@ -3507,6 +3509,10 @@ t/home/schizo/.local/share/Trash/files/000_Hearts of Iron IV
 	/home/schizo/.local/share/Paradox Interactive/Hearts of Iron IV
 t/home/schizo/.local/share/Trash/files/000_launcherpath
 	/home/schizo/.local/share/Paradox Interactive/launcherpath
+t/home/schizo/.local/share/Trash/files/000_Unpack-0557
+	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-0557
+t/home/schizo/.local/share/Trash/files/000_Unpack-1605
+	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-1605
 
 # State:
 f
