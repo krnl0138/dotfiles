@@ -22,21 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/advanced-css-course/Trillo
-	starter_mine
-1
-d/home/schizo/udemy/advanced-css-course
-	Nexter
-4
-d/home/schizo/udemy/advanced-css-course/Nexter
-	starter
-1
-d/home/schizo/udemy/advanced-css-course/Nexter/starter
-	sass
-1
-d/home/schizo/udemy/advanced-css-course/Nexter/starter/sass
-	_base.scss
-3
 d/home/schizo/udemy/advanced-css-course/Nexter/starter
 	css
 2
@@ -622,11 +607,23 @@ d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
 d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
 	Minecraft Launcher.jar
 6
+d/home/schizo
+	.local
+41
+d/home/schizo/downloads
+	Minecraft_1.16
+8
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Tristes tropiques by Levi-Strauss, Claude Wilcken, Patrick (z-lib.org).epub
+9
 
 # Right window history (oldest to newest):
-D/home/schizo/udemy
-	steele_webdev_bootcamp
-4
 D/home/schizo/udemy/steele_webdev_bootcamp
 	..
 0
@@ -1224,6 +1221,9 @@ D/home/schizo/downloads
 D/home/schizo/downloads/Minecraft_1.16
 	start.sh
 9
+D/home/schizo
+	.local
+40
 
 # Command line history (oldest to newest):
 :!swayr
@@ -1424,8 +1424,8 @@ D/home/schizo/downloads/Minecraft_1.16
 :brave %
 :!brave %f
 :q
-:!sh %f
 :!java -jar %f
+:!sh %f
 
 # Search history (oldest to newest):
 /win
