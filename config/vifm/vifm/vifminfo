@@ -22,21 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/advanced-css-course/Nexter/starter
-	css
-2
-d/home/schizo/udemy/advanced-css-course/Nexter
-	starter
-1
-d/home/schizo/udemy/advanced-css-course
-	Trillo
-2
-d/home/schizo/udemy/advanced-css-course/Trillo
-	starter_mine
-1
-d/home/schizo/udemy/advanced-css-course
-	Nexter
-4
 d/home/schizo/udemy/advanced-css-course/Nexter
 	starter
 1
@@ -616,6 +601,21 @@ d/home/schizo/downloads
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Tristes tropiques by Levi-Strauss, Claude Wilcken, Patrick (z-lib.org).epub
+9
+d/home/schizo
+	vifmimg
+8
+d/home/schizo/downloads
+	John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
+8
+d/home/schizo
+	vifmimg
+8
 d/home/schizo/downloads
 	books
 1
@@ -1223,7 +1223,7 @@ D/home/schizo/downloads/Minecraft_1.16
 9
 D/home/schizo
 	.local
-40
+8
 
 # Command line history (oldest to newest):
 :!swayr
@@ -1531,6 +1531,7 @@ D/home/schizo
 /lo
 /loca
 /local
+/book
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1546,7 +1547,7 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_Unpack-1605
+""/home/schizo/.local/share/Trash/files/000_John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
 
 # Directory stack (oldest to newest):
 
@@ -3513,6 +3514,8 @@ t/home/schizo/.local/share/Trash/files/000_Unpack-0557
 	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-0557
 t/home/schizo/.local/share/Trash/files/000_Unpack-1605
 	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-1605
+t/home/schizo/.local/share/Trash/files/000_John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
+	/home/schizo/downloads/John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
 
 # State:
 f
