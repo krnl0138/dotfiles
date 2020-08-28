@@ -22,15 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/udemy/advanced-css-course
-	Natours
-3
-d/home/schizo/udemy/advanced-css-course/Natours
-	final-after-S06
-3
-d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06
-	sass
-3
 d/home/schizo/udemy/advanced-css-course/Natours/final-after-S06/sass
 	components
 3
@@ -622,6 +613,15 @@ d/home/schizo/personal/pictures/thaas_pics
 d/home/schizo/personal/pictures/thaas_pics/1
 	7FWOD3dHbsM.jpg
 1
+d/home/schizo
+	linux.todo
+42
+d/home
+	schizo
+1
+d/home/schizo/downloads
+	А.Солопов, Е.Антонец. Латинский язык.pdf
+32
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
@@ -1391,7 +1391,6 @@ D/home/schizo
 :mkdir ftplugin
 :mkdir forkify
 :w
-:filter!
 :mkdir templates
 :mkdir docs
 :mkdir assets
@@ -1426,6 +1425,7 @@ D/home/schizo
 :q
 :!java -jar %f
 :!sh %f
+:filter!
 
 # Search history (oldest to newest):
 /win

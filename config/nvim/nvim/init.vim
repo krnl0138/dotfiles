@@ -37,6 +37,7 @@ Plug 'Yggdroot/indentLine' " indent@lines WARN: MESS `Concealcursor` OPT
 " COLORSCHEMES
 Plug 'joshdick/onedark.vim'
 call plug#end()
+
 " SET OPTIONS
 """""""""""""
 " See :help nvim-defaults
@@ -61,29 +62,24 @@ set pumblend=20      " set pum background visibility to 20%
 set splitbelow splitright " Open new split to right and bottom
 set title
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-
 " Colors
 set termguicolors
 set bg=dark
 colorscheme onedark
-
 " Search & find
 set ignorecase
 set smartcase
 set path+=**
 set wildignore+=**/node_modules/**
-
-" tabs
+" Tabs
 set smartindent
 set ts=4 sts=4 sw=4 expandtab
-
 " History
 set backup
 set undofile
 set backupdir=~/.local/share/nvim/backupdir/backup
 set directory=~/.local/share/nvim/backupdir/swp
 set undodir=~/.local/share/nvim/backupdir/undo
-
 " Auto commands
 au BufEnter * setlocal fo-=c fo-=r fo-=o  "   Disables automatic commenting on newline
 au BufRead * silent! loadview
@@ -108,6 +104,7 @@ au FileType javascript,html,css,scss ino <buffer> < <><Left>
 au FileType javascript,html,css,scss ino <buffer> ' ''<Left>
 au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
+
 " MAPPINGS
 " ========
     nn ; :
@@ -190,7 +187,7 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
     nn <leader>go :Goyo<CR>
 " PLUGINS
 " =======
-" Emmet
+" EMMET
 " default <C-y>,
 let g:user_emmet_mode='i'
 let g:user_emmet_install_global = 0
@@ -201,7 +198,7 @@ autocmd FileType html,css EmmetInstall
 let g:goyo_width = 85 " (default: 80)
 let g:goyo_linenr = 1 " (default: 0)
 
-" Indentline
+" INDENTLINE
 let g:indentLine_setConceal = 0 " to prevent overwriting my settings
 
 " POLYGLOT
