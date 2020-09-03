@@ -85,6 +85,7 @@ abbr ytaudio youtube-dl --extract-audio
 abbr ytallbest youtube-dl --audio-format "best" --video-format "best"
 
 abbr crow crow -s en -t ru
+abbr torrent transmission-daemon
 abbr wifi nmtui-connect
 abbr tree tree -aCuhL 1
 abbr paclog pacolog
