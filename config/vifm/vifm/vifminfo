@@ -22,21 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo
-	downloads
-3
-d/home/schizo/downloads
-	Новая таблица - Лист1.csv
-25
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	C2wXUDrN5y4.jpg
-6
-d/home/schizo
-	downloads
-1
 d/home/schizo/personal
 	pictures
 1
@@ -622,6 +607,21 @@ d/home/schizo
 d/home/schizo/downloads
 	good_omens_russian_subtitles.zip
 35
+d/home/schizo
+	linux.todo
+41
+d/home/schizo/downloads
+	Elena Valeryevna_files
+2
+d/home/schizo/downloads/Elena Valeryevna_files
+	..
+0
+d/home/schizo/downloads
+	Minecraft_1.16
+13
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
