@@ -22,12 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/personal
-	pictures
-1
-d/home/schizo/personal/pictures
-	screenshots
-1
 d/home/schizo/personal/pictures/screenshots
 	2020-07-26-15-33-02.png
 4
@@ -622,6 +616,12 @@ d/home/schizo/downloads
 d/home/schizo/downloads/Minecraft_1.16
 	start.sh
 11
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Good Omens Season 1 WEBRip
+5
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
