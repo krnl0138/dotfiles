@@ -22,33 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/personal/pictures/screenshots
-	2020-07-26-15-33-02.png
-4
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	audio
-1
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Minecraft_1.16
-1
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Minecraft_1.16
-1
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
 d/home/schizo
 	downloads
 1
@@ -622,6 +595,33 @@ d/home/schizo
 d/home/schizo/downloads
 	Good Omens Season 1 WEBRip
 5
+d/home/schizo
+	downloads
+2
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Vladimir_Martynov_-_Konets_Vremeni_Kompozitorov.fb2
+19
+d/home/schizo
+	downloads
+2
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Gomer_Iliada_Per_N_I_Gnedicha_2-E_Izd___Spb_Nauka_2008.djvu
+17
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Gomer_Iliada_Per_N_I_Gnedicha_2-E_Izd___Spb_Nauka_2008.djvu
+17
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
@@ -1547,7 +1547,8 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
+""/home/schizo/.local/share/Trash/files/000_4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
+""/home/schizo/.local/share/Trash/files/000_c4931d8c-dca5-428b-a0de-ba75bf1347f8.pdf
 
 # Directory stack (oldest to newest):
 
@@ -3516,6 +3517,10 @@ t/home/schizo/.local/share/Trash/files/000_Unpack-1605
 	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-1605
 t/home/schizo/.local/share/Trash/files/000_John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
 	/home/schizo/downloads/John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
+t/home/schizo/.local/share/Trash/files/000_4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
+	/home/schizo/downloads/books/4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
+t/home/schizo/.local/share/Trash/files/000_c4931d8c-dca5-428b-a0de-ba75bf1347f8.pdf
+	/home/schizo/downloads/books/c4931d8c-dca5-428b-a0de-ba75bf1347f8.pdf
 
 # State:
 f
