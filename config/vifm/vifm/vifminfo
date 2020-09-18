@@ -22,21 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
-d/home/schizo/downloads/HeartsOfIronIV
-	start.sh
-4
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
 d/home/schizo/downloads/HeartsOfIronIV
 	game
 2
@@ -622,6 +607,21 @@ d/home/schizo/downloads
 d/home/schizo/downloads/books
 	Gomer_Iliada_Per_N_I_Gnedicha_2-E_Izd___Spb_Nauka_2008.djvu
 17
+d/home/schizo
+	downloads
+2
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	epub
+1
+d/home/schizo/downloads/books/epub
+	..
+0
+d/home/schizo/downloads/books
+	Shornikova_Muz_Literatura_1god.pdf
+9
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
