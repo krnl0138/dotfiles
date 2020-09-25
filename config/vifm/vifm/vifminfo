@@ -22,21 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Minecraft_1.16
-1
-d/home/schizo
-	downloads
-1
 d/home
 	schizo
 1
@@ -616,6 +601,21 @@ d/home/schizo/downloads/books
 d/home/schizo
 	downloads
 2
+d/home/schizo/downloads
+	Minecraft_1.16
+15
+d/home/schizo/downloads/Minecraft_1.16
+	start.sh
+11
+d/home/schizo
+	downloads
+1
+d/home/schizo/downloads
+	Minecraft_1.16
+15
+d/home/schizo/personal
+	pictures
+1
 d/home/schizo/downloads
 	Minecraft_1.16
 15
