@@ -22,162 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home
-	schizo
-1
-d/
-	tmp
-0
-d/tmp
-	HeartsOfIronIV
-1
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
-d/home/schizo
-	downloads
-1
-d/home
-	schizo
-1
-d/
-	dev
-1
-d/dev
-	..
-0
-d/
-	tmp
-0
-d/tmp
-	HeartsOfIronIV
-1
-d/tmp/HeartsOfIronIV
-	start.sh
-4
-d/home/schizo
-	downloads
-1
-d/home
-	schizo
-1
-d/
-	tmp
-0
-d/tmp
-	HeartsOfIronIV
-1
-d/tmp/HeartsOfIronIV
-	game
-2
-d/tmp/HeartsOfIronIV/game
-	get_latest_osx_build.sh
-33
-d/tmp/HeartsOfIronIV
-	start.sh
-4
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
-d/home/schizo
-	downloads
-1
-d/home
-	schizo
-1
-d/
-	tmp
-0
-d/tmp
-	HeartsOfIronIV
-1
-d/tmp/HeartsOfIronIV
-	steam-runtime
-1
-d/tmp/HeartsOfIronIV/steam-runtime
-	run.sh
-14
-d/tmp/HeartsOfIronIV
-	start.sh
-4
-d/home/schizo
-	downloads
-2
-d/home
-	schizo
-1
-d/
-	tmp
-1
-d/tmp
-	.font-unix
-6
-d/home/schizo/downloads
-	HeartsOfIronIV
-1
-d/home/schizo/downloads/HeartsOfIronIV
-	start.sh
-4
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	Minecraft_1.16
-2
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo/downloads
-	John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
-28
-d/home/schizo
-	.minecraft
-2
-d/home/schizo/.minecraft
-	minecraft launcher
-7
-d/home/schizo/.minecraft/minecraft launcher
-	..
-0
-d/home/schizo/.minecraft
-	versions
-6
-d/home/schizo/.minecraft/versions
-	..
-0
-d/home/schizo/.minecraft
-	versions
-6
-d/home/schizo/.minecraft/versions
-	1.12.2
-1
-d/home/schizo/.minecraft/versions/1.12.2
-	..
-0
-d/home/schizo/.minecraft/versions
-	1.12.2
-1
-d/home/schizo/.minecraft
-	mods
-1
-d/home/schizo/.minecraft/mods
-	OptiFine_1.12.2_HD_U_E3.jar
-2
-d/home/schizo
-	.minecraft
-2
-d/home/schizo/.minecraft
-	mods
-9
-d/home/schizo/.minecraft/mods
-	..
-0
-d/home/schizo
-	downloads
-1
 d/home/schizo/downloads
 	Minecraft_1.16
 8
@@ -455,173 +299,329 @@ d/home/schizo/personal/pictures/thaas_pics/1
 	7FWOD3dHbsM.jpg
 1
 d/home/schizo
-	linux.todo
-42
-d/home
-	schizo
-1
-d/home/schizo/downloads
-	А.Солопов, Е.Антонец. Латинский язык.pdf
-32
-d/home/schizo
-	linux.todo
-41
-d/home/schizo/downloads
-	Minecraft_1.16
-9
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo
-	linux.todo
-41
-d/home/schizo/downloads
-	Minecraft_1.16
-9
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo
-	linux.todo
-41
-d/home
-	schizo
-1
-d/
-	tmp
-0
-d/tmp
-	hsperfdata_schizo
-1
-d/tmp/hsperfdata_schizo
-	..
-0
-d/tmp
-	jna--907983290
-2
-d/tmp/jna--907983290
-	..
-0
-d/tmp
-	lu1886649tifng.tmp
-22
-d/tmp/lu1886649tifng.tmp
-	..
-0
-d/tmp
-	..
-0
-d/
-	tmp
-0
-d/tmp
-	jna--907983290
-2
-d/home/schizo/downloads
-	s01e01_In_the_Beginning.srt
-33
-d/home/schizo
-	linux.todo
-41
-d/home/schizo/downloads
-	good-omens_english-1993459
-1
-d/home/schizo/downloads/good-omens_english-1993459
+	hello
+20
+d/home/schizo/hello
 	..
 0
 d/home/schizo
-	linux.todo
-41
-d/home/schizo/downloads
-	good_omens_russian_subtitles.zip
-35
-d/home/schizo
-	linux.todo
-41
-d/home/schizo/downloads
-	Elena Valeryevna_files
-2
-d/home/schizo/downloads/Elena Valeryevna_files
+	test
+21
+d/home/schizo/test
 	..
 0
-d/home/schizo/downloads
-	Minecraft_1.16
-13
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
 d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Good Omens Season 1 WEBRip
-5
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	books
-1
-d/home/schizo/downloads/books
-	Vladimir_Martynov_-_Konets_Vremeni_Kompozitorov.fb2
-19
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	books
-1
-d/home/schizo/downloads/books
-	Gomer_Iliada_Per_N_I_Gnedicha_2-E_Izd___Spb_Nauka_2008.djvu
+	notes
+27
+d/home/schizo/notes
+	distributed_systems.txt
 17
 d/home/schizo
-	downloads
+	Zotero
 1
-d/home/schizo/downloads
-	books
-1
-d/home/schizo/downloads/books
-	Gomer_Iliada_Per_N_I_Gnedicha_2-E_Izd___Spb_Nauka_2008.djvu
-17
-d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	books
-1
-d/home/schizo/downloads/books
-	epub
-1
-d/home/schizo/downloads/books/epub
+d/home/schizo/Zotero
+	storage
+3
+d/home/schizo/Zotero/storage
 	..
 0
-d/home/schizo/downloads/books
-	Shornikova_Muz_Literatura_1god.pdf
-9
+d/home/schizo/Zotero
+	storage
+3
 d/home/schizo
-	downloads
-2
-d/home/schizo/downloads
-	Minecraft_1.16
-15
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Minecraft_1.16
-15
+	.node_repl_history
+41
 d/home/schizo/personal
 	pictures
 1
 d/home/schizo/downloads
-	Minecraft_1.16
-15
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
+	books
+1
+d/home/schizo/downloads/books
+	hz_knijki
+7
+d/home/schizo/downloads/books/hz_knijki
+	Eko_Umberto_-_Rol_chitatelya_Issledovania_po_se_files
+1
+d/home/schizo/downloads/books
+	fb2
+5
+d/home/schizo/downloads/books/fb2
+	..
+0
+d/home/schizo/downloads/books
+	fb2
+5
+d/home/schizo/downloads/books/fb2
+	..
+0
+d/home/schizo/downloads/books
+	mobi
+6
+d/home/schizo/downloads/books/mobi
+	..
+0
+d/home/schizo/downloads/books
+	txt
+3
+d/home/schizo/downloads/books/txt
+	..
+0
+d/home/schizo/downloads/books
+	pdf
+2
+d/home/schizo/downloads/books/pdf
+	..
+0
+d/home/schizo/downloads/books
+	pdf
+2
+d/home/schizo/downloads
+	ppts
+18
+d/home/schizo
+	personal
+38
+d/home/schizo/personal
+	university
+2
+d/home/schizo/personal/university
+	filosofiya_istorii
+1
+d/home/schizo/personal/university/filosofiya_istorii
+	..
+0
+d/home/schizo/personal/university
+	filosofiya_istorii
+1
+d/home/schizo/personal/university/filosofiya_istorii
+	Rorty
+1
+d/home/schizo/personal/university
+	learning_notes
+2
+d/home/schizo/personal/university/learning_notes
+	..
+0
+d/home/schizo/personal/university
+	ucheba
+3
+d/home/schizo/personal/university/ucheba
+	..
+0
+d/home/schizo/personal/university
+	mine_texts
+4
+d/home/schizo/personal/university/mine_texts
+	..
+0
+d/home/schizo/personal/university
+	izf
+5
+d/home/schizo/personal/university/izf
+	..
+0
+d/home/schizo/personal/university
+	izf
+5
+d/home/schizo/personal/university/izf
+	..
+0
+d/home/schizo/personal/university
+	mamardashvili
+6
+d/home/schizo/personal/university/mamardashvili
+	..
+0
+d/home/schizo/personal/university
+	nis
+7
+d/home/schizo/personal
+	books
+3
+d/home/schizo/personal/books
+	languages
+18
+d/home/schizo/personal/books/languages
+	latin
+2
+d/home/schizo/personal/books/languages/latin
+	CD_Beginners_Latin_Book.pdf
+2
+d/home/schizo/personal/books/languages
+	latin
+2
+d/home/schizo/personal/books
+	formats
+17
+d/home/schizo/personal/books/formats
+	fb2s
+5
+d/home/schizo/personal/books/formats/fb2s
+	..
+0
+d/home/schizo/personal/books/formats
+	fb2s
+5
+d/home/schizo/personal/books/formats/fb2s
+	..
+0
+d/home/schizo/personal/books/formats
+	epubs
+4
+d/home/schizo/personal/books/formats/epubs
+	..
+0
+d/home/schizo/personal/books/formats
+	mobis
+3
+d/home/schizo/personal/books/formats/mobis
+	..
+0
+d/home/schizo/personal/books/formats
+	docxs
+2
+d/home/schizo/personal/books/formats/docxs
+	..
+0
+d/home/schizo/personal/books/formats
+	docxs
+2
+d/home/schizo/personal/books/formats/docxs
+	..
+0
+d/home/schizo/personal/books/formats
+	djvus
+1
+d/home/schizo/personal/books/formats/djvus
+	(Научные биографии) Георгий Кнабе-Корнелий Тацит. Время.Жизнь.Книги-Наука (1981).djvu
+49
+d/home/schizo/personal/books/formats
+	djvus
+1
+d/home/schizo/personal/books
+	physics
+4
+d/home/schizo/personal/books/physics
+	..
+0
+d/home/schizo/personal/books
+	nonfiction
+3
+d/home/schizo/personal/books/nonfiction
+	..
+0
+d/home/schizo/personal/books
+	nonfiction
+3
+d/home/schizo/personal
+	philosophy_backup
+4
+d/home/schizo/personal/philosophy_backup
+	Скиннер_Идея негативной свободы.pdf
+13
+d/home/schizo/personal
+	diary
+5
+d/home/schizo/personal/diary
+	archive
+2
+d/home/schizo/personal/diary/archive
+	flash_8gb_120719
+4
+d/home/schizo/personal/diary/archive/flash_8gb_120719
+	..
+0
+d/home/schizo/personal/diary/archive
+	flash_8gb_120719
+4
+d/home/schizo/personal/diary/archive/flash_8gb_120719
+	PENDRIVE
+1
+d/home/schizo/personal/diary/archive/flash_8gb_120719/PENDRIVE
+	..
+0
+d/home/schizo/personal/diary/archive/flash_8gb_120719
+	PENDRIVE
+1
+d/home/schizo/personal/diary/archive
+	projects
+5
+d/home/schizo/personal/diary/archive/projects
+	..
+0
+d/home/schizo/personal/diary/archive
+	Telegram Desktop
+7
+d/home/schizo/personal/diary/archive/Telegram Desktop
+	..
+0
+d/home/schizo/personal/diary/archive
+	vk_archive
+8
+d/home/schizo/personal/diary/archive/vk_archive
+	..
+0
+d/home/schizo/personal/diary/archive
+	vk_archive
+8
+d/home/schizo/personal/diary
+	archive
+2
+d/home/schizo/personal
+	diary
+5
+d/home/schizo/personal/diary
+	archive
+2
+d/home/schizo/personal
+	university
+2
+d/home/schizo/personal/university
+	ucheba
+3
+d/home/schizo/personal/university/ucheba
+	..
+0
+d/home/schizo/personal/university
+	ucheba
+3
+d/home/schizo/personal
+	university
+2
+d/home/schizo
+	personal
+38
+d/home/schizo/personal
+	diary
+5
+d/home/schizo/personal/diary
+	notes
+1
+d/home/schizo/personal/diary/notes
+	..
+0
+d/home/schizo/personal/diary
+	notes
+1
+d/home/schizo/personal/diary/notes
+	latin
+1
+d/home/schizo/personal/diary/notes/latin
+	latin.tex
+1
+d/home/schizo/personal/diary/notes
+	latin
+1
+d/home/schizo/personal/diary/notes/latin
+	latin.tex
+1
+d/home/schizo
+	latin
+2
+d/home/schizo/latin
+	А.Солопов, Е.Антонец. Латинский язык.pdf
+2
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
@@ -1223,7 +1223,7 @@ D/home/schizo/downloads/Minecraft_1.16
 9
 D/home/schizo
 	.local
-40
+8
 
 # Command line history (oldest to newest):
 :!swayr
@@ -1391,6 +1391,7 @@ D/home/schizo
 :mkdir ftplugin
 :mkdir forkify
 :w
+:filter!
 :mkdir templates
 :mkdir docs
 :mkdir assets
@@ -1424,7 +1425,6 @@ D/home/schizo
 :!brave %f
 :q
 :!java -jar %f
-:filter!
 :!sh %f
 
 # Search history (oldest to newest):
@@ -1532,6 +1532,9 @@ D/home/schizo
 /loca
 /local
 /book
+/лати
+/drop
+/lati
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
@@ -1547,8 +1550,7 @@ pcourse_content
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/schizo/.local/share/Trash/files/000_4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
-""/home/schizo/.local/share/Trash/files/000_c4931d8c-dca5-428b-a0de-ba75bf1347f8.pdf
+""/home/schizo/.local/share/Trash/files/003_test
 
 # Directory stack (oldest to newest):
 
@@ -3517,6 +3519,8 @@ t/home/schizo/.local/share/Trash/files/000_Unpack-1605
 	/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer/Unpack-1605
 t/home/schizo/.local/share/Trash/files/000_John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
 	/home/schizo/downloads/John.Wick.2014.720p.WEB-DL.x264.Ganool.srt
+t/home/schizo/.local/share/Trash/files/000_hello
+	/home/schizo/hello
 t/home/schizo/.local/share/Trash/files/000_4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
 	/home/schizo/downloads/books/4839c0f7-cf89-4a2d-b25e-ce9638fb227c.pdf
 t/home/schizo/.local/share/Trash/files/000_c4931d8c-dca5-428b-a0de-ba75bf1347f8.pdf
