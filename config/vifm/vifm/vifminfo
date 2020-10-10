@@ -22,75 +22,6 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/schizo/downloads
-	Minecraft_1.16
-8
-d/home/schizo/downloads/Minecraft_1.16
-	logs
-1
-d/home/schizo/downloads/Minecraft_1.16/logs
-	..
-0
-d/home/schizo/downloads/Minecraft_1.16
-	saves
-2
-d/home/schizo/downloads/Minecraft_1.16/saves
-	..
-0
-d/home/schizo/downloads/Minecraft_1.16
-	resourcepacks
-3
-d/home/schizo/downloads/Minecraft_1.16/resourcepacks
-	..
-0
-d/home/schizo/downloads/Minecraft_1.16
-	libraries
-4
-d/home/schizo/downloads/Minecraft_1.16/libraries
-	..
-0
-d/home/schizo/downloads/Minecraft_1.16
-	start.sh
-11
-d/home/schizo
-	downloads
-1
-d/home/schizo/downloads
-	Minecraft_1.16_backup
-2
-d/home/schizo
-	.local
-42
-d/home/schizo/.local
-	share
-1
-d/home/schizo/.local/share
-	wineprefixes
-5
-d/home/schizo/.local/share/wineprefixes
-	minecraft_1_12_2
-1
-d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
-	drive_c
-2
-d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c
-	mc_installer
-1
-d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2/drive_c/mc_installer
-	Minecraft Launcher.jar
-6
-d/home/schizo
-	.local
-42
-d/home/schizo/.local
-	share
-1
-d/home/schizo/.local/share
-	wineprefixes
-5
-d/home/schizo/.local/share/wineprefixes
-	minecraft_1_12_2
-1
 d/home/schizo/.local/share/wineprefixes/minecraft_1_12_2
 	drive_c
 2
@@ -622,6 +553,75 @@ d/home/schizo
 d/home/schizo/latin
 	А.Солопов, Е.Антонец. Латинский язык.pdf
 2
+d/home/schizo
+	german
+5
+d/home/schizo/german
+	Begegnungen
+5
+d/home/schizo/german/Begegnungen
+	..
+0
+d/home/schizo/german
+	practice_makes_perfect_series
+6
+d/home/schizo/german/practice_makes_perfect_series
+	Practice Makes Perfect - German Sentence Builder.pdf
+4
+d/home/schizo/german
+	FSI Courses
+4
+d/home/schizo/german/FSI Courses
+	Fsi-GermanBasicCourse-Volume1-StudentText.pdf
+2
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	..
+0
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	Niderle_Lyubor_-_Slavyanskie_Drevnosti.djvu
+10
+d/home/schizo
+	german
+3
+d/home/schizo/downloads
+	books
+1
+d/home/schizo/downloads/books
+	epub
+3
+d/home/schizo/downloads/books/epub
+	..
+0
+d/home/schizo/downloads/books
+	djvu
+5
+d/home/schizo/downloads/books/djvu
+	Agamben_Ostavsheesya_Vremya.djvu
+1
+d/home/schizo/downloads/books
+	fb2
+6
+d/home/schizo/downloads/books/fb2
+	Gyugo_-_Ernani_vnutri_Iskat_Nado.fb2
+1
+d/home/schizo/downloads/books
+	mobi
+7
+d/home/schizo/downloads/books/mobi
+	..
+0
+d/home/schizo/downloads/books
+	epub
+3
+d/home/schizo/downloads/books/epub
+	Hardi_B._Newconcept._Sila_Voli_Ne_Rabotaet_Pus.epub
+5
 
 # Right window history (oldest to newest):
 D/home/schizo/udemy/steele_webdev_bootcamp
@@ -1226,7 +1226,6 @@ D/home/schizo
 8
 
 # Command line history (oldest to newest):
-:!swayr
 :file &<CR>
 :file &<cr>l
 :file &
@@ -1426,6 +1425,7 @@ D/home/schizo
 :q
 :!java -jar %f
 :!sh %f
+:!7z a german
 
 # Search history (oldest to newest):
 /win
@@ -1535,6 +1535,8 @@ D/home/schizo
 /лати
 /drop
 /lati
+/germ
+/соло
 
 # Prompt history (oldest to newest):
 p(Pragmatic Programmers) Mark C. Chu-Carroll - Good Math_ A Geek's Guide to the Beauty of Numbers, Logic, and Computation-Pragmatic Bookshelf (2013)
