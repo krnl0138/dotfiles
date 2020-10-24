@@ -22,22 +22,22 @@ input "*" {
 
 # BINDINGS
 bindsym {
+    $mod+Shift+t reload
     $mod+a focus parent
-    $mod+backslash exec dmenu_launcher.sh
     $mod+d focus child
+    $mod+backslash exec dmenu_launcher.sh
+    $mod+space exec dmenu_apps.sh
     $mod+f fullscreen toggle
     $mod+shift+grave focus mode_toggle
     $mod+q kill
     $mod+grave floating toggle
-    $mod+space exec dmenu_apps.sh
     $mod+v split toggle
     $mod+w layout toggle tabbed stacking split
     $mod+z exec "makoctl dismiss -a"
     $mod+Escape exec 'j4-dmenu-desktop --no-generic --dmenu="bemenu -p "Launch" -i -w --fn "D2Coding 14""'
-    $mod+Return exec alacritty
+    $mod+Return exec $TERMINAL
     $mod+Shift+d border toggle
     $mod+Shift+m exec i3-msg sticky toggle
-    $mod+Shift+t reload
 
     Print exec grim -t png "$(xdg-user-dir SCREENSHOTS)"/"$(date +%Y-%m-%d-%H-%M-%S)".png
     $mod+Print exec sh "$HOME/scripts/screenshot.sh"

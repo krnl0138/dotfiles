@@ -18,7 +18,8 @@ set syscalls
 
 ""------ PERSONAL KEYMAPS
 
-set nu
+set number
+set relativenumber
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -36,12 +37,19 @@ nnoremap aa cW
 nnoremap bg :!bg_this.sh %d/%f<CR>
 nnoremap <space> tj
 nnoremap q ZQ
+nnoremap O :file &<CR>
+nnoremap o :file &<CR>l
+nnoremap <tab> <C-w>p
+noremap <s-tab> :vsplit <CR>
+nnoremap : ;
+nnoremap ; :
+nnoremap H <C-w>h
+nnoremap L <C-w>l
 
 command! FZFlocate :set noquickview | :execute 'goto "'.system('locate $HOME | fzf 2>/dev/tty ').'"%IU' | redraw
 command! FZFfind :set noquickview | :execute 'goto "'.system('find | fzf 2>/dev/tty ').'"%IU' | redraw
 map ff :FZFlocate<CR>
 map fr :FZFfind<CR>
-
 nmap F :FZFlocate<CR>
 nnoremap <c-f> :filter!
 
@@ -62,27 +70,6 @@ map xn :!mv %f ~/personal/books/nonfiction<CR>
 map xy :!mv %f ~/personal/books/physics<CR>
 map xh :!mv %f ~/personal/books/history<CR>
 map xi :!mv %f ~/personal/books/iskusstvo<CR>
-
-nnoremap O :file &<CR>
-nnoremap o :file &<CR>l
-
-nnoremap gd :cd $XDG_DOWNLOAD_DIR <CR>
-nnoremap gl :cd $XDG_DATA_HOME <CR>
-nnoremap gP :cd $XDG_PICTURES_DIR <CR>
-nnoremap gp :cd $HOME/personal <CR>
-nnoremap gh :cd $HOME <CR>
-nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
-nnoremap gs :cd $HOME/scripts <CR>
-nnoremap gD :cd $HOME/Dropbox <CR>
-nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
-nnoremap gc :cd $XDG_CONFIG_HOME <CR>
-
-nnoremap <tab> <C-w>p
-noremap <s-tab> :vsplit <CR>
-nnoremap : ;
-nnoremap ; :
-nnoremap H <C-w>h
-nnoremap L <C-w>l
 """" -------------------------------------------------------------------------
 
 " Trash Directory
@@ -156,13 +143,23 @@ if !has('win')
 endif
 
 " Set custom status line look
-set statusline="  Hint: %z%= %A %10u:%-7g %15s %20d  "
+set statusline=" %= %A %10u:%-7g %s %15d "
 
 " ------------------------------------------------------------------------------
 
-" :mark mark /full/directory/path [filename]
-mark b ~/bin/
-mark h ~/
+" NAVIGATION
+" :mark letter /full/directory/path [filename]
+nnoremap gd :cd $XDG_DOWNLOAD_DIR <CR>
+nnoremap gl :cd $XDG_DATA_HOME <CR>
+nnoremap gP :cd $XDG_PICTURES_DIR <CR>
+nnoremap gp :cd $HOME/personal <CR>
+nnoremap gh :cd $HOME <CR>
+nnoremap gS :cd $HOME/Dropbox/screenshots <CR>
+nnoremap gs :cd $HOME/scripts <CR>
+nnoremap gD :cd $HOME/Dropbox <CR>
+nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
+nnoremap gc :cd $XDG_CONFIG_HOME <CR>
+
 
 " ------------------------------------------------------------------------------
 
@@ -221,15 +218,18 @@ command! reload :write | restart full
 " NOT_DEFAULT Preview with Highlight for syntax
 " fileviewer *.html,*.go,*.css,*.sh,*.bash,*.js,*.md highlight -O xterm256 -s andes %c
 
-" Pdf
-filextype {*.pdf},<application/pdf>  okular %f 2>/dev/null &, zathura %c %i &, apvlv %c, xpdf %c
-fileviewer {*.pdf},<application/pdf> pdftotext -nopgbrk %c -
-
 " NOT_DEFAULT Mobi
 filextype {*.mobi} okular %f 2>/dev/null &
 
 " NOT_DEFAULT Epub
 filextype {*.epub} zathura %f 2>/dev/null &
+
+" NOT_DEFAULT FB2
+filextype {*.fb2} zathura %f 2>/dev/null &
+
+" Pdf
+filextype {*.pdf},<application/pdf>  okular %f 2>/dev/null &, zathura %c %i &, apvlv %c, xpdf %c
+fileviewer {*.pdf},<application/pdf> pdftotext -nopgbrk %c -
 
 " PostScript
 filextype {*.ps,*.eps,*.ps.gz},<application/postscript>
@@ -266,8 +266,6 @@ filextype {*.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
          \<video/*>
         \ {View using ffplay}
         \ ffplay -fs -autoexit %f,
-        \ {View using Dragon}
-        \ dragon %f:p,
         \ {View using mplayer}
         \ mplayer %f,
 fileviewer {*.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
@@ -278,14 +276,12 @@ fileviewer {*.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
 
 " Web
 filextype {*.html,*.htm},<text/html>
-        \ {Open with dwb}
+        \ {Open with brave}
         \ brave %f &,
-        \ {Open with dwb}
-        \ dwb %f %i &,
-        \ {Open with firefox}
-        \ firefox %f &,
-        \ {Open with uzbl}
-        \ uzbl-browser %f %i &,
+        \ {Open with chromium}
+        \ chromium %f &,
+        \ {Open with firefox-nightly}
+        \ firefox-nightly %f &,
 filetype {*.html,*.htm},<text/html> links, lynx
 
 " Object
