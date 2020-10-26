@@ -218,6 +218,12 @@ command! reload :write | restart full
 " NOT_DEFAULT Preview with Highlight for syntax
 " fileviewer *.html,*.go,*.css,*.sh,*.bash,*.js,*.md highlight -O xterm256 -s andes %c
 
+" NOT_DEFAULT rar
+filetype {*.rar} unrar x %f
+
+" NOT_DEFAULT 7zip
+filetype {*.7z} 7z x %f
+
 " NOT_DEFAULT Mobi
 filextype {*.mobi} okular %f 2>/dev/null &
 
