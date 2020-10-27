@@ -212,11 +212,11 @@ command! reload :write | restart full
 " You can also add %CLEAR if you want to clear screen before running FUSE
 " program.
 
-" NOT_DEFAULT Preview with Viu for images
-" fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm catimg -w 100 -t %c:p
+" NOT_DEFAULT Preview images with Catimg
+fileviewer {*.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm} catimg -t -w 100 %f
 
-" NOT_DEFAULT Preview with Highlight for syntax
-" fileviewer *.html,*.go,*.css,*.sh,*.bash,*.js,*.md highlight -O xterm256 -s andes %c
+" NOT_DEFAULT Preview with syntax Highlight
+fileviewer {*.html,*.go,*.css,*.sh,*.bash,*.js,*.md} highlight -O xterm256 -s andes %c
 
 " NOT_DEFAULT rar
 filetype {*.rar} unrar x %f
@@ -229,6 +229,7 @@ filextype {*.mobi} okular %f 2>/dev/null &
 
 " NOT_DEFAULT Epub
 filextype {*.epub} zathura %f 2>/dev/null &
+fileviewer {*.epub} epub2txt %f
 
 " NOT_DEFAULT FB2
 filextype {*.fb2} zathura %f 2>/dev/null &
@@ -252,6 +253,7 @@ filextype {*.djvu},<image/vnd.djvu>
         \ zathura %f &,
         \ {View in apvlv}
         \ apvlv %f,
+fileviewer {*.djvu},<image/vnd.djvu> djvutxt %f
 
 " Audio
 filetype {*.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus},
@@ -420,7 +422,7 @@ fileviewer {*.doc},<application/msword> catdoc %c
 fileviewer {*.docx},
           \<application/
            \vnd.openxmlformats-officedocument.wordprocessingml.document>
-         \ docx2txt.pl %f -
+         \ docx2txt %f -
 
 " TuDu files
 filetype *.tudu tudu -f %c
