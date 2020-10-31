@@ -118,6 +118,7 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
     nn <leader>pu :PlugUpdate<CR>
     nn <leader>pc :PlugClean<CR>
     nn <leader>sv :source $MYVIMRC <bar> :doau BufRead<CR>
+    inoremap <C-y> <C-k>
 " %% to expand current buffer path in commandline
     cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Open window in a new tab

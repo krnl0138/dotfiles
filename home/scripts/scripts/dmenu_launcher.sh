@@ -1,6 +1,6 @@
 #!/bin/sh
 
-choices="Touchpad\nSuspend\nWifi\nMonitorToggle\nReboot\nSound"
+choices="Suspend\nTouchpad\nWifi_Interface\nLVDS_Screen_Toggle\nVGA_Screen_Toggle\nAudio_Mixer\nReboot"
 
 chosen=$(echo -e "$choices" | bemenu -p "" -l 50 -f -i -w --fn 'D2Coding 14')
 
@@ -8,19 +8,22 @@ case "$chosen" in
     Touchpad)
         swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled
         ;;
-    Wifi)
+    Wifi_Interface)
         $TERMINAL -e nmtui-connect
         ;;
-    MoniorToggle)
+    LVDS_Screen_Toggle)
         swaymsg output LVDS-1 toggle
         ;;
-    Reboot)
-        systemctl reboot
+    VGA_Screen_Toggle)
+        swaymsg output VGA-1 toggle
         ;;
     Suspend)
         systemctl suspend
         ;;
-    Sound)
+    Audio_Mixer)
         $TERMINAL -e pulsemixer
+        ;;
+    Reboot)
+        systemctl reboot
         ;;
 esac
