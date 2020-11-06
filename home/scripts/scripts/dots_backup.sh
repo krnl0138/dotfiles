@@ -1,10 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 #https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab
-export DISPLAY=:0
-eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME sway | sed -n 1p)/environ)";
+# export DISPLAY=:0
+# eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME sway | sed -n 1p)/environ)";
 DIRFROM="$HOME/dotfiles"
 DIRTO="$HOME/personal/dotfiles_backup/dotfiles_$(date +%d-%m-%Y)"
 SUCCESS_TEXT="CRONJOB: dotfiles were backed up from "
 FAIL_TEXT="CRONJOB: dotfiles were NOT backed up"
-#rsync -aq $DIRFROM $DIRTO && notify-send "$SUCCESS_TEXT$DIRFROM at $DIRTO" || notify-send "$FAIL_TEXT"
-notify-send "1 hlelo" && rsync -aq $DIRFROM $DIRTO || notify-send "nofsdf"
+rsync -aq $DIRFROM $DIRTO && notify-send "$SUCCESS_TEXT$DIRFROM at $DIRTO" || notify-send "$FAIL_TEXT"

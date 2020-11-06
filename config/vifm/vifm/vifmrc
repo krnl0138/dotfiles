@@ -159,6 +159,7 @@ nnoremap gs :cd $HOME/scripts <CR>
 nnoremap gD :cd $HOME/Dropbox <CR>
 nnoremap gT :cd $HOME/.local/share/Trash/files <CR>
 nnoremap gc :cd $XDG_CONFIG_HOME <CR>
+nnoremap gz :cd $HOME/zotero_library <CR>
 
 
 " ------------------------------------------------------------------------------

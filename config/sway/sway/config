@@ -251,4 +251,5 @@ exec_always wallp.sh
 exec_always pgrep -x waybar || waybar &
 exec_always swayidle -w after-resume sleep 3 && killall waybar && waybar && outputs2.sh
 exec udiskie &
+exec dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
 exec mako
