@@ -7,7 +7,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 french/fr.md
+badd +46 french/fr.md
+badd +153 french/fr_dic.md
+badd +9 french/fr_exc.md
 argglobal
 %argdel
 edit french/fr.md
@@ -21,27 +23,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe '2resize ' . ((&lines * 25 + 27) / 54)
+exe '1resize ' . ((&lines * 25 + 26) / 53)
+exe '2resize ' . ((&lines * 24 + 26) / 53)
 argglobal
-setlocal fdm=expr
-setlocal fde=Foldexpr_markdown(v:lnum)
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=3
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 34 - ((19 * winheight(0) + 12) / 25)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-34
-normal! 03|
-lcd ~/udemy/advanced-css-course/Natours/starter
-wincmd w
-argglobal
-if bufexists("~/french/fr.md") | buffer ~/french/fr.md | else | edit ~/french/fr.md | endif
 setlocal fdm=expr
 setlocal fde=Foldexpr_markdown(v:lnum)
 setlocal fmr={{{,}}}
@@ -52,16 +36,48 @@ setlocal fdn=20
 setlocal fen
 1
 normal! zo
-let s:l = 31 - ((16 * winheight(0) + 12) / 25)
+7
+normal! zo
+44
+normal! zo
+55
+normal! zo
+78
+normal! zo
+89
+normal! zo
+91
+normal! zo
+let s:l = 53 - ((21 * winheight(0) + 12) / 25)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-31
-normal! 0
+53
+normal! 09|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
-exe '1resize ' . ((&lines * 25 + 27) / 54)
-exe '2resize ' . ((&lines * 25 + 27) / 54)
+argglobal
+if bufexists("~/french/fr_dic.md") | buffer ~/french/fr_dic.md | else | edit ~/french/fr_dic.md | endif
+setlocal fdm=expr
+setlocal fde=Foldexpr_markdown(v:lnum)
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=3
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+1
+normal! zo
+let s:l = 56 - ((5 * winheight(0) + 12) / 24)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+56
+normal! 014|
+lcd ~/udemy/advanced-css-course/Natours/starter
+wincmd w
+exe '1resize ' . ((&lines * 25 + 26) / 53)
+exe '2resize ' . ((&lines * 24 + 26) / 53)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
