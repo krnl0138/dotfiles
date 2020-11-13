@@ -105,6 +105,15 @@ au FileType javascript,html,css,scss ino <buffer> ' ''<Left>
 au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 
+" Runs a script that cleans out tex build files whenever I close out of a .tex file.
+au VimLeave *.tex !texclear.sh %
+
+" Compile document, be it groff/LaTeX/markdown/etc.
+	nnoremap <leader>c :w! \| !compiler.sh %<CR><CR>
+" Open corresponding .pdf/.html or preview
+	nnoremap <leader>p :!opout.sh %<CR>
+
+
 " MAPPINGS
 " ========
     nn ; :
@@ -320,8 +329,8 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
     com! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
 
     " Formatting selected code, as Prettier.
-    xmap <leader>p  <Plug>(coc-format-selected)
-    nmap <leader>p  <Plug>(coc-format-selected)
+    " xmap <leader>p  <Plug>(coc-format-selected)
+    " nmap <leader>p  <Plug>(coc-format-selected)
 
     " Symbol renaming, rename all occurrences intelligently.
     nmap <leader>rn <Plug>(coc-rename)

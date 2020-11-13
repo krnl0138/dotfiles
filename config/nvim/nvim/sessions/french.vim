@@ -7,7 +7,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +87 french/fr.md
+badd +30 french/fr.md
 badd +7 french/fr_dic.md
 badd +9 french/fr_exc.md
 argglobal
@@ -38,21 +38,21 @@ setlocal fen
 normal! zo
 9
 normal! zo
-46
+48
 normal! zo
-57
+59
 normal! zo
-80
-normal! zo
-93
+82
 normal! zo
 95
 normal! zo
-let s:l = 86 - ((12 * winheight(0) + 12) / 24)
+97
+normal! zo
+let s:l = 29 - ((12 * winheight(0) + 12) / 24)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-86
+29
 normal! 0
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w

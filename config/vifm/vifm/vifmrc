@@ -303,7 +303,7 @@ fileviewer {*.[1-8]},<text/troff> man ./%c | col -b
 " Images
 filextype {*.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm},<image/*>
         \ {View in feh mtime sort}
-        \ feh -B black -x -dG -S mtime -g 1024x768 -. --start-at %f &,
+        \ feh -A "mv %f ~/personal/pictures/thaas_pics/3/" -B black -x -d -S mtime -g 1024x768 -. --start-at %f &,
         \ {View in sxiv-rifle}
         \ sxiv-rifle %f &,
         \ {View in imv}
