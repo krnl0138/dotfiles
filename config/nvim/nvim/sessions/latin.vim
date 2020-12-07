@@ -24,8 +24,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 25 + 26) / 53)
-exe '2resize ' . ((&lines * 24 + 26) / 53)
+exe '1resize ' . ((&lines * 26 + 27) / 55)
+exe '2resize ' . ((&lines * 25 + 27) / 55)
 argglobal
 setlocal fdm=expr
 setlocal fde=Foldexpr_markdown(v:lnum)
@@ -113,14 +113,14 @@ normal! zo
 normal! zo
 950
 normal! zo
-976
+978
 normal! zo
-let s:l = 950 - ((24 * winheight(0) + 12) / 25)
+let s:l = 976 - ((21 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-950
-normal! 0
+976
+normal! 031|
 wincmd w
 argglobal
 if bufexists("latin/latin_dic.md") | buffer latin/latin_dic.md | else | edit latin/latin_dic.md | endif
@@ -146,15 +146,15 @@ normal! zo
 normal! zo
 406
 normal! zo
-let s:l = 223 - ((12 * winheight(0) + 12) / 24)
+let s:l = 223 - ((13 * winheight(0) + 12) / 25)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 223
 normal! 03|
 wincmd w
-exe '1resize ' . ((&lines * 25 + 26) / 53)
-exe '2resize ' . ((&lines * 24 + 26) / 53)
+exe '1resize ' . ((&lines * 26 + 27) / 55)
+exe '2resize ' . ((&lines * 25 + 27) / 55)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
