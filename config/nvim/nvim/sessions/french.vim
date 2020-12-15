@@ -7,7 +7,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +30 french/fr.md
+badd +428 french/fr.md
 badd +7 french/fr_dic.md
 badd +9 french/fr_exc.md
 argglobal
@@ -23,8 +23,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 24 + 26) / 52)
-exe '2resize ' . ((&lines * 24 + 26) / 52)
+exe '1resize ' . ((&lines * 35 + 26) / 53)
+exe '2resize ' . ((&lines * 14 + 26) / 53)
 argglobal
 setlocal fdm=expr
 setlocal fde=Foldexpr_markdown(v:lnum)
@@ -38,22 +38,40 @@ setlocal fen
 normal! zo
 9
 normal! zo
-48
+11
 normal! zo
-59
+29
 normal! zo
-82
+49
 normal! zo
-95
+81
 normal! zo
-97
+96
 normal! zo
-let s:l = 29 - ((12 * winheight(0) + 12) / 24)
+103
+normal! zo
+177
+normal! zo
+179
+normal! zo
+188
+normal! zo
+211
+normal! zo
+255
+normal! zo
+288
+normal! zo
+331
+normal! zo
+333
+normal! zo
+let s:l = 429 - ((70 * winheight(0) + 17) / 35)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-29
-normal! 0
+429
+normal! 02|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
 argglobal
@@ -68,16 +86,16 @@ setlocal fdn=20
 setlocal fen
 1
 normal! zo
-let s:l = 6 - ((5 * winheight(0) + 12) / 24)
+let s:l = 12 - ((11 * winheight(0) + 7) / 14)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-6
-normal! 0
+12
+normal! 015|
 lcd ~/udemy/advanced-css-course/Natours/starter
 wincmd w
-exe '1resize ' . ((&lines * 24 + 26) / 52)
-exe '2resize ' . ((&lines * 24 + 26) / 52)
+exe '1resize ' . ((&lines * 35 + 26) / 53)
+exe '2resize ' . ((&lines * 14 + 26) / 53)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
