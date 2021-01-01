@@ -10,7 +10,7 @@ set shortmess=aoO
 badd +416 french/fr.md
 badd +21 french/fr_dic.md
 badd +9 french/fr_exc.md
-badd +1 english/eng.md
+badd +480 english/eng.md
 badd +64 english/eng_dic.md
 argglobal
 %argdel
@@ -35,6 +35,14 @@ normal! zo
 3
 normal! zo
 5
+normal! zo
+32
+normal! zo
+62
+normal! zo
+80
+normal! zo
+92
 normal! zo
 102
 normal! zo
@@ -66,12 +74,12 @@ normal! zc
 normal! zo
 448
 normal! zo
-let s:l = 476 - ((475 * winheight(0) + 26) / 53)
+let s:l = 474 - ((13 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-476
-normal! 079|
+474
+normal! 086|
 lcd ~/udemy/advanced-css-course/Natours/starter
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
