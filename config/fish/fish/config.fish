@@ -29,6 +29,7 @@ set -x XDG_DATA_HOME "$HOME/.local/share"
 set -x PATH /usr/local/bin $PATH
 set -x PATH "$HOME"/scripts $PATH
 set -x PATH "$HOME"/.local/bin $PATH
+set -x PATH /opt/anaconda $PATH
 set -x BIB $HOME/uni.bib
 set -x EDITOR nvim
 set -x TERM alacritty
