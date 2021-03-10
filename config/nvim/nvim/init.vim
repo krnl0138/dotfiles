@@ -26,6 +26,7 @@ Plug 'godlygeek/tabular' " needed for above
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } " browser
 Plug 'conornewton/vim-pandoc-markdown-preview' " don't need really
 Plug 'junegunn/goyo.vim'
+" https://github.com/dhruvasagar/vim-table-mode
 " FILE EDITING
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-eunuch'
@@ -433,3 +434,4 @@ nnoremap <leader>es :UltiSnipsEdit!<cr>
 
 " MARKDOWN PREVIEW (browser)
     let g:mkdp_browser = 'brave'
+
