@@ -107,7 +107,7 @@ au FileType javascript,html,css,scss ino <buffer> ( ()<Left>
 au FileType javascript,html,css,scss ino <buffer> { {}<Left>
 au FileType javascript,html,css,scss ino <buffer> {<CR> {<CR>}<Esc>O
 au FileType javascript,html,css,scss ino <buffer> [ []<Left>
-au FileType javascript,html,css,scss ino <buffer> < <><Left>
+au FileType html,css,scss ino <buffer> < <><Left>
 au FileType javascript,html,css,scss ino <buffer> ' ''<Left>
 au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
