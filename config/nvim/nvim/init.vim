@@ -103,6 +103,7 @@ au BufRead,BufNewFile *.md setlocal tw=79
 au BufNewFile,BufRead *.ejs set filetype=html
 " au FileType javascript,html,css,scss set ts=2 sts=2 sw=2
 " au InsertLeave *.js,*.html,*.css,*.scss,*.md silent! Prettier
+" au BufWritePost *.js,*.html,*.css,*.scss,*.md silent! Prettier
 au FileType javascript,html,css,scss ino <buffer> ( ()<Left>
 au FileType javascript,html,css,scss ino <buffer> { {}<Left>
 au FileType javascript,html,css,scss ino <buffer> {<CR> {<CR>}<Esc>O
@@ -111,6 +112,7 @@ au FileType html,css,scss ino <buffer> < <><Left>
 au FileType javascript,html,css,scss ino <buffer> ' ''<Left>
 au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
+au FileType javascript,html,css,scss nn <leader>p :Prettier<CR>
 
 " Runs a script that cleans out tex build files whenever I close out of a .tex file.
 au VimLeave *.tex !texclear.sh %
