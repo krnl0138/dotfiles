@@ -1,4 +1,5 @@
 let mapleader=" "
+
 " VIM_PLUG
 """"""""""
 call plug#begin('~/.config/nvim/plugins')
@@ -114,7 +115,6 @@ au FileType javascript,html,css,scss ino <buffer> " ""<Left>
 au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 " au FileType javascript,html,css,scss nn <leader>p :Prettier<CR>
 
-
 " Runs a script that cleans out tex build files whenever I close out of a .tex file.
 au VimLeave *.tex !texclear.sh %
 
@@ -206,6 +206,7 @@ au VimLeave *.tex !texclear.sh %
     nn <silent> <leader>v :NERDTreeFind<CR>
 " Goyo
     nn <leader>go :Goyo<CR>
+
 " PLUGINS
 " =======
 " EMMET
