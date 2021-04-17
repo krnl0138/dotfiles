@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/schizo/prog/udemy/course_complete_javascript_jonas_2/section_14_Forkify_Project'
 let g:netrw_dirhist_3='/home/schizo/notes'
 let g:netrw_dirhist_2='/home/schizo'
 let g:netrw_dirhist_1='/home/schizo/prog'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/home/schizo/prog/udemy/course_complete_javascript_jonas_
 let g:netrw_dirhist_7='/home/schizo/french'
 let g:netrw_dirhist_6='/home/schizo'
 let g:netrw_dirhist_5='/home/schizo/english'
-let g:netrw_dirhist_4='/home/schizo/french'
