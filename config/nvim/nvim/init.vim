@@ -40,7 +40,7 @@ Plug 'Yggdroot/indentLine' " indent@lines WARN: MESS `Concealcursor` OPT
 Plug 'joshdick/onedark.vim'
 call plug#end()
 
-" SET OPTIONS
+" OPTIONS
 """""""""""""
 " See :help nvim-defaults
 set nohlsearch
@@ -102,7 +102,7 @@ au FocusGained,BufEnter * :checktime " reload buffer on outside change
 au BufRead,BufNewFile *.md setlocal tw=79
 " au BufRead,BufNewFile *.md setlocal spell
 au BufNewFile,BufRead *.ejs set filetype=html
-" au FileType javascript,html,css,scss set ts=2 sts=2 sw=2
+au FileType javascript,html,css,scss set ts=2 sts=2 sw=2
 " au InsertLeave *.js,*.html,*.css,*.scss,*.md silent! Prettier
 " au BufWritePost *.js,*.html,*.css,*.scss,*.md silent! Prettier
 au FileType javascript,html,css,scss ino <buffer> ( ()<Left>
