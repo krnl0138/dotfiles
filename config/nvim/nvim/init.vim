@@ -80,7 +80,7 @@ set wildignore+=**/node_modules/**
 set smartindent
 set ts=4 sts=4 sw=4 expandtab
 
-" History
+" History & Backup
 set backup
 set undofile
 set backupdir=~/.local/share/nvim/backupdir/backup

@@ -28,9 +28,8 @@ bindsym {
     $mod+backslash exec dmenu_launcher.sh
     $mod+space exec dmenu_apps.sh
     $mod+f fullscreen toggle
-    $mod+shift+grave focus mode_toggle
     $mod+q kill
-    $mod+grave floating toggle
+    $mod+grave focus mode_toggle
     $mod+v split toggle
     $mod+w layout toggle tabbed stacking split
     $mod+z exec "makoctl dismiss -a"
@@ -242,11 +241,6 @@ bindsym --to-code {
 }
 
 # AUTOLOAD
-##exec_always "pgrep -x unclutter || (unclutter &)"
-# exec transmission-daemon
-## exec wal -R
-# exec pactl load-module module-jack-sink
-# exec pactl load-module module-jack-source
 exec_always wallp.sh
 exec_always pgrep -x waybar || waybar &
 exec_always swayidle -w after-resume sleep 3 && killall waybar && waybar && outputs2.sh
