@@ -59,6 +59,7 @@ set -x LESS_TERMCAP_ue (printf '\e[0m')           # end underline
 set -x LESS_TERMCAP_us (printf '\e[04;38;5;146m') # begin underline
 
 ## ABBREVIATIONS
+abbr ns notes_search.sh
 abbr zotero zotero --profile .config/zotero
 abbr ydcmd ydcmd --config="$HOME/.config/ydcmd.conf"
 abbr touchpad swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled
