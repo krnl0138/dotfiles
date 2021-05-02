@@ -16,9 +16,11 @@ Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips'
 Plug 'mattn/emmet-vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+" Plug 'mhinz/vim-signify'
+" Plug 'airblade/vim-gitgutter'
 " STATUSLINE
 Plug 'itchyny/lightline.vim'
-Plug 'bling/vim-bufferline'
+" Plug 'bling/vim-bufferline'
 " NAVIGATION
 Plug 'preservim/nerdtree'
 Plug 'nvim-lua/popup.nvim'
@@ -78,8 +80,8 @@ au FileType html,css,scss ino <buffer> < <><Left>
 au VimLeave *.tex !texclear.sh %
 
 " Compile document, be it groff/LaTeX/markdown/etc.
-	nnoremap <leader>c :w! \| !compiler.sh %<CR><CR>
+nnoremap <leader>c :w! \| !compiler.sh %<CR><CR>
 " Open corresponding .pdf/.html or preview
-	nnoremap <leader>p :!opout.sh %<CR>
+nnoremap <leader>p :!opout.sh %<CR>
 " Show tabs
-    set list listchars=nbsp:¬,tab:»·,trail:·,extends:>
+set list listchars=nbsp:¬,tab:»·,trail:·,extends:>

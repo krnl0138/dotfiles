@@ -1,4 +1,5 @@
 " See :help nvim-defaults
+set laststatus=2
 set nohlsearch
 set clipboard=unnamedplus
 set cmdheight=2      " More space for messages

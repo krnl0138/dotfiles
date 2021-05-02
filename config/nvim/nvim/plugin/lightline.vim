@@ -2,18 +2,28 @@ function! LightlineObsession()
     return '%{ObsessionStatus()}'
 endfunction
 
+function! LightlineFugitive()
+    if exists('*FugitiveHead')
+        return FugitiveHead()
+    endif
+    return ''
+endfunction
+
+" au User CocStatusChange,CocDiagnosticChange call lightline#update()
+
 let g:lightline = {
-\ 'colorscheme': 'OceanicNext',
+\ 'colorscheme': 'jellybeans',
 \ 'active': {
 \   'left': [ [ 'mode', 'paste' ],
-\             [ 'cocstatus', 'readonly', 'filename', 'modified' ], ['obsession'] ]
+\             [ 'fugitive', 'readonly', 'filename', 'modified' ],
+\             [ 'obsession' ]
+\   ],
 \ },
 \ 'component_function': {
-\   'cocstatus': 'coc#status'
+\   'cocstatus': 'coc#status',
+\   'fugitive': 'LightlineFugitive',
 \ },
 \ 'component_expand': {
 \   'obsession': 'LightlineObsession'
 \ },
 \ }
-
-au User CocStatusChange,CocDiagnosticChange call lightline#update()
