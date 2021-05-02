@@ -1,1 +1,0 @@
-/home/gppk/.vim/vimplug/wal.vim/colors/wal.vim
