@@ -40,3 +40,6 @@ set undofile
 set backupdir=~/.local/share/nvim/backupdir/backup
 set directory=~/.local/share/nvim/backupdir/swp
 set undodir=~/.local/share/nvim/backupdir/undo
+
+" Show tabs
+set list listchars=nbsp:¬,tab:»·,trail:·,extends:>

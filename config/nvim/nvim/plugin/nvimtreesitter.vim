@@ -19,6 +19,7 @@ require'nvim-treesitter.configs'.setup {
   },
 
   indent = {
+    disable = { 'javascript' },
     enable = true
   }
 }

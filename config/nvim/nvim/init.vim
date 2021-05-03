@@ -1,8 +1,8 @@
 let mapleader=" "
 
 " POLYGLOT
-" let g:polyglot_disabled = ['md']
-" let g:polyglot_disabled = ['markdown']
+let g:polyglot_disabled = ['md']
+let g:polyglot_disabled = ['markdown']
 let g:polyglot_disabled = ['js']
 let g:polyglot_disabled = ['javascript']
 
@@ -34,7 +34,7 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-obsession'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'lervag/vimtex' " compiling .tex
-Plug 'plasticboy/vim-markdown' " folding, fenced syntax, etc. POLYGLOT disabled
+" Plug 'plasticboy/vim-markdown' " SLOW! folding, etc. POLYGLOT disabled
 Plug 'godlygeek/tabular' " needed for above
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' } " browser
 Plug 'conornewton/vim-pandoc-markdown-preview' " don't need really
@@ -78,10 +78,3 @@ au FileType javascript,html,css,scss ino <buffer> ` ``<Left>
 au FileType html,css,scss ino <buffer> < <><Left>
 
 au VimLeave *.tex !texclear.sh %
-
-" Compile document, be it groff/LaTeX/markdown/etc.
-nnoremap <leader>c :w! \| !compiler.sh %<CR><CR>
-" Open corresponding .pdf/.html or preview
-nnoremap <leader>p :!opout.sh %<CR>
-" Show tabs
-set list listchars=nbsp:¬,tab:»·,trail:·,extends:>

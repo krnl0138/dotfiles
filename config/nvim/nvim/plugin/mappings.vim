@@ -6,7 +6,6 @@ nn Y y$
 nn <leader>a za
 nn <CR> o<Esc>
 nn <leader>sv :source $MYVIMRC <bar> :doau BufRead<CR>
-inoremap <C-y> <C-k>
 " %% to expand current buffer path into commandline
 cno <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Open window in a new tab
@@ -52,6 +51,11 @@ nn <silent><S-h> <C-w><left>
 nn <silent><S-j> <C-w><down>
 nn <silent><S-k> <C-w><up>
 nn <silent><S-l> <C-w><right>
+" Compile document, be it groff/LaTeX/markdown/etc.
+nnoremap <leader>c :w! \| !compiler.sh %<CR><CR>
+" Open corresponding .pdf/.html or preview
+nnoremap <leader>p :!opout.sh %<CR>
+
 " PLUGINS MAPPINGS
 " ========
 " FZF plug

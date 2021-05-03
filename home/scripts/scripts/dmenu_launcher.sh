@@ -26,19 +26,19 @@ case "$chosen" in
         headphones.sh
         ;;
     $c4)
-        swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled
+        systemctl suspend
         ;;
     $c5)
-        $TERMINAL -e nmtui-connect
+        swaymsg input 2:7:SynPS/2_Synaptics_TouchPad events toggle enabled disabled
         ;;
     $c6)
-        swaymsg output LVDS-1 toggle
+        $TERMINAL -e nmtui-connect
         ;;
     $c7)
-        swaymsg output VGA-1 toggle
+        swaymsg output LVDS-1 toggle
         ;;
     $c8)
-        systemctl suspend
+        swaymsg output VGA-1 toggle
         ;;
     $c9)
         $TERMINAL -e pulsemixer
