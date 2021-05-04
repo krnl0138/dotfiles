@@ -58,6 +58,12 @@ nnoremap <leader>p :!opout.sh %<CR>
 
 " PLUGINS MAPPINGS
 " ========
+" VimFugitive
+nn <leader>gs :G<CR>
+nn <leader>gc :Git commit<CR>
+nn <leader>gp :Git push<CR>
+nn <leader>gf :diffget //2<CR>
+nn <leader>gj :diffget //3<CR>
 " FZF plug
 nn <silent><C-p> :GFiles<CR>
 nn <silent><C-t> :Tags<CR>
