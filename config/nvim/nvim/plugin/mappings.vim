@@ -62,6 +62,7 @@ nnoremap <leader>p :!opout.sh %<CR>
 nn <leader>gs :G<CR>
 nn <leader>gc :Git checkout<CR>
 nn <leader>gp :Git push<CR>
+nn <leader>gl :Git log<CR>
 nn <leader>gf :diffget //2<CR>
 nn <leader>gj :diffget //3<CR>
 " FZF plug
