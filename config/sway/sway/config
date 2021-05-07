@@ -144,7 +144,7 @@ bindsym {
 }
 
 # LAYOUTS
-set $shrink_size 10
+set $shrink_size 5
 bindsym {
     $mod+y resize shrink width  $shrink_size px or $shrink_size ppt
     $mod+u resize grow   height $shrink_size px or $shrink_size ppt
