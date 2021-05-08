@@ -1,11 +1,5 @@
 let mapleader=" "
 
-" POLYGLOT
-let g:polyglot_disabled = ['md']
-let g:polyglot_disabled = ['markdown']
-let g:polyglot_disabled = ['js']
-let g:polyglot_disabled = ['javascript']
-
 " VIM_PLUG
 """"""""""
 call plug#begin('~/.config/nvim/plugins')
