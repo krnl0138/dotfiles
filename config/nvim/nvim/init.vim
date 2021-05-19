@@ -1,11 +1,14 @@
 let mapleader=" "
 
+let g:polyglot_disabled = ['jsx']
+
 " VIM_PLUG
 """"""""""
 call plug#begin('~/.config/nvim/plugins')
 " CODE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets' " default snippets pack
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips'
 Plug 'mattn/emmet-vim'
