@@ -117,4 +117,3 @@ fun! ToggleQFList(global)
         end
     endif
 endfun
-
